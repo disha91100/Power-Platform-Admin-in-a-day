@@ -166,36 +166,36 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 5. You will also notice a DLP for **Thrive Exceptions**. That team had worked with the IT department to agree on exceptions they need for their environments and their environment would be 
    excluded from the Contoso Global DLP. This exception DLP policy would have their environments included and apply only to them.
 
-   ![](images/M01/M1-EX1-T12-S5.png)
+   ![](images/M01/M1-EX1-T2-S5.png)
 
 6. Select the **Contoso Global DLP (1)** and select **Edit Policy (2)**.
 
-   ![](images/M01/M1-EX1-T12-S6.png)
+   ![](images/M01/M1-EX1-T2-S6.png)
 
 7. Select **Prebuilt connectors (1)** and review the **Business (2)** connectors.
 
-    ![](images/M01/M1-EX1-T12-S7.png)
+    ![](images/M01/M1-EX1-T2-S7.png)
 
 8. Select **Scope** and **Environments** to see how it they are configured
 
-   ![](images/M01/M1-EX1-T12-S8.png)
+   ![](images/M01/M1-EX1-T2-S8.png)
 
 9. Once finished, select either the **Data Policies (1)** button on the left menu panel, or the **Cancel (2)** button in the bottom right to head back to the Data Policies screen.
 
-   ![](images/M01/M1-EX1-T12-S9.png)
+   ![](images/M01/M1-EX1-T2-S9.png)
 
 10. Select the **Thrive DLP (1)** and select **Edit Policy again (2)**.
 
-    ![](images/M01/M1-EX1-T12-S10.png)
+    ![](images/M01/M1-EX1-T2-S10.png)
 
 11. Select on the **Prebuilt connectors** and select the **Business** tab. Based on the use case for the Thrive application the connectors in the Business group have been established. You 
     can also see how Scope and Environments are configured to only select the Thrive environments.
 
-    ![](images/M01/M1-EX1-T12-S11.png)
+    ![](images/M01/M1-EX1-T2-S11.png)
 
 12. To exit this screen, select the **Data Policies** section on the left-hand side, or **Cancel** button on the bottom right of the screen again.
 
-    ![](images/M01/M1-EX1-T12-S9.png)
+    ![](images/M01/M1-EX1-T2-S9.png)
 
 
 ## Exercise 2 : Plan an environment strategy
@@ -450,14 +450,16 @@ In this task you will create an environment specific DLP and see how it impacts 
 
 ### Scenario
 
-In this exercise, you are going to import a pre-built Power Apps canvas app that was built in another
-environment. The application allows users to see a list of Projects stored in Dataverse. After importing
-you will build a Security Role to allow users to work with the Project table data. Finally, you will see how
-to share the application with an Azure AD Security group and assign the security role you just built.
+In this exercise, you are going to import a pre-built Power Apps canvas app that was built in another environment. The application allows users to see a list of Projects stored in 
+Dataverse. After importing you will build a Security Role to allow users to work with the Project table data. Finally, you will see how to share the application with an Azure AD Security 
+group and assign the security role you just built.
 
 ### Task 1: Import project management solution
 
 1. Navigate to Power Apps maker portal and select The My Sandbox environment you created.
+
+   ![](images/M01/M1-EX4-T2-S1.png)
+
 2. Select **Solutions** and select **Import**.
 
 
