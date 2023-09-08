@@ -460,131 +460,173 @@ group and assign the security role you just built.
 
    ![](images/M01/M1-EX4-T2-S1.png)
 
-2. Select **Solutions** and select **Import**.
+2. Select **Solutions (1)** and select **Import solution (2)**.
 
+   ![](images/M01/M1-EX5-T1-S2.png)
 
 3. Select **Browse**.
-4. Select the **Fabrikam Project Management** solution located in the lab resources folder and select
-    **Open**.
+
+4. Select the **Fabrikam Project Management (1)** solution located in the lab resources folder and select **Open (2)**.
+
+   ![](images/M01/M1-EX5-T1-S4.png)
+
 5. Select **Next**.
 
+   ![](images/M01/M1-EX5-T1-S5.png)
 
-6. Select **Import** and wait for the import to complete. You should get a notification when the import
-    succeeds.
+6. Select **Import** and wait for the import to complete. You should get a notification when the import succeeds.
+
 7. Select **Publish All Customizations** and wait for the publishing to complete.
+
+   ![](images/M01/M1-EX5-T1-S7.png)
+
 8. Select to open the solution you just imported.
+
+   ![](images/M01/M1-EX5-T1-S8.png)
+
 9. The solution should have six components.
 
+    ![](images/M01/M1-EX5-T1-S9.png)
 
-10. Select to open the **Import Sample Data – Projects** flow. You are going to run this flow to insert
-    some sample project data for the app to use.
+10. Select to open the **Import Sample Data – Projects** flow. You are going to run this flow to insert some sample project data for the app to use.
+
+    ![](images/M01/M1-EX5-T1-S10.png)
+
 11. Select **Edit**.
+
+    ![](images/M01/M1-EX5-T1-S11.png)
+
 12. At this point, you may be asked to sign in to the flow. Sign in, and then select **Continue**.
+
+    ![](images/M01/M1-EX5-T1-S12.png)
+
 13. Select to expand the **Parse JSON** step.
 
+    ![](images/M01/M1-EX5-T1-S13.png)
 
 14. Examine the sample records the flow will create.
+
 15. Select **Save** and wait for the flow to be saved.
+
+    ![](images/M01/M1-EX5-T1-S15.png)
+
 16. Go back to the details view of the flow by selecting on the  button.
+
+    ![](images/M01/M1-EX5-T1-S16.png)
+
 17. Open the flow again.
+
 18. Turn on the flow if it is off.
 
+    ![](images/M01/M1-EX5-T1-S18.png)
 
 19. Select **Run** to run the flow.
+
+    ![](images/M01/M1-EX5-T1-S19.png)
+
 20. Select **Run flow**.
+
+    ![](images/M01/M1-EX5-T1-S20.png)
+
 21. Select **Done** and wait for the run to complete.
+
+    ![](images/M01/M1-EX5-T1-S21.png)
+
 22. Select the browser back button.
+
 23. Go back to the solution page, by selecting the **Back to Solutions** button.
-24. Select **Apps** and select **Project List** canvas application.
 
+    ![](images/M01/M1-EX5-T1-S23.png)
 
-25. The application should load, and you should see the sample project records the flow created. Select
-    the **+** in the top right of the app.
-26. Enter **Test Project** for **Title** , select **Due date** and select **Submit**.
+24. Select **Apps (1)** and select **Project List (2)** canvas application.
 
+    ![](images/M01/M1-EX5-T1-S24.png)
+
+25. The application should load, and you should see the sample project records the flow created. Select the **+** in the top right of the app.
+
+    ![](images/M01/M1-EX5-T1-S25.png)
+
+26. Enter **Test Project (1)** for **Title** , select **Due date (2)** and select **Submit (3)**.
+
+    ![](images/M01/M1-EX5-T1-S26.png)
 
 27. The application should create the new record and take you back to the list of projects.
+
+     ![](images/M01/M1-EX5-T1-S27.png)
+
 28. Close the Project List application browser window or tab.
+
 
 ### Task 2: Create a security role
 
 1. Navigate to Power Apps maker portal and make sure you have your sandbox environment selected.
-2. Select **Solutions** and select to open the **Fabrikam Project Management** solution.
 
+2. Select **Solutions (1)** and select to open the **Fabrikam Project Management (2)** solution.
 
-3. Select **+ New** and select **Security** > **Security role**.
-4. Enter **Project Manager** for **Role Nam** e and select **Save**.
+   ![](images/M01/M1-EX5-T2-S2.png)
+
+3. Select **+ New (1)** and select **Security** > **Security role (2)**.
+
+    ![](images/M01/M1-EX5-T2-S3.png)
+
+4. Enter **Project Manager (1)** for **Role Nam** e and select **Save (2)**.
+
+   ![](images/M01/M1-EX5-T2-S4.png)
+
 5. Select the **Custom Entities** tab.
 
-
 6. Scroll down to locate the Project table and click on the name of the entity.
-7. This action will give this role User rights to the Project entity. If you kept selecting on the label it
-    would increase the permissions with each click until the user had full privileges.
-8. You will now give this role organization read privilege. Select the second dot from the left. You can
-    also scroll up and see the column headers.
-9. Click on the same dot two more times or until the dot is totally filled. This will allow any user with
-    this role to see all project records in the Dataverse environment.
+
+    ![](images/M01/M1-EX5-T2-S6.png)
+
+7. This action will give this role User rights to the Project entity. If you kept selecting on the label it would increase the permissions with each click until the user had full 
+   privileges.
+
+   ![](images/M01/M1-EX5-T2-S7.png)
+
+8. You will now give this role organization read privilege. Select the second dot from the left. You can also scroll up and see the column headers.
+
+   ![](images/M01/M1-EX5-T2-S8.png)
+
+9. Click on the same dot two more times or until the dot is totally filled. This will allow any user with this role to see all project records in the Dataverse environment.
+
+    ![](images/M01/M1-EX5-T2-S9.png)
+
 10. Select **Save and Close**.
+
+    ![](images/M01/M1-EX5-T2-S10.png)
+
 11. Select **Done** to update the solution.
+
+    ![](images/M01/M1-EX5-T2-S11.png)
+
 12. Select **Publish all customizations** and wait for the publishing to be completed.
 
+    ![](images/M01/M1-EX5-T2-S12.png)
 
 13. Do not navigate away from this page.
+
 
 ### Task 3: Share app
 
 1. Go back to the **Solutions** page by selecting the **Back to Solutions** button.
-2. Click on **Apps** , then choose **Project List** application, and select **Share**.
+
+2. Click on **Apps (1)** , then choose **Project List (2)** application, and select **Share (3)**.
+
+   ![](images/M01/M1-EX5-T3-S2.png)
+
 3. Search for lab back office and select Lab Back Office group.
+
+    ![](images/M01/M1-EX5-T3-S3.png)
+
 4. Select on the **Assign a security** role dropdown.
 
+   ![](images/M01/M1-EX5-T3-S4.png)
 
 5. Select the **Project Manager** and **Basic User** roles and then select **Share**.
 
-#### 6. Close the share pane.
+   ![](images/M01/M1-EX5-T3-S5.png)
 
+   ![](images/M01/M1-EX5-T3-S6.png)
 
-## Terms of Use
-
-© 20 22 Microsoft Corporation. All rights reserved.
-
-By using this demo/lab, you agree to the following terms: The technology/functionality described in this
-demo/lab is provided by Microsoft Corporation for purposes of obtaining your feedback and to provide
-you with a learning experience. You may only use the demo/lab to evaluate such technology features and
-functionality and provide feedback to Microsoft. You may not use it for any other purpose. You may not
-modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works
-from, transfer, or sell this demo/lab or any portion thereof. COPYING OR REPRODUCTION OF THE
-DEMO/LAB (OR ANY PORTION OF IT) TO ANY OTHER SERVER OR LOCATION FOR FURTHER
-REPRODUCTION OR REDISTRIBUTION IS EXPRESSLY PROHIBITED. THIS DEMO/LAB PROVIDES CERTAIN
-SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTIONALITY, INCLUDING POTENTIAL NEW
-FEATURES AND CONCEPTS, IN A SIMULATED ENVIRONMENT WITHOUT COMPLEX SET-UP OR
-INSTALLATION FOR THE PURPOSE DESCRIBED ABOVE. THE TECHNOLOGY/CONCEPTS REPRESENTED IN
-THIS DEMO/LAB MAY NOT REPRESENT FULL FEATURE FUNCTIONALITY AND MAY NOT WORK THE WAY
-A FINAL VERSION MAY WORK. WE ALSO MAY NOT RELEASE A FINAL VERSION OF SUCH FEATURES OR
-CONCEPTS. YOUR EXPERIENCE WITH USING SUCH FEATURES AND FUNCTIONALITY IN A PHYSICAL
-ENVIRONMENT MAY ALSO BE DIFFERENT.
-
-## FEEDBACK
-
-If you give feedback about the technology features, functionality and/or concepts described in this
-demo/lab to Microsoft, you give to Microsoft, without charge, the right to use, share and commercialize
-your feedback in any way and for any purpose. You also give to third parties, without charge, any patent
-rights needed for their products, technologies, and services to use or interface with any specific parts of a
-Microsoft software or service that includes the feedback. You will not give feedback that is subject to a
-license that requires Microsoft to license its software or documentation to third parties because we
-include your feedback in them. These rights survive this agreement. MICROSOFT CORPORATION HEREBY
-DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO THE DEMO/LAB, INCLUDING ALL
-WARRANTIES AND CONDITIONS OF MERCHANTABILITY, WHETHER EXPRESS, IMPLIED OR STATUTORY,
-FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. MICROSOFT DOES NOT MAKE
-ANY ASSURANCES OR REPRESENTATIONS WITH REGARD TO THE ACCURACY OF THE RESULTS, OUTPUT
-THAT DERIVES FROM USE OF DEMO/ LAB, OR SUITABILITY OF THE INFORMATION CONTAINED IN THE
-DEMO/LAB FOR ANY PURPOSE.
-
-## DISCLAIMER
-
-This demo/lab contains only a portion of new features and enhancements in Microsoft Power Apps. Some
-of the features might change in future releases of the product. In this demo/lab, you will learn about
-some, but not all, new features.
-
-
-
+6. Close the share pane.
