@@ -14,257 +14,301 @@
 
 In this hands-on lab, you are an administrator, helping to adopt the Power Platform.
 
-Contoso wants to exert finer control over their environments and expand the functionality of an
+Contoso wants to exert finer control over their environments and expand the functionality of an environment by enabling managed environments. They’ve asked you to apply the features of a 
+managed environment to a currently unmanaged environment.
 
-environment by enabling managed environments. They’ve asked you to apply the features of a managed
-environment to a currently unmanaged environment.
+In addition, the team building the Device Order Management app is now ready for you to transport their solution from their development environment to the test environment for testing.
 
-In addition, the team building the Device Order Management app is now ready for you to transport their
+In this lab, you will be using the Managed Environments feature and the Pipelines features included with the Power Platform in order to apply new controls and features to an environment 
+and deploy the app through the Dev>Test>Prod cycle.
 
-solution from their development environment to the test environment for testing.
-
-In this lab, you will be using the Managed Environments feature and the Pipelines features included with
-the Power Platform in order to apply new controls and features to an environment and deploy the app
-through the Dev>Test>Prod cycle.
-
-Because this is the first deployment to test, you will have to do some setup to configure the path for the
-pipeline and the solution package.
+Because this is the first deployment to test, you will have to do some setup to configure the path for the pipeline and the solution package.
 
 ## Lab Test Environment
 
-This hands-on lab is designed to be completed in an environment setup for multiple students to complete
-the Admin in a day series of hands-on labs.
+This hands-on lab is designed to be completed in an environment setup for multiple students to complete the Admin in a day series of hands-on labs.
 
 
-You will be assigned one or more users to use to complete the hands-on tasks. Because this is a shared
-environment, some tasks that require a tenant Global Administrator or a Service Administrator will already
+You will be assigned one or more users to use to complete the hands-on tasks. Because this is a shared environment, some tasks that require a tenant Global Administrator or a Service 
+Administrator will already be performed.
 
-### be performed.
 
 ### Exercise 1 : Managed Environments
 
-In this exercise, you will be shifting a pre-made environment from an unmanaged state to a managed
-
-state. A managed environment can greatly expand the level of control for administrators.
+In this exercise, you will be shifting a pre-made environment from an unmanaged state to a managed state. A managed environment can greatly expand the level of control for administrators.
 
 #### Task 1: Create a Managed Environment
 
 1. Navigate to the Power Platform Admin Center (https://aka.ms/ppac).
+
 2. Select Environments, then select **+New** to create a new environment.
-3. Input **Managed Environment (Initials)** for the name, set the region to your region, set the **Type**
-    as Sandbox, and select the toggle to enable adding a Dataverse data store, then select **Next**.
 
+   ![](images/M04/M4-EX1-T1-S2.png)
 
+3. Input **Managed Environment (Initials)** for the name, set the region to your region, set the **Type** as Sandbox, and select the toggle to enable adding a Dataverse data store, then 
+   select **Next**.
 
-4. Set the **Security group** to **None** , then enable **Dynamics 365 apps** , and select **Save**.
+   ![](images/M04/M4-EX1-T1-S3.png)
+
+4. Set the **Security group** to **None (1)** , then enable **Dynamics 365 apps (2)** , and select **Save (3)**.
+
+   ![](images/M04/M4-EX1-T1-S4.png)
+
 5. Wait for the environment to be provisioned and marked as Ready.
-6. Once the environment has provisioned, select the circle next to **Managed Environment**
-    **(Initials)**.
-7. Select the three dots to view all the ribbon options, then select **Enable managed environment**
-    to start the configuration process for this environment.
-8. Administrators seeking to create or edit managed environments must have the Global
-    Administrator role, Power Platform Administrator role, or the Dynamics 365 admin Azure Active
-    Directory role. Delegated admins, or Environment Admins will not be able to enable or edit
-    managed environments. At the top of the panel that appears, the system informs you that a
-    particular license is required in order to use the resources. While an unmanaged environment
-    will allow users to interact with resources freely, a managed environment prevents them from
-    doing so if they do not have the correct license for the respective areas.
 
+6. Once the environment has provisioned, select the circle next to **Managed Environment** **(Initials)**.
 
-a. In **Limit Sharing,** choose **Exclude sharing with security groups.** Once this is enabled, you
-can restrict the users the app gets shared to. You can exclude certain groups, or, as you
-will next, limit the number of users the app can be shared to**.**
-b. Select the **Limit individuals...** checkbox and set the limit number to 3.
-c. Set **Solution Checker** to Warn. This will validate any custom solutions being imported to
-the environment.
-d. Leave the Usage insights checked. This item is selected by default, and we will be using
-it later in order to get analytics from the environment straight to the administrator's
-emails.
-e. For **Maker welcome content,** copy and paste the following into the text box:
+7. Select the three dots to view all the ribbon options, then select **Enable managed environment** to start the configuration process for this environment.
 
-```
-![Contoso](https://i.ibb.co/SNSTCx3/something.png)
-## Welcome to Contoso Power Apps
-### Let's get started with data
-Before you start using Power Apps, please refer to our company guidance.
-```
-_1. **Get trained:** [Learning Videos]() and [training guides]()
-2. **Contribute ideas:** Submit an idea for a new app or flow idea at [Suggestion
-box]()
-3. **Learn from others:** [Top tips]() by expert makers at Contoso_
--^ This will be used to greet users when they log in or switch to the environment. This
-can either be written in plain text, or as Markdown, as seen above.
-f. Leave data policies as is. We will alter and review these later.
+   ![](images/M04/M4-EX1-T1-S7.png)
 
+8. Administrators seeking to create or edit managed environments must have the Global Administrator role, Power Platform Administrator role, or the Dynamics 365 admin Azure Active            Directory role. Delegated admins, or Environment Admins will not be able to enable or edit managed environments. At the top of the panel that appears, the system informs you that a 
+   particular license is required in order to use the resources. While an unmanaged environment will allow users to interact with resources freely, a managed environment prevents them 
+   from doing so if they do not have the correct license for the respective areas. To learn more about Managed Environment licensing, see [Licensing](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fpower-platform%2Fadmin%2Fmanaged-environment-licensing&data=05%7C01%7Cabhilash.r%40spektrasystems.com%7Cb66b4d860a32451dc5d308db9e70097d%7C6d7e0652b03d4ed2bf86f1999cecde17%7C0%7C0%7C638277976316671495%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=Kg6C6YSZI3XoOEQBG31SK5GDmoizIDP0XzYn67xfaY8%3D&reserved=0) and [Licensing overview for Microsoft Power Platform](https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fpower-platform%2Fadmin%2Fpricing-billing-skus&data=05%7C01%7Cabhilash.r%40spektrasystems.com%7Cb66b4d860a32451dc5d308db9e70097d%7C6d7e0652b03d4ed2bf86f1999cecde17%7C0%7C0%7C638277976316671495%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=eRaW6iY%2FBo6V4wLptyfDFMObVLjKsEO%2BaOMHVGBA3GE%3D&reserved=0)”
 
-```
-g. Select Enable once complete.
-```
+    a. In Limit Sharing, choose **Exclude sharing with security group**s. Once this is enabled, you can restrict the users the app gets shared to.
+
+    b. Select the **Limit individuals…** checkbox and set the limit number to **3**. 
+
+    c. Set Solution Checker to **Warn**. This will validate any custom solutions being imported to the environment. 
+
+    d. Leave the **Usage insights** checked. This item is selected by default. 
+
+    e. For **Maker welcome content**, copy and paste the following into the text box: 
+
+       ![Contoso](https://i.ibb.co/SNSTCx3/something.png) 
+       ## Welcome to Contoso Power Apps 
+       ### Let's get started with data 
+       Before you start using Power Apps, please refer to our company guidance.
+       1. **Get trained:** [Learning Videos]() and [training guides]() 
+       2. **Contribute ideas:** Submit an idea for a new app or flow idea at [Suggestion box]() 
+       3. **Learn from others:** [Top tips]() by expert makers at Contoso
+
+      • This will be used to greet users when they log in or switch to the environment. This can either be written in plain text, or as Markdown, as seen above.
+
+    f. Leave data policies as is. We will alter and review these later. 
+
+      ![](images/M04/M4-EX1-T1-S8.png)
+
+    g. Select Enable once complete.
+
+      ![](images/M04/M4-EX1-T1-S9.png)
+
 9. A green banner will appear at the top notifying you of the successful update.
 
+   ![](images/M04/M4-EX1-T1-S10.png)
 
 10. Do not navigate away from this page.
 
+
 #### Task 2: Review the Features of the Managed Environments
 
-Now that you have created a managed environment, it's time to review the newly enabled features.
-
-Managed environments have several features which can be used to expand the functionality of an
-environment.
+Now that you have created a managed environment, it's time to review the newly enabled features. Managed environments have several features which can be used to expand the functionality 
+of an environment.
 
 ##### Feature 1: Solution Checking
 
-The solution checker will enforce static analysis checks on any imported custom solutions against a set
+The solution checker will enforce static analysis checks on any imported custom solutions against a set of best practice rules and identify problematic patterns in the solution. The 
+solution being imported must have run the solution checker in its native environment, and it must have been run within a 90 - day window of the import. For more details on the solution 
+checker enforcer, follow this link (https://learn.microsoft.com/en-us/power-apps/maker/data-platform/use-powerapps-checker).
 
-of best practice rules and identify problematic patterns in the solution. The solution being imported
-
-must have run the solution checker in its native environment, and it must have been run within a 90 - day
-
-window of the import. For more details on the solution checker enforcer, follow this link
-
-(https://learn.microsoft.com/en-us/power-apps/maker/data-platform/use-powerapps-checker).
+![](images/M04/M4-EX1-T2-overview.png)
 
 1. The solution checker comes with three options for the setting, explained below:
-    a. None: This option will turn off automatic solution validating and will not give any
-       experience or behavioral changes to authoring, exports, and imports for solutions.
-    b. Warn: All custom solutions being imported will be automatically verified, but if there are
-       any highly critical issues, you will receive a notice, but the import will not halt. After the
-       solution is imported, a message will appear showing the validation issues that occurred
-       upon import.
-    c. Block: Similar to the Warn feature, however when highly-critical issues occur, the import
-       process is cancelled, rather than continuing. This will not cause any changes to the
-       environment, since this occurs during the actual import process. For both the Warn and
-       Block options, Power Platform environment admins will receive a summary email with
-       of the solution validation.
+
+       a. None: This option will turn off automatic solution validating and will not give any experience or behavioral changes to authoring, exports, and imports for solutions.
+
+       b. Warn: All custom solutions being imported will be automatically verified, but if there are any highly critical issues, you will receive a notice, but the import will not halt. 
+          After the solution is imported, a message will appear showing the validation issues that occurred upon import.
+
+       c. Block: Similar to the Warn feature, however when highly-critical issues occur, the import process is cancelled, rather than continuing. This will not cause any changes to the 
+          environment, since this occurs during the actual import process. For both the Warn and Block options, Power Platform environment admins will receive a summary email with of the 
+          solution validation.
+
 - To test this feature, you'll need to import a solution with known errors.
+
 2. Navigate to Power Apps (http://make.powerapps.com).
-3. Ensure you're in the **Managed Solution (Initials)** environment by checking the environment
-    navigator at the top right of the page.
 
+3. Ensure you're in the **Managed Solution (Initials)** environment by checking the environment navigator at the top right of the page.
 
-4. Select **Solutions** from the left-side navigation.
-5. Select **Import Solution**.
-6. Select **Browse**.
+   ![](images/M04/M4-EX1-T2-S3.png)
 
+4. Select **Solutions (1)** from the left-side navigation and click on **Import Solution (2)**.
 
-7. Locate and open the **CriticalErrorSolution_1_0_0_0_managed.zip** file from your file explorer.
-8. Select **Next.**
+   ![](images/M04/M4-EX1-T2-S4.png)
 
+5. Select **Browse**.
 
-9. Review the details and select **Import.**
-10. Once the solution imports, a warning notification will appear at the top of the page informing
-    you of the issues that the solution contains.
-**11. Do not navigate away from this page.**
+   ![](images/M04/M4-EX1-T2-S5.png)
 
-##### We’ll look at the difference between the Warn and Block option.
+6. Locate and open the **CriticalErrorSolution_1_0_0_0_managed.zip** file from your file explorer.
+
+   ![](images/M04/M4-EX1-T2-S6.png)
+
+7. Select **Next.**
+
+   ![](images/M04/M4-EX1-T2-S7.png)
+
+8. Review the details and select **Import.**
+
+   ![](images/M04/M4-EX1-T2-S8.png)
+
+9. Once the solution imports, a warning notification will appear at the top of the page informing you of the issues that the solution contains.
+
+    ![](images/M04/M4-EX1-T2-S9.png)
+
+10. Do not navigate away from this page.
+
+11. We’ll look at the difference between the Warn and Block option.
 
 12. Open a new tab and navigate back to Power Platform Admin Center.
+
 13. Select **Environments** , then select the circle icon next to **Managed Environment (Initials).**
+
 14. Select **Edit Managed Environments** from the ribbon at the top of the page.
 
+    ![](images/M04/M4-EX1-T2-S14.png)
 
-15. Change the **Solution checker** slider to **Block,** then select **Save**.
+15. Change the **Solution checker** slider to **Block (1),** then select **Save (2)**.
+
+    ![](images/M04/M4-EX1-T2-S15.png)
+
 16. Navigate back to the Power Apps solutions page.
-    a. You will need to delete the imported solution from the environment to ensure the
-       solution checker is working correctly.
+
+        a. You will need to delete the imported solution from the environment to ensure the solution checker is working correctly.
+
 17. Select the three dots next to our imported solution, **Critical Error Solution** and select **Delete.**
+ 
+    ![](images/M04/M4-EX1-T2-S17.png)
 
+18. Select **Delete** again. Since this is a managed app, you will not need to delete the app, deleting the solution will do that for you.
 
-18. Select **Delete** again. Since this is a managed app, you will not need to delete the app, deleting
-    the solution will do that for you.
+    ![](images/M04/M4-EX1-T2-S18.png)
+
 19. Wait for the process to complete, then re-import the solution file with steps 5 - 9.
+
 20. You should receive an error notification at the top of the page.
+
+    ![](images/M04/M4-EX1-T2-S20.png)
+
 
 ##### Feature 2: Data Policies
 
-A managed environment allows administrators to add additional data policies in place on a specific
-
-environment, rather than on the entire tenant being used.
+A managed environment allows administrators to add additional data policies in place on a specific environment, rather than on the entire tenant being used.
 
 1. Navigate to the Power Platform Admin Center (https://aka.ms/ppac), if it is not open.
+
 2. Select **Environments** , then select the circle icon next to **Managed Environment (Initials).**
+
 3. Select **Edit Managed Environments.**
 
+   ![](images/M04/M4-EX1-T2-S14.png)
 
-4. Under **Data policies** , select the link to navigate to the current data policies applied to the
-    managed environment. Here is where you will see any data policies applied to the environment,
-    including any tenant-wide policies.
+4. Under **Data policies** , select the link to navigate to the current data policies applied to the managed environment. Here is where you will see any data policies applied to the 
+   environment, including any tenant-wide policies.
 
-(Optional) Since we have not created any nor have any data policies which are applied to the entire
+   ![](images/M04/M4-EX1-T2-F2-S4.png)
 
-tenant, this page will prompt you to create a new data policy. Feel free to create a policy named DLP 1,
+   ![](images/M04/M4-EX1-T2-F2-S4-1.png)
 
-which blocks the SQL server connector with a scope of all environments. The policy will then appear on
 
-the filtered view.
+5. (Optional) Since we have not created any nor have any data policies which are applied to the entire tenant, this page will prompt you to create a new data policy. Feel free to create a 
+   policy named DLP 1, which blocks the SQL server connector with a scope of all environments. The policy will then appear on the filtered view.
 
 
 ##### Feature 3: Usage Insights
 
-Usage insights provide insights about your managed environments via a weekly digest provided to
+Usage insights provide insights about your managed environments via a weekly digest provided to administrators. This includes analytics of the top apps in the managed environments, the 
+most impactful makers, and inactive resources which can be cleaned up safely. For this to operate, tenant-level analytics must be enabled, which was enabled in a previous tenant for this 
+module.
 
-administrators. This includes analytics of the top apps in the managed environments, the most impactful
-makers, and inactive resources which can be cleaned up safely. For this to operate, tenant-level
-
-analytics must be enabled, which was enabled in a previous tenant for this module.
-
-**Note:** You will not receive a weekly digest in this course, as the digest is delivered at the end of the
-business week. The images below are examples of the digest.
+**Note:** You will not receive a weekly digest in this course, as the digest is delivered at the end of the business week. The images below are examples of the digest.
 
 ##### Feature 4: Maker Welcome
 
-The maker welcome content will replace the default popup that appears when makers sign into Power
-Apps and can provide them with helpful information on getting started, and any necessary information
-
-for the makers associated with the environment.
+The maker welcome content will replace the default popup that appears when makers sign into Power Apps and can provide them with helpful information on getting started, and any necessary 
+information for the makers associated with the environment.
 
 1. Navigate to the Power Platform Admin Center, if it is not open.
+
 2. Select **Environments** , then select the circle icon next to **Managed Environment (Initials).**
+
 3. Select **Edit Managed Environments.**
+
+   ![](images/M04/M4-EX1-T2-S14.png)
+
 4. Under **Maker welcome content** , select **Preview in new tab.**
 
+   ![](images/M04/M4-EX1-T2-F4-S4.png)
 
 5. This will create an overlay on your screen of the content in the text box of the setting.
-6. (Optional) Modify the content of the textbox with Markdown or with Plain text and preview
-    again to review the results.
+
+   ![](images/M04/M4-EX1-T2-F4-S5.png)
+
+6. (Optional) Modify the content of the textbox with Markdown or with Plain text and preview again to review the results.
+
 
 ##### Feature 5: Limiting Sharing
 
-Share Limiting can prevent makers from sharing **Canvas apps** to everyone in the tenant, other security
+Share Limiting can prevent makers from sharing **Canvas apps** to everyone in the tenant, other security groups or to a certain amount of individuals. For Dataverse for Teams Environments 
+are not impacted by sharing rules when sharing to a team bound to the environment, however the sharing rules are enforced when a user attempts to share the app with individuals or groups 
+in a team that is not bound to the environment.
 
-groups or to a certain amount of individuals. For Dataverse for Teams Environments are not impacted by
-
-sharing rules when sharing to a team bound to the environment, however the sharing rules are enforced
-
-when a user attempts to share the app with individuals or groups in a team that is not bound to the
-environment.
-
+![](images/M04/M4-EX1-T2-F5-overview.png)
 
 **Important:** After being enabled, the sharing rules may not be enforced for up to an hour afterwards.
 
 1. Navigate to Power Apps.
-2. Ensure you’re in the correct environment by checking the Environment Selector at the top right.
-3. Select **Apps** , then **+ New app** > **Canvas App.**
 
+2. Ensure you’re in the correct environment by checking the Environment Selector at the top right.
+
+   ![](images/M04/M4-EX1-T2-F5-S2.png)
+
+3. Select **Apps (1)** , then **+ New app** > **Canvas App. (2)**
+
+   ![](images/M04/M4-EX1-T2-F5-S3.png)
 
 4. Name the app **Play with Sharing (Initials)** , set the format to **Tablet** , and then select **Create**.
-5. Once the app loads, **select Add item from the Insert pane** on the view window and select
-    **Rectangle**.
 
+   ![](images/M04/M4-EX1-T2-F5-S4.png)
 
-6. **Save** the app at the top right, and then select **Publish** right next to it.
+5. Once the app loads, **select Add item from the Insert pane** on the view window and select **Rectangle**.
+
+   ![](images/M04/M4-EX1-T2-F5-S5.png)
+
+6. **Save (1)** the app at the top right, and then select **Publish (2)** right next to it.
+
+   ![](images/M04/M4-EX1-T2-F5-S6.png)
+
+   ![](images/M04/M4-EX1-T2-F5-S6-1.png)
+
 7. Select **Share**. This will open a new tab where you can share this app with other users.
+
+   ![](images/M04/M4-EX1-T2-F5-S7.png)
+
 8. Search Lab User and choose a user.
+
+   ![](images/M04/M4-EX1-T2-F5-S8.png)
+
 9. Repeat this process two more times until you have three users to add and select Share.
 
+    ![](images/M04/M4-EX1-T2-F5-S9.png)
 
-10. A banner will appear at the top of the panel, which will show the sharing rules are enabled, and
-    being enforced. This is because the owner is counted with the number of individuals the app can
-    be shared with.
+10. A banner will appear at the top of the panel, which will show the sharing rules are enabled, and being enforced. This is because the owner is counted with the number of individuals 
+    the app can be shared with.
+
+   ![](images/M04/M4-EX1-T2-F5-S10.png)
+
 11. Remove a user from the chosen users, then select Share.
 
+   ![](images/M04/M4-EX1-T2-F5-S11.png)
+
+   ![](images/M04/M4-EX1-T2-F5-S11-1.png)
 
 12. Once complete, a banner should appear notifying you of the success.
+
+   ![](images/M04/M4-EX1-T2-F5-S12.png)
+
 
 ### Exercise 2: Power Platform Pipelines
 
