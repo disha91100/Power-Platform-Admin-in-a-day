@@ -1,12 +1,6 @@
 ## Admin in a day
 
-#### Please note- the exercises provided here should be completed in a non-production
-
-#### environment. Often you will be assigned an environment by your facilitator. However, if
-
-#### you are completing these labs on your own, make sure to provision a developer or trial
-
-#### environment.
+#### Please note- the exercises provided here should be completed in a non-production environment. Often you will be assigned an environment by your facilitator. However, if you are completing these labs on your own, make sure to provision a developer or trial environment.
 
 # Securing your Tenant
 
@@ -18,8 +12,7 @@ In this hands-on lab, you will be an environment administrator for Fabrikam help
 employees are able to build Power Apps applications and flows using Power Automate to help them be productive. At the same time, you are expected to ensure that Fabrikam’s data and 
 security policies are followed. 
 
-Some of Fabrikam’s employees have already started experimenting with the Power Platform so your first task is to get an understanding of what is already 
-in use.
+Some of Fabrikam’s employees have already started experimenting with the Power Platform so your first task is to get an understanding of what is already in use.
 
 Next, you will be taking steps to put some baseline security policies in place to implement Fabrikam’s data and security policies.
 
