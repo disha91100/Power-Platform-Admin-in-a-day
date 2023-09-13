@@ -277,11 +277,9 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
 ### Scenario
 
-In this exercise, you will explore some of the apps and analytics that are part of the Power Platform CoE
-Starter Kit. We have already installed and configured the starter kit into the tenant you are using for this
-lab. As part of configuring, we imported the solution, shared the apps, configured the flows that
-synchronize data and published the Power BI report. If you were doing this in your own tenant, you would
-follow the instructions to complete these steps.
+In this exercise, you will explore some of the apps and analytics that are part of the Power Platform CoE Starter Kit. We have already installed and configured the starter kit into the 
+tenant you are using for this lab. As part of configuring, we imported the solution, shared the apps, configured the flows that synchronize data and published the Power BI report. If you 
+were doing this in your own tenant, you would follow the instructions to complete these steps.
 
 
 Now in this exercise, you will explore the following key components:
@@ -293,124 +291,197 @@ Now in this exercise, you will explore the following key components:
 ### Task 1: Explore the Power Platform Admin View app
 
 1. Navigate to **Power Apps maker portal**
+
 2. Select **Power Platform CoE** environment in the environment selector.
-3. Select Apps from the left side navigation and you should see a list of available apps in this
-    environment – select **Power Platform Admin View.**
 
+   ![](images/M02/M2-EX3-T1-S2.png)
 
-4. When the app starts you will land on the Power Platform Dashboard page. This dashboard gives you
-    a quick look at the most active makers, and environments.
-5. Select **Power Apps** and you will see a list of all apps in all environments without having to visit each
-    environment. The Flows navigation link does the same thing for Microsoft Power Automate flows.
+3. Select Apps from the left side navigation and you should see a list of available apps in this environment – select **Power Platform Admin View.**
+
+   ![](images/M02/M2-EX3-T1-S3.png)
+
+4. When the app starts you will land on the Power Platform Dashboard page. This dashboard gives you a quick look at the most active makers, and environments.
+
+   ![](images/M02/M2-EX3-T1-S4.png)
+
+5. Select **Power Apps** and you will see a list of all apps in all environments without having to visit each environment. The Flows navigation link does the same thing for Microsoft 
+   Power Automate flows.
+
 6. Select the Device Ordering App in the list to open the app details.
 
+   ![](images/M02/M2-EX3-T1-S6.png)
 
-7. In the **Governance** tab you can see the Business Justification provided by the app maker using the
-    Developer Compliance Center app. In the bottom part is where you as an admin can provide your
-    risk assessment. You can also tag the app to show in the App Catalog and make it featured. You can
-    customize the CoE entities to add additional fields here if needed.
-8. Select **Environments** in the left navigation. This will show you a list of all the environments in your
-    tenant and key metrics like number of apps. To view all your environments, similar to the image
-    below, switch the view at the top to **Active Environments**.
+7. In the **Governance** tab you can see the Business Justification provided by the app maker using the Developer Compliance Center app. In the bottom part is where you as an admin can 
+   provide your risk assessment. You can also tag the app to show in the App Catalog and make it featured. You can customize the CoE entities to add additional fields here if needed.
 
+   ![](images/M02/M2-EX3-T1-S7.png)
+
+8. Select **Environments** in the left navigation. This will show you a list of all the environments in your tenant and key metrics like number of apps. To view all your environments, 
+   similar to the image below, switch the view at the top to **Active Environments**.
+
+   ![](images/M02/M2-EX3-T1-S8.png)
 
 9. Select the **User and Team Productivity** environment to open the detail form.
+
 10. Review the data available.
+
 11. Select the **Connectors** link from the left navigation. This shows all the connectors available.
+
+    ![](images/M02/M2-EX3-T1-S11.png)
+
 12. In the upper right corner, search for **Microsoft Dataverse**.
+
+    ![](images/M02/M2-EX3-T1-S12.png)
+
 13. In the search results, select the **Microsoft Dataverse** connector.
 
+    ![](images/M02/M2-EX3-T1-S13.png)
 
-14. The **Used in** tab quickly shows you what apps are using this connector in all environments in your
-    tenant.
-15. Select **Users,** then **Makers** from the left navigation; this shows you all the people that have built
-    apps in your company.
+14. The **Used in** tab quickly shows you what apps are using this connector in all environments in your tenant.
+
+15. Select **Users,** then **Makers** from the left navigation; this shows you all the people that have built apps in your company.
+
 16. Select one of the Makers and explore the detail form.
+
 
 ### Task 2: Power BI Dashboard
 
 1. Navigate in your browser to Power BI and **Sign in** with your lab credentials.
-2. When you see the You have an account with us, select Sign In again and then select Start.
-3. Select **Start**.
-4. When prompted to Invite more people, select **Skip**.
-5. On the left side navigation select Workspaces and then Create a workspace. We are going to use this
-    workspace to publish our report to from Power BI Desktop. This would allow you to view it from
-    PowerBI.com, the mobile app, or even embed it in other places like Microsoft Teams. The workspace
-    can also be shared with others so they can see the analytics.
 
+2. When you see the You have an account with us, select Sign In again and then select Start.
+
+    ![](images/M02/M2-EX3-T1-S13.png)
+
+3. Select **Start**.
+
+4. When prompted to Invite more people, select **Skip**.
+
+5. On the left side navigation select Workspaces and then Create a workspace. We are going to use this workspace to publish our report to from Power BI Desktop. This would allow you to 
+   view it from PowerBI.com, the mobile app, or even embed it in other places like Microsoft Teams. The workspace can also be shared with others so they can see the analytics.
+
+   ![](images/M02/M2-EX3-T1-S13.png)
 
 6. When prompted select **Try free**.
+
+   ![](images/M02/M2-EX3-T1-S13.png)
+
 7. After the trial has started, you will have to re-navigate to Workspaces and then Create a workspace.
-8. On the Create panel, provide a unique name like CoE and your lab admin user number and select
-    **Save**.
 
+8. On the Create panel, provide a unique name like CoE and your lab admin user number and select **Save**.
 
-9. Launch Power BI Desktop on your local computer, if you don’t have it installed you can install it from
-    Downloads | Microsoft Power BI
+   ![](images/M02/M2-EX3-T1-S13.png)
+
+9. Launch Power BI Desktop on your local computer, if you don’t have it installed you can install it from Downloads | Microsoft Power BI
+
 10. Close the popup window.
+
 11. Select Sign-in and provide your lab admin account credentials.
+
 12. Once signed in, select **File** , **open report** , and select **Browse Reports**.
+
+   ![](images/M02/M2-EX3-T1-S13.png)
+
 13. Locate the folder containing lab files you downloaded.
-14. Change to file type filter to PowerBI template files (.pbit). Select the
-    **Production_CoEDashboard.pbit** file.
+
+14. Change to file type filter to PowerBI template files (.pbit). Select the **Production_CoEDashboard.pbit** file.
+
 15. You will be asked to provide your org URL. Let’s go find it.
 
-```
-x
-```
+    ![](images/M02/M2-EX3-T1-S13.png)
 
 16. Navigate to Power Platform Admin Center Power Platform Admin Center and select **Environments**.
+
 17. Locate the **Power Platform COE** environment and select the name to show the details page.
+
+    ![](images/M02/M2-EX3-T1-S13.png)
+
 18. Right select the **Environment URL** and select **Copy link address**.
+
+    ![](images/M02/M2-EX3-T1-S13.png)
+
 19. Back in Power BI Desktop, paste the **OrgURL** and select **Load**.
+
+    ![](images/M02/M2-EX3-T1-S13.png)
 20. Select **continue**. Follow prompts for credentials if they appear.
 
+   ![](images/M02/M2-EX3-T1-S13.png)
 
 21. The report should load automatically once the refresh has completed.
+
 22. Follow the steps below to enable map and filled map visuals:
 
-```
-a) Select File at the top right, then select Options and settings > Options.
-```
-```
-b) Select Security from the left.
-c) Scroll down to the Map and Filled Map visuals section.
-d) Check the Use Map and Filled Map visuals checkbox.
-e) Select Okay to close the Options dialog.
-```
+   a) Select File at the top right, then select Options and settings > Options.
+   
+  ![](images/M02/M2-EX3-T1-S13.png)
+   
+   b) Select Security from the left.
+   
+   c) Scroll down to the Map and Filled Map visuals section.
+   
+   d) Check the Use Map and Filled Map visuals checkbox.
+   
+   e) Select Okay to close the Options dialog.
+
+   ![](images/M02/M2-EX3-T1-S13.png)
 
 23. Review the Introduction page.
 
+    ![](images/M02/M2-EX3-T1-S13.png)
 
-24. Select the **Overview – Power Apps** tab, notice it gives a good high-level look at our tenant activity.
-    If you have multiple locations, it will quickly highlight which users are more engaged with building
-    apps. You can also quickly see which environments are most active. Additionally, items that are
-    detailed as **(Blank)** indicate that there is no data to reference in the table.
+24. Select the **Overview – Power Apps** tab, notice it gives a good high-level look at our tenant activity. If you have multiple locations, it will quickly highlight which users are more 
+    engaged with building apps. You can also quickly see which environments are most active. Additionally, items that are detailed as **(Blank)** indicate that there is no data to 
+    reference in the table.
+
+    ![](images/M02/M2-EX3-T1-S13.png)
+
 25. Review each page using the navigation at the bottom of the app and review the insights available.
+
 26. Select the **Environments** page.
-27. On the Environments page, use the date range picker and see how it affects the other data on the
-    page. When you are done leave it set at the max date range.
+
+    ![](images/M02/M2-EX3-T1-S13.png)
+
+27. On the Environments page, use the date range picker and see how it affects the other data on the page. When you are done leave it set at the max date range.
+
+    ![](images/M02/M2-EX3-T1-S13.png)
+
 28. Select the **Apps** tab from the navigation at the bottom of the screen.
 
+    ![](images/M02/M2-EX3-T1-S13.png)
 
 29. On the Apps page notice the Creation Trend, this is an effective way to watch adoption progress.
+
+    ![](images/M02/M2-EX3-T1-S13.png)
+
 30. Select through the other pages via the tabs at the bottom and review the data available.
+
 31. Select **Publish** from the **Home** tab in the ribbon at the top.
-32. Save the report if prompted as **PBI Report (Your Initials),** which will look something like **PBI**
-    **Report HR** for example.
+
+    ![](images/M02/M2-EX3-T1-S13.png)
+
+32. Save the report if prompted as **PBI Report (Your Initials),** which will look something like **PBI** **Report HR** for example.
+
 33. Select the CoE workspace you created and choose **Select.**
+
+    ![](images/M02/M2-EX3-T1-S13.png)
+
 34. Wait for the publishing to complete and select **Open ‘<FileName>.pbix’ in Power BI** or **Got it**.
 
+    ![](images/M02/M2-EX3-T1-S13.png)
 
-35. If you selected **Open ‘<File>’** , skip this step. Otherwise, if you selected ‘Got it’, navigate to Power BI.
-    Select **Workspaces** and then **CoE Workspace** you created. Otherwise, skip to step 37.
-36. Select the **CoE Starter** with the type of **Report** from the list. You’ll notice a few other items have
-    generated; these are done by default.
-37. Once the report loads, select the Environments page. Use the date slider to ensure the date range
-    includes the last month.
+35. If you selected **Open ‘<File>’** , skip this step. Otherwise, if you selected ‘Got it’, navigate to Power BI. Select **Workspaces** and then **CoE Workspace** you created. Otherwise, 
+    skip to step 37.
 
+    ![](images/M02/M2-EX3-T1-S13.png)
 
-#### 38. You have now successfully deployed the Power BI reports that come with the CoE starter kit.
+36. Select the **CoE Starter** with the type of **Report** from the list. You’ll notice a few other items have generated; these are done by default.
+
+    ![](images/M02/M2-EX3-T1-S13.png)
+
+37. Once the report loads, select the Environments page. Use the date slider to ensure the date range includes the last month.
+
+    ![](images/M02/M2-EX3-T1-S13.png)
+
+38. You have now successfully deployed the Power BI reports that come with the CoE starter kit.
 
 
 
