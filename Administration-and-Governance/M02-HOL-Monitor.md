@@ -8,94 +8,146 @@
 
 In this Hands-on Lab, you are an administrator helping adopt the Power Platform.
 
-An important part of keeping the Power Platform running successfully is monitoring the ongoing usage.
-In this hands-on lab you will be using the platform tools and the COE Starter Kit to perform usage
-monitoring.
+An important part of keeping the Power Platform running successfully is monitoring the ongoing usage. In this hands-on lab you will be using the platform tools and the COE Starter Kit to 
+perform usage monitoring.
 
 ## Lab Test Environment
 
-This lab is designed to be completed in an environment setup for multiple students to complete the
-Admin in a day series of hands-on labs.
+This lab is designed to be completed in an environment setup for multiple students to complete the Admin in a day series of hands-on labs.
 
-You need to use the assigned user and environment information to complete this lab. You must have
-completed the prior labs to successfully complete this lab.
+You need to use the assigned user and environment information to complete this lab. You must have completed the prior labs to successfully complete this lab.
 
 ## Exercise 1: Explore the out of the box analytics
 
-Now in this exercise, you will explore the out of the box analytics that are available from the Power
-Platform admin center.
+Now in this exercise, you will explore the out of the box analytics that are available from the Power Platform admin center.
 
 ### Task 1: Explore the Power Automate analytics
 
 1. Navigate to **Power Platform admin center**
+
 2. Expand **Analytics**.
+
 3. Select **Power Automate**.
 
+   ![](images/M02/M2-EX1-T1-S3.png)
 
 4. Ensure you’re under the **Environment View**.
+
 5. Select change filters and change to the Power Platform COE environment.
+
 6. Review the visuals in the **Runs** tab and then select the **Usage** tab.
+
+   ![](images/M02/M2-EX1-T1-S6.png)
+
 7. Review the visuals in the **Usage** tab.
+
 8. Review the visuals in the rest of the tabs.
+
 9. In the top left corner of the screen, under the header, select **Overview** to review tenant level
     analytics.
 
+    ![](images/M02/M2-EX1-T1-S9.png)
 
 10. Now you are looking at data for all environments you have access to.
-11. Review the Usage data available on this tab, and then switch to Maker Activity and Inventory to
-    review the other data available. Notice you can still filter on more specific criteria using the
-    dropdowns.
+
+11. Review the Usage data available on this tab, and then switch to Maker Activity and Inventory to review the other data available. Notice you can still filter on more specific criteria 
+    using the dropdowns.
+
+    ![](images/M02/M2-EX1-T1-S11.png)
+
 
 ### Task 2 : Explore the Power Apps analytics
 
 1. Navigate to **Power Platform admin center**
+
 2. Expand **Power Apps**.
+
 3. Change the Primary Tab to Environment View.
+
 4. Switch the environment to **Power Platform COE** by changing the available filters.
 
+   ![](images/M02/M2-EX1-T2-S4.png)
 
 5. Review the visuals in **Usage, Location** , and all other tabs.
-6. In the top left corner of the screen, under the header, select **Overview** to review tenant level
-    analytics.
+
+6. In the top left corner of the screen, under the header, select **Overview** to review tenant level analytics.
+
+   ![](images/M02/M2-EX1-T2-S6.png)
+
 7. Now you are looking at data for all environments you have access to.
-8. Review the **Usage** data available on this tab, and then switch to **Maker Activity** and **Inventory** to
-    review the other data available. Notice you can still filter on more specific criteria.
 
+8. Review the **Usage** data available on this tab, and then switch to **Maker Activity** and **Inventory** to review the other data available. Notice you can still filter on more 
+   specific criteria.
 
-9. Hover your mouse over the far-right corner of the unique users data, and under **Region** you can
-    select **...** to show more options.
+   ![](images/M02/M2-EX1-T2-S8.png)
+
+9. Hover your mouse over the far-right corner of the unique users data, and under **Region** you can select **...** to show more options.
+
+   ![](images/M02/M2-EX1-T2-S9.png)
+
 10. Select Export data.
-11. If you have Excel installed choose one of the options and select Export. After the file downloads
-    review the details available. If you don’t have Excel simply select Cancel.
+
+    ![](images/M02/M2-EX1-T2-S10.png)
+
+11. If you have Excel installed choose one of the options and select Export. After the file downloads review the details available. If you don’t have Excel simply select Cancel.
+
+    ![](images/M02/M2-EX1-T2-S11.png)
 
 
 ### Task 3 : Explore the Capacity analytics
 
-12. Navigate to **Power Platform admin center**
-13. Expand **Resources** and select **Capacity**.
+1. Navigate to **Power Platform admin center**
+2. Expand **Resources** and select **Capacity**.
 
+    ![](images/M02/M2-EX1-T3-S2.png)
 
-14. Notice the data in the **Storage capacity usage** panel.
-15. Notice the data under the **Storage capacity by source** panel.
-16. Go to the **Top storage usage by environment** panel and notice the capacity usage by top
-    environments.
+3. Notice the data in the **Storage capacity usage** panel.
 
+   ![](images/M02/M2-EX1-T3-S3.png)
 
-17. Select the **Dataverse** tab from the top row of options.
-18. Locate the **Device Ordering Development** environment storage capacity and select **Details**.
-19. Select the **Chart menu** button at the top right of the first chart and select **Download all tables**.
+4. Notice the data under the **Storage capacity by source** panel.
 
+   ![](images/M02/M2-EX1-T3-S4.png)
 
-20. Open the file that downloaded as a result. You should see a list of all tables and their database size
-    in MB.
-21. Close the Excel file. You won’t need to save any changes you’ve made.
-22. Go to the navigation pane on the far left and expand **Analytics,** then select **Dataverse**.
-23. Review the visuals.
+5. Go to the **Top storage usage by environment** panel and notice the capacity usage by top environments.
 
+   ![](images/M02/M2-EX1-T3-S5.png)
 
-24. Select **Change filters**.
-25. Change the **From** date to one week from today’s date and the **To** date to today. Select **Apply**.
-26. The visuals should change to reflect your changes.
+6. Select the **Dataverse** tab from the top row of options.
+
+   ![](images/M02/M2-EX1-T3-S6.png)
+
+7. Locate the **Device Ordering Development** environment storage capacity and select **Details**.
+
+   ![](images/M02/M2-EX1-T3-S7.png)
+
+8. Select the **Chart menu** button at the top right of the first chart and select **Download all tables**.
+
+   ![](images/M02/M2-EX1-T3-S8.png)
+
+9. Open the file that downloaded as a result. You should see a list of all tables and their database size in MB.
+
+   ![](images/M02/M2-EX1-T3-S9.png)
+
+10. Close the Excel file. You won’t need to save any changes you’ve made.
+
+11. Go to the navigation pane on the far left and expand **Analytics,** then select **Dataverse**.
+
+   ![](images/M02/M2-EX1-T3-S11.png)
+
+12. Review the visuals.
+
+13. Select **Change filters**.
+
+   ![](images/M02/M2-EX1-T3-S13.png)
+
+14. Change the **From** date to one week from today’s date and the **To** date to today. Select **Apply**.
+
+   ![](images/M02/M2-EX1-T3-S14.png)
+
+15. The visuals should change to reflect your changes.
+
+   ![](images/M02/M2-EX1-T3-S15.png)
 
 
 ## Exercise 2: Configure Dataverse logging for a table
