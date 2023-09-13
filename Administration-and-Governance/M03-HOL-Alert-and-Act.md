@@ -1,8 +1,6 @@
 ## Admin in a day
 
-# Action through
-
-# Automation
+# Action through Automation
 
 #### Hands-on lab
 
@@ -10,14 +8,11 @@
 
 In this hands-on lab, you are an administrator, helping to adopt the Power Platform.
 
-Contoso has decided to control creation of Power Platform environments by disabling creation unless you
-are a global or service admin. Contoso doesn’t want to discourage use of the Power Platform so they
-would like you to put an automated process in place to allow users to request an environment and a
-Microsoft Dataverse database.
+Contoso has decided to control creation of Power Platform environments by disabling creation unless you are a global or service admin. Contoso doesn’t want to discourage use of the Power 
+Platform so they would like you to put an automated process in place to allow users to request an environment and a Microsoft Dataverse database.
 
-In this lab, you will be building a Microsoft Form to allow users to submit their environment requests.
-Using the Power Platform administrative connectors and the built-in approval capabilities of Power
-Automate you will automate the processing of the requests.
+In this lab, you will be building a Microsoft Form to allow users to submit their environment requests. Using the Power Platform administrative connectors and the built-in approval 
+capabilities of Power Automate you will automate the processing of the requests.
 
 The following is an outline of the process you will be implementing:
 
@@ -27,24 +22,20 @@ The following is an outline of the process you will be implementing:
 - If approved, the environment and Dataverse database are created.
 - User is notified of the outcome; approved or rejected.
 
-This process could easily be expanded to request approval from the user’s manager as well as the request
-information along with the environment information could be stored for resource usage charge back.
+This process could easily be expanded to request approval from the user’s manager as well as the request information along with the environment information could be stored for resource 
+usage charge back.
 
-Contoso has also decided to use the app auditing process from the CoE Starter Kit. You will be seeing
-how this works by going through the process as both a maker and an admin.
+Contoso has also decided to use the app auditing process from the CoE Starter Kit. You will be seeing how this works by going through the process as both a maker and an admin.
 
-Additionally, you will be installing a pre-created flow that checks for new people building apps and adds
-them to an Office 365 group and sends them a welcome email.
+Additionally, you will be installing a pre-created flow that checks for new people building apps and adds them to an Office 365 group and sends them a welcome email.
 
 
 ## Lab Test Environment
 
-This hands-on lab is designed to be completed in an environment setup for multiple students to complete
-the Admin in a day series of hands-on labs.
+This hands-on lab is designed to be completed in an environment setup for multiple students to complete the Admin in a day series of hands-on labs.
 
-You will be assigned one or more users to use to complete the hands-on tasks. Because this is a shared
-environment, some tasks that require a tenant Global Administrator or a Service Administrator will already
-be performed.
+You will be assigned one or more users to use to complete the hands-on tasks. Because this is a shared environment, some tasks that require a tenant Global Administrator or a Service 
+Administrator will already be performed.
 
 This lab does not require you to have completed any of the prior labs.
 
@@ -58,28 +49,51 @@ collect additional information allowing it to be tailored to your individual org
 ### Task 1 : Create Microsoft Form
 
 1. While logged in as the lab admin user navigate to **Microsoft Forms** and close the welcome screen.
+
+   ![](images/M04/M4-EX1-T1-S2.png)
+
 2. Select **New Form**.
 
+   ![](images/M04/M4-EX1-T1-S2.png)
 
 3. Select the Untitled Form Header
-4. Enter **New Environment Approval Request** for title, enter **New environment request** for
-    description, and select **Add new**.
-5. Create the Form below, if you need steps, continue the steps here. If you do not need each step,
-    continue to the next exercise.
 
+   ![](images/M04/M4-EX1-T1-S2.png)
+
+4. Enter **New Environment Approval Request** for title, enter **New environment request** for description, and select **Add new**.
+
+   ![](images/M04/M4-EX1-T1-S2.png)
+
+5. Create the Form below, if you need steps, continue the steps here. If you do not need each step, continue to the next exercise.
+
+   ![](images/M04/M4-EX1-T1-S2.png)
 
 6. Select **Text**.
+
+  ![](images/M04/M4-EX1-T1-S2.png)
+
 7. Enter **Environment Name** , make the question **Required** , and select **Add New.**
 
+  ![](images/M04/M4-EX1-T1-S2.png)
 
 8. Select **Text** again.
+
 9. Enter **Business Justification** , select **Long Answer** , and make it **Required**.
+
+   ![](images/M04/M4-EX1-T1-S2.png)
+
 10. Select **Add New** and select **Text**.
+
 11. Enter **What connectors will you use?** select **Long Answer** and make it **Required**.
 
+   ![](images/M04/M4-EX1-T1-S2.png)
 
 12. The form will be saved automatically.
+
 13. Select **Preview**.
+
+    ![](images/M04/M4-EX1-T1-S2.png)
+
 
 ## Exercise 2: Create Environment on Form Submit
 
