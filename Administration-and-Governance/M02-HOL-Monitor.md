@@ -156,61 +156,122 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
 ### Task 1: Review audit logging in the environment
 
-1. Navigate to the **Power Apps maker portal** and select the **My Sandbox** environment at the top
-    right.
+1. Navigate to the **Power Apps maker portal** and select the **My Sandbox** environment at the top right.
+
+   ![](images/M02/M2-EX2-T1-S1.png)
+
 2. Select Solutions and choose the **Fabrikam Project Management** solution to open it.
+
+   ![](images/M02/M2-EX2-T1-S2.png)
+
 3. Select **Tables** and select the **Project** table.
+
 4. Select **Columns** under the **Schema** section.
 
+   ![](images/M02/M2-EX2-T1-S4.png)
 
 5. Locate and select **Due Date** to open it.
-6. Expand the Advanced options section. Check and ensure that **Auditing** is enabled for this column. A
-    notice will be underneath the option, informing you that auditing is not enabled for the
-    organization. We will fix this in a later step.
-7. Select **Cancel** to close the field details pane.
-8. Navigate back to the Tables by either selecting the **Tables** on the left side, or by using the
-    breadcrumbs at the top.
 
+   ![](images/M02/M2-EX2-T1-S5.png)
+
+6. Expand the Advanced options section. Check and ensure that **Auditing** is enabled for this column. A notice will be underneath the option, informing you that auditing is not enabled 
+   for the organization. We will fix this in a later step.
+
+7. Select **Cancel** to close the field details pane.
+
+   ![](images/M02/M2-EX2-T1-S7.png)
+
+8. Navigate back to the Tables by either selecting the **Tables** on the left side, or by using the breadcrumbs at the top.
+
+   ![](images/M02/M2-EX2-T1-S8.png)
 
 9. Select the **Project** table, and then select **Properties** from the ribbon up top.
+
+   ![](images/M02/M2-EX2-T1-S9.png)
+
 10. Expand the **Advanced options** section.
+
+    ![](images/M02/M2-EX2-T1-S10.png)
+
 11. Scroll down to the **For this table** section.
+
 12. Select the **Audit changes to its data** checkbox and select **Save**.
 
+    ![](images/M02/M2-EX2-T1-S12.png)
 
 13. Select **All** from the left navigation of the solution.
-14. Select **Publish all customizations** and wait for the publishing to be completed. A green banner will
-    appear to let you know when it is complete.
-15. Navigate to **Power Platform admin center** and select **Environments**.
-16. Select the **My Sandbox <Name>** environment and select **Settings** from the ribbon at the top.
 
+14. Select **Publish all customizations** and wait for the publishing to be completed. A green banner will appear to let you know when it is complete.
 
-17. Expand **Audit and logs** section and select **Audit settings**.
-18. Check the **Start auditing** checkbox, set **Retain these logs for** to **Forever** , then select **Save**. Select
-    **Cancel** to close.
+    ![](images/M02/M2-EX2-T1-S14.png)
+
+    ![](images/M02/M2-EX2-T1-S14-1.png)
+
+16. Navigate to **Power Platform admin center** and select **Environments**.
+
+    ![](images/M02/M2-EX2-T1-S15.png)
+
+17. Select the **My Sandbox <Name>** environment and select **Settings** from the ribbon at the top.
+
+    ![](images/M02/M2-EX2-T1-S16.png)
+
+18. Expand **Audit and logs** section and select **Audit settings**.
+
+    ![](images/M02/M2-EX2-T1-S17.png)
+
+19. Check the **Start auditing** checkbox, set **Retain these logs for** to **Forever** , then select **Save**. Select **Cancel** to close.
+
+    ![](images/M02/M2-EX2-T1-S18.png)
 
 
 ### Task 2: Test auditing
 
 1. Navigate to the **Power Apps maker portal** and select the **My Sandbox** environment.
+
 2. Select **Apps** and select the **Project Admin** application to launch.
-3. If you can see the **Annual Conference** project select it to open it and skip to step 7, if you do not
-    see it, continue with the steps below.
+
+   ![](images/M02/M2-EX2-T2-S2.png)
+
+3. If you can see the **Annual Conference** project select it to open it and skip to step 7, if you do not see it, continue with the steps below.
+
+   ![](images/M02/M2-EX2-T2-S3.png)
+
 4. Create a new project by selecting the green + from the ribbon at the top.
+
+   ![](images/M02/M2-EX2-T2-S4.png)
+
 5. For the **Title** , enter **Annual Conference**. Choose the **Due date** as today’s date.
 
+   ![](images/M02/M2-EX2-T2-S5.png)
 
 6. Then, select **Save & Close**.
+
+   ![](images/M02/M2-EX2-T2-S6.png)
+
 7. From this screen, reopen the **Annual Conference** project.
+
+   ![](images/M02/M2-EX2-T2-S7.png)
+
 8. Change the **Due Date** to any date in the future and select **Save**.
+
+   ![](images/M02/M2-EX2-T2-S8.png)
+
 9. Change the **Due Date** and save a couple more times.
+
 10. Select **Related** and select **Audit History**.
 
+    ![](images/M02/M2-EX2-T2-S10.png)
 
-11. You should see the change history for each of your changes. Select Update to open one of the
-    change history records.
+11. You should see the change history for each of your changes. Select Update to open one of the change history records.
+
+    ![](images/M02/M2-EX2-T2-S11.png)
+
 12. You should see the **Filed Name** , **Old Value** and **New Value**.
+
 13. Select **Close** to close the update record.
+
+    ![](images/M02/M2-EX2-T2-S13.png)
+
 
 ## Exercise 3: Setup the CoE Starter Kit Power BI Dashboard
 
