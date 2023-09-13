@@ -310,244 +310,301 @@ in a team that is not bound to the environment.
    ![](images/M04/M4-EX1-T2-F5-S12.png)
 
 
+
 ### Exercise 2: Power Platform Pipelines
 
-Another feature of a managed environment is the ability to utilize the in-platform pipelines to
-democratize application lifecycle management (ALM) by bringing the ALM automation and continuous
+### Scenario
 
-integration and continuous delivery (CI/CD) capabilities to the service. Included with these is the ability
-
-to view out of the box analytics within a central location and Power BI reports. Pipelines can deploy
-
-solutions, connections, connection references, and environment variables to environments of the same
-region as the host environment.
-
-1. Navigate to the Power Platform Admin Center.
-2. For this lab, we will use this structure for our environments, following the guidelines for
-    Application Lifecycle Management (ALM).
-       a.
-          **Pipeline Stage Environment Name Type**
-
-```
-Host Managed Environment (Initials) Production
-```
-```
-Development Thrive Hr - Dev Sandbox
-```
-```
-Test Thrive Hr - Test Sandbox
-```
-```
-Production Thrive Hr - Prod Production
-```
-```
-Host Environments act as storage and management for pipeline configurations, run
-histories, and security settings. Should this environment be deleted, all pipelines and
-run data will be deleted as well and cannot be recovered. Host environments can only
-have development and target environments that exist within the same region as the
-host environment. For this reason, some tenants may have multiple host environments.
-```
-3. You'll need to modify the managed environment you've created previously in order to become
-    the host for the pipeline. Navigate back to the **Environments** section with the option on the left-
-    side navigation or from the breadcrumbs at the top.
-4. Select **Managed Environments (Initials)** to open a detailed view for the environment.
+Another feature of a managed environment is the ability to utilize the in-platform pipelines to democratize application lifecycle management (ALM) by bringing the ALM automation and 
+continuous integration and continuous delivery (CI/CD) capabilities to the service. Included with these is the ability to view out of the box analytics within a central location and 
+Power BI reports. Pipelines can deploy solutions, connections, connection references, and environment variables to environments of the same region as the host environment.
 
 
-5. In the **Details** pane, select **Edit.**
-6. Clear out the existing name and replace it with **Thrive Hr (Initials) - Host** to remain in line with
-    the naming convention of the other environments.
-7. Select **Save.**
+
+1. Navigate to Power Platform admin center by using below URL and select environments if not already opened.
+
+    ```
+    https://admin.powerplatform.microsoft.com/environments
+    ```
+
+2. For this lab, we will use this structure for our environments, following the guidelines for Application Lifecycle Management (ALM).
+
+     | Pipeline Stage | Environment Name | Type |
+     | -------------- | ---------------- | ---- |
+     | Host           | Managed Environment (Initials) | Default |
+     | Development    | Thrive Hr - Dev  |  Sandbox |
+     | Test           | Thrive Hr - Test | Sandbox |
+     | Production     | Thrive Hr- prod  | Production |
+   
+
+  
+  >*Note:* Host Environments act as storage and management for pipeline configurations, run histories, and security settings. Should this environment be deleted, all pipelines and run        data will be deleted as well and cannot be recovered. Host environments can only have development and target environments that exist within the same region as the host environment. For 
+  this reason, some tenants may have multiple host environments.
+  
+
+3. Select **Managed Environment (Initials)** to open a detailed view for the environment.
+
+    ![](images/M04/M4-EX2-T0-S3.png)
+
+4. In the **Details** pane, select **Edit.**
+
+    ![](images/M04/M4-EX2-T0-S4.png)
+  
+5. Clear out the existing name and replace it with **Thrive Hr - Host (1)** to remain in line with the naming convention of the other environments and select **Save (2)**.
+
+    ![](images/M04/M4-EX2-T0-S5.png)
 
 
-8. To finish up the setup, you will need to enable managed environments for each of the
-    associated environments in the pipeline. Navigate back to the **Environments** page with the
-    breadcrumbs at the top or the left side navigation.
-9. Select the circle next to Thrive Hr - Dev and select Enable Managed Environment.
-10. For the purposes of this lab, we will not be configuring each of the associated environments for
-    other features (e.g., Limit Sharing, Usage insights, etc.). Select **Enable** at the bottom of the
-    panel.
-11. Repeat this process for each of the environments in the setup.
-12. Now, you need to install the pipelines app onto the host environment. In the Resources Panel,
-    select **Dynamics 365 apps.** A list of apps currently installed for the environment will appear.
-13. Select **Install App** from the ribbon at the top.
-14. Scroll down to locate **Power Platform Pipelines** and select the name.
-15. Select **Next**.
+6. To finish up the setup, you will need to enable managed environments for each of the associated environments in the pipeline. Navigate back to the **Environments** page with the
+   breadcrumbs at the top or the left side navigation.
+
+    ![](images/M04/M4-EX2-T0-S6.png)
+
+7. Select the circle next to **Thrive Hr - Dev (1)** and select **Enable Managed Environment (2)**.
+
+    ![](images/M04/M4-EX2-T0-S7.png)
+
+8. For the purposes of this lab, we will not be configuring each of the associated environments for other features (e.g., Limit Sharing, Usage insights, etc.). Select **Enable** at the       bottom of the panel.
+
+    ![](images/M04/M4-EX2-T0-S6.png)
+
+9. Repeat this process for **Thrive Hr - Prod** and **Thrive Hr - Test** environments in the setup .
+
+10. Now, you need to install the pipelines app onto the host environment. In the Resources Panel, select **Dynamics 365 apps.** A list of apps currently installed for the environment will     appear.
+  
+    ![](images/M04/M4-EX2-T0-S10.png)
+
+11. Select **Install App** from the ribbon at the top.
+
+     ![](images/M04/M4-EX2-T0-S11.png)
+
+12. Scroll down to locate **Power Platform Pipelines (1)** and select the name, then click on **Next (2)**.
+
+    ![](images/M04/M4-EX2-T0-S12.png)
+
+13. Select the **checkbox (1)** to agree to the Terms of Service, then select **Install (2)**.
+
+    ![](images/M04/M4-EX2-T0-S13.png)
+
+14. Confirm that the app is being installed onto the environment by checking that the **Status** reads as **Installing**.
+
+    ![](images/M04/M4-EX2-T0-S15.png)
+
+15. **Do not navigate away from this page.**
 
 
-16. Select the checkbox to agree to the Terms of Service, then select **Install**.
-17. Confirm that the app is being installed onto the environment by checking that the **Status** reads
-    as **Installing**.
-
-
-18. **Do not navigate away from this page.**
 
 #### Task 1: Configure a deployment pipeline
 
-##### 1A. Add the environments to the database.
 
-1. While waiting for the app to install, you'll need to gather the environment IDs of all
-    development and target environments that will be linked to the pipelines.
-2. To do this, navigate back to the **Environments** page of the Power Platform Admin site from the
-    left-side navigation.
-3. Select the **...** to the right of to **Thrive Hr - Dev** , then select **Detailed View** to get the environment
-    information.
+##### 1A: Add the environments to the database.
 
+1. While waiting for the app to install, you'll need to gather the environment IDs of all development and target environments that will be linked to the pipelines.
+
+2. To do this, navigate back to the **Environments** page of the Power Platform Admin site from the left-side navigation.
+
+  ![](images/M04/M4-EX2-T1A-S2.png)
+
+3. Select the **... (1)** to the right of to **Thrive Hr - Dev** , then select **Detailed View (2)** to get the environment information.
+
+   ![](../images/M02-1/dev-detail.png)
 
 4. Locate the **Environment ID** in the details pane and copy it to a notepad for later.
-5. Repeat this process with **Thrive Hr – Test** and **Thrive Hr – Prod** , copying the IDs to the same
-    notepad.
-6. Navigate to Power Apps and set the environment to the **Thrive Hr – Hos** t environment.
-7. Navigate to **Apps** and select **Deployment Pipeline Configuration**.
-8. Select **Play** from the ribbon at the top.
 
+   ![](../images/M02-1/env-id.png)
 
-9. Select **Environments** on the left pane, and then select **New.**
-10. You’ll need to add the Dev, Test, and Prod environments as our deployment environments to
-    create the environment records in Dataverse:
-       a. _Name_ : **Thrive Hr - Dev**
-       _Environment Type_ : **Development**
-       _Environment Id_ : Paste the Environment ID you copied from earlier here.
+5. Repeat this process with **Thrive Hr – Test** and **Thrive Hr – Prod** , copying the IDs to the same notepad.
 
+6. Navigate to Power Apps and set the environment to the **Thrive Hr – Host** environment.
 
-10. Select **Save**.
-11. **Refresh** the form, then verify **Validation Status** equals **Success**.
+   ![](../images/M02-1/env-host.png)
 
+7. Navigate to **Apps (1)** and select **Deployment Pipeline Configuration (2)**, then select **Play** from the ribbon at the top.
+
+   ![](../images/M02-1/deployment-pipeline-configuration.png)
+
+8. Select **Environments (1)** on the left pane, and then click on **+ New** symbol.
+
+   ![](../images/M02-1/new-deployment.png)
+
+9. You’ll need to add the Dev, Test, and Prod environments as our deployment environments to create the environment records in Dataverse:
+
+    a. Name : **Thrive Hr - Dev (1)**
+
+    b. Environment Type : **Development Environment (2)**
+
+    c. Environment Id : Paste the **Environment ID (3)** you copied from earlier here.
+
+     ![](../images/M02-1/dev-deployment-env2.png)
+
+10. Select **Save**
+
+11. **Refresh (1)** the form, then verify **Validation Status** equals **Success (2)**.
+
+    ![](../images/M02-1/validation.png)
 
 12. Select **Save and Close**.
-13. Repeat steps 3-11 for **Thrive Hr - Test** and **Thrive Hr - Prod,** setting the type as Target
-    Environments.
+
+    ![](../images/M02-1/save-close.png)
+
+13. Repeat steps 3-11 for **Thrive Hr - Test** and **Thrive Hr - Prod,** setting the type as **Target Environment** respectively.
+
 14. You should have three environments listed now.
+
+    ![](../images/M02-1/env-types-1.png)
+
+
 
 ##### 1B. Create a pipeline.
 
-1. Select **Pipelines** on the left navigation pane, and then select **New** to create a new deployment
-    pipeline.
 
+1. Select **Pipelines (1)** on the left navigation pane, and then select **+ New (2)** to create a new deployment pipeline.
 
-2. Set the **Name** to be **Thrive Hr Standard Deployment Pipeline**.
-3. Set the **Description** as **To be used for all deployments in the Device Ordering Project.**
-4. Select **Save** to show the rest of the content available.
-5. Now we need to add the environments we've created to the pipeline. In the **Linked**
-    **Developments** section, Select **Add Existing Deployment Environment**.
+   ![](../images/M02-1/pipeline1.png)
 
+2. Set the **Name** to be **Thrive Hr Standard Deployment Pipeline (1)** and select **save (2)** to show the rest of the content available..
 
-6. Select the **Thrive HR - Dev** and **Thrive HR - Test** to add the environments to the list.
-7. Locate the **Deployment Stages (Deployment Pipeline)** section, select **New Deployment stage.**
-8. Set the **Name** to **Deploy to Test.**
-9. Set the **Description** to **Deploy the completed development content to the Test phase.**
-10. Since this is the first stage of our deployment, the **Previous Deployment Stage** field will be left
+   ![](../images/M02-1/pipeline-name.png)
+
+3. Now we need to add the environments we've created to the pipeline. In the **Linked Developments** section, Select **Add Existing Deployment Environment**.
+
+   ![](../images/M02-1/linked-dep.png)
+
+4. Select the **Thrive HR - Dev** to add the environments to the list and clcik on **Add**.
+
+   ![](../images/M02-1/linked-dev.png)
+
+5. Locate the **Deployment Stages (Deployment Pipeline)** section, select **New Deployment stage.**
+
+   ![](../images/M02-1/new-dep-stage.png)
+
+6. Set the **Name** to **Deploy to Test (1).**
+
+7. Set the **Description** to **Deploy the completed development content to the Test phase (2).**
+
+8. Since this is the first stage of our deployment, the **Previous Deployment Stage** field will be left
     blank for this one.
-11. Set the **Target Development Environment** to the **Thrive HR - Test.**
-12. Leave the predeployment condition unselected. To learn more about predeployment conditions,
+
+9. Set the **Target Development Environment** to the **Thrive HR - Test (3).**
+
+10. Leave the predeployment condition unselected. To learn more about predeployment conditions,
     follow this link.
-13. Confirm that your setup reflects the image below.
 
+11. Confirm that your setup reflects the image below.
 
-14. Select the arrow next to **Save and Close** and select **Save and Create New.**
-15. Set the **Name** to **Deploy to Prod.**
-16. Set the **Description** to **Deploy the completed development content to the Production phase.**
-17. Set the **Previous Deployment Step** to **Thrive Hr – Test**
+    ![](../images/M02-1/deploy-to-test.png)
 
+12. Select the arrow next to **Save and Close** and select **Save and Create New.**
 
-18. Select **Save and Close**.
+    ![](../images/M02-1/create-new.png)
+
+13. Set the **Name** to **Deploy to Prod (1).**
+
+14. Set the **Description** to **Deploy the completed development content to the Production phase (2).**
+
+15. Set the **Previous Deployment Step** to **Deploy to Test (3)**
+
+16. Set the **Target Development Environment** to the **Thrive HR - Prod (4).**
+
+17. Select **Save and Close (5)**.
+
+18. Confirm that your setup reflects the image below.
+
+    ![](../images/M02-1/deploy-to-prod.png)
+
 19. Do not navigate away from this page.
 
-#### Task 2: Run the pipeline
+
+#### Task 3: Run the pipeline
 
 1. Navigate to Power Apps in a new tab.
+
 2. Ensure you are in the Thrive HR - Dev environment at the top right.
 
+   ![](../images/M02-1/dev-env.png)
 
-3. Select Solutions from the left-side navigation, then select Import Solution from the ribbon at the
-    top.
-4. Select Browse and locate ‘ **PipelineExample_1_0_0_1.zip** ’**.**
+3. Select **Solutions (1)** from the left-side navigation, then select **Import Solution (2)** from the ribbon at the top.
+
+   ![](../images/M02-1/import.png)
+
+4. Select Browse and locate  **PipelineExample_1_0_0_1.zip** in **Labfiles**
+
 5. Select **Next.**
 
+6. Review the details and select **Import**. This is the solution we will be deploying through our pipeline. Any solutions sent through a pipeline must be unmanaged.
 
-6. Review the details and select **Import**. This is the solution we will be deploying through our
-    pipeline. Any solutions sent through a pipeline must be unmanaged.
-
+   ![](../images/M02-1/import-1.png)
 
 7. Once the solution has been imported, select it from the available solutions.
 
+   ![](../images/M02-1/pipeline-example.png)
 
-8. Select **Pipelines** from the left side navigation. From here we can view the current deployment
-    stage, and what stage we will be deploying to next.
-9. Select **Deploy** here.
-10. This is where you can schedule deployments or deploy immediately. Set the deployment
-    schedule to **Now** and select **Next.**
+8. Select **Pipelines** from the left side navigation. From here we can view the current deployment stage, and what stage we will be deploying to next.
 
+   ![](../images/M02-1/solution-pipeline.png)
+
+9. Select **Deploy here**.
+
+    ![](../images/M02-1/deploy-1.png)
+
+10. This is where you can schedule deployments or deploy immediately. Set the deployment schedule to **Now** and select **Next.**
+
+    ![](../images/M02-1/deploy-2.png)
 
 11. Add any appropriate deployment notes and select **Deploy.**
-12. The solution is now being processed, validated, and deployed to the Thrive Hr - Test
-    environment.
 
+    ![](../images/M02-1/deploy-3.png)
 
-13. Once the deployment is complete, the option to deploy to production appears. Select **Deploy**
-    **here** for the **Deploy to Prod** stage.
-14. This time, we'll schedule the deployment. To do so, select **Later** from the radial menu, and set
-    the deployment time closest to your current time (ex. Your current time is 4:53 PM, select 5:00
-    PM. then select **Next.**
+12. The solution is now being processed, validated, and deployed to the Thrive Hr - Test environment.
 
+    ![](../images/M02-1/deploy-4.png)
+
+13. Once the deployment is complete, the option to deploy to production appears. Select **Deploy** **here** for the **Deploy to Prod** stage.
+
+    ![](../images/M02-1/deploy-5.png)
+
+14. This time, we'll schedule the deployment. To do so, select **Later** from the radial menu, and set the deployment time closest to your current time (ex. Your current time is 4:53 PM, 
+    select 5:00  PM. then select **Next.**
+
+    ![](../images/M02-1/deploy-6.png)
 
 15. Review any details and optionally add deployment notes, then select **Deploy.**
-16. If needed, administrators can change the time of or cancel a deployment from this screen by
-    selecting the **Cancel Deployment** button, or by selecting the Run History tab, and selecting the
-    three dots next to the Start time. From here, you can also view the run information, such as any
-    notes or comments.
+
+16. If needed, administrators can change the time of or cancel a deployment from this screen by selecting the **Cancel Deployment** button, or by selecting the Run History tab, and 
+    selecting the three dots next to the Start time. From here, you can also view the run information, such as any notes or comments.
+
+    ![](../images/M02-1/deploy-7.png)
+
+     ![](../images/M02-1/deploy-8.png)
 
 
-17. Administrations can also make changes to the run record from the Deployment Pipeline
-    Configuration app, such as altering the starting time and deployment notes. Return to the
-    **Deployment Pipeline Configuration App** and select **Run history**.
+17. Administrations can also make changes to the run record from the Deployment Pipeline Configuration app, such as altering the starting time and deployment notes. Return to the 
+    **Deployment Pipeline Configuration App** in the host environment and select **Run history**.
+
+    ![](../images/M02-1/deploy-9.png)
+
 18. Select the scheduled deployment and select **Edit** at the top right.
+
+    ![](../images/M02-1/deploy-10.png)
+
 19. Locate the **Scheduled Time** and select the clock next to the selected time.
+
+    ![](../images/M02-1/deploy-11.png)
+
 20. Select the new time, and then select **Save and Close.**
 
+    ![](../images/M02-1/deploy-12.png)
 
-## Terms of Use
-
-© 20 22 Microsoft Corporation. All rights reserved.
-
-By using this demo/lab, you agree to the following terms: The technology/functionality described in this
-demo/lab is provided by Microsoft Corporation for purposes of obtaining your feedback and to provide
-you with a learning experience. You may only use the demo/lab to evaluate such technology features and
-functionality and provide feedback to Microsoft. You may not use it for any other purpose. You may not
-modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works
-from, transfer, or sell this demo/lab or any portion thereof. COPYING OR REPRODUCTION OF THE
-DEMO/LAB (OR ANY PORTION OF IT) TO ANY OTHER SERVER OR LOCATION FOR FURTHER
-REPRODUCTION OR REDISTRIBUTION IS EXPRESSLY PROHIBITED. THIS DEMO/LAB PROVIDES CERTAIN
-SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTIONALITY, INCLUDING POTENTIAL NEW
-FEATURES AND CONCEPTS, IN A SIMULATED ENVIRONMENT WITHOUT COMPLEX SET-UP OR
-INSTALLATION FOR THE PURPOSE DESCRIBED ABOVE. THE TECHNOLOGY/CONCEPTS REPRESENTED IN
-THIS DEMO/LAB MAY NOT REPRESENT FULL FEATURE FUNCTIONALITY AND MAY NOT WORK THE WAY
-A FINAL VERSION MAY WORK. WE ALSO MAY NOT RELEASE A FINAL VERSION OF SUCH FEATURES OR
-CONCEPTS. YOUR EXPERIENCE WITH USING SUCH FEATURES AND FUNCTIONALITY IN A PHYSICAL
-ENVIRONMENT MAY ALSO BE DIFFERENT.
-
-## FEEDBACK
-
-If you give feedback about the technology features, functionality and/or concepts described in this
-demo/lab to Microsoft, you give to Microsoft, without charge, the right to use, share and commercialize
+    ![](../images/M02-1/deploy-13.png)
 
 
-your feedback in any way and for any purpose. You also give to third parties, without charge, any patent
-rights needed for their products, technologies and services to use or interface with any specific parts of a
-Microsoft software or service that includes the feedback. You will not give feedback that is subject to a
-license that requires Microsoft to license its software or documentation to third parties because we
-include your feedback in them. These rights survive this agreement. MICROSOFT CORPORATION HEREBY
-DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO THE DEMO/LAB, INCLUDING ALL
-WARRANTIES AND CONDITIONS OF MERCHANTABILITY, WHETHER EXPRESS, IMPLIED OR STATUTORY,
-FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. MICROSOFT DOES NOT MAKE
-ANY ASSURANCES OR REPRESENTATIONS WITH REGARD TO THE ACCURACY OF THE RESULTS, OUTPUT
-THAT DERIVES FROM USE OF DEMO/ LAB, OR SUITABILITY OF THE INFORMATION CONTAINED IN THE
-DEMO/LAB FOR ANY PURPOSE.
 
-## DISCLAIMER
 
-This demo/lab contains only a portion of new features and enhancements in Microsoft Power Apps. Some
-of the features might change in future releases of the product. In this demo/lab, you will learn about
-some, but not all, new features.
+
+
+
+
+
 
 
 
