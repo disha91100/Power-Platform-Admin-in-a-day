@@ -351,34 +351,38 @@ e) Select Okay to close the Options dialog.
 
 #### 38. You have now successfully deployed the Power BI reports that come with the CoE starter kit.
 
-## Exercise 4: Perform a risk assessment of overshared
 
-## resources
+
+## Exercise 4: Perform a risk assessment of overshared resources
 
 ### Scenario
 
-We were going to perform a risk assessment to look for apps that have been over hared in your tenant.
-To accomplish this, you are going to use the Power BI report that you just published to look for apps that
-are over shared.
+We were going to perform a risk assessment to look for apps that have been over hared in your tenant. To accomplish this, you are going to use the Power BI report that you just published 
+to look for apps that are over shared.
 
 ### Task 1: Locate Overshared Apps
 
 1. Navigate to the Power BI report you just published.
+
 2. Select the **Apps** page in the report.
-3. Select the Show navigation button and select **Apps Risk Assessment**. This will take you to the risk
-    assessment page of the report.
 
+3. Select the Show navigation button and select **Apps Risk Assessment**. This will take you to the risk assessment page of the report.
 
-4. The list of apps you'll see now is the ones that qualify for the default criteria. We want to focus on
-    the ones that have been shared with the entire organization and validate that they are appropriate.
+   ![](images/M02/M2-EX4-T1-S3.png)
+
+4. The list of apps you'll see now is the ones that qualify for the default criteria. We want to focus on the ones that have been shared with the entire organization and validate that 
+   they are appropriate.
+
+   ![](images/M02/M2-EX4-T1-S4.png)
+
 5. In the filter panel, select True in the Shared with Everyone section.
 
+   ![](images/M02/M2-EX4-T1-S5.png)
 
-6. The filter will take place immediately and you will see a small list of apps that have been shared with
-    everyone. In many cases, a quick evaluation of the name of the app would indicate whether it was
-    appropriate, but it also allows you to drill down into more details by hovering your mouse pointer
-    over the name of the app. You might also use the owner’s name to contact the person who made
-    the app to get more details to determine if it was appropriate to share with everyone.
+6. The filter will take place immediately and you will see a small list of apps that have been shared with everyone. In many cases, a quick evaluation of the name of the app would 
+   indicate whether it was appropriate, but it also allows you to drill down into more details by hovering your mouse pointer over the name of the app. You might also use the owner’s name 
+   to contact the person who made the app to get more details to determine if it was appropriate to share with everyone.
+
 
 ## Exercise 5: How much is a connector used in your
 
@@ -386,174 +390,170 @@ are over shared.
 
 ### Scenario
 
-Using the Power BI report, you can easily see what apps and flows are using a connector. In this exercise
-you will find out who is using the SharePoint connector.
+Using the Power BI report, you can easily see what apps and flows are using a connector. In this exercise you will find out who is using the SharePoint connector.
 
 ### Task 1: Locate resources that use the SharePoint connector
 
 1. Navigate to the Power BI report you just published.
+
 2. Select the **App Connections** page in the report.
+
+   ![](images/M02/M2-EX5-T1-S2.png)
+
 3. In the filter panel, in the **Connector** section search for **Office 365 Groups** and select it.
 
+   ![](images/M02/M2-EX5-T1-S3.png)
 
 4. The page will now filter on makers, and apps that use Office 365.
-5. Using this you could evaluate things like the impact of changing DLP policies or other governance or
-    training that might be needed related to a connector.
 
-## Exercise 6 : Review tenant audit logs (Optional if you have
+5. Using this you could evaluate things like the impact of changing DLP policies or other governance or training that might be needed related to a connector.
 
-## time)
+
+## Exercise 6 : Review tenant audit logs (Optional if you have time)
 
 ### Scenario
 
-All other auditing of Power Apps and Power Automate flows (other than CDS data modification) are
-viewed through the Microsoft Purview site.
+All other auditing of Power Apps and Power Automate flows (other than CDS data modification) are viewed through the Microsoft Purview site.
 
-Prior to use, this must be enabled by a global tenant administrator using these instructions. In the tenant
-you are using we have already completed that for you as well as granting you permission to view the
-audit log data for the tenant. That was done using the PowerShell command Add-RoleGroupMember
-“Compliance Management” -Member your user.
+Prior to use, this must be enabled by a global tenant administrator using these instructions. In the tenant you are using we have already completed that for you as well as granting you 
+permission to view the audit log data for the tenant. That was done using the PowerShell command Add-RoleGroupMember “Compliance Management” -Member your user.
 
 In this exercise, you will be using the log search and alert tools to work with the audit data.
 
 ### Task 1: Review audit logging in the environment
 
 1. Navigate to https://compliance.microsoft.com/.
+
 2. Locate and select **Audit** on the left side navigation.
 
+   ![](images/M02/M2-EX6-T1-S2.png)
 
-4. Select **Search** using the default search criteria.
-5. Select **Start Search.**
+3. Select **Search** using the default search criteria.
+
+   ![](images/M02/M2-EX6-T1-S3.png)
+
+4. Select **Start Search.**
+
+   ![](images/M02/M2-EX6-T1-S4.png)
+
+5. The **Job Status** will read as **Queued** once it has been set to process. Refresh the audit every few minutes or so until the status reads as **Completed.**
+
+   ![](images/M02/M2-EX6-T1-S5.png)
+
+6. Select the Search name, which defaults to the audit date if no name has been inputted.
+
+   ![](images/M02/M2-EX6-T1-S6.png)
+
+7. Review the items displayed; drill into a few of them to see the type of data available.
+
+   ![](images/M02/M2-EX6-T1-S7.png)
+
+8. Select **Export** if you’d like to download the data for later viewing. Using export, you can open the data in other tools for analysis.
+
+   ![](images/M02/M2-EX6-T1-S8.png)
+
+9. The export will begin and may take some time to complete.
+
+    ![](images/M02/M2-EX6-T1-S9.png)
+
+10. Select **Audit search** breadcrumb at the top of the page to navigate back to the search. This will not interrupt the export.
+
+    ![](images/M02/M2-EX6-T1-S10.png)
+
+11. Select the **Activities** dropdown and select all Power Apps and Power Automate activities.
+
+    ![](images/M02/M2-EX6-T1-S11.png)
+
+12. Select **Search** again and review the results once the status is Completed.
+
+13. Look for an activity of Edited Flow, select the item to open the detail. Review what data is provided.
+
+14. A common task is to look at all of the activity for a particular user. Copy the user from this Edited flow activity and go back to the Audit search.
+
+15. Paste the user you copied into the Users filter and select search again. Now you are looking at all the activity for a single user.
+
+16. Try selecting an item to view detail. Copy the Item field and then go back to the list and select the filter results. Paste the item info you just copied into the filed. The results 
+    list will now only show activities related to that item. For example, you could use this to show all activities for a specific flow.
 
 
-6. The **Job Status** will read as **Queued** once it has been set to process. Refresh the audit every few
-    minutes or so until the status reads as **Completed.**
-7. Select the Search name, which defaults to the audit date if no name has been inputted.
-8. Review the items displayed; drill into a few of them to see the type of data available.
+**Note:** Any information from before auditing was enabled, cannot be retrieved. This can be seen by selecting a date range from before the auditing was enabled.
 
 
-9. Select **Export** if you’d like to download the data for later viewing. Using export, you can open the
-    data in other tools for analysis.
-10. The export will begin and may take some time to complete.
-
-
-11. Select **Audit search** breadcrumb at the top of the page to navigate back to the search. This will not
-    interrupt the export.
-12. Select the **Activities** dropdown and select all Power Apps and Power Automate activities.
-13. Select **Search** again and review the results once the status is Completed.
-14. Look for an activity of Edited Flow, select the item to open the detail. Review what data is provided.
-15. A common task is to look at all of the activity for a particular user. Copy the user from this Edited
-    flow activity and go back to the Audit search.
-16. Paste the user you copied into the Users filter and select search again. Now you are looking at all the
-    activity for a single user.
-17. Try selecting an item to view detail. Copy the Item field and then go back to the list and select the
-    filter results. Paste the item info you just copied into the filed. The results list will now only show
-    activities related to that item. For example, you could use this to show all activities for a specific flow.
-
-**Note:** Any information from before auditing was enabled, cannot be retrieved. This can be seen by
-selecting a date range from before the auditing was enabled.
-
-## Exercise 7 : Get notification of new apps, flows and
-
-## connectors (Optional if you have time)
+## Exercise 7 : Get notification of new apps, flows and connectors (Optional if you have time)
 
 ### Scenario
 
-In this exercise, you will be using one of the pre-built Power Automate templates that runs on a schedule
-and looks for newly created canvas apps, flows and connectors and sends you an email.
+In this exercise, you will be using one of the pre-built Power Automate templates that runs on a schedule and looks for newly created canvas apps, flows and connectors and sends you an 
+email.
 
-### T ask 1: Create the flow from the template
+### Task 1: Create the flow from the template
 
 1. Navigate to **https://make.powerautomate.com/** and sign in.
 
+2. Make sure **Power Platform COE** environment is selected. Note: This environment is where the CoE starter kit is installed and is intended to be our dedicated admin environment. Even 
+   if you don’t use the starter kit, having a dedicated admin environment can be helpful.
 
-2. Make sure **Power Platform COE** environment is selected. Note: This environment is where the CoE
-    starter kit is installed and is intended to be our dedicated admin environment. Even if you don’t use
-    the starter kit, having a dedicated admin environment can be helpful.
-3. Copy and paste the following URL into your browser, and press enter to navigate to it.
+   ![](images/M02/M2-EX7-T1-S2.png)
 
-#### https://make.powerautomate.com/galleries/public/templates/0b2ffb0174724ad6b4
+3. Copy and paste the following URL into your browser, and press enter to navigate to it. **https://make.powerautomate.com/galleries/public/templates/0b2ffb0174724ad6b4681728c0f53062/get- 
+   list-of-new-powerapps-flows-and-connectors**
 
-#### 681728c0f53062/get-list-of-new-powerapps-flows-and-connectors
+4. Select **Sign in** as needed for each of the connectors. Use the lab admin account you’re signed in with.
 
-4. Select **Sign in** as needed for each of the connectors. Use the lab admin account you’re signed in
-    with.
+   ![](images/M02/M2-EX7-T1-S4.png)
+
 5. Select **Continue** once all of the items display a checkmark.
 
+    ![](images/M02/M2-EX7-T1-S5.png)
 
-6. Examine the flow steps and then select **Flow Checker**. You may need to adjust the zoom of your
-    browser to see all of the steps (We can’t display the entirety of it here, as any details would be lost).
+6. Examine the flow steps and then select **Flow Checker**. You may need to adjust the zoom of your browser to see all of the steps (We can’t display the entirety of it here, as any 
+   details would be lost).
+
+   ![](images/M02/M2-EX7-T1-S6.png)
+
 7. There should be no errors or warnings.
 
+    ![](images/M02/M2-EX7-T1-S7.png)
 
 8. Select **Save** , located right next to the flow checker.
+
+   ![](images/M02/M2-EX7-T1-S8.png)
+
 9. Select the back arrow to move to the flow details and run history.
-10. The flow should have one run in progress. If you do not see it, select the refresh button at the top
-    right of the run history. This will refresh the information available and bring up the current run. If it
-    does not, please inform your instructor.
-11. Wait for the flow run to complete and then select the run’s start to open it. You can refresh to see
-    the updated status of the flow.
+
+   ![](images/M02/M2-EX7-T1-S9.png)
+
+10. The flow should have one run in progress. If you do not see it, select the refresh button at the top right of the run history. This will refresh the information available and bring up 
+    the current run. If it does not, please inform your instructor.
+
+    ![](images/M02/M2-EX7-T1-S10.png)
+
+11. Wait for the flow run to complete and then select the run’s start to open it. You can refresh to see the updated status of the flow.
 
 **Note:** This can take up to 45 minutes to complete, as it is iterating the flow over a large amount of data.
 
+   ![](images/M02/M2-EX7-T1-S11.png)
 
-12. Examine the flow run. Expanding individual items will give you more information on what each step
-    performs as the flow runt. Selecting next will allow you to look at the difference in environments as
-    they are processed through the flow.
+12. Examine the flow run. Expanding individual items will give you more information on what each step performs as the flow runt. Selecting next will allow you to look at the difference in 
+    environments as they are processed through the flow.
 
-13, Select **App launcher** and select **Outlook**.
+    ![](images/M02/M2-EX7-T1-S12.png)
 
+13. Select **App launcher** and select **Outlook**.
+
+    ![](images/M02/M2-EX7-T1-S13.png)
 
 14. Navigate to https://outlook.office.com/
+
 15. You should get an email from the flow. Open the email.
+
+    ![](images/M02/M2-EX7-T1-S15.png)
+
 16. The report should list flows, Power Apps, connectors in tables.
 
+    ![](images/M02/M2-EX7-T1-S16.png)
 
-In addition to simply seeing who is building what in your tenant you can also use the list of new
-connectors to evaluate if you need to adjust your DLP policies.
-
-
-## Terms of Use
-
-© 20 22 Microsoft Corporation. All rights reserved.
-
-By using this demo/lab, you agree to the following terms: The technology/functionality described in this
-demo/lab is provided by Microsoft Corporation for purposes of obtaining your feedback and to provide
-you with a learning experience. You may only use the demo/lab to evaluate such technology features and
-functionality and provide feedback to Microsoft. You may not use it for any other purpose. You may not
-modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works
-from, transfer, or sell this demo/lab or any portion thereof. COPYING OR REPRODUCTION OF THE
-DEMO/LAB (OR ANY PORTION OF IT) TO ANY OTHER SERVER OR LOCATION FOR FURTHER
-REPRODUCTION OR REDISTRIBUTION IS EXPRESSLY PROHIBITED. THIS DEMO/LAB PROVIDES CERTAIN
-SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTIONALITY, INCLUDING POTENTIAL NEW
-FEATURES AND CONCEPTS, IN A SIMULATED ENVIRONMENT WITHOUT COMPLEX SET-UP OR
-INSTALLATION FOR THE PURPOSE DESCRIBED ABOVE. THE TECHNOLOGY/CONCEPTS REPRESENTED IN
-THIS DEMO/LAB MAY NOT REPRESENT FULL FEATURE FUNCTIONALITY AND MAY NOT WORK THE WAY
-A FINAL VERSION MAY WORK. WE ALSO MAY NOT RELEASE A FINAL VERSION OF SUCH FEATURES OR
-CONCEPTS. YOUR EXPERIENCE WITH USING SUCH FEATURES AND FUNCTIONALITY IN A PHYSICAL
-ENVIRONMENT MAY ALSO BE DIFFERENT.
-
-## FEEDBACK
-
-If you give feedback about the technology features, functionality and/or concepts described in this
-demo/lab to Microsoft, you give to Microsoft, without charge, the right to use, share and commercialize
-your feedback in any way and for any purpose. You also give to third parties, without charge, any patent
-rights needed for their products, technologies and services to use or interface with any specific parts of a
-Microsoft software or service that includes the feedback. You will not give feedback that is subject to a
-license that requires Microsoft to license its software or documentation to third parties because we
-include your feedback in them. These rights survive this agreement. MICROSOFT CORPORATION HEREBY
-DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO THE DEMO/LAB, INCLUDING ALL
-WARRANTIES AND CONDITIONS OF MERCHANTABILITY, WHETHER EXPRESS, IMPLIED OR STATUTORY,
-FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. MICROSOFT DOES NOT MAKE
-ANY ASSURANCES OR REPRESENTATIONS WITH REGARD TO THE ACCURACY OF THE RESULTS, OUTPUT
-THAT DERIVES FROM USE OF DEMO/ LAB, OR SUITABILITY OF THE INFORMATION CONTAINED IN THE
-DEMO/LAB FOR ANY PURPOSE.
-
-## DISCLAIMER
-
-This demo/lab contains only a portion of new features and enhancements in Microsoft Power Apps. Some
-of the features might change in future releases of the product. In this demo/lab, you will learn about
-some, but not all, new features.
+    ![](images/M02/M2-EX7-T1-S16-1.png)
 
 
-
+In addition to simply seeing who is building what in your tenant you can also use the list of new connectors to evaluate if you need to adjust your DLP policies.
