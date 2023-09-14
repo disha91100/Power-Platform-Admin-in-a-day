@@ -60,8 +60,8 @@ In this exercise, you will be shifting a pre-made environment from an unmanaged 
 
    ![](images/M04/M4-EX1-T1-S2.png)
 
-3. Input **Managed Environment (Initials)** for the name, set the region to your region, set the **Type** as Sandbox, and select the toggle to enable adding a Dataverse data store, then 
-   select **Next**.
+3. Input **Managed Environment-<inject key="Deployment ID" enableCopy="false" />** for the name, set the region to your region, set the **Type** as Sandbox, and select the toggle to 
+   enable adding a Dataverse data store, then select **Next**.
 
    ![](images/M04/M4-EX1-T1-S3.png)
 
@@ -71,7 +71,7 @@ In this exercise, you will be shifting a pre-made environment from an unmanaged 
 
 5. Wait for the environment to be provisioned and marked as Ready.
 
-6. Once the environment has provisioned, select the circle next to **Managed Environment** **(Initials)**.
+6. Once the environment has provisioned, select the circle next to **Managed Environment-<inject key="Deployment ID" enableCopy="false" />**.
 
 7. Select the three dots to view all the ribbon options, then select **Enable managed environment** to start the configuration process for this environment.
 
