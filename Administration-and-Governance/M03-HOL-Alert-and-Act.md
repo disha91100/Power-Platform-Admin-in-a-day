@@ -393,66 +393,109 @@ app, like business justification and the impact of an outage, from the maker.
 
 In this task you will be performing the role of the developer and completing the application information that will be requested by the automated process.
 
-1. When the full process runs the maker will receive an email like the following, with a link to the
-    Developer Compliance Center. For our exercise, we will briefly review and then we will launch the
-    app from the maker portal.
+1. When the full process runs the maker will receive an email like the following, with a link to the Developer Compliance Center. For our exercise, we will briefly review and then we will 
+   launch the app from the maker portal.
+
+   ![](images/M03/M3-EX3-T1-S1.png)
+
 2. Navigate to Power Apps and select the User **and Team Productivity** environment.
+
+   ![](images/M03/M3-EX3-T1-S2.png)
+
 3. Select **Apps** from the left-side navigation.
 
+    ![](images/M03/M3-EX3-T1-S3.png)
 
 4. Select the **∙∙∙** next to **Lab Admin #** application where # is your user number.
 
-```
-a. If it doesn’t exist, create a canvas app from scratch and name it Test App (Initials), where
-Initials are your initials. Set the format to Tablet and select Create.
-```
-```
-b. Skip the next step.
-```
+   a. If it doesn’t exist, create a canvas app from scratch and name it Test App (Initials), where Initials are your initials. Set the format to Tablet and select Create.
+
+    ![](images/M03/M3-EX3-T1-S4.png)
+
+   b. Skip the next step.
+
 5. Select **Edit** from the menu that appears, or from the ribbon at the top.
 
+   ![](images/M03/M3-EX3-T1-S5.png)
 
 6. Select **Settings** from the ribbon at the top.
-7. Under **General** , locate **Description** , and enter a simple description for a potential app. Then, close
-    the settings with the X at the top right.
 
+    ![](images/M03/M3-EX3-T1-S6.png)
+
+7. Under **General** , locate **Description** , and enter a simple description for a potential app. Then, close the settings with the X at the top right.
+
+    ![](images/M03/M3-EX3-T1-S7.png)
 
 8. Select **Save** at the top right, then select **Publish**
-9. From here, we can review the changes we made to the description as well as the app name and icon
-    associated with it. Select **Publish this version.**
-10. Wait for the publishing to complete, then select the  **Back** button.
-11. Switch to the **Power Platform COE** environment.
 
+    ![](images/M03/M3-EX3-T1-S8.png)
 
-12. Select **Solutions** from the left-side navigation, then the **Center of Excellence – Core Components**
-    solution.
-13. Select **Objects > Apps** from the menu on the left,
-14. Select the **∙∙∙** next to the **Power Platform Admin View** model-driven app and select **Play**.
+    ![](images/M03/M3-EX3-T1-S8-1.png)
 
+10. From here, we can review the changes we made to the description as well as the app name and icon associated with it. Select **Publish this version.**
 
-15. Select **PowerApps Apps** and search in the box at the top right for the **Lab Admin X** app, where X is
-    your lab user number or the test app we created. Select the appropriate result.
-16. Select the **Governance** tab and set the **Admin Risk Assessment State** to **Requested**.
-17. **Save & Close** at the top left.
-18. Close the **Power Platform Admin View** application.
+    ![](images/M03/M3-EX3-T1-S9.png)
 
+11. Wait for the publishing to complete, then select the  **Back** button.
 
-19. Navigate back to Solutions via the left-side navigation and select the **Center of Excellence –**
-    **Governance Components.**
-20. Select Apps from the **Objects** menu, then select **Developer Compliance Center.**
-21. The application will list all the apps that you are the owner of. The information at the bottom of
-    each card will indicate what is preventing your app from reaching full compliance.
-22. You should see at least one app that has the name lab admin and your number or the **Test App**
-    name. Select the card to review the details of the app.
-23. Review the App Compliance section which gives clear guidance on what needs to be updated.
-    Select the icon next to **Missing support details** to open the **Support Details** panel.
+     ![](images/M03/M3-EX3-T1-S10.png)
 
+12. Switch to the **Power Platform COE** environment.
 
-24. In the **Support Details** section fill in all the fields with information about your application, you can
-    make it as detailed as you want but submit information for each field in this section.
-25. Normally we would also adjust the description by editing the app, but for the purposes of this lab
-    will skip that.
-26. Select **Save** to save the information about the application and close the Support Details panel.
+     ![](images/M03/M3-EX3-T1-S11.png)
+
+13. Select **Solutions** from the left-side navigation, then the **Center of Excellence – Core Components** solution.
+
+     ![](images/M03/M3-EX3-T1-S12.png)
+
+14. Select **Objects > Apps** from the menu on the left,
+
+     ![](images/M03/M3-EX3-T1-S13.png)
+
+15. Select the **∙∙∙** next to the **Power Platform Admin View** model-driven app and select **Play**.
+
+     ![](images/M03/M3-EX3-T1-S14.png)
+
+16. Select **PowerApps Apps** and search in the box at the top right for the **Lab Admin X** app, where X is your lab user number or the test app we created. Select the appropriate result.
+
+     ![](images/M03/M3-EX3-T1-S15.png)
+
+17. Select the **Governance** tab and set the **Admin Risk Assessment State** to **Requested**.
+
+     ![](images/M03/M3-EX3-T1-S16.png)
+
+18. **Save & Close** at the top left.
+
+     ![](images/M03/M3-EX3-T1-S17.png)
+
+19. Close the **Power Platform Admin View** application.
+
+20. Navigate back to Solutions via the left-side navigation and select the **Center of Excellence –** **Governance Components.**
+
+     ![](images/M03/M3-EX3-T1-S19.png)
+
+21. Select Apps from the **Objects** menu, then select **Developer Compliance Center.**
+
+    ![](images/M03/M3-EX3-T1-S20.png)
+
+22. The application will list all the apps that you are the owner of. The information at the bottom of each card will indicate what is preventing your app from reaching full compliance.
+
+23. You should see at least one app that has the name lab admin and your number or the **Test App** name. Select the card to review the details of the app.
+
+     ![](images/M03/M3-EX3-T1-S22.png)
+
+24. Review the App Compliance section which gives clear guidance on what needs to be updated. Select the icon next to **Missing support details** to open the **Support Details** panel.
+
+     ![](images/M03/M3-EX3-T1-S23.png)
+
+25. In the **Support Details** section fill in all the fields with information about your application, you can make it as detailed as you want but submit information for each field in 
+    this section.
+
+26. Normally we would also adjust the description by editing the app, but for the purposes of this lab will skip that.
+
+27. Select **Save** to save the information about the application and close the Support Details panel.
+
+     ![](images/M03/M3-EX3-T1-S26.png)
 
 
 ### Task 2: Admin Review
@@ -560,74 +603,163 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 7. Select **Create as new** and select **Save**.
 
+   ![](images/M03/M3-EX4-T2-S7.png)
+
 8. Select **Configure** for **Power Platform for Admin Connection**.
+
+    ![](images/M03/M3-EX4-T2-S8.png)
+
 9. Select the available connection and select **Save**.
 
+   ![](images/M03/M3-EX4-T2-S9.png)
 
 10. Select Action for **Office 365 Outlook Connection**.
+
 11. Select the available connection and select **Save**.
+
 12. Select **Configure** for **Power Apps for Admin Connection**.
+
+    ![](images/M03/M3-EX4-T2-S12.png)
+
 13. Select to select the available connection and select **Save**.
 
+    ![](images/M03/M3-EX4-T2-S9.png)
 
 14. Select **Configure** for **Office 365 Group Connection**.
+
 15. Select **Create new**.
+
+    ![](images/M03/M3-EX4-T2-S15.png)
+
 16. Select **+ New connection**.
+
+   ![](images/M03/M3-EX4-T2-S16.png)
+
 17. Search for **Office 365 Groups** and select **Add**.
 
+    ![](images/M03/M3-EX4-T2-S17.png)
 
 18. Select **Create**.
+
 19. Login with your maker credentials.
+
 20. You should now have the connections listed in the image below.
+
+    ![](images/M03/M3-EX4-T2-S20.png)
+
 21. Go back to the Flow import.
+
 22. Select **Refresh list** , select the connection you just added, and select **Save**.
+
+    ![](images/M03/M3-EX4-T2-S22.png)
+
 23. Select Action for **Office 365 Users Connection**.
+
 24. Select the available connection and select **Save**.
+
 25. Repeat this for the **Office 365 Outlook Connection**.
+
 26. Select **Import** and wait for the import it to complete.
+
+    ![](images/M03/M3-EX4-T2-S26.png)
+
 27. The flow should import successfully.
+
+    ![](images/M03/M3-EX4-T2-S27.png)
+
 
 ### Task 3: Edit and Test Flow
 
-1. Navigate to the maker portal https://make.powerapps.com and select the **Central Apps Test**
-    **environment.**
+1. Navigate to the maker portal https://make.powerapps.com and select the **Central Apps Test** **environment.**
+
+   ![](images/M03/M3-EX4-T3-S1.png)
+
 2. Select **Apps**.
 
-
 3. Select **+ New app** and select **Canvas**.
+
+   ![](images/M03/M3-EX4-T3-S3.png)
+
 4. Enter **Test app** for App name, select **Tablet** for format, and select **Create**.
+
+   ![](images/M03/M3-EX4-T3-S4.png)
+
 5. The app designer should open. Select **Save** at the top right of the page.
+
+   ![](images/M03/M3-EX4-T3-S5.png)
+
 6. Select on the  back button.
 
+   ![](images/M03/M3-EX4-T3-S6.png)
 
 7. Go back to the app maker main page by selecting on the  **Back** button.
+
 8. Select **Solutions**.
+
 9. Select **Publish all customizations** and wait for the publishing to complete.
+
+   ![](images/M03/M3-EX4-T3-S9.png)
+
 10. Navigate to Power Automate and select the **Power Platform CoE** environment.
+
 11. Select **My Flows**.
+
 12. Locate the flow you imported and select **Edit**.
-4. Expand the **Recurrence** and make sure the flow is set to run once a day.
 
+    ![](images/M03/M3-EX4-T3-S12.png)
 
-5. Expand the **Office Group ID** step.
-6. Clear the current **Group ID**.
-7. Copy the **Group ID** from your notepad and paste it here.
-8. You may examine the steps of the flow.
-9. Select **Save**.
-10. Select on the back button.
-11. **Turn on** the flow if needed.
-12. Select **Run**.
-12. Select **Run Flow**.
-13. Select **Done**.
-14. **Refresh** every few seconds until the flow status changes.
-15. Your flow run should succeed.
+13. Expand the **Recurrence** and make sure the flow is set to run once a day.
 
+   ![](images/M03/M3-EX4-T3-S13.png)
 
-16. Go back to Azure portal
-17. Select **Azure Active Directory**.
-18. Select **Groups** and open the group you created.
-19. Select **Members**. You should have at least one member.
-20. Navigate to Outlook.
-21. You should get a welcome email. Open the email. If you don’t get an email, it is probably because
-    you didn’t create an application in the past 24 hours, create a new Power App and run the flow
-    again.
+14. Expand the **Office Group ID** step.
+
+15. Clear the current **Group ID**.
+
+16. Copy the **Group ID** from your notepad and paste it here.
+
+    ![](images/M03/M3-EX4-T3-S16.png)
+
+17. You may examine the steps of the flow.
+
+18. Select **Save**.
+
+19. Select on the back button.
+
+    ![](images/M03/M3-EX4-T3-S19.png)
+
+20. **Turn on** the flow if needed.
+
+21. Select **Run**.
+
+    ![](images/M03/M3-EX4-T3-S21.png)
+
+22. Select **Run Flow**.
+
+    ![](images/M03/M3-EX4-T3-S22.png)
+
+23. Select **Done**.
+
+24. **Refresh** every few seconds until the flow status changes.
+
+25. Your flow run should succeed.
+
+    ![](images/M03/M3-EX4-T3-S25.png)
+
+26. Go back to Azure portal
+
+27. Select **Azure Active Directory**.
+
+28. Select **Groups** and open the group you created.
+
+    ![](images/M03/M3-EX4-T3-S28.png)
+
+29. Select **Members**. You should have at least one member.
+
+    ![](images/M03/M3-EX4-T3-S29.png)
+30. Navigate to Outlook.
+
+31. You should get a welcome email. Open the email. If you don’t get an email, it is probably because you didn’t create an application in the past 24 hours, create a new Power App and run 
+    the flow again.
+    
+    ![](images/M03/M3-EX4-T3-S31.png)
