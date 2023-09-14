@@ -2,7 +2,58 @@
 
 #### Please note- the exercises provided here should be completed in a non-production environment. Often you will be assigned an environment by your facilitator. However, if you are completing these labs on your own, make sure to provision a developer or trial environment.
 
-# Securing your Tenant
+# M01-HOL-Securing your Tenant
+
+
+## Table of Contents
+
+
+1. Exercise 1 - Exploring existing Power Platform usage
+
+   **Scenario**
+   
+   - Task 1: Review existing environments 
+
+   - Task 2: Review existing Data policies
+
+2. Exercise 2 – Plan an environment strategy
+
+   **Scenario**
+   
+   - Task 1: Read about the current situation at Fabrikam
+
+   - Task 2: Build an Environment Plan
+  
+   - Task 3: Review the example environment plan and compare to yours 
+
+3. Exercise 3 – Plan a DLP strategy
+
+   **Scenario**
+   
+   - Task 1: Build a DLP Plan
+   
+   - Task 2: Review the example DLP plan and compare to yours 
+
+4. Exercise 4 – Evaluate impact of adding DLP
+
+   **Scenario**
+   
+   - Task 1: Create a trial environment
+   
+   - Task 2: Create a flow to get the weather
+  
+   - Task 3: Create a DLP Policy
+
+5. Exercise 5 –  Configure a security role
+
+   **Scenario**
+   
+   - Task 1: Import project management solution
+   
+   - Task 2: Create a security role
+  
+   - Task 3: Share app
+
 
 #### Hands-on lab
 
