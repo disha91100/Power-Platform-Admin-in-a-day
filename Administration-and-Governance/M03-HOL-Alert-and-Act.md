@@ -1,6 +1,47 @@
 ## Admin in a day
 
-# Action through Automation
+# M03-HOL-Action through Automation
+
+
+## Table of Contents
+
+
+1. Exercise 1 - Create Environment Request Form
+
+   **Scenario**
+   
+   - Task 1: Create Microsoft Form
+
+2. Exercise 2 – Create Environment on Form Submit
+
+   **Scenario**
+   
+   - Task 1: Delete your sandbox environment
+
+   - Task 2: Create New Environment Approval Flow
+  
+   - Task 3: Create Database and Notify User
+  
+   - Task 4: Test the Flow
+
+3. Exercise 3 – Application Compliance Process
+
+   **Scenario**
+   
+   - Task 1: Complete Developer Compliance
+   
+   - Task 2: Admin Review
+
+4. Exercise 4 – Welcome New Makers (Optional if you have time)
+
+   **Scenario**
+   
+   - Task 1: Create Office 365 Group
+   
+   - Task 2: Import Flow
+  
+   - Task 3: Edit and Test Flow
+
 
 #### Hands-on lab
 
