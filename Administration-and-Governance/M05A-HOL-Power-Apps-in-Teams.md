@@ -1,4 +1,10 @@
-# Power Apps in Teams
+# M05A-HOL-Power Apps in Teams
+
+## Table of Contents
+   
+   - Task 1: Create a team  
+
+   - Task 2: Create an app
 
 ## Teams setup
 
