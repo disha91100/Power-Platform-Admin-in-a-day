@@ -85,6 +85,8 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 - Environments that have been created
 - Data Loss Prevention (DLP) policies.
 
+>**Note**: Before Proceeding with the HOL, rename the default environment display name with **User and Team Productivity**
+
 ### Task 1: Review existing environments
 
 1. Logged in with the **Lab Admin account** in an in-private browser session navigate to https://aka.ms/ppac and select **Environments**.
