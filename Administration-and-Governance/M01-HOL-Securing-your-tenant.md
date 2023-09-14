@@ -342,7 +342,8 @@ In this exercise, you will create an environment, a flow, and then viewing the i
 
   ![](images/M01/M1-EX4-T1-S2.png)
 
-3. Enter **My Sandbox (Your initials)** for **Name** , select your **Region** , select **Trial** for **Type** , select **Yes** for **Add a Dataverse data store?,** and select **Next**.
+3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** for **Name** , select your **Region** , select **Trial** for **Type** , select **Yes** for **Add a Dataverse data 
+   store?,** and select **Next**.
 
    ![](images/M01/M1-EX4-T1-S3.png)
 
@@ -432,7 +433,7 @@ In this task you will create an environment specific DLP and see how it impacts 
 
    ![](images/M01/M1-EX4-T3-S2.png)
 
-3. Enter **My Sandbox (Your initials)** for **Name** and select **Next**.
+3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** for **Name** and select **Next**.
 
    ![](images/M01/M1-EX4-T3-S3.png)
 
