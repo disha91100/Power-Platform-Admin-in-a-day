@@ -1,6 +1,27 @@
 ## Admin in a day
 
-# Application Lifecycle Management – Managed Environments and Pipelines
+# M04-HOL-Application Lifecycle Management – Managed Environments and Pipelines
+
+## Table of Contents
+
+
+1. Exercise 1 - Managed Environments
+
+   **Scenario**
+   
+   - Task 1: Create a Managed Environment  
+
+   - Task 2: Review the Features of the Managed Environments
+
+2. Exercise 2 – Power Platform Pipelines
+
+   **Scenario**
+   
+   - Task 1: Configure a deployment pipeline
+
+   - Task 2: Run the pipeline
+  
+
 
 ##### Hands-on lab
 
