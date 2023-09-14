@@ -1,6 +1,61 @@
 ## Admin in a day
 
-# Reporting and Telemetry
+# M02-HOL-Reporting and Telemetry
+
+
+## Table of Contents
+
+
+1. Exercise 1 - Explore the out of the box analytics
+
+   **Scenario**
+   
+   - Task 1: Explore the Power Automate analytics
+
+   - Task 2: Review existing Data policies
+  
+   - Task 3: Explore the Capacity analytics
+
+2. Exercise 2 – Configure Dataverse logging for a table
+
+   **Scenario**
+   
+   - Task 1: Review audit logging in the environment
+
+   - Task 2: Test auditing
+
+3. Exercise 3 – Setup the CoE Starter Kit Power BI Dashboard
+
+   **Scenario**
+   
+   - Task 1: Explore the Power Platform Admin View app
+   
+   - Task 2: Power BI Dashboard 
+
+4. Exercise 4 – Perform a risk assessment of overshared resources
+
+   **Scenario**
+   
+   - Task 1: Locate Overshared Apps
+
+5. Exercise 5 –  How much is a connector used in your organization
+
+   **Scenario**
+   
+   - Task 1: Locate resources that use the SharePoint connector
+
+6. Exercise 6 –  Review tenant audit logs (Optional if you have time)
+
+   **Scenario**
+   
+   - Task 1: Review audit logging in the environment
+
+7. Exercise 7 –   Get notification of new apps, flows and connectors (Optional if you have time)
+
+   **Scenario**
+   
+   - Task 1: Create the flow from the template
+
 
 #### Hands-on lab
 
@@ -20,6 +75,28 @@ You need to use the assigned user and environment information to complete this l
 ## Exercise 1: Explore the out of the box analytics
 
 Now in this exercise, you will explore the out of the box analytics that are available from the Power Platform admin center.
+
+1. Navigate to **Power Platform admin center**
+
+2. select **Analytics > Power Apps**
+
+    ![](images/M02/tenant-analytics1.png)
+
+3. Select the Overview tab and select **Enable** to redirect to the Analytics pane.
+
+   ![](images/M02/tenant-enable1.png)
+
+4. In the Analytics pane, grant consent for tenant-level analytics by enabling the **Tenant-level analytics** feature and select **Save**
+
+   ![](images/M02/tenant-save1.png)
+
+
+>**Note**: Once enabled, this feature aggregates data from environments across all regions in your tenant and copies it into the default environment region for tenant-level reporting. A tenant-level administrator role is required for one-time operation of granting consent for tenant-level analytics.
+
+5. The Overview tab displays a message indicating that tenant-level analytics has been enabled. Typically, these reports are displayed within 24-48 hours of enabling the feature.
+
+   ![](images/M02/tenant-report1.png)
+
 
 ### Task 1: Explore the Power Automate analytics
 
