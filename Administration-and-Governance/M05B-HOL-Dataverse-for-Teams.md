@@ -1,6 +1,23 @@
 ## Admin in a day
 
-# Dataverse for Teams (Optional)
+# M05B-HOL-Dataverse for Teams (Optional)
+
+## Table of Contents
+
+1. Exercise 1 - Create your first app
+
+   **Scenario**
+   
+   - Task 1: Add Power Apps and pin it
+
+    - Task 2: Create application and table
+
+3. Exercise 2 – Share your app
+
+   **Scenario**
+   
+   - Task 1: Share the app
+
 
 #### Hands-on lab
 
