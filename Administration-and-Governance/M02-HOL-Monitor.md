@@ -350,7 +350,7 @@ Now in this exercise, you will explore the following key components:
 
 2. When you see the You have an account with us, select Sign In again and then select Start.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+    ![](images/M02/M2-EX3-T2-S2.png)
 
 3. Select **Start**.
 
@@ -359,17 +359,17 @@ Now in this exercise, you will explore the following key components:
 5. On the left side navigation select Workspaces and then Create a workspace. We are going to use this workspace to publish our report to from Power BI Desktop. This would allow you to 
    view it from PowerBI.com, the mobile app, or even embed it in other places like Microsoft Teams. The workspace can also be shared with others so they can see the analytics.
 
-   ![](images/M02/M2-EX3-T1-S13.png)
+   ![](images/M02/M2-EX3-T2-S5.png)
 
 6. When prompted select **Try free**.
 
-   ![](images/M02/M2-EX3-T1-S13.png)
+   ![](images/M02/M2-EX3-T2-S6.png)
 
 7. After the trial has started, you will have to re-navigate to Workspaces and then Create a workspace.
 
 8. On the Create panel, provide a unique name like CoE and your lab admin user number and select **Save**.
 
-   ![](images/M02/M2-EX3-T1-S13.png)
+   ![](images/M02/M2-EX3-T2-S8.png)
 
 9. Launch Power BI Desktop on your local computer, if you don’t have it installed you can install it from Downloads | Microsoft Power BI
 
@@ -379,7 +379,7 @@ Now in this exercise, you will explore the following key components:
 
 12. Once signed in, select **File** , **open report** , and select **Browse Reports**.
 
-   ![](images/M02/M2-EX3-T1-S13.png)
+   ![](images/M02/M2-EX3-T2-S12.png)
 
 13. Locate the folder containing lab files you downloaded.
 
@@ -387,24 +387,25 @@ Now in this exercise, you will explore the following key components:
 
 15. You will be asked to provide your org URL. Let’s go find it.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+    ![](images/M02/M2-EX3-T2-S15.png)
 
 16. Navigate to Power Platform Admin Center Power Platform Admin Center and select **Environments**.
 
 17. Locate the **Power Platform COE** environment and select the name to show the details page.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+    ![](images/M02/M2-EX3-T2-S17.png)
 
 18. Right select the **Environment URL** and select **Copy link address**.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+    ![](images/M02/M2-EX3-T2-S18.png)
 
 19. Back in Power BI Desktop, paste the **OrgURL** and select **Load**.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+    ![](images/M02/M2-EX3-T2-S19.png)
+
 20. Select **continue**. Follow prompts for credentials if they appear.
 
-   ![](images/M02/M2-EX3-T1-S13.png)
+   ![](images/M02/M2-EX3-T2-S20.png)
 
 21. The report should load automatically once the refresh has completed.
 
@@ -412,7 +413,7 @@ Now in this exercise, you will explore the following key components:
 
    a) Select File at the top right, then select Options and settings > Options.
    
-  ![](images/M02/M2-EX3-T1-S13.png)
+  ![](images/M02/M2-EX3-T2-S22-A.png)
    
    b) Select Security from the left.
    
@@ -422,64 +423,64 @@ Now in this exercise, you will explore the following key components:
    
    e) Select Okay to close the Options dialog.
 
-   ![](images/M02/M2-EX3-T1-S13.png)
+   ![](images/M02/M2-EX3-T2-S22-E.png)
 
 23. Review the Introduction page.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+    ![](images/M02/M2-EX3-T2-S23.png)
 
 24. Select the **Overview – Power Apps** tab, notice it gives a good high-level look at our tenant activity. If you have multiple locations, it will quickly highlight which users are more 
     engaged with building apps. You can also quickly see which environments are most active. Additionally, items that are detailed as **(Blank)** indicate that there is no data to 
     reference in the table.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+    ![](images/M02/M2-EX3-T2-S24.png)
 
 25. Review each page using the navigation at the bottom of the app and review the insights available.
 
 26. Select the **Environments** page.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+    ![](images/M02/M2-EX3-T2-S26.png)
 
 27. On the Environments page, use the date range picker and see how it affects the other data on the page. When you are done leave it set at the max date range.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+    ![](images/M02/M2-EX3-T2-S27.png)
 
 28. Select the **Apps** tab from the navigation at the bottom of the screen.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+    ![](images/M02/M2-EX3-T2-S28.png)
 
 29. On the Apps page notice the Creation Trend, this is an effective way to watch adoption progress.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+    ![](images/M02/M2-EX3-T2-S29.png)
 
 30. Select through the other pages via the tabs at the bottom and review the data available.
 
 31. Select **Publish** from the **Home** tab in the ribbon at the top.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+    ![](images/M02/M2-EX3-T2-S31.png)
 
 32. Save the report if prompted as **PBI Report (Your Initials),** which will look something like **PBI** **Report HR** for example.
 
 33. Select the CoE workspace you created and choose **Select.**
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+     ![](images/M02/M2-EX3-T2-S33.png)
 
 34. Wait for the publishing to complete and select **Open ‘<FileName>.pbix’ in Power BI** or **Got it**.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+     ![](images/M02/M2-EX3-T2-S34.png)
 
 35. If you selected **Open ‘<File>’** , skip this step. Otherwise, if you selected ‘Got it’, navigate to Power BI. Select **Workspaces** and then **CoE Workspace** you created. Otherwise, 
     skip to step 37.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+     ![](images/M02/M2-EX3-T2-S35.png)
 
 36. Select the **CoE Starter** with the type of **Report** from the list. You’ll notice a few other items have generated; these are done by default.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+     ![](images/M02/M2-EX3-T2-S36.png)
 
 37. Once the report loads, select the Environments page. Use the date slider to ensure the date range includes the last month.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+     ![](images/M02/M2-EX3-T2-S37.png)
 
 38. You have now successfully deployed the Power BI reports that come with the CoE starter kit.
 
