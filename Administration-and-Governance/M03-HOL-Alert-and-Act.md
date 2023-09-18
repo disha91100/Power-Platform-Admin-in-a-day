@@ -111,11 +111,11 @@ collect additional information allowing it to be tailored to your individual org
 
 6. Select **Text**.
 
-  ![](images/M03/M3-EX1-T1-S6.png)
+   ![](images/M03/M3-EX1-T1-S6.png)
 
 7. Enter **Environment Name** , make the question **Required** , and select **Add New.**
 
-  ![](images/M03/M3-EX1-T1-S7.png)
+   ![](images/M03/M3-EX1-T1-S7.png)
 
 8. Select **Text** again.
 
@@ -127,7 +127,7 @@ collect additional information allowing it to be tailored to your individual org
 
 11. Enter **What connectors will you use?** select **Long Answer** and make it **Required**.
 
-   ![](images/M03/M3-EX1-T1-S11.png)
+    ![](images/M03/M3-EX1-T1-S11.png)
 
 12. The form will be saved automatically.
 
@@ -163,8 +163,8 @@ the Office 365 connector.
 
 2. Confirm that your environment is set to **Power Platform CoE.**
 
-   Note: This environment is where our CoE starter kit is installed and is intended to be our dedicated admin environment. Even if you don’t use the starter kit, having a dedicated admin 
-   environment can be helpful.
+   Note: This environment is where our CoE starter kit is installed and is intended to be our dedicated admin environment. Even if you don’t use the starter kit, having a dedicated 
+   admin environment can be helpful.
 
    ![](images/M03/M3-EX2-T2-S2.png)
 
@@ -230,7 +230,7 @@ the Office 365 connector.
 
 22. Select **Condition** Control.
 
-   ![](images/M03/M3-EX2-T2-S22.png)
+    ![](images/M03/M3-EX2-T2-S22.png)
 
 23. Select on the Choose a value field and select **Outcome.**
 
@@ -674,7 +674,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 16. Select **+ New connection**.
 
-   ![](images/M03/M3-EX4-T2-S16.png)
+    ![](images/M03/M3-EX4-T2-S16.png)
 
 17. Search for **Office 365 Groups** and select **Add**.
 
@@ -751,7 +751,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 13. Expand the **Recurrence** and make sure the flow is set to run once a day.
 
-   ![](images/M03/M3-EX4-T3-S13.png)
+    ![](images/M03/M3-EX4-T3-S13.png)
 
 14. Expand the **Office Group ID** step.
 
