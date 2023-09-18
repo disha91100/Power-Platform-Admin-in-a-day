@@ -385,7 +385,8 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 9. Repeat this process for **Thrive Hr - Prod** and **Thrive Hr - Test** environments in the setup .
 
-10. Now, you need to install the pipelines app onto the host environment. In the Resources Panel, select **Dynamics 365 apps.** A list of apps currently installed for the environment will     appear.
+10. Now, you need to install the pipelines app onto the host environment. In the Resources Panel, select **Dynamics 365 apps.** A list of apps currently installed for the environment 
+    will appear.
   
     ![](images/M04/M4-EX2-T0-S10.png)
 
