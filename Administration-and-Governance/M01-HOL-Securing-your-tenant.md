@@ -463,7 +463,7 @@ In this task you will create an environment specific DLP and see how it impacts 
 
     ![](images/M01/M1-EX4-T3-S10.png)
 
-11. Choose the environment you created **(My Sandbox [Your Initials]) (1)** and select **Add to Policy (2)**.
+11. Choose the environment you created **(My Sandbox-<inject key="Deployment ID" enableCopy="false" />) (1)** and select **Add to Policy (2)**.
 
     ![](images/M01/M1-EX4-T3-S11.png)
 
@@ -504,7 +504,7 @@ group and assign the security role you just built.
 
 ### Task 1: Import project management solution
 
-1. Navigate to Power Apps maker portal and select The My Sandbox environment you created.
+1. Navigate to Power Apps maker portal and select The My Sandbox environmentnamed **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** you created.
 
    ![](images/M01/M1-EX4-T2-S1.png)
 
