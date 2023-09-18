@@ -403,7 +403,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 14. Confirm that the app is being installed onto the environment by checking that the **Status** reads as **Installing**.
 
-    ![](images/M04/M4-EX2-T0-S15.png)
+    ![](images/M04/M4-EX2-T0-S14.png)
 
 15. **Do not navigate away from this page.**
 
