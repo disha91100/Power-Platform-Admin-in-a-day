@@ -203,14 +203,15 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
     - As an environment admin or regular environment user, you will also be able to see any tenant-wide DLP policies applied to your environment. However, you would not be able to edit 
       those tenant-side DLP policies.
 
-    - As a Global Admin, Admin, Power Platform Service Admin or D365 Service Admin in your tenant, you will see all policies that exist in your tenant, even those that you did not create.
+    - As a Global Admin, Admin, Power Platform Service Admin or D365 Service Admin in your tenant, you will see all policies that exist in your tenant, even those that you did not 
+      create.
 
 
 4. Notice the Contoso Global DLP policy exists that is intended to span all environments (except selected ones) and represents the global DLP policy. For this lab environment Contoso 
    Global DLP policy has 4 environments selected instead of All except 4.
 
-5. You will also notice a DLP for **Thrive Exceptions**. That team had worked with the IT department to agree on exceptions they need for their environments and their environment would be 
-   excluded from the Contoso Global DLP. This exception DLP policy would have their environments included and apply only to them.
+5. You will also notice a DLP for **Thrive Exceptions**. That team had worked with the IT department to agree on exceptions they need for their environments and their environment would 
+   be excluded from the Contoso Global DLP. This exception DLP policy would have their environments included and apply only to them.
 
    ![](images/M01/M1-EX1-T2-S5.png)
 
@@ -234,8 +235,8 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
     ![](images/M01/M1-EX1-T2-S10.png)
 
-11. Select on the **Prebuilt connectors** and select the **Business** tab. Based on the use case for the Thrive application the connectors in the Business group have been established. You 
-    can also see how Scope and Environments are configured to only select the Thrive environments.
+11. Select on the **Prebuilt connectors** and select the **Business** tab. Based on the use case for the Thrive application the connectors in the Business group have been established. 
+    You can also see how Scope and Environments are configured to only select the Thrive environments.
 
     ![](images/M01/M1-EX1-T2-S11.png)
 
@@ -273,16 +274,16 @@ You found out that the new environments have stopped being created simply becaus
 handed a stack of requests that claimed they needed new environments. The following are the priority requests; we will ask you to help identify how to handle these when you fill out the 
 environment strategy template.
 
-    - Request 1: A user would like to build a set of Power Automate flows that helps organize their Outlook inbox and tags emails.
+  - Request 1: A user would like to build a set of Power Automate flows that helps organize their Outlook inbox and tags emails.
 
-    - Request 2: VP of Service wants to build some custom apps to support their teams; like how the market research team has done.
+  - Request 2: VP of Service wants to build some custom apps to support their teams; like how the market research team has done.
     
-    - Request 3: Marketing wants to build an app that makes it easy to publish tweets on Twitter using the Twitter connector. They also plan to create Power Automate flows that notify 
-                 them of mentions along with the sentiment of the message.
+  - Request 3: Marketing wants to build an app that makes it easy to publish tweets on Twitter using the Twitter connector. They also plan to create Power Automate flows that notify 
+    them of mentions along with the sentiment of the message.
 
-    - Request 4: HR would like to try the Crisis Comms app that Microsoft published and would like an environment for it to run in.
+  - Request 4: HR would like to try the Crisis Comms app that Microsoft published and would like an environment for it to run in.
     
-    - Request 5: A user would like to build an app that uses a custom connector for a 3rd party service and also uses the DropBox connector.
+  - Request 5: A user would like to build an app that uses a custom connector for a 3rd party service and also uses the DropBox connector.
 
 Yesterday you got some good news, another 30GB of storage capacity for environments had been procured. You also got permission to put in place the necessary steps to ensure it does not 
 get wasted.
