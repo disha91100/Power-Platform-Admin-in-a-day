@@ -112,29 +112,13 @@ In this task, you will create an application, a table, and add new columns to th
 
 15. Add a few more request rows and select **Close**. You can use the following data to enter into the cells of the table:
 
-```
-Name Description Date
-Plotter printer Facilities department needs a
-plotter printer.
-```
-```
-(today’s date)
-```
-```
-Security system The new A245 building doesn’t
-have a security system.
-```
-```
-(today’s date)
-```
-```
-Fire suppression system test Test the fire suppression
-system in buildings.
-```
-```
-(today’s date)
-```
-![](images/M05/M5B-EX1-T2-S15.png)
+     | Name                         | Description                                           | Date           |
+     | ---------------------------- | ----------------------------------------------------- | -------------- |
+     | Plotter Printer              | Facilities department needs a plotter printer         | (today's date) |
+     | Security system              | The new A245 building doesn't have a security system  | (today's date) |
+     | Fire suppression system test | Test the fire suppression system in buildings         | (today's date) |
+
+     ![](images/M05/M5B-EX1-T2-S15.png)
 
 16. The app should now have a gallery and a form. Select **Save** and wait for the app to be saved.
 
@@ -150,14 +134,9 @@ system in buildings.
 
 19. Provide a Name, Description, and Requested data. Use the following data to fill in the fields for the new request:
 
-```
-Name Description Request Date
-Covered outdoor work area Build a covered outdoor work area on
-the west side of building A
-```
-```
-(today’s date)
-```
+     | Name                         | Description                                                         | Requested Date |
+     | ---------------------------- | ------------------------------------------------------------------- | -------------- |
+     | Covered outdoor work area    | Build a covered outdoor work area on the west side of building Az45 | (today's date) |
 
 20. Select the **checkmark** in the top right-hand corner to **Save** the record.
 
