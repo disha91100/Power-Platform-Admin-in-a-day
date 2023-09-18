@@ -25,7 +25,7 @@
   
     ![](images/M01/password.png)
 
-6.  Once logged in, click on **Environment** and select the default environment named **OTU WA CNE<inject key="Deployment ID" enableCopy="false" />**.
+6.  Once logged in, click on **Environment** and select the default environment named **OTU WA CNE <inject key="Deployment ID" enableCopy="false" />**.
 
     ![](images/M01/otu-env.png)
 
