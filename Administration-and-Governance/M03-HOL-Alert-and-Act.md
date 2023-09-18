@@ -150,10 +150,10 @@ the Office 365 connector.
 
 1. While logged in as the lab admin user navigate to the Power Platform admin center.
 
-2. Locate and select your sandbox environment that you created in module one named **My Sandbox** **(Your initials)** in the list of environments.
+2. Locate and select your sandbox environment that you created in module one named **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** in the list of environments.
 
-3. Select the Delete button and confirm the deletion by typing the environment name. We have to delete it in order to create another Trial environment, which we can only have one of at a 
-   time.
+3. Select the Delete button and confirm the deletion by typing the environment name. We have to delete it in order to create another Trial environment, which we can only have one of at 
+   a time.
 
    ![](images/M03/M3-EX2-T1-S3.png)
 
