@@ -165,8 +165,8 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
     ![](images/M01/M1-EX1-T1-S21.png)
 
 22. These are apps built by users in your default environment. Notice many of them are just test names because this is where a lot of users will experiment and build their first app. As 
-    you scroll down the list you might notice some names are more deliberate e.g., Product Showcase. Later in the course we will talk about how to identify these upcoming apps so you can 
-    help give them the guidance to ensure they mature and have adequate governance.
+    you scroll down the list you might notice some names are more deliberate e.g., Product Showcase. Later in the course we will talk about how to identify these upcoming apps so you 
+    can help give them the guidance to ensure they mature and have adequate governance.
 
 23. Click on the **...** and select **Details** to view app details, such as app type (standard/premium), web link, connections and shared with information.
 
@@ -274,16 +274,16 @@ You found out that the new environments have stopped being created simply becaus
 handed a stack of requests that claimed they needed new environments. The following are the priority requests; we will ask you to help identify how to handle these when you fill out the 
 environment strategy template.
 
-  - Request 1: A user would like to build a set of Power Automate flows that helps organize their Outlook inbox and tags emails.
+- Request 1: A user would like to build a set of Power Automate flows that helps organize their Outlook inbox and tags emails.
 
-  - Request 2: VP of Service wants to build some custom apps to support their teams; like how the market research team has done.
+- Request 2: VP of Service wants to build some custom apps to support their teams; like how the market research team has done.
     
-  - Request 3: Marketing wants to build an app that makes it easy to publish tweets on Twitter using the Twitter connector. They also plan to create Power Automate flows that notify 
+- Request 3: Marketing wants to build an app that makes it easy to publish tweets on Twitter using the Twitter connector. They also plan to create Power Automate flows that notify 
     them of mentions along with the sentiment of the message.
 
-  - Request 4: HR would like to try the Crisis Comms app that Microsoft published and would like an environment for it to run in.
+- Request 4: HR would like to try the Crisis Comms app that Microsoft published and would like an environment for it to run in.
     
-  - Request 5: A user would like to build an app that uses a custom connector for a 3rd party service and also uses the DropBox connector.
+- Request 5: A user would like to build an app that uses a custom connector for a 3rd party service and also uses the DropBox connector.
 
 Yesterday you got some good news, another 30GB of storage capacity for environments had been procured. You also got permission to put in place the necessary steps to ensure it does not 
 get wasted.
