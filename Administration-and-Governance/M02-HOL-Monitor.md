@@ -397,7 +397,7 @@ Now in this exercise, you will explore the following key components:
 8. Select **Environments** in the left navigation. This will show you a list of all the environments in your tenant and key metrics like number of apps. To view all your environments, 
    similar to the image below, switch the view at the top to **Active Environments**.
 
-   ![](images/M02/M2-EX3-T1-S8.png)
+   ![](images/M02/M2-EX3-T1-S8-1.png)
 
 9. Select the **User and Team Productivity** environment to open the detail form.
 
