@@ -63,7 +63,7 @@ In this exercise, you will be shifting a pre-made environment from an unmanaged 
 3. Input **Managed Environment-<inject key="Deployment ID" enableCopy="false" />** for the name, set the region to your region, set the **Type** as Sandbox, and select the toggle to 
    enable adding a Dataverse data store, then select **Next**.
 
-   ![](images/M04/M4-EX1-T1-S3.png)
+   ![](images/M04/M4-EX1-T1-S3-1.png)
 
 4. Set the **Security group** to **None (1)** , then enable **Dynamics 365 apps (2)** , and select **Save (3)**.
 
