@@ -489,19 +489,19 @@ Now in this exercise, you will explore the following key components:
 
 22. Follow the steps below to enable map and filled map visuals:
 
-   a) Select File at the top right, then select Options and settings > Options.
+     a) Select File at the top right, then select Options and settings > Options.
    
-   ![](images/M02/M2-EX3-T2-S22-A.png)
+     ![](images/M02/M2-EX3-T2-S22-A.png)
    
-   b) Select Security from the left.
+     b) Select Security from the left.
    
-   c) Scroll down to the Map and Filled Map visuals section.
+     c) Scroll down to the Map and Filled Map visuals section.
    
-   d) Check the Use Map and Filled Map visuals checkbox.
+     d) Check the Use Map and Filled Map visuals checkbox.
    
-   e) Select Okay to close the Options dialog.
+     e) Select Okay to close the Options dialog.
 
-   ![](images/M02/M2-EX3-T2-S22-E.png)
+     ![](images/M02/M2-EX3-T2-S22-E.png)
 
 23. Review the Introduction page.
 
