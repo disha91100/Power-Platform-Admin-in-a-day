@@ -70,7 +70,7 @@ In this task, you will create an application, a table, and add new columns to th
 
 4. Select the **Central IT (1)** team and then select **Create (2)**.
 
-   ![](images/M05/M5B-EX1-T2-S4.png)
+   ![](images/M05/M5B-EX1-T2-S4-1.png)
 
 5. Enter **Special Request LA X** and select **Save**. Replace X with your lab user number.
 
