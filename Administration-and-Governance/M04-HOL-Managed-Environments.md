@@ -144,7 +144,7 @@ checker enforcer, follow this link (https://learn.microsoft.com/en-us/power-apps
 
 2. Navigate to Power Apps (http://make.powerapps.com).
 
-3. Ensure you're in the **Managed Solution (Initials)** environment by checking the environment navigator at the top right of the page.
+3. Ensure you're in the **Managed Environment-<inject key="Deployment ID" enableCopy="false" />** environment by checking the environment navigator at the top right of the page.
 
    ![](images/M04/M4-EX1-T2-S3.png)
 
@@ -178,7 +178,7 @@ checker enforcer, follow this link (https://learn.microsoft.com/en-us/power-apps
 
 12. Open a new tab and navigate back to Power Platform Admin Center.
 
-13. Select **Environments** , then select the circle icon next to **Managed Environment (Initials).**
+13. Select **Environments** , then select the circle icon next to **Managed Environment-<inject key="Deployment ID" enableCopy="false" />.**
 
 14. Select **Edit Managed Environments** from the ribbon at the top of the page.
 
@@ -213,7 +213,7 @@ A managed environment allows administrators to add additional data policies in p
 
 1. Navigate to the Power Platform Admin Center (https://aka.ms/ppac), if it is not open.
 
-2. Select **Environments** , then select the circle icon next to **Managed Environment (Initials).**
+2. Select **Environments** , then select the circle icon next to **Managed Environment-<inject key="Deployment ID" enableCopy="false" />.**
 
 3. Select **Edit Managed Environments.**
 
@@ -227,8 +227,8 @@ A managed environment allows administrators to add additional data policies in p
    ![](images/M04/M4-EX1-T2-F2-S4-1.png)
 
 
-5. (Optional) Since we have not created any nor have any data policies which are applied to the entire tenant, this page will prompt you to create a new data policy. Feel free to create a 
-   policy named DLP 1, which blocks the SQL server connector with a scope of all environments. The policy will then appear on the filtered view.
+5. (Optional) Since we have not created any nor have any data policies which are applied to the entire tenant, this page will prompt you to create a new data policy. Feel free to create 
+   a policy named DLP 1, which blocks the SQL server connector with a scope of all environments. The policy will then appear on the filtered view.
 
 
 ##### Feature 3: Usage Insights
@@ -246,7 +246,7 @@ information for the makers associated with the environment.
 
 1. Navigate to the Power Platform Admin Center, if it is not open.
 
-2. Select **Environments** , then select the circle icon next to **Managed Environment (Initials).**
+2. Select **Environments** , then select the circle icon next to **Managed Environment-<inject key="Deployment ID" enableCopy="false" />.**
 
 3. Select **Edit Managed Environments.**
 
@@ -283,7 +283,7 @@ in a team that is not bound to the environment.
 
    ![](images/M04/M4-EX1-T2-F5-S3.png)
 
-4. Name the app **Play with Sharing (Initials)** , set the format to **Tablet** , and then select **Create**.
+4. Name the app **Play with Sharing** , set the format to **Tablet** , and then select **Create**.
 
    ![](images/M04/M4-EX1-T2-F5-S4.png)
 
@@ -344,20 +344,20 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 2. For this lab, we will use this structure for our environments, following the guidelines for Application Lifecycle Management (ALM).
 
-     | Pipeline Stage | Environment Name | Type |
-     | -------------- | ---------------- | ---- |
-     | Host           | Managed Environment (Initials) | Default |
-     | Development    | Thrive Hr - Dev  |  Sandbox |
-     | Test           | Thrive Hr - Test | Sandbox |
-     | Production     | Thrive Hr- prod  | Production |
+     | Pipeline Stage | Environment Name    | Type |
+     | -------------- | ------------------- | ---- |
+     | Host           | Managed Environment | Default |
+     | Development    | Thrive Hr - Dev     |  Sandbox |
+     | Test           | Thrive Hr - Test    | Sandbox |
+     | Production     | Thrive Hr- prod     | Production |
    
 
   
-  >*Note:* Host Environments act as storage and management for pipeline configurations, run histories, and security settings. Should this environment be deleted, all pipelines and run        data will be deleted as well and cannot be recovered. Host environments can only have development and target environments that exist within the same region as the host environment. For 
-  this reason, some tenants may have multiple host environments.
+  >*Note:* Host Environments act as storage and management for pipeline configurations, run histories, and security settings. Should this environment be deleted, all pipelines and run              data will be deleted as well and cannot be recovered. Host environments can only have development and target environments that exist within the same region as the host 
+           environment. For this reason, some tenants may have multiple host environments.
   
 
-3. Select **Managed Environment (Initials)** to open a detailed view for the environment.
+3. Select **Managed Environment-<inject key="Deployment ID" enableCopy="false" />** to open a detailed view for the environment.
 
     ![](images/M04/M4-EX2-T0-S3.png)
 
@@ -365,7 +365,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
     ![](images/M04/M4-EX2-T0-S4.png)
   
-5. Clear out the existing name and replace it with **Thrive Hr - Host (1)** to remain in line with the naming convention of the other environments and select **Save (2)**.
+5. Clear out the existing name and replace it with **Thrive Hr (Initials) - Host (1)** to remain in line with the naming convention of the other environments and select **Save (2)**.
 
     ![](images/M04/M4-EX2-T0-S5.png)
 
