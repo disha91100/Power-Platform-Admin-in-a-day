@@ -29,8 +29,8 @@
 
 In this hands-on lab, you are an administrator, helping to adopt the Power Platform.
 
-Contoso wants to exert finer control over their environments and expand the functionality of an environment by enabling managed environments. They’ve asked you to apply the features of a 
-managed environment to a currently unmanaged environment.
+Contoso wants to exert finer control over their environments and expand the functionality of an environment by enabling managed environments. They’ve asked you to apply the features of 
+a managed environment to a currently unmanaged environment.
 
 In addition, the team building the Device Order Management app is now ready for you to transport their solution from their development environment to the test environment for testing.
 
@@ -190,7 +190,7 @@ checker enforcer, follow this link (https://learn.microsoft.com/en-us/power-apps
 
 16. Navigate back to the Power Apps solutions page.
 
-        a. You will need to delete the imported solution from the environment to ensure the solution checker is working correctly.
+    a. You will need to delete the imported solution from the environment to ensure the solution checker is working correctly.
 
 17. Select the three dots next to our imported solution, **Critical Error Solution** and select **Delete.**
  
