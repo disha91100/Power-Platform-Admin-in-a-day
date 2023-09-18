@@ -131,16 +131,16 @@ checker enforcer, follow this link (https://learn.microsoft.com/en-us/power-apps
 
 1. The solution checker comes with three options for the setting, explained below:
 
-       a. None: This option will turn off automatic solution validating and will not give any experience or behavioral changes to authoring, exports, and imports for solutions.
+   a. None: This option will turn off automatic solution validating and will not give any experience or behavioral changes to authoring, exports, and imports for solutions.
 
-       b. Warn: All custom solutions being imported will be automatically verified, but if there are any highly critical issues, you will receive a notice, but the import will not halt. 
+   b. Warn: All custom solutions being imported will be automatically verified, but if there are any highly critical issues, you will receive a notice, but the import will not halt. 
           After the solution is imported, a message will appear showing the validation issues that occurred upon import.
 
-       c. Block: Similar to the Warn feature, however when highly-critical issues occur, the import process is cancelled, rather than continuing. This will not cause any changes to the 
-          environment, since this occurs during the actual import process. For both the Warn and Block options, Power Platform environment admins will receive a summary email with of the 
-          solution validation.
+   c. Block: Similar to the Warn feature, however when highly-critical issues occur, the import process is cancelled, rather than continuing. This will not cause any changes to the 
+      environment, since this occurs during the actual import process. For both the Warn and Block options, Power Platform environment admins will receive a summary email with of 
+      the solution validation.
 
-- To test this feature, you'll need to import a solution with known errors.
+   - To test this feature, you'll need to import a solution with known errors.
 
 2. Navigate to Power Apps (http://make.powerapps.com).
 
