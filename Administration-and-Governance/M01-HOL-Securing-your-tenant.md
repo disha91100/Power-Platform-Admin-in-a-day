@@ -359,11 +359,11 @@ In this exercise, you will create an environment, a flow, and then viewing the i
 
 1. Navigate to Power Apps maker portal and select the environment you created.
 
-   ![](images/M01/M1-EX4-T2-S1.png)
+   ![](images/M01/M1-EX4-T2-S1-1.png)
 
 2. Select **Flows (1)** from the left, select **+ New (2)** and select **Scheduled cloud flow (3)**.
 
-   ![](images/M01/M1-EX4-T2-S2.png)
+   ![](images/M01/M1-EX4-T2-S2-1.png)
 
 3. Enter **Weather Flow** for **Name** , select **Repeat every 1 Day** , and select **Create**.
 
@@ -445,11 +445,11 @@ In this task you will create an environment specific DLP and see how it impacts 
 
 5. Search for SharePoint, select **SharePoint (1)** and select **Move to Business (2)**.
 
-   ![](images/M01/M1-EX4-T3-S5.png)
+   ![](images/M01/M1-EX4-T3-S5-1.png)
 
 6. Search for Outlook, select **Office 365 Outlook (1)** and select **Move to Business (2)**.
 
-   ![](images/M01/M1-EX4-T3-S6.png)
+   ![](images/M01/M1-EX4-T3-S6-1.png)
 
 7. Select the **Business** tab.
 
@@ -506,7 +506,7 @@ group and assign the security role you just built.
 
 1. Navigate to Power Apps maker portal and select The My Sandbox environmentnamed **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** you created.
 
-   ![](images/M01/M1-EX4-T2-S1.png)
+   ![](images/M01/M1-EX4-T2-S1-1.png)
 
 2. Select **Solutions (1)** and select **Import solution (2)**.
 
