@@ -174,6 +174,7 @@ Now in this exercise, you will explore the out of the box analytics that are ava
 ### Task 3 : Explore the Capacity analytics
 
 1. Navigate to **Power Platform admin center**
+
 2. Expand **Resources** and select **Capacity**.
 
     ![](images/M02/M2-EX1-T3-S2.png)
@@ -210,21 +211,21 @@ Now in this exercise, you will explore the out of the box analytics that are ava
 
 11. Go to the navigation pane on the far left and expand **Analytics,** then select **Dataverse**.
 
-   ![](images/M02/M2-EX1-T3-S11.png)
+    ![](images/M02/M2-EX1-T3-S11.png)
 
 12. Review the visuals.
 
 13. Select **Change filters**.
 
-   ![](images/M02/M2-EX1-T3-S13.png)
+    ![](images/M02/M2-EX1-T3-S13.png)
 
 14. Change the **From** date to one week from today’s date and the **To** date to today. Select **Apply**.
 
-   ![](images/M02/M2-EX1-T3-S14.png)
+    ![](images/M02/M2-EX1-T3-S14.png)
 
 15. The visuals should change to reflect your changes.
 
-   ![](images/M02/M2-EX1-T3-S15.png)
+    ![](images/M02/M2-EX1-T3-S15.png)
 
 
 ## Exercise 2: Configure Dataverse logging for a table
@@ -456,7 +457,7 @@ Now in this exercise, you will explore the following key components:
 
 12. Once signed in, select **File** , **open report** , and select **Browse Reports**.
 
-   ![](images/M02/M2-EX3-T2-S12.png)
+    ![](images/M02/M2-EX3-T2-S12.png)
 
 13. Locate the folder containing lab files you downloaded.
 
@@ -482,7 +483,7 @@ Now in this exercise, you will explore the following key components:
 
 20. Select **continue**. Follow prompts for credentials if they appear.
 
-   ![](images/M02/M2-EX3-T2-S20.png)
+    ![](images/M02/M2-EX3-T2-S20.png)
 
 21. The report should load automatically once the refresh has completed.
 
@@ -490,7 +491,7 @@ Now in this exercise, you will explore the following key components:
 
    a) Select File at the top right, then select Options and settings > Options.
    
-  ![](images/M02/M2-EX3-T2-S22-A.png)
+   ![](images/M02/M2-EX3-T2-S22-A.png)
    
    b) Select Security from the left.
    
@@ -506,8 +507,8 @@ Now in this exercise, you will explore the following key components:
 
     ![](images/M02/M2-EX3-T2-S23.png)
 
-24. Select the **Overview – Power Apps** tab, notice it gives a good high-level look at our tenant activity. If you have multiple locations, it will quickly highlight which users are more 
-    engaged with building apps. You can also quickly see which environments are most active. Additionally, items that are detailed as **(Blank)** indicate that there is no data to 
+24. Select the **Overview – Power Apps** tab, notice it gives a good high-level look at our tenant activity. If you have multiple locations, it will quickly highlight which users are 
+    more engaged with building apps. You can also quickly see which environments are most active. Additionally, items that are detailed as **(Blank)** indicate that there is no data to 
     reference in the table.
 
     ![](images/M02/M2-EX3-T2-S24.png)
