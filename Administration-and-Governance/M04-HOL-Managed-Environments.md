@@ -418,7 +418,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 2. To do this, navigate back to the **Environments** page of the Power Platform Admin site from the left-side navigation.
 
-  ![](images/M04/M4-EX2-T1A-S2.png)
+   ![](images/M04/M4-EX2-T1A-S2.png)
 
 3. Select the **... (1)** to the right of to **Thrive Hr - Dev** , then select **Detailed View (2)** to get the environment information.
 
@@ -575,7 +575,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 13. Once the deployment is complete, the option to deploy to production appears. Select **Deploy** **here** for the **Deploy to Prod** stage.
 
-   ![](images/M04/M4-EX2-T2-S13.png)
+    ![](images/M04/M4-EX2-T2-S13.png)
 
 14. This time, we'll schedule the deployment. To do so, select **Later** from the radial menu, and set the deployment time closest to your current time (ex. Your current time is 4:53 PM, 
     select 5:00  PM. then select **Next.**
