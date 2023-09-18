@@ -340,10 +340,10 @@ In this exercise, you will create an environment, a flow, and then viewing the i
 
 2. Select **Environments** and select **+ New**.
 
-  ![](images/M01/M1-EX4-T1-S2.png)
+   ![](images/M01/M1-EX4-T1-S2.png)
 
-3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** for **Name** , select your **Region** , select **Trial** for **Type** , select **Yes** for **Add a Dataverse data 
-   store?,** and select **Next**.
+3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** for **Name** , select your **Region** , select **Trial** for **Type** , select **Yes** for **Add a Dataverse 
+   data store?,** and select **Next**.
 
    ![](images/M01/M1-EX4-T1-S3.png)
 
@@ -372,7 +372,7 @@ In this exercise, you will create an environment, a flow, and then viewing the i
 
 5. Search for **MSN (1)** and select **Get current weather MSN Weather (2)**.
 
-  ![](images/M01/M1-EX4-T2-S5.png)
+   ![](images/M01/M1-EX4-T2-S5.png)
 
 6. Provide your **Location (1)** , select your preferred **Units (2)** , and select **+ New step (3)**.
 
@@ -406,7 +406,7 @@ In this exercise, you will create an environment, a flow, and then viewing the i
 
 16. Select **Run**.
 
-   ![](images/M01/M1-EX4-T2-S16.png)
+    ![](images/M01/M1-EX4-T2-S16.png)
 
 17. Select **Run flow**.
 
@@ -460,7 +460,7 @@ In this task you will create an environment specific DLP and see how it impacts 
 
 10. Select **Add multiple environments (1)** from the options, then select **Next (2).**
 
-   ![](images/M01/M1-EX4-T3-S10.png)
+    ![](images/M01/M1-EX4-T3-S10.png)
 
 11. Choose the environment you created **(My Sandbox [Your Initials]) (1)** and select **Add to Policy (2)**.
 
