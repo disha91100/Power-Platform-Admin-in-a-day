@@ -1,6 +1,6 @@
 ## Admin in a day
 
-# M04-HOL-Application Lifecycle Management – Managed Environments and Pipelines
+# M04-HOL- Managed Environments
 
 ## Table of Contents
 
