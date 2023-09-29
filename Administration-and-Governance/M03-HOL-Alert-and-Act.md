@@ -591,13 +591,13 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 1. Navigate to Azure portal
 
-2. Select **Azure Active Directory**.
+2. Select **Microsoft Entra ID**.
 
-   ![](images/M03/M3-EX4-T1-S2.png)
+   ![](images/M03/Entra-ID.png)
 
 3. Select **Groups**.
 
-   ![](images/M03/M3-EX4-T1-S3.png)
+   ![](images/M03/Entra-ID-1.png)
 
 4. Select **+ New Group.**
 
@@ -789,7 +789,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 26. Go back to Azure portal
 
-27. Select **Azure Active Directory**.
+27. Select **Microsoft Enta ID**.
 
 28. Select **Groups** and open the group you created.
 
