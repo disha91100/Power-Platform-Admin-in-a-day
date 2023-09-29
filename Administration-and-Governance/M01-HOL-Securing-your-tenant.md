@@ -499,8 +499,8 @@ In this task you will create an environment specific DLP and see how it impacts 
 ### Scenario
 
 In this exercise, you are going to import a pre-built Power Apps canvas app that was built in another environment. The application allows users to see a list of Projects stored in 
-Dataverse. After importing you will build a Security Role to allow users to work with the Project table data. Finally, you will see how to share the application with an Azure AD Security 
-group and assign the security role you just built.
+Dataverse. After importing you will build a Security Role to allow users to work with the Project table data. Finally, you will see how to share the application with an Microsoft Entra 
+ID Security group and assign the security role you just built.
 
 ### Task 1: Import project management solution
 
