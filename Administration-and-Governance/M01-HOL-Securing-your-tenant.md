@@ -113,7 +113,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 7. You should now see **Production** and **Default** environments.
 
-8. Select on the **Environments !)** column, select **Sort order** by **Ascending (2)** , and select **Apply (3)**.
+8. Select on the **Environments (1)** column, select **Sort order** by **Ascending (2)** , and select **Apply (3)**.
 
    ![](images/M01/M1-EX1-T1-S8.png)
 
@@ -151,7 +151,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
     ![](images/M01/M1-EX1-T1-S18.png)
 
-19. Notice that the org is listed as the **Business Unit** ; this means everyone in the organization will have this role by default. For environments other than default, you control this. 
+19. Notice that the org is listed as the **Business Unit**; this means everyone in the organization will have this role by default. For environments other than default, you control this. 
     However, default is special and Tenant can’t be removed from the role.
  
     ![](images/M01/M1-EX1-T1-S19.png)
@@ -514,7 +514,7 @@ ID Security group and assign the security role you just built.
 
 3. Select **Browse**.
 
-4. Select the **Fabrikam Project Management (1)** solution located in the lab resources folder and select **Open (2)**.
+4. Select the **Fabrikam Project Management (1)** solution located in the **C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M01 - HOL - Securing your tenant\Resources** folder and select **Open (2)**.
 
    ![](images/M01/M1-EX5-T1-S4.png)
 
@@ -617,7 +617,7 @@ ID Security group and assign the security role you just built.
 
     ![](images/M01/M1-EX5-T2-S3.png)
 
-4. Enter **Project Manager (1)** for **Role Nam** e and select **Save (2)**.
+4. Enter **Project Manager (1)** for **Role Name**  and select **Save (2)**.
 
    ![](images/M01/M1-EX5-T2-S4.png)
 
