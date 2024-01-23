@@ -12,7 +12,7 @@
 
 ### Task 1: Create a team
 
-1. Navigate to Microsoft Teams and log in with the **admin account.**
+1. Navigate to Microsoft Teams and log in with the **admin account**.
 
 2. Select **Join or create a team** at the bottom left of the screen.
 
@@ -48,9 +48,9 @@
 
     ![](images/M05/T1A-S10.png)
 
-### Task 2 : Create an app
+### Task 2: Create an app
 
-1. Navigate to Microsoft Teams and log in with the **admin account.**
+1. Navigate to Microsoft Teams and log in with the **admin account**.
 
 2. Select **∙∙∙** from the navigation bar to the left of the screen, and then select **Power Apps (1)** and select **Start now (2)** from the main card.
 
