@@ -16,15 +16,15 @@
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-   ![](images/M01/sign-in.png)
+     ![](images/M01/sign-in.png)
 
 5. Now enter the following **password**  and click on **Sign in**. 
 
     * Password: <inject key="AzureAdUserPassword"></inject>
   
-    ![](images/M01/password.png)
+      ![](images/M01/password.png)
 
-6.  Once logged in, click on **Environment** and select the default environment named **OTU WA CNE <inject key="Deployment ID" enableCopy="false" />**.
+6.  Once logged in, click on **Environment** and select the default environment named **OTU WA AIW <inject key="Deployment ID" enableCopy="false" />**.
 
     ![](images/M01/otu-env.png)
 

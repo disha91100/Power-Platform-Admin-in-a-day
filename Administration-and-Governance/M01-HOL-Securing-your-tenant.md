@@ -117,14 +117,14 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 9. The list of environments will show **Production** and _Default_ environments ordered by environment name in ascending order.
 
-   ![](images/M01/M1-EX1-T1-S9.png)
+   ![](images/M01/po1.png)
 
 10. Now remove the filters and you should see all environments.
 
     ![](images/M01/M1-EX1-T1-S10.png)
 
-11. Next, notice all the environments with **Thrive HR** in the name. These are a set of environments Contoso uses to manage the lifecycle of their Thrive apps; a suite of employee 
-    engagement apps. They are built in Thrive HR - Dev and then are promoted to Test -> UAT-> Production after testing by your admin team.
+11. Next, notice all the environments with **Thrive Hr** in the name. These are a set of environments Contoso uses to manage the lifecycle of their Thrive apps; a suite of employee 
+    engagement apps. They are built in Thrive Hr - Dev and then are promoted to Test -> UAT-> Production after testing by your admin team.
 
 12. Select on the **Type** and filter by **Default**.
 
@@ -134,29 +134,27 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 14. Select the default environment by Selecting the name in the list to drill down into the detail page.
 
-    ![](images/M01/M1-EX1-T1-S14.png)
+    ![](images/M01/po2.png)
 
 15. In the **Access** section, you’ll notice that there are multiple options to choose from, which can be used to determine who has access to which items.
 
-16. Select **See All** under **Security Roles.**
+16. Select **See all** under **Security Roles.**
 
-    ![](images/M01/M1-EX1-T1-S16.png)
+    ![](images/M01/po20.png)
 
 17. From here, you can review all of the security roles for your company and manage their access to the company’s data. By default, users have access to all security roles. The business 
     unit currently listed is the same as the tenant and these are assigned to all users by default. Managed roles can be modified to create.
 
 18. Use the search box in the top right and enter **Environment Maker** to find the Environment maker security role, then select the lone result.
 
-    ![](images/M01/M1-EX1-T1-S18.png)
-
-19. Notice that the org is listed as the **Business Unit**; this means everyone in the organization will have this role by default. For environments other than the default, you control this. 
-    However, default is special and Tenant can’t be removed from the role.
+    ![](images/M01/po3.png)
  
-    ![](images/M01/M1-EX1-T1-S19.png)
+    >**Note:** Notice that the org is listed as the **Business Unit**; this means everyone in the organization will have this role by default. For environments other than the default, you control this. 
+    However, default is special and Tenant can’t be removed from the role.
 
 20. Go back to the Environment Details page.
 
-    ![](images/M01/M1-EX1-T1-S20.png)
+    ![](images/M01/po21.png)
 
 21. In the **Resources** section, Select **Power Apps**.
 
@@ -166,26 +164,9 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
     you scroll down the list you might notice some names are more deliberate e.g., Product Showcase. Later in the course, we will talk about how to identify these upcoming apps so you 
     can help give them the guidance to ensure they mature and have adequate governance.
 
-23. Click on the **...** and select **Details** to view app details, such as app type (standard/premium), web link, connections and shared information.
+23. Click on the **... (1)** and select **Details (2)** to view app details, such as App Type (Standard/Premium), Web link, Connections and Shared information.
 
-    ![](images/M01/M1-EX1-T1-S23.png)
-
-24. Go back to the previous page and select **Flows** in the **Resources** section; you will notice a similar pattern to apps.
-
-    ![](images/M01/M1-EX1-T1-S24.png)
-
-25. From here you can quickly turn off an active flow, as well as delete it if necessary.
-
-    ![](images/M01/M1-EX1-T1-S25.png)
-
-26. Click the **...** button on one of the flows and select **Details**.
-
-    ![](images/M01/M1-EX1-T1-S26.png)
-
-27. From here you can see who created it, who the owner is as well as what connections it is using. You can also view and share the flow with others from here. We will discuss that more 
-    later in the course.
-
-    ![](images/M01/M1-EX1-T1-S27.png)
+    ![](images/M01/po5.png)
 
 
 ### Task 2: Review existing Data policies
@@ -229,7 +210,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
    ![](images/M01/M1-EX1-T2-S9.png)
 
-10. Select the **Thrive DLP (1)** and select **Edit Policy again (2)**.
+10. Select the **Thrive DLP (1)** and select **Edit Policy (2)**.
 
     ![](images/M01/M1-EX1-T2-S10.png)
 
@@ -344,11 +325,11 @@ In this exercise, you will create an environment, and a flow, and then view the 
 3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** for **Name**, select your **Region**, select **Trial** for **Type**, select **Yes** for **Add a Dataverse 
    data store?**, and select **Next**.
 
-   ![](images/M01/M1-EX4-T1-S3.png)
+   ![](images/M01/po6.png)
 
-4. You may provide a **URL**, select **Currency**, and then set your security group to **All Company**.
+4. You may provide a **URL**, select **Currency**, and then set your security group to **All Contoso users** and select **Save**.
 
-   ![](images/M01/M1-EX4-T1-S4.png)
+   ![](images/M01/po7.png)
 
 5. Wait for the environment to be created. The state will change to **Ready** when the environment is ready.
 
@@ -357,7 +338,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 1. Navigate to the Power Apps maker portal and select the environment you created.
 
-   ![](images/M01/M1-EX4-T2-S1-1.png)
+   ![](images/M01/po8.png)
 
 2. Select **Flows (1)** from the left, select **+ New (2)** and select **Scheduled cloud flow (3)**.
 
@@ -365,7 +346,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 3. Enter **Weather Flow** for **Name**, select **Repeat every 1 Day**, and select **Create**.
 
-    ![](images/M01/M1-EX4-T2-S3.png)
+    ![](images/M01/po9.png)
 
 4. Select **+ New step**.
 
@@ -381,7 +362,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
    ![](images/M01/M1-EX4-T2-S7.png)
 
-8. Provide your email for **To** and enter **Current Weather** for **Subject**.
+8. Provide your email for **To:** **<inject key="AzureAdUserEmail"></inject>** and enter **Current Weather** for **Subject**.
 
 9. Select on the Body enter **Current weather for:** and select **Location** from the Dynamic content pane.
 
@@ -397,15 +378,15 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 13. Select **Save**.
 
+    ![](images/M01/po10.png)
+
 14. Go to My Flows by selecting the  button located on the top left of the page.
 
     ![](images/M01/M1-EX4-T2-S14.png)
 
-15. Select to open the flow.
+15. Select to open the flow and Select **Run**.
 
-16. Select **Run**.
-
-    ![](images/M01/M1-EX4-T2-S16.png)
+    ![](images/M01/po11.png)
 
 17. Select **Run flow**.
 
@@ -415,10 +396,9 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
     ![](images/M01/M1-EX4-T2-S18.png)
 
-19. Navigate to **Outlook**.
+19. Navigate to **Outlook** and You should get an email with the weather information.
 
-20. You should get an email with the weather information.
-
+    ![](images/M01/po12.png)
 
 ### Task 3: Create a DLP Policy
 
@@ -434,7 +414,7 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
 3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** for **Name** and select **Next**.
 
-   ![](images/M01/M1-EX4-T3-S3.png)
+   ![](images/M01/po13.png)
 
 4. Search for Microsoft Dataverse, select **Microsoft Dataverse (1)**, and select **Move to Business (2)**. Choose carefully, you may have to expand the Name column to differentiate 
    between connectors in your search results.
@@ -453,7 +433,7 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
 8. You should now have three connectors moved to Business. Select **Next**.
 
-   ![](images/M01/M1-EX4-T3-S8.png)
+   ![](images/M01/po14.png)
 
 9. Skip the Custom connector by Selecting the **Next** button, we won’t be using any in this example.
 
@@ -461,9 +441,9 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
     ![](images/M01/M1-EX4-T3-S10.png)
 
-11. Choose the environment you created **(My Sandbox-<inject key="Deployment ID" enableCopy="false" />) (1)** and select **Add to Policy (2)**.
+11. Choose the environment you created **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** and select **Add to Policy (2)**.
 
-    ![](images/M01/M1-EX4-T3-S11.png)
+    ![](images/M01/po15.png)
 
 12. Once done, Select **Next**.
 
@@ -473,7 +453,7 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
 14. Navigate to Power Automate and make sure you are in the sandbox environment.
 
-    ![](images/M01/M1-EX4-T3-S14.png)
+    ![](images/M01/po16.png)
 
 15. Select **My flows**.
 
@@ -504,7 +484,7 @@ ID Security group and assign the security role you just built.
 
 1. Navigate to the Power Apps maker portal and select The My Sandbox environment named **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** you created.
 
-   ![](images/M01/M1-EX4-T2-S1-1.png)
+   ![](images/M01/po8.png)
 
 2. Select **Solutions (1)** and select **Import solution (2)**.
 
@@ -584,9 +564,9 @@ ID Security group and assign the security role you just built.
 
     ![](images/M01/M1-EX5-T1-S23.png)
 
-24. Select **Apps (1)** and select **Project List (2)** canvas application.
+24. Select **Apps (1)** and select **Project List (2)** and click on **Play (3)** to run canvas application.
 
-    ![](images/M01/M1-EX5-T1-S24.png)
+    ![](images/M01/po17.png)
 
 25. The application should load, and you should see the sample project records the flow created. Select the **+** in the top right of the app.
 
@@ -594,7 +574,7 @@ ID Security group and assign the security role you just built.
 
 26. Enter **Test Project (1)** for **Title**, select **Due date (2)** and select **Submit (3)**.
 
-    ![](images/M01/M1-EX5-T1-S26.png)
+    ![](images/M01/po18.png)
 
 27. The application should create a new record and take you back to the list of projects.
 
@@ -658,7 +638,7 @@ ID Security group and assign the security role you just built.
 
 2. Click on **Apps (1)**, then choose **Project List (2)** application, and select **Share (3)**.
 
-   ![](images/M01/M1-EX5-T3-S2.png)
+   ![](images/M01/po19.png)
 
 3. Search for lab back office and select Lab Back Office group.
 
