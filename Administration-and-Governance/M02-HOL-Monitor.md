@@ -2,11 +2,9 @@
 
 # M02-HOL-Reporting and Telemetry
 
-
 ## Table of Contents
 
-
-1. Exercise 1 - Explore the out of the box analytics
+1. Exercise 1 - Explore the out-of-the-box analytics
 
    **Scenario**
    
@@ -63,7 +61,7 @@
 
 In this Hands-on Lab, you are an administrator helping adopt the Power Platform.
 
-An important part of keeping the Power Platform running successfully is monitoring the ongoing usage. In this hands-on lab you will be using the platform tools and the COE Starter Kit to 
+An important part of keeping the Power Platform running successfully is monitoring the ongoing usage. In this hands-on lab, you will be using the platform tools and the COE Starter Kit to 
 perform usage monitoring.
 
 ## Lab Test Environment
@@ -72,13 +70,13 @@ This lab is designed to be completed in an environment setup for multiple studen
 
 You need to use the assigned user and environment information to complete this lab. You must have completed the prior labs to successfully complete this lab.
 
-## Exercise 1: Explore the out of the box analytics
+## Exercise 1: Explore the out-of-the-box analytics
 
-Now in this exercise, you will explore the out of the box analytics that are available from the Power Platform admin center.
+Now in this exercise, you will explore the out-of-the-box analytics that are available from the Power Platform admin center.
 
-1. Navigate to **Power Platform admin center**
+1. Navigate to **Power Platform admin center**.
 
-2. select **Analytics > Power Apps**
+2. select **Analytics > Power Apps**.
 
     ![](images/M02/tenant-analytics1.png)
 
@@ -86,12 +84,12 @@ Now in this exercise, you will explore the out of the box analytics that are ava
 
    ![](images/M02/tenant-enable1.png)
 
-4. In the Analytics pane, grant consent for tenant-level analytics by enabling the **Tenant-level analytics** feature and select **Save**
+4. In the Analytics pane, grant consent for tenant-level analytics by enabling the **Tenant-level analytics** feature and select **Save**.
 
    ![](images/M02/tenant-save1.png)
 
 
->**Note**: Once enabled, this feature aggregates data from environments across all regions in your tenant and copies it into the default environment region for tenant-level reporting. A tenant-level administrator role is required for one-time operation of granting consent for tenant-level analytics.
+>**Note**: Once enabled, this feature aggregates data from environments across all regions in your tenant and copies it into the default environment region for tenant-level reporting. A tenant-level administrator role is required for the one-time operation of granting consent for tenant-level analytics.
 
 5. The Overview tab displays a message indicating that tenant-level analytics has been enabled. Typically, these reports are displayed within 24-48 hours of enabling the feature.
 
@@ -100,7 +98,7 @@ Now in this exercise, you will explore the out of the box analytics that are ava
 
 ### Task 1: Explore the Power Automate analytics
 
-1. Navigate to **Power Platform admin center**
+1. Navigate to **Power Platform admin center**.
 
 2. Expand **Analytics**.
 
@@ -120,7 +118,7 @@ Now in this exercise, you will explore the out of the box analytics that are ava
 
 8. Review the visuals in the rest of the tabs.
 
-9. In the top left corner of the screen, under the header, select **Overview** to review tenant level
+9. In the top left corner of the screen, under the header, select **Overview** to review tenant-level
     analytics.
 
     ![](images/M02/M2-EX1-T1-S9.png)
@@ -133,9 +131,9 @@ Now in this exercise, you will explore the out of the box analytics that are ava
     ![](images/M02/M2-EX1-T1-S11.png)
 
 
-### Task 2 : Explore the Power Apps analytics
+### Task 2: Explore the Power Apps analytics
 
-1. Navigate to **Power Platform admin center**
+1. Navigate to **Power Platform admin center**.
 
 2. Expand **Power Apps**.
 
@@ -145,9 +143,9 @@ Now in this exercise, you will explore the out of the box analytics that are ava
 
    ![](images/M02/M2-EX1-T2-S4.png)
 
-5. Review the visuals in **Usage, Location** , and all other tabs.
+5. Review the visuals in **Usage, Location**, and all other tabs.
 
-6. In the top left corner of the screen, under the header, select **Overview** to review tenant level analytics.
+6. In the top left corner of the screen, under the header, select **Overview** to review tenant-level analytics.
 
    ![](images/M02/M2-EX1-T2-S6.png)
 
@@ -158,7 +156,7 @@ Now in this exercise, you will explore the out of the box analytics that are ava
 
    ![](images/M02/M2-EX1-T2-S8.png)
 
-9. Hover your mouse over the far-right corner of the unique users data, and under **Region** you can select **...** to show more options.
+9. Hover your mouse over the far-right corner of the unique user's data, and under **Region** you can select **...** to show more options.
 
    ![](images/M02/M2-EX1-T2-S9.png)
 
@@ -171,9 +169,9 @@ Now in this exercise, you will explore the out of the box analytics that are ava
     ![](images/M02/M2-EX1-T2-S11.png)
 
 
-### Task 3 : Explore the Capacity analytics
+### Task 3: Explore the Capacity analytics
 
-1. Navigate to **Power Platform admin center**
+1. Navigate to **Power Platform admin center**.
 
 2. Expand **Resources** and select **Capacity**.
 
@@ -203,13 +201,13 @@ Now in this exercise, you will explore the out of the box analytics that are ava
 
    ![](images/M02/M2-EX1-T3-S8.png)
 
-9. Open the file that downloaded as a result. You should see a list of all tables and their database size in MB.
+9. Open the file that was downloaded as a result. You should see a list of all tables and their database size in MB.
 
    ![](images/M02/M2-EX1-T3-S9.png)
 
 10. Close the Excel file. You won’t need to save any changes you’ve made.
 
-11. Go to the navigation pane on the far left and expand **Analytics,** then select **Dataverse**.
+11. Go to the navigation pane on the far left and expand **Analytics**, then select **Dataverse**.
 
     ![](images/M02/M2-EX1-T3-S11.png)
 
@@ -252,7 +250,7 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
    ![](images/M02/M2-EX2-T1-S5.png)
 
-6. Expand the Advanced options section. Check and ensure that **Auditing** is enabled for this column. A notice will be underneath the option, informing you that auditing is not enabled 
+6. Expand the Advanced Options section. Check and ensure that **Auditing** is enabled for this column. A notice will be underneath the option, informing you that auditing is not enabled 
    for the organization. We will fix this in a later step.
 
 7. Select **Cancel** to close the field details pane.
@@ -297,7 +295,7 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
     ![](images/M02/M2-EX2-T1-S17.png)
 
-19. Check the **Start auditing** checkbox, set **Retain these logs for** to **Forever** , then select **Save**. Select **Cancel** to close.
+19. Check the **Start auditing** checkbox, set **Retain these logs for** to **Forever**, then select **Save**. Select **Cancel** to close.
 
     ![](images/M02/M2-EX2-T1-S18.png)
 
@@ -318,7 +316,7 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
    ![](images/M02/M2-EX2-T2-S4.png)
 
-5. For the **Title** , enter **Annual Conference**. Choose the **Due date** as today’s date.
+5. For the **Title**, enter **Annual Conference**. Choose the **Due date** as today’s date.
 
    ![](images/M02/M2-EX2-T2-S5.png)
 
@@ -344,7 +342,7 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
     ![](images/M02/M2-EX2-T2-S11.png)
 
-12. You should see the **Filed Name** , **Old Value** and **New Value**.
+12. You should see the **Filed Name**, **Old Value** and **New Value**.
 
 13. Select **Close** to close the update record.
 
@@ -355,9 +353,9 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
 ### Scenario
 
-In this exercise, you will explore some of the apps and analytics that are part of the Power Platform CoE Starter Kit. We have already installed and configured the starter kit into the 
+In this exercise, you will explore some of the apps and analytics that are part of the Power Platform CoE Starter Kit. We have already installed and configured the starter kit for the 
 tenant you are using for this lab. As part of configuring, we imported the solution, shared the apps, configured the flows that synchronize data and published the Power BI report. If you 
-were doing this in your own tenant, you would follow the instructions to complete these steps.
+were doing this with your tenant, you would follow the instructions to complete these steps.
 
 
 Now in this exercise, you will explore the following key components:
@@ -368,13 +366,13 @@ Now in this exercise, you will explore the following key components:
 
 ### Task 1: Explore the Power Platform Admin View app
 
-1. Navigate to **Power Apps maker portal**
+1. Navigate to **Power Apps maker portal**.
 
-2. Select **Power Platform CoE** environment in the environment selector.
+2. Select the **Power Platform CoE** environment in the environment selector.
 
    ![](images/M02/M2-EX3-T1-S2.png)
 
-3. Select Apps from the left side navigation and you should see a list of available apps in this environment – select **Power Platform Admin View.**
+3. Select Apps from the left side navigation and you should see a list of available apps in this environment – select **Power Platform Admin View**.
 
    ![](images/M02/M2-EX3-T1-S3.png)
 
@@ -389,12 +387,12 @@ Now in this exercise, you will explore the following key components:
 
    ![](images/M02/M2-EX3-T1-S6.png)
 
-7. In the **Governance** tab you can see the Business Justification provided by the app maker using the Developer Compliance Center app. In the bottom part is where you as an admin can 
+7. In the **Governance** tab you can see the Business Justification provided by the app maker using the Developer Compliance Center app. The bottom part is where you as an admin can 
    provide your risk assessment. You can also tag the app to show in the App Catalog and make it featured. You can customize the CoE entities to add additional fields here if needed.
 
    ![](images/M02/M2-EX3-T1-S7.png)
 
-8. Select **Environments** in the left navigation. This will show you a list of all the environments in your tenant and key metrics like number of apps. To view all your environments, 
+8. Select **Environments** in the left navigation. This will show you a list of all the environments in your tenant and key metrics like a number of apps. To view all your environments, 
    similar to the image below, switch the view at the top to **Active Environments**.
 
    ![](images/M02/M2-EX3-T1-S8-1.png)
@@ -417,7 +415,7 @@ Now in this exercise, you will explore the following key components:
 
 14. The **Used in** tab quickly shows you what apps are using this connector in all environments in your tenant.
 
-15. Select **Users,** then **Makers** from the left navigation; this shows you all the people that have built apps in your company.
+15. Select **Users**, then **Makers** from the left navigation; this shows you all the people who have built apps in your company.
 
 16. Select one of the Makers and explore the detail form.
 
@@ -426,7 +424,7 @@ Now in this exercise, you will explore the following key components:
 
 1. Navigate in your browser to Power BI and **Sign in** with your lab credentials.
 
-2. When you see the You have an account with us, select Sign In again and then select Start.
+2. When you see that You have an account with us, select Sign In again and then select Start.
 
     ![](images/M02/M2-EX3-T2-S2.png)
 
@@ -434,7 +432,7 @@ Now in this exercise, you will explore the following key components:
 
 4. When prompted to Invite more people, select **Skip**.
 
-5. On the left side navigation select Workspaces and then Create a workspace. We are going to use this workspace to publish our report to from Power BI Desktop. This would allow you to 
+5. On the left side navigation select Workspaces and then Create a workspace. We are going to use this workspace to publish our report from Power BI Desktop. This would allow you to 
    view it from PowerBI.com, the mobile app, or even embed it in other places like Microsoft Teams. The workspace can also be shared with others so they can see the analytics.
 
    ![](images/M02/M2-EX3-T2-S5.png)
@@ -455,11 +453,11 @@ Now in this exercise, you will explore the following key components:
 
 11. Select Sign-in and provide your lab admin account credentials.
 
-12. Once signed in, select **File** , **open report** , and select **Browse Reports**.
+12. Once signed in, select **File**, **open report**, and select **Browse Reports**.
 
     ![](images/M02/M2-EX3-T2-S12.png)
 
-13. Locate the folder containing lab files you downloaded.
+13. Locate the folder containing the lab files you downloaded.
 
 14. Change to file type filter to PowerBI template files (.pbit). Select the **Production_CoEDashboard.pbit** file.
 
@@ -481,15 +479,15 @@ Now in this exercise, you will explore the following key components:
 
     ![](images/M02/M2-EX3-T2-S19.png)
 
-20. Select **continue**. Follow prompts for credentials if they appear.
+20. Select **Continue**. Follow prompts for credentials if they appear.
 
     ![](images/M02/M2-EX3-T2-S20.png)
 
-21. The report should load automatically once the refresh has completed.
+21. The report should load automatically once the refresh has been completed.
 
 22. Follow the steps below to enable map and filled map visuals:
 
-     a) Select File at the top right, then select Options and settings > Options.
+     a) Select File at the top right, then select Options and Settings > Options.
    
      ![](images/M02/M2-EX3-T2-S22-A.png)
    
@@ -531,15 +529,15 @@ Now in this exercise, you will explore the following key components:
 
     ![](images/M02/M2-EX3-T2-S29.png)
 
-30. Select through the other pages via the tabs at the bottom and review the data available.
+30. Select the other pages via the tabs at the bottom and review the data available.
 
 31. Select **Publish** from the **Home** tab in the ribbon at the top.
 
     ![](images/M02/M2-EX3-T2-S31.png)
 
-32. Save the report if prompted as **PBI Report (Your Initials),** which will look something like **PBI** **Report HR** for example.
+32. Save the report if prompted as **PBI Report (Your Initials)**, which will look something like **PBI** **Report HR** for example.
 
-33. Select the CoE workspace you created and choose **Select.**
+33. Select the CoE workspace you created and choose **Select**.
 
      ![](images/M02/M2-EX3-T2-S33.png)
 
@@ -547,12 +545,12 @@ Now in this exercise, you will explore the following key components:
 
      ![](images/M02/M2-EX3-T2-S34.png)
 
-35. If you selected **Open ‘<File>’** , skip this step. Otherwise, if you selected ‘Got it’, navigate to Power BI. Select **Workspaces** and then **CoE Workspace** you created. Otherwise, 
+35. If you selected **Open ‘<File>’**, skip this step. Otherwise, if you selected ‘Got it’, navigate to Power BI. Select **Workspaces** and then **CoE Workspace** you created. Otherwise, 
     skip to step 37.
 
      ![](images/M02/M2-EX3-T2-S35.png)
 
-36. Select the **CoE Starter** with the type of **Report** from the list. You’ll notice a few other items have generated; these are done by default.
+36. Select the **CoE Starter** with the type of **Report** from the list. You’ll notice a few other items have been generated; these are done by default.
 
      ![](images/M02/M2-EX3-T2-S36.png)
 
@@ -563,13 +561,12 @@ Now in this exercise, you will explore the following key components:
 38. You have now successfully deployed the Power BI reports that come with the CoE starter kit.
 
 
-
 ## Exercise 4: Perform a risk assessment of overshared resources
 
 ### Scenario
 
-We were going to perform a risk assessment to look for apps that have been over hared in your tenant. To accomplish this, you are going to use the Power BI report that you just published 
-to look for apps that are over shared.
+We were going to perform a risk assessment to look for apps that have been shared with your tenant. To accomplish this, you are going to use the Power BI report that you just published 
+to look for apps that are over-shared.
 
 ### Task 1: Locate Overshared Apps
 
@@ -601,7 +598,7 @@ to look for apps that are over shared.
 
 ### Scenario
 
-Using the Power BI report, you can easily see what apps and flows are using a connector. In this exercise you will find out who is using the SharePoint connector.
+Using the Power BI report, you can easily see what apps and flows are using a connector. In this exercise, you will find out who is using the SharePoint connector.
 
 ### Task 1: Locate resources that use the SharePoint connector
 
@@ -620,14 +617,13 @@ Using the Power BI report, you can easily see what apps and flows are using a co
 5. Using this you could evaluate things like the impact of changing DLP policies or other governance or training that might be needed related to a connector.
 
 
-## Exercise 6 : Review tenant audit logs (Optional if you have time)
+## Exercise 6: Review tenant audit logs (Optional if you have time)
 
 ### Scenario
 
 All other auditing of Power Apps and Power Automate flows (other than CDS data modification) are viewed through the Microsoft Purview site.
 
-Prior to use, this must be enabled by a global tenant administrator using these instructions. In the tenant you are using we have already completed that for you as well as granting you 
-permission to view the audit log data for the tenant. That was done using the PowerShell command Add-RoleGroupMember “Compliance Management” -Member your user.
+Before use, this must be enabled by a global tenant administrator using these instructions. In the tenant you are using we have already completed that for you as well as permitting you to view the audit log data for the tenant. That was done using the PowerShell command Add-RoleGroupMember “Compliance Management” -Member your user.
 
 In this exercise, you will be using the log search and alert tools to work with the audit data.
 
@@ -643,11 +639,11 @@ In this exercise, you will be using the log search and alert tools to work with 
 
    ![](images/M02/M2-EX6-T1-S3.png)
 
-4. Select **Start Search.**
+4. Select **Start Search**.
 
    ![](images/M02/M2-EX6-T1-S4.png)
 
-5. The **Job Status** will read as **Queued** once it has been set to process. Refresh the audit every few minutes or so until the status reads as **Completed.**
+5. The **Job Status** will read as **Queued** once it has been set to process. Refresh the audit every few minutes or so until the status reads as **Completed**.
 
    ![](images/M02/M2-EX6-T1-S5.png)
 
@@ -677,24 +673,23 @@ In this exercise, you will be using the log search and alert tools to work with 
 
 12. Select **Search** again and review the results once the status is Completed.
 
-13. Look for an activity of Edited Flow, select the item to open the detail. Review what data is provided.
+13. Look for an activity of Edited Flow, and select the item to open the detail. Review what data is provided.
 
 14. A common task is to look at all of the activity for a particular user. Copy the user from this Edited flow activity and go back to the Audit search.
 
 15. Paste the user you copied into the Users filter and select search again. Now you are looking at all the activity for a single user.
 
-16. Try selecting an item to view detail. Copy the Item field and then go back to the list and select the filter results. Paste the item info you just copied into the filed. The results 
+16. Try selecting an item to view detail. Copy the Item field and then go back to the list and select the filter results. Paste the item info you just copied into the file. The results 
     list will now only show activities related to that item. For example, you could use this to show all activities for a specific flow.
 
 
 **Note:** Any information from before auditing was enabled, cannot be retrieved. This can be seen by selecting a date range from before the auditing was enabled.
 
-
-## Exercise 7 : Get notification of new apps, flows and connectors (Optional if you have time)
+## Exercise 7: Get notification of new apps, flows and connectors (Optional if you have time)
 
 ### Scenario
 
-In this exercise, you will be using one of the pre-built Power Automate templates that runs on a schedule and looks for newly created canvas apps, flows and connectors and sends you an 
+In this exercise, you will be using one of the pre-built Power Automate templates that runs on a schedule looks for newly created canvas apps, flows and connectors and sends you an 
 email.
 
 ### Task 1: Create the flow from the template
@@ -726,7 +721,7 @@ email.
 
     ![](images/M02/M2-EX7-T1-S7.png)
 
-8. Select **Save** , located right next to the flow checker.
+8. Select **Save**, located right next to the flow checker.
 
    ![](images/M02/M2-EX7-T1-S8.png)
 
@@ -760,7 +755,7 @@ email.
 
     ![](images/M02/M2-EX7-T1-S15.png)
 
-16. The report should list flows, Power Apps, connectors in tables.
+16. The report should list flows, Power Apps, and connectors in tables.
 
     ![](images/M02/M2-EX7-T1-S16.png)
 
