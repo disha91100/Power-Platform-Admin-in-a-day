@@ -87,7 +87,7 @@ collect additional information allowing it to be tailored to your individual org
 
 ### Task 1: Create Microsoft Form
 
-1. While logged in as the lab admin user navigate to **Microsoft Forms** and close the welcome screen.
+1. While logged in as the lab admin user navigate to **Microsoft Forms** https://forms.office.com/ and close the welcome screen.
 
    ![](images/M03/M3-EX1-T1-S1.png)
 
@@ -150,7 +150,7 @@ the Office 365 connector.
 
 2. Locate and select the sandbox environment that you created in module one named **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** in the list of environments.
 
-3. Select the Delete button and confirm the deletion by typing the environment name. We have to delete it to create another Trial environment, which we can only have one at 
+3. Select the **Delete** button and confirm the deletion by typing the environment name. We have to delete it to create another Trial environment, which we can only have one at 
    a time.
 
    ![](images/M03/M3-EX2-T1-S3.png)
@@ -174,7 +174,7 @@ the Office 365 connector.
 
 5. Type **New Environment Approval** in the Flow name field.
 
-6. In the **Choose your flow’s trigger** section, search for Microsoft Forms, select When a new response is submitted, and select **Create**.
+6. In the **Choose your flow’s trigger** section, search for Microsoft Forms, select **When a new response is submitted**, and select **Create**.
 
    ![](images/M03/M3-EX2-T2-S6.png)
 
@@ -246,7 +246,7 @@ the Office 365 connector.
 
 27. Select **United States** for the **location** and select on the **Display Name** field.
 
-**Note:** Location determines the region for the environment, in a real process you might allow this to
+    >**Note:** Location determines the region for the environment, in a real process you might allow this to
 be auto-determined by the user location or something the requester provides.
 
 28. Select **Environment Name** from the Dynamic content pane.
