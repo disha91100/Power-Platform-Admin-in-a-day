@@ -736,9 +736,9 @@ email.
 
 11. Wait for the flow run to complete and then select the run’s start to open it. You can refresh to see the updated status of the flow.
 
-**Note:** This can take up to 45 minutes to complete, as it is iterating the flow over a large amount of data.
+    >**Note:** This can take up to 45 minutes to complete, as it is iterating the flow over a large amount of data.
 
-   ![](images/M02/M2-EX7-T1-S11.png)
+    ![](images/M02/M2-EX7-T1-S11.png)
 
 12. Examine the flow run. Expanding individual items will give you more information on what each step performs as the flow runt. Selecting next will allow you to look at the difference in 
     environments as they are processed through the flow.
