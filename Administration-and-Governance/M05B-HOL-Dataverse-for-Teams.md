@@ -10,7 +10,7 @@
    
    - Task 1: Add Power Apps and pin it
 
-    - Task 2: Create application and table
+    - Task 2: Create an application and table
 
 3. Exercise 2 – Share your app
 
@@ -23,7 +23,7 @@
 
 ## Lab Scenario
 
-In this hands-on lab you will create a Power App in a team and see how to publish it to your team. You will also share with colleagues outside your team to see how broad distribution apps 
+In this hands-on lab, you will create a Power App in a team and see how to publish it to your team. You will also share with colleagues outside your team to see how broad distribution apps 
 work.
 
 ## Lab Test Environment
@@ -39,9 +39,9 @@ will already be completed. Your account will only be an environment administrato
 
 In this task, you will add the Power Apps app, and then pin it to your pinned apps.
 
-1. Navigate to Microsoft Teams and log in with the **admin account.**
+1. Navigate to Microsoft Teams and log in with the **admin account**.
 
-2. Select the **ellipsis** (...), entitled **More added apps** , button within the navigation bar to the left of the screen.
+2. Select the **ellipsis** (...), entitled **More added apps**, button within the navigation bar to the left of the screen.
 
    ![](images/M05/M5B-EX1-T1-S2.png)
 
@@ -56,11 +56,11 @@ In this task, you will add the Power Apps app, and then pin it to your pinned ap
 5. Do not navigate away from this page.
 
 
-### Task 2: Create application and table
+### Task 2: Create an application and table
 
-In this task, you will create an application, a table, and add new columns to the table.
+In this task, you will create an application, and a table, and add new columns to the table.
 
-1. Navigate to Microsoft Teams and login.
+1. Navigate to Microsoft Teams and log in.
 
 2. Select **Use the web instead** if prompted.
 
@@ -76,15 +76,15 @@ In this task, you will create an application, a table, and add new columns to th
 
    ![](images/M05/M5B-EX1-T2-S5.png)
 
-6. Select **With Data (1)** , and then select **+Create new table (2).**
+6. Select **With Data (1)**, and then select **+ Create new table (2)**.
 
    ![](images/M05/M5B-EX1-T2-S6.png)
 
-7. Enter **LA X Request** for Table name, replacing X with your Lab Admin number and choose **Create**. Replace X with your lab user number.
+7. Enter **LA X Request** for the Table name, replacing X with your Lab Admin number and choose **Create**. Replace X with your lab user number.
 
    ![](images/M05/M5B-EX1-T2-S7.png)
 
-8. Select **+New column**.
+8. Select **+ New column**.
 
    ![](images/M05/M5B-EX1-T2-S8.png)
 
@@ -98,7 +98,7 @@ In this task, you will create an application, a table, and add new columns to th
 
 11. Select **+New column** again.
 
-12. Enter **Requested date** for Display name, select **Date and time > Date Only** for Data type (the Format will Autofill), and then select **Save**.
+12. Enter **Requested date** for the Display name, select **Date and time > Date Only** for the Data type (the Format will Autofill), and then select **Save**.
 
     ![](images/M05/M5B-EX1-T2-S12.png)
 
@@ -154,7 +154,7 @@ In this task, you will create an application, a table, and add new columns to th
 
     ![](images/M05/M5B-EX1-T2-S23.png)
 
-24. Select the **plus sign** next to the **General** channel to **Add app as a tab**. This will make it discoverable on the channel. Then, Select **Save and close.**
+24. Select the **Plus sign** next to the **General** channel to **Add app as a tab**. This will make it discoverable on the channel. Then, Select **Save and close**.
 
     ![](images/M05/M5B-EX1-T2-S24.png)
 
@@ -164,7 +164,7 @@ In this task, you will create an application, a table, and add new columns to th
 
     ![](images/M05/M5B-EX1-T2-S26.png)
 
-27. Ensure that you can see all of the data you entered into the app while it was in preview mode.
+27. Ensure that you can see all of the data you entered into the app while it is in preview mode.
 
     ![](images/M05/M5B-EX1-T2-S27.png)
 
@@ -196,7 +196,7 @@ In this task, you will share the application and the table you created.
 
    ![](images/M05/M5B-EX2-T1-S5.png)
 
-6. Select **Tables** , select the table you created and choose **Manage permissions**.
+6. Select **Tables**, select the table you created and choose **Manage permissions**.
 
    ![](images/M05/M5B-EX2-T1-S6.png)
 
