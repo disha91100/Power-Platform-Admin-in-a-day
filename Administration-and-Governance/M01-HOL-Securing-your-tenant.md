@@ -342,7 +342,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
    ![](images/M01/M1-EX4-T1-S2.png)
 
 3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** for **Name**, select your **Region**, select **Trial** for **Type**, select **Yes** for **Add a Dataverse 
-   data store?,** and select **Next**.
+   data store?**, and select **Next**.
 
    ![](images/M01/M1-EX4-T1-S3.png)
 
@@ -377,7 +377,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
    ![](images/M01/M1-EX4-T2-S6.png)
 
-7. Search for **send email (1)** and select **Send an email (V2) Office 365 Outlook (2)**.
+7. Search for **Send email (1)** and select **Send an email (V2) Office 365 Outlook (2)**.
 
    ![](images/M01/M1-EX4-T2-S7.png)
 
