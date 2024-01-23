@@ -89,7 +89,7 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
    ![](images/M02/tenant-save1.png)
 
 
->**Note**: Once enabled, this feature aggregates data from environments across all regions in your tenant and copies it into the default environment region for tenant-level reporting. A tenant-level administrator role is required for the one-time operation of granting consent for tenant-level analytics.
+   >**Note**: Once enabled, this feature aggregates data from environments across all regions in your tenant and copies it into the default environment region for tenant-level reporting. A tenant-level administrator role is required for the one-time operation of granting consent for tenant-level analytics.
 
 5. The Overview tab displays a message indicating that tenant-level analytics has been enabled. Typically, these reports are displayed within 24-48 hours of enabling the feature.
 
@@ -232,11 +232,11 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
 ### Task 1: Review audit logging in the environment
 
-1. Navigate to the **Power Apps maker portal** and select the **My Sandbox** environment at the top right.
+1. Navigate to the **Power Apps maker portal** and select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** environment at the top right.
 
-   ![](images/M02/M2-EX2-T1-S1.png)
+   ![](images/M01/po8.png)
 
-2. Select Solutions and choose the **Fabrikam Project Management** solution to open it.
+2. Select **Solutions** and choose the **Fabrikam Project Management** solution to open it.
 
    ![](images/M02/M2-EX2-T1-S2.png)
 
@@ -287,17 +287,17 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
     ![](images/M02/M2-EX2-T1-S15.png)
 
-17. Select the **My Sandbox <Name>** environment and select **Settings** from the ribbon at the top.
+17. Select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** environment and select **Settings (2)** from the ribbon at the top.
 
-    ![](images/M02/M2-EX2-T1-S16.png)
+    ![](images/M02/po22.png)
 
 18. Expand **Audit and logs** section and select **Audit settings**.
 
     ![](images/M02/M2-EX2-T1-S17.png)
 
-19. Check the **Start auditing** checkbox, set **Retain these logs for** to **Forever**, then select **Save**. Select **Cancel** to close.
+19. Check the **Start auditing** checkbox and select **Save**. Select **Cancel** to close.
 
-    ![](images/M02/M2-EX2-T1-S18.png)
+    ![](images/M02/po23.png)
 
 
 ### Task 2: Test auditing
@@ -310,11 +310,11 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
 3. If you can see the **Annual Conference** project select it to open it and skip to step 7, if you do not see it, continue with the steps below.
 
-   ![](images/M02/M2-EX2-T2-S3.png)
+   ![](images/M02/po24.png)
 
-4. Create a new project by selecting the green + from the ribbon at the top.
+4. Create a new project by selecting the green **+ New** from the ribbon at the top.
 
-   ![](images/M02/M2-EX2-T2-S4.png)
+   ![](images/M02/po25.png)
 
 5. For the **Title**, enter **Annual Conference**. Choose the **Due date** as today’s date.
 
@@ -372,7 +372,7 @@ Now in this exercise, you will explore the following key components:
 
    ![](images/M02/M2-EX3-T1-S2.png)
 
-3. Select Apps from the left side navigation and you should see a list of available apps in this environment – select **Power Platform Admin View**.
+3. Select **Apps** from the left side navigation and you should see a list of available apps in this environment, select **Power Platform Admin View**.
 
    ![](images/M02/M2-EX3-T1-S3.png)
 
@@ -441,11 +441,11 @@ Now in this exercise, you will explore the following key components:
 
    ![](images/M02/M2-EX3-T2-S6.png)
 
-7. After the trial has started, you will have to re-navigate to Workspaces and then Create a workspace.
+7. After the trial has started, you will have to re-navigate to Workspaces and then **+ New workspace**.
 
-8. On the Create panel, provide a unique name like CoE and your lab admin user number and select **Save**.
+8. On the Create panel, provide a unique name like **CoE-LabAdmin<inject key="Deployment ID" enableCopy="false" />** and your lab admin user number and select **Apply**.
 
-   ![](images/M02/M2-EX3-T2-S8.png)
+   ![](images/M02/po26.png)
 
 9. Launch Power BI Desktop on your local computer, if you don’t have it installed you can install it from Downloads | Microsoft Power BI
 
@@ -497,7 +497,7 @@ Now in this exercise, you will explore the following key components:
    
      d) Check the Use Map and Filled Map visuals checkbox.
    
-     e) Select Okay to close the Options dialog.
+     e) Select Ok to close the Options dialog.
 
      ![](images/M02/M2-EX3-T2-S22-E.png)
 
