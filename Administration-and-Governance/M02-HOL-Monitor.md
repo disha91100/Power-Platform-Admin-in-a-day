@@ -76,7 +76,7 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
 1. Navigate to **Power Platform admin center**.
 
-2. select **Analytics > Power Apps**.
+2. Select **Analytics > Power Apps**.
 
     ![](images/M02/tenant-analytics1.png)
 
@@ -100,9 +100,7 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
 1. Navigate to **Power Platform admin center**.
 
-2. Expand **Analytics**.
-
-3. Select **Power Automate**.
+2. Expand **Analytics** and select **Power Automate**.
 
    ![](images/M02/M2-EX1-T1-S3.png)
 
@@ -125,7 +123,7 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
 10. Now you are looking at data for all environments you have access to.
 
-11. Review the Usage data available on this tab, and then switch to Maker Activity and Inventory to review the other data available. Notice you can still filter on more specific criteria 
+11. Review the **Usage** data available on this tab, and then switch to **Maker Activity** and **Inventory** to review the other data available. Notice you can still filter on more specific criteria 
     using the dropdowns.
 
     ![](images/M02/M2-EX1-T1-S11.png)
@@ -160,11 +158,11 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
    ![](images/M02/M2-EX1-T2-S9.png)
 
-10. Select Export data.
+10. Select **Export data**.
 
     ![](images/M02/M2-EX1-T2-S10.png)
 
-11. If you have Excel installed choose one of the options and select Export. After the file downloads review the details available. If you don’t have Excel simply select Cancel.
+11. If you have Excel installed choose one of the options and select **Export**. After the file downloads review the details available. If you don’t have Excel simply select Cancel.
 
     ![](images/M02/M2-EX1-T2-S11.png)
 
@@ -295,7 +293,7 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
     ![](images/M02/M2-EX2-T1-S17.png)
 
-19. Check the **Start auditing** checkbox and select **Save**. Select **Cancel** to close.
+19. Check on **Start auditing** checkbox, select **Save** and select **Cancel** to close.
 
     ![](images/M02/po23.png)
 
@@ -338,7 +336,7 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
     ![](images/M02/M2-EX2-T2-S10.png)
 
-11. You should see the change history for each of your changes. Select Update to open one of the change history records.
+11. You should see the change history for each of your changes. Select **Update/Create** to open one of the change history records.
 
     ![](images/M02/M2-EX2-T2-S11.png)
 
@@ -383,7 +381,7 @@ Now in this exercise, you will explore the following key components:
 5. Select **Power Apps** and you will see a list of all apps in all environments without having to visit each environment. The Flows navigation link does the same thing for Microsoft 
    Power Automate flows.
 
-6. Select the Device Ordering App in the list to open the app details.
+6. Select the **Device Ordering App** in the list to open the app details.
 
    ![](images/M02/M2-EX3-T1-S6.png)
 
@@ -432,8 +430,7 @@ Now in this exercise, you will explore the following key components:
 
 4. When prompted to Invite more people, select **Skip**.
 
-5. On the left side navigation select Workspaces and then Create a workspace. We are going to use this workspace to publish our report from Power BI Desktop. This would allow you to 
-   view it from PowerBI.com, the mobile app, or even embed it in other places like Microsoft Teams. The workspace can also be shared with others so they can see the analytics.
+5. On the left side navigation select **Workspaces**.
 
    ![](images/M02/M2-EX3-T2-S5.png)
 
@@ -453,7 +450,7 @@ Now in this exercise, you will explore the following key components:
 
 11. Select Sign-in and provide your lab admin account credentials.
 
-12. Once signed in, select **File**, **open report**, and select **Browse Reports**.
+12. Once signed in, select **File**, **Open report**, and select **Browse reports**.
 
     ![](images/M02/M2-EX3-T2-S12.png)
 
@@ -487,21 +484,21 @@ Now in this exercise, you will explore the following key components:
 
 22. Follow the steps below to enable map and filled map visuals:
 
-     a) Select File at the top right, then select Options and Settings > Options.
+     a) Select **File** at the top right, then select **Options and Settings > Options**.
    
      ![](images/M02/M2-EX3-T2-S22-A.png)
    
-     b) Select Security from the left.
+     b) Select **Security** from the left.
    
      c) Scroll down to the Map and Filled Map visuals section.
    
-     d) Check the Use Map and Filled Map visuals checkbox.
+     d) Check the **Use Map and Filled Map visuals** checkbox.
    
-     e) Select Ok to close the Options dialog.
+     e) Select **Ok** to close the Options dialog.
 
      ![](images/M02/M2-EX3-T2-S22-E.png)
 
-23. Review the Introduction page.
+23. Review the **Introduction** page.
 
     ![](images/M02/M2-EX3-T2-S23.png)
 
@@ -537,16 +534,15 @@ Now in this exercise, you will explore the following key components:
 
 32. Save the report if prompted as **PBI Report (Your Initials)**, which will look something like **PBI** **Report HR** for example.
 
-33. Select the CoE workspace you created and choose **Select**.
+33. Select the **CoE - ODL Admin** workspace you created and choose **Select**.
 
      ![](images/M02/M2-EX3-T2-S33.png)
 
-34. Wait for the publishing to complete and select **Open ‘<FileName>.pbix’ in Power BI** or **Got it**.
+34. Wait for the publishing to complete and select **Open 'PBI’** Report in Power BI or **Got it**.
 
      ![](images/M02/M2-EX3-T2-S34.png)
 
-35. If you selected **Open ‘<File>’**, skip this step. Otherwise, if you selected ‘Got it’, navigate to Power BI. Select **Workspaces** and then **CoE Workspace** you created. Otherwise, 
-    skip to step 37.
+35. If you selected **Open**, skip this step. Otherwise, if you selected ‘Got it’, navigate to Power BI. Select **Workspaces** and then **CoE - ODL Admin** Workspace you created. Otherwise, skip to step 37.
 
      ![](images/M02/M2-EX3-T2-S35.png)
 
@@ -608,7 +604,7 @@ Using the Power BI report, you can easily see what apps and flows are using a co
 
    ![](images/M02/M2-EX5-T1-S2.png)
 
-3. In the filter panel, in the **Connector** section search for **Office 365 Groups** and select it.
+3. In the filter panel, in the **Connector** section search for **Office 365 Outlook** and select it.
 
    ![](images/M02/M2-EX5-T1-S3.png)
 
@@ -643,7 +639,7 @@ In this exercise, you will be using the log search and alert tools to work with 
 
    ![](images/M02/M2-EX6-T1-S4.png)
 
-5. The **Job Status** will read as **Queued** once it has been set to process. Refresh the audit every few minutes or so until the status reads as **Completed**.
+5. The **Job Status** will read as **Queued** once it has been set to process. **Refresh** the audit every few minutes or so until the status reads as **Completed**.
 
    ![](images/M02/M2-EX6-T1-S5.png)
 
@@ -712,7 +708,7 @@ email.
 
     ![](images/M02/M2-EX7-T1-S5.png)
 
-6. Examine the flow steps and then select **Flow Checker**. You may need to adjust the zoom of your browser to see all of the steps (We can’t display the entirety of it here, as any 
+6. Examine the flow steps and then select **Flow checker**. You may need to adjust the zoom of your browser to see all of the steps (We can’t display the entirety of it here, as any 
    details would be lost).
 
    ![](images/M02/M2-EX7-T1-S6.png)
@@ -725,7 +721,7 @@ email.
 
    ![](images/M02/M2-EX7-T1-S8.png)
 
-9. Select the back arrow to move to the flow details and run history.
+9. Select the **back arrow** to move to the flow details and run history.
 
    ![](images/M02/M2-EX7-T1-S9.png)
 
