@@ -210,7 +210,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
    ![](images/M01/M1-EX1-T2-S9.png)
 
-10. Select the **Thrive DLP (1)** and select **Edit Policy (2)**.
+10. Select the **Thrive Exception DLP (1)** and select **Edit Policy (2)**.
 
     ![](images/M01/M1-EX1-T2-S10.png)
 
@@ -322,8 +322,8 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
    ![](images/M01/M1-EX4-T1-S2.png)
 
-3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** for **Name**, select your **Region**, select **Trial** for **Type**, select **Yes** for **Add a Dataverse 
-   data store?**, and select **Next**.
+3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** for **Name**, select Region as **United States - Default**, select **Trial** as Type, select **Yes** for Add a Dataverse 
+   data store?, and select **Next**.
 
    ![](images/M01/po6.png)
 
@@ -340,7 +340,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
    ![](images/M01/po8.png)
 
-2. Select **Flows (1)** from the left, select **+ New (2)** and select **Scheduled cloud flow (3)**.
+2. Select **Flows (1)** from the left, select **+ New flow (2)** and select **Scheduled cloud flow (3)**.
 
    ![](images/M01/M1-EX4-T2-S2-1.png)
 
@@ -358,7 +358,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
    ![](images/M01/M1-EX4-T2-S6.png)
 
-7. Search for **Send email (1)** and select **Send an email (V2) Office 365 Outlook (2)**.
+7. Search for **Send an email (1)** and select **Send an email (V2) Office 365 Outlook (2)**.
 
    ![](images/M01/M1-EX4-T2-S7.png)
 
@@ -392,7 +392,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
     ![](images/M01/M1-EX4-T2-S17.png)
 
-18. Select **Done** and wait for the flow run to complete. Select the Refresh button to see the update status.
+18. Select **Done** and wait for the flow run to complete. Select the **Refresh** button to see the update status.
 
     ![](images/M01/M1-EX4-T2-S18.png)
 
@@ -441,13 +441,13 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
     ![](images/M01/M1-EX4-T3-S10.png)
 
-11. Choose the environment you created **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** and select **Add to Policy (2)**.
+11. Choose the environment you created **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** and select **+ Add to Policy (2)**.
 
     ![](images/M01/po15.png)
 
 12. Once done, Select **Next**.
 
-13. Review the policy, to make sure you have **( 3 ) Business** connectors added, and only one **Environment** selected and select **Create policy**.
+13. Review the policy, to make sure you have **(3) Business** connectors added, and only one **Environment** selected and select **Create policy**.
 
     ![](images/M01/M1-EX4-T3-S13.png)
 
@@ -502,7 +502,7 @@ ID Security group and assign the security role you just built.
 
 6. Select **Import** and wait for the import to complete. You should get a notification when the import succeeds.
 
-7. Select **Publish All Customizations** and wait for the publishing to complete.
+7. Select **Publish all customizations** and wait for the publishing to complete.
 
    ![](images/M01/M1-EX5-T1-S7.png)
 
@@ -536,13 +536,13 @@ ID Security group and assign the security role you just built.
 
     ![](images/M01/M1-EX5-T1-S15.png)
 
-16. Go back to the details view of the flow by selecting the  button.
+16. Go back to the details view of the flow by selecting the back button.
 
     ![](images/M01/M1-EX5-T1-S16.png)
 
 17. Open the flow again.
 
-18. Turn on the flow if it is off.
+18. **Turn on** the flow if Status is off.
 
     ![](images/M01/M1-EX5-T1-S18.png)
 
@@ -640,11 +640,11 @@ ID Security group and assign the security role you just built.
 
    ![](images/M01/po19.png)
 
-3. Search for lab back office and select Lab Back Office group.
+3. Search for **lab back office** and select it.
 
     ![](images/M01/M1-EX5-T3-S3.png)
 
-4. Select on the **Assign a security** role dropdown.
+4. Select on the **Assign a security role** role dropdown.
 
    ![](images/M01/M1-EX5-T3-S4.png)
 
