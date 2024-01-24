@@ -474,7 +474,7 @@ In this task, you will be performing the role of the developer and completing th
 
     ![](images/M03/M3-EX3-T1-S9.png)
 
-11. Wait for the publishing to complete, then select the  **Back** button.
+11. Wait for the publishing to complete, then select the **Back** button.
 
      ![](images/M03/M3-EX3-T1-S10.png)
 
@@ -665,7 +665,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 14. Select **Configure** for **Office 365 Group Connection**.
 
-15. Select **Create new**.
+15. Select **+ Create new**.
 
     ![](images/M03/M3-EX4-T2-S15.png)
 

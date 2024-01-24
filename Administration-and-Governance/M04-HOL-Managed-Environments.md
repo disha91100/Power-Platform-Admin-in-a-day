@@ -110,7 +110,7 @@ In this exercise, you will be shifting a pre-made environment from an unmanaged 
 
 9. A green banner will appear at the top notifying you of the successful update.
 
-   ![](images/M04/M4-EX1-T1-S10.png)
+   ![](images/M04/po27.png)
 
 10. Do not navigate away from this page.
 
@@ -130,12 +130,12 @@ checker enforcer, follow this link (https://learn.microsoft.com/en-us/power-apps
 
 1. The solution checker comes with three options for the setting, explained below:
 
-   a. None: This option will turn off automatic solution validating and will not give any experience or behavioural changes to authoring, exports, and imports for solutions.
+   a. **None:** This option will turn off automatic solution validating and will not give any experience or behavioural changes to authoring, exports, and imports for solutions.
 
-   b. Warn: All custom solutions being imported will be automatically verified, but if there are any highly critical issues, you will receive a notice, but the import will not halt. 
+   b. **Warn:** All custom solutions being imported will be automatically verified, but if there are any highly critical issues, you will receive a notice, but the import will not halt. 
           After the solution is imported, a message will appear showing the validation issues that occurred upon import.
 
-   c. Block: Similar to the Warn feature, however when highly-critical issues occur, the import process is cancelled, rather than continuing. This will not cause any changes to the 
+   c. **Block:** Similar to the Warn feature, however when highly-critical issues occur, the import process is cancelled, rather than continuing. This will not cause any changes to the 
       environment, since this occurs during the actual import process. For both the Warn and Block options, Power Platform environment admins will receive a summary email with of 
       the solution validation.
 
@@ -165,7 +165,7 @@ checker enforcer, follow this link (https://learn.microsoft.com/en-us/power-apps
 
 8. Review the details and select **Import**.
 
-   ![](images/M04/M4-EX1-T2-S8.png)
+   ![](images/M04/po28.png)
 
 9. Once the solution is imported, a warning notification will appear at the top of the page informing you of the issues that the solution contains.
 
@@ -278,21 +278,24 @@ in a team that is not bound to the environment.
 
    ![](images/M04/M4-EX1-T2-F5-S2.png)
 
-3. Select **Apps (1)**, then **+ New app** > **Canvas App (2)**.
+3. Select **Apps (1)**, then **+ New app** > **Start with page design (2)**.
 
-   ![](images/M04/M4-EX1-T2-F5-S3.png)
+   ![](images/M04/po29.png)
+
+
+1. Click on **+** on blank canvas app. Make sure **Tablet** is selected.
+
+   ![](images/M04/po30.png)
+
+1. Once the app loads, **select Add item from the Insert pane** on the view window and select **Rectangle**.
+
+    ![](images/M04/po31.png)
 
 4. Name the app **Play with Sharing**, set the format to **Tablet**, and then select **Create**.
 
    ![](images/M04/M4-EX1-T2-F5-S4.png)
 
-5. Once the app loads, **select Add item from the Insert pane** on the view window and select **Rectangle**.
-
-   ![](images/M04/M4-EX1-T2-F5-S5.png)
-
-6. **Save (1)** the app at the top right, and then select **Publish (2)** right next to it.
-
-   ![](images/M04/M4-EX1-T2-F5-S6.png)
+1. Select **Publish** right next to it.
 
    ![](images/M04/M4-EX1-T2-F5-S6-1.png)
 
@@ -308,20 +311,20 @@ in a team that is not bound to the environment.
 
     ![](images/M04/M4-EX1-T2-F5-S9.png)
 
-10. A banner will appear at the top of the panel, which will show the sharing rules are enabled, and being enforced. This is because the owner is counted with the number of individuals 
+1. A banner will appear at the top of the panel, which will show the sharing rules are enabled, and being enforced. This is because the owner is counted with the number of individuals 
     the app can be shared with.
 
    ![](images/M04/M4-EX1-T2-F5-S10.png)
 
 11. Remove a user from the chosen users, then select Share.
 
-   ![](images/M04/M4-EX1-T2-F5-S11.png)
+    ![](images/M04/M4-EX1-T2-F5-S11.png)
 
-   ![](images/M04/M4-EX1-T2-F5-S11-1.png)
+    ![](images/M04/M4-EX1-T2-F5-S11-1.png)
 
 12. Once complete, a banner should appear notifying you of the success.
 
-   ![](images/M04/M4-EX1-T2-F5-S12.png)
+    ![](images/M04/M4-EX1-T2-F5-S12.png)
 
 ### Exercise 2: Power Platform Pipelines
 
@@ -336,20 +339,6 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
     ```
     https://admin.powerplatform.microsoft.com/environments
     ```
-
-2. For this lab, we will use this structure for our environments, following the guidelines for Application Lifecycle Management (ALM).
-
-     | Pipeline Stage | Environment Name    | Type |
-     | -------------- | ------------------- | ---- |
-     | Host           | Managed Environment | Default |
-     | Development    | Thrive Hr - Dev     |  Sandbox |
-     | Test           | Thrive Hr - Test    | Sandbox |
-     | Production     | Thrive Hr- prod     | Production |
-   
-
-  
-  >**Note:** Host Environments act as storage and management for pipeline configurations, run histories, and security settings. Should this environment be deleted, all pipelines and run              data will be deleted as well and cannot be recovered. Host environments can only have development and target environments that exist within the same region as the host 
-           environment. For this reason, some tenants may have multiple host environments.
   
 
 3. Select **Managed Environment-<inject key="Deployment ID" enableCopy="false" />** to open a detailed view for the environment.
@@ -362,7 +351,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
   
 5. Clear out the existing name and replace it with **Thrive Hr (Initials) - Host (1)** to remain in line with the naming convention of the other environments and select **Save (2)**.
 
-    ![](images/M04/M4-EX2-T0-S5.png)
+    ![](images/M04/po33.png)
 
 6. To finish up the setup, you will need to enable managed environments for each of the associated environments in the pipeline. Navigate back to the **Environments** page with the
    breadcrumbs at the top of the left-side navigation.
@@ -428,9 +417,9 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
    ![](images/M04/M4-EX2-T1A-S6.png)
 
-7. Navigate to **Apps (1)** and select **Deployment Pipeline Configuration (2)**, then select **Play** from the ribbon at the top.
+7. Navigate to **Apps (1)** and select **Deployment Pipeline Configuration (2)**, then select **Play (3)** from the ribbon at the top.
 
-   ![](images/M04/M4-EX2-T1A-S7.png)
+   ![](images/M04/po34.png)
 
 8. Select **Environments (1)** on the left pane, and then click on **+ New** symbol.
 
@@ -470,7 +459,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
    ![](images/M04/M4-EX2-T1B-S1.png)
 
-2. Set the **Name** to be **Thrive Hr Standard Deployment Pipeline (1)** and select **save (2)** to show the rest of the content available..
+2. Set the **Name** to be **Thrive Hr Standard Deployment Pipeline (1)** and select **Save (2)** to show the rest of the content available..
 
    ![](images/M04/M4-EX2-T1B-S2.png)
 
@@ -501,9 +490,9 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
     ![](images/M04/M4-EX2-T1B-S11.png)
 
-12. Select the arrow next to **Save and Close** and select **Save and Create New**.
+12. Select the arrow next to **Save** and select **+ New**.
 
-    ![](images/M04/M4-EX2-T1B-S12.png)
+    ![](images/M04/po35.png)
 
 13. Set the **Name** to **Deploy to Prod (1)**.
 
@@ -517,7 +506,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 18. Confirm that your setup reflects the image below.
 
-    ![](images/M04/M4-EX2-T1B-S18.png)
+    ![](images/M04/po36.png)
 
 19. Do not navigate away from this page.
 
