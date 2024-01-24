@@ -68,7 +68,7 @@ perform usage monitoring.
 
 This lab is designed to be completed in an environment setup for multiple students to complete the Admin in a day series of hands-on labs.
 
-You need to use the assigned user and environment information to complete this lab. You must have completed the prior labs to successfully complete this lab.
+You need to use the assigned user and environment information to complete this lab. You must have completed the prior labs to complete this lab.
 
 ## Exercise 1: Explore the out-of-the-box analytics
 
@@ -88,13 +88,11 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
    ![](images/M02/tenant-save1.png)
 
-
    >**Note**: Once enabled, this feature aggregates data from environments across all regions in your tenant and copies it into the default environment region for tenant-level reporting. A tenant-level administrator role is required for the one-time operation of granting consent for tenant-level analytics.
 
 5. The Overview tab displays a message indicating that tenant-level analytics has been enabled. Typically, these reports are displayed within 24-48 hours of enabling the feature.
 
    ![](images/M02/tenant-report1.png)
-
 
 ### Task 1: Explore the Power Automate analytics
 
@@ -123,11 +121,9 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
 10. Now you are looking at data for all environments you have access to.
 
-11. Review the **Usage** data available on this tab, and then switch to **Maker Activity** and **Inventory** to review the other data available. Notice you can still filter on more specific criteria 
-    using the dropdowns.
+11. Review the **Usage** data available on this tab, and then switch to **Maker Activity** and **Inventory** to review the other data available. Notice you can still filter on more specific criteria using the dropdowns.
 
     ![](images/M02/M2-EX1-T1-S11.png)
-
 
 ### Task 2: Explore the Power Apps analytics
 
@@ -297,7 +293,6 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
     ![](images/M02/po23.png)
 
-
 ### Task 2: Test auditing
 
 1. Navigate to the **Power Apps maker portal** and select the **My Sandbox** environment.
@@ -346,7 +341,6 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
     ![](images/M02/M2-EX2-T2-S13.png)
 
-
 ## Exercise 3: Setup the CoE Starter Kit Power BI Dashboard
 
 ### Scenario
@@ -354,7 +348,6 @@ In this exercise, you will configure Dataverse logging for a table that requires
 In this exercise, you will explore some of the apps and analytics that are part of the Power Platform CoE Starter Kit. We have already installed and configured the starter kit for the 
 tenant you are using for this lab. As part of configuring, we imported the solution, shared the apps, configured the flows that synchronize data and published the Power BI report. If you 
 were doing this with your tenant, you would follow the instructions to complete these steps.
-
 
 Now in this exercise, you will explore the following key components:
 
@@ -390,7 +383,7 @@ Now in this exercise, you will explore the following key components:
 
    ![](images/M02/M2-EX3-T1-S7.png)
 
-8. Select **Environments** in the left navigation. This will show you a list of all the environments in your tenant and key metrics like a number of apps. To view all your environments, 
+8. Select **Environments** in the left navigation. This will show you a list of all the environments in your tenant and key metrics like several apps. To view all your environments, 
    similar to the image below, switch the view at the top to **Active Environments**.
 
    ![](images/M02/M2-EX3-T1-S8-1.png)
@@ -494,7 +487,7 @@ Now in this exercise, you will explore the following key components:
    
      d) Check the **Use Map and Filled Map visuals** checkbox.
    
-     e) Select **Ok** to close the Options dialog.
+     e) Select **OK** to close the Options dialog.
 
      ![](images/M02/M2-EX3-T2-S22-E.png)
 
@@ -584,8 +577,8 @@ to look for apps that are over-shared.
    ![](images/M02/M2-EX4-T1-S5.png)
 
 6. The filter will take place immediately and you will see a small list of apps that have been shared with everyone. In many cases, a quick evaluation of the name of the app would 
-   indicate whether it was appropriate, but it also allows you to drill down into more details by hovering your mouse pointer over the name of the app. You might also use the owner’s name 
-   to contact the person who made the app to get more details to determine if it was appropriate to share with everyone.
+   indicate whether it was appropriate, but it also allows you to drill down into more details by hovering your mouse pointer over the name of the app. You might also use the owner’s 
+   name to contact the person who made the app to get more details to determine if it was appropriate to share with everyone.
 
 
 ## Exercise 5: How much is a connector used in your
