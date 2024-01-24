@@ -240,8 +240,7 @@ the Office 365 connector.
 
 27. Select **United States** for the **location** and select on the **Display Name** field.
 
-    >**Note:** Location determines the region for the environment, in a real process you might allow this to
-be auto-determined by the user location or something the requester provides.
+    >**Note:** Location determines the region for the environment, in a real process you might allow this to be auto-determined by the user location or something the requester provides.
 
 28. Select **Environment Name** from the Dynamic content pane.
 
@@ -616,8 +615,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
    ![](images/M03/M3-EX4-T2-S2.png)
 
-3. Select **My Flows** and click **Import** and select **Import Package (Legacy)**. (For this step, you may not be able to access the content while you are in Incognito mode. If this is the case, simply 
-   switch to your normal browser).
+3. Select **My Flows** and click **Import** and select **Import Package (Legacy)**. (For this step, you may not be able to access the content while you are in Incognito mode. If this is the case, simply switch to your normal browser).
 
    ![](images/M03/M3-EX4-T2-S3.png)
 
@@ -708,7 +706,6 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
    ![](images/M04/po29.png)
 
-
 1. Click on **+** on blank canvas app. Make sure **Tablet** is selected.
 
    ![](images/M04/po30.png)
@@ -721,7 +718,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
    ![](images/M03/M3-EX4-T3-S5.png)
 
-6. Select on the **Back** button.
+6. Select the **Back** button.
 
    ![](images/M03/M3-EX4-T3-S6.png)
 
