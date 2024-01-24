@@ -10,7 +10,7 @@
    
    - Task 1: Add Power Apps and pin it
 
-    - Task 2: Create an application and table
+   - Task 2: Create an application and table
 
 3. Exercise 2 – Share your app
 
@@ -54,7 +54,6 @@ In this task, you will add the Power Apps app, and then pin it to your pinned ap
    ![](images/M05/M5B-EX1-T1-S4.png)
 
 5. Do not navigate away from this page.
-
 
 ### Task 2: Create an application and table
 
@@ -102,7 +101,7 @@ In this task, you will create an application, and a table, and add new columns t
 
     ![](images/M05/po41.png)
 
-13. The table should now show three columns. Select the first cell within the **Name** column, and type **Ergonomic office chair** and Enter a description within the **Description** cell and select today’s date for **Requested date** cell.
+13. The table should now show three columns. Select the first cell within the **Name** column, type **Ergonomic office chair**, enter a description within the **Description** cell and select today’s date for the **Requested date** cell.
  
     ![](images/M05/po42.png)
 
