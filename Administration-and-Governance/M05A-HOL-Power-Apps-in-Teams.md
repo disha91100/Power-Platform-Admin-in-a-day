@@ -14,13 +14,9 @@
 
 1. Navigate to Microsoft Teams and log in with the **admin account**.
 
-2. Select **Join or create a team** at the bottom left of the screen.
+2. Select **Teams** at the bottom left of the screen and select **Create a team**.
 
-   ![](images/M05/T1A-S2.png)
-
-3. Select **Create a team**.
-
-   ![](images/M05/T1A-S3.png)
+   ![](images/M05/po37.png)
 
 4. Select **From scratch**.
 
@@ -58,7 +54,7 @@
 
 3. Select the **Central IT** team and then select **Create**.
 
-   ![](images/M05/T2A-S3.png)
+   ![](images/M05/po38.png)
 
 4. Enter **Accounts (1)** for App name, and then select **Save (2)**.
 
