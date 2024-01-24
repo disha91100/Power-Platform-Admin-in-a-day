@@ -70,8 +70,7 @@ Next, you will be taking steps to put some baseline security policies in place t
 This lab is designed to be completed in an environment setup for multiple students to complete the Admin in a day series of hands-on labs. We will be providing an environment for you to 
 utilize for this course.
 
-You will be assigned one or more users to use to complete the tasks. Because this is a shared environment, some tasks that require a tenant Global Administrator or a Service Administrator 
-will already be completed. Your account will only be an environment administrator.
+You will be assigned one or more users to use to complete the tasks. Because this is a shared environment, some tasks that require a tenant Global Administrator or a Service Administrator will already be completed. Your account will only be an environment administrator.
 
 
 ## Exercise 1: Exploring existing Power Platform usage
@@ -138,14 +137,14 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 15. In the **Access** section, you’ll notice that there are multiple options to choose from, which can be used to determine who has access to which items.
 
-16. Select **See all** under **Security Roles.**
+16. Select **See all** under **Security Roles**.
 
     ![](images/M01/po20.png)
 
 17. From here, you can review all of the security roles for your company and manage their access to the company’s data. By default, users have access to all security roles. The business 
     unit currently listed is the same as the tenant and these are assigned to all users by default. Managed roles can be modified to create.
 
-18. Use the search box in the top right and enter **Environment Maker** to find the Environment maker security role, then select the lone result.
+18. Use the search box in the top right and enter **Environment Maker** to find the Environment Maker security role, then select the lone result.
 
     ![](images/M01/po3.png)
  
@@ -162,7 +161,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 22. These are apps built by users in your default environment. Notice many of them are just test names because this is where a lot of users will experiment and build their first app. As 
     you scroll down the list you might notice some names are more deliberate e.g., Product Showcase. Later in the course, we will talk about how to identify these upcoming apps so you 
-    can help give them the guidance to ensure they mature and have adequate governance.
+    can help guide them to ensure they mature and have adequate governance.
 
 23. Click on the **... (1)** and select **Details (2)** to view app details, such as App Type (Standard/Premium), Web link, Connections and Shared information.
 
@@ -322,8 +321,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
    ![](images/M01/M1-EX4-T1-S2.png)
 
-3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** for **Name**, select Region as **United States - Default**, select **Trial** as Type, select **Yes** for Add a Dataverse 
-   data store?, and select **Next**.
+3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** for Name, select Region as **United States - Default**, select **Trial** as Type, select **Yes** for Add a Dataverse data store?, and select **Next**.
 
    ![](images/M01/po6.png)
 
@@ -404,7 +402,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 In this task, you will create an environment-specific DLP and see how it impacts your workflow.
 
-1. Navigate back to the Power Platform admin center. If you’re on the Power Apps website, you can do this by selecting the gear in the header, and selecting **Admin Center**
+1. Navigate back to the Power Platform admin center. If you’re on the Power Apps website, you can do this by selecting the gear in the header, and selecting **Admin Center**.
 
    ![](images/M01/M1-EX4-T3-S1.png)
 
@@ -445,7 +443,7 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
     ![](images/M01/po15.png)
 
-12. Once done, Select **Next**.
+12. Once done, select **Next**.
 
 13. Review the policy, to make sure you have **(3) Business** connectors added, and only one **Environment** selected and select **Create policy**.
 
@@ -655,3 +653,4 @@ ID Security group and assign the security role you just built.
    ![](images/M01/M1-EX5-T3-S6.png)
 
 6. Close the share pane.
+
