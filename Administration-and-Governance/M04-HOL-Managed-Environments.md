@@ -4,7 +4,6 @@
 
 ## Table of Contents
 
-
 1. Exercise 1 - Managed Environments
 
    **Scenario**
@@ -225,7 +224,6 @@ A managed environment allows administrators to add additional data policies in p
 
    ![](images/M04/M4-EX1-T2-F2-S4-1.png)
 
-
 5. (Optional) Since we have not created any nor have any data policies which are applied to the entire tenant, this page will prompt you to create a new data policy. Feel free to create 
    a policy named DLP 1, which blocks the SQL server connector with a scope of all environments. The policy will then appear on the filtered view.
 
@@ -274,14 +272,13 @@ in a team that is not bound to the environment.
 
 1. Navigate to Power Apps.
 
-2. Ensure you’re in the correct environment by checking the Environment Selector at the top right.
+1. Ensure you’re in the correct environment by checking the Environment Selector at the top right.
 
    ![](images/M04/M4-EX1-T2-F5-S2.png)
 
-3. Select **Apps (1)**, then **+ New app (2)** > **Start with a page design (3)**.
+1. Select **Apps (1)**, then **+ New app (2)** > **Start with a page design (3)**.
 
    ![](images/M04/po29.png)
-
 
 1. Click on **+** on blank canvas app. Make sure **Tablet** is selected.
 
@@ -291,7 +288,7 @@ in a team that is not bound to the environment.
 
     ![](images/M04/po31.png)
 
-4. Enter the App name as **Play with Sharing**, set the format to **Tablet**, and then select **Create**.
+1. Enter the App name as **Play with Sharing**, set the format to **Tablet**, and then select **Create**.
 
    ![](images/M04/M4-EX1-T2-F5-S4.png)
 
@@ -340,7 +337,6 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
     https://admin.powerplatform.microsoft.com/environments
     ```
   
-
 3. Select **Managed Environment-<inject key="Deployment ID" enableCopy="false" />** to open a detailed view for the environment.
 
     ![](images/M04/M4-EX2-T0-S3.png)
@@ -449,9 +445,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
     ![](images/M04/M4-EX2-T1A-S14.png)
 
-
 #### 1B. Create a pipeline.
-
 
 1. Select **Pipelines (1)** on the left navigation pane, and then select **+ New (2)** to create a new deployment pipeline.
 
@@ -507,7 +501,6 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
     ![](images/M04/po36.png)
 
 19. Do not navigate away from this page.
-
 
 #### Task 2: Run the pipeline
 
@@ -571,7 +564,6 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
      ![](images/M04/M4-EX2-T2-S16-1.png)
 
-
 17. Administrations can also make changes to the run record from the Deployment Pipeline Configuration app, such as altering the starting time and deployment notes. Return to the 
     **Deployment Pipeline Configuration App** in the host environment and select **Run history**.
 
@@ -590,8 +582,4 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
     ![](images/M04/M4-EX2-T2-S20.png)
 
     ![](images/M04/M4-EX2-T2-S20-1.png)
-
-
-
-
 
