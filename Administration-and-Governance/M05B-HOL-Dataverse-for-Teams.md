@@ -41,7 +41,7 @@ In this task, you will add the Power Apps app, and then pin it to your pinned ap
 
 1. Navigate to Microsoft Teams and log in with the **admin account**.
 
-2. Select the **ellipsis** (...), entitled **More added apps**, button within the navigation bar to the left of the screen.
+2. Select the **ellipsis (...)**, entitled **More added apps**, button within the navigation bar to the left of the screen.
 
    ![](images/M05/M5B-EX1-T1-S2.png)
 
@@ -72,7 +72,7 @@ In this task, you will create an application, and a table, and add new columns t
 
    ![](images/M05/M5B-EX1-T2-S4-1.png)
 
-5. Enter **Special Request LA X** and select **Save**. Replace X with your lab user number.
+5. Enter **Special Request Lab X** and select **Save**. Replace X with your lab user number.
 
    ![](images/M05/M5B-EX1-T2-S5.png)
 
@@ -192,10 +192,10 @@ In this task, you will share the application and the table you created.
 
    ![](images/M05/po46.png)
 
-6. Select **Tables**, select the table you created and choose **Manage permissions**.
+6. Select **Tables (1)**, select the table you created and choose **Manage permissions (2)**.
 
    ![](images/M05/M5B-EX2-T1-S6.png)
 
-7. Select the **Lab Admin Team** team, give the team members the **Collaborate** permission, and select **Save**. You have now completed sharing with the group.
+7. Select the **Lab Admin Team (1)** team, give the team members the **Collaborate (2)** permission, and select **Save (3)**. You have now completed sharing with the group.
 
    ![](images/M05/M5B-EX2-T1-S7.png)

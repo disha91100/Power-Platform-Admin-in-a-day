@@ -55,11 +55,11 @@ In this exercise, you will be shifting a pre-made environment from an unmanaged 
 
 1. Navigate to the Power Platform Admin Center (https://aka.ms/ppac).
 
-2. Select Environments, then select **+New** to create a new environment.
+2. Select **Environments**, then select **+ New** to create a new environment.
 
    ![](images/M04/M4-EX1-T1-S2.png)
 
-3. Input **Managed Environment-<inject key="Deployment ID" enableCopy="false" />** for the name, set the region to your region, set the **Type** as Sandbox, and select the toggle to 
+3. Input **Managed Environment-<inject key="Deployment ID" enableCopy="false" />** for the name, set the region as **United States - Default**, set the Type as **Sandbox**, and select the toggle to 
    enable adding a Dataverse data store, then select **Next**.
 
    ![](images/M04/M4-EX1-T1-S3-1.png)
@@ -104,7 +104,7 @@ In this exercise, you will be shifting a pre-made environment from an unmanaged 
 
       ![](images/M04/M4-EX1-T1-S8.png)
 
-    g. Select Enable once complete.
+    g. Select **Enable** once complete.
 
       ![](images/M04/M4-EX1-T1-S9.png)
 
@@ -115,12 +115,12 @@ In this exercise, you will be shifting a pre-made environment from an unmanaged 
 10. Do not navigate away from this page.
 
 
-#### Task 2: Review the Features of the Managed Environments
+### Task 2: Review the Features of the Managed Environments
 
 Now that you have created a managed environment, it's time to review the newly enabled features. Managed environments have several features which can be used to expand the functionality 
 of an environment.
 
-##### Feature 1: Solution Checking
+#### Feature 1: Solution Checking
 
 The solution checker will enforce static analysis checks on any imported custom solutions against a set of best practice rules and identify problematic patterns in the solution. The 
 solution being imported must have run the solution checker in its native environment, and it must have been run within a 90-day window of the import. For more details on the solution 
@@ -230,7 +230,7 @@ A managed environment allows administrators to add additional data policies in p
    a policy named DLP 1, which blocks the SQL server connector with a scope of all environments. The policy will then appear on the filtered view.
 
 
-##### Feature 3: Usage Insights
+#### Feature 3: Usage Insights
 
 Usage insights provide insights about your managed environments via a weekly digest provided to administrators. This includes analytics of the top apps in the managed environments, the 
 most impactful makers, and inactive resources which can be cleaned up safely. For this to operate, tenant-level analytics must be enabled, which was enabled in a previous tenant for this 
@@ -262,7 +262,7 @@ information for the makers associated with the environment.
 6. (Optional) Modify the content of the textbox with Markdown or with Plain text and preview again to review the results.
 
 
-##### Feature 5: Limiting Sharing
+#### Feature 5: Limiting Sharing
 
 Share Limiting can prevent makers from sharing **Canvas apps** to everyone in the tenant, other security groups or to a certain amount of individuals. For Dataverse for Teams Environments 
 are not impacted by sharing rules when sharing to a team bound to the environment, however, the sharing rules are enforced when a user attempts to share the app with individuals or groups 
@@ -278,7 +278,7 @@ in a team that is not bound to the environment.
 
    ![](images/M04/M4-EX1-T2-F5-S2.png)
 
-3. Select **Apps (1)**, then **+ New app** > **Start with page design (2)**.
+3. Select **Apps (1)**, then **+ New app (2)** > **Start with a page design (3)**.
 
    ![](images/M04/po29.png)
 
@@ -287,11 +287,11 @@ in a team that is not bound to the environment.
 
    ![](images/M04/po30.png)
 
-1. Once the app loads, **select Add item from the Insert pane** on the view window and select **Rectangle**.
+1. Once the app loads, select **Add item from the Insert pane** on the view window and select **Rectangle**.
 
     ![](images/M04/po31.png)
 
-4. Name the app **Play with Sharing**, set the format to **Tablet**, and then select **Create**.
+4. Enter the App name as **Play with Sharing**, set the format to **Tablet**, and then select **Create**.
 
    ![](images/M04/M4-EX1-T2-F5-S4.png)
 
@@ -303,7 +303,7 @@ in a team that is not bound to the environment.
 
    ![](images/M04/M4-EX1-T2-F5-S7.png)
 
-8. Search Lab User and choose a user.
+8. Search **Lab User01** and choose a user.
 
    ![](images/M04/M4-EX1-T2-F5-S8.png)
 
@@ -362,9 +362,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
     ![](images/M04/M4-EX2-T0-S7.png)
 
-8. For this lab, we will not be configuring each of the associated environments for other features (e.g., Limit Sharing, Usage insights, etc.). Select **Enable** at the bottom of the panel.
-
-    ![](images/M04/M4-EX2-T0-S6.png)
+8. For this lab, we will not be configuring each of the associated environments for other features (e.g., Limit Sharing, Usage insights, etc.). Select **Enable** at the bottom of the panel
 
 9. Repeat this process for **Thrive Hr - Prod** and **Thrive Hr - Test** environments in the setup .
 
@@ -373,7 +371,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
   
     ![](images/M04/M4-EX2-T0-S10.png)
 
-11. Select **Install App** from the ribbon at the top.
+11. Select **Install app** from the ribbon at the top.
 
      ![](images/M04/M4-EX2-T0-S11.png)
 
@@ -381,7 +379,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
     ![](images/M04/M4-EX2-T0-S12.png)
 
-13. Select the **checkbox (1)** to agree to the Terms of Service, then select **Install (2)**.
+13. Select the **Checkbox (1)** to agree to the Terms of Service, then select **Install (2)**.
 
     ![](images/M04/M4-EX2-T0-S13.png)
 
@@ -389,7 +387,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
     ![](images/M04/M4-EX2-T0-S14.png)
 
-15. **Do not navigate away from this page**.
+15. Do not navigate away from this page.
 
 
 #### Task 1: Configure a deployment pipeline
@@ -431,9 +429,9 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
     b. Environment Type: **Development Environment (2)**
 
-    c. Environment Id: Paste the **Environment ID (3)** you copied from earlier here.
+    c. Environment ID: Paste the **Environment ID (3)** you copied from earlier here.
 
-     ![](images/M04/M4-EX2-T1A-S9.png)
+      ![](images/M04/M4-EX2-T1A-S9.png)
 
 10. Select **Save**.
 
@@ -452,7 +450,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
     ![](images/M04/M4-EX2-T1A-S14.png)
 
 
-##### 1B. Create a pipeline.
+#### 1B. Create a pipeline.
 
 
 1. Select **Pipelines (1)** on the left navigation pane, and then select **+ New (2)** to create a new deployment pipeline.
@@ -471,7 +469,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
    ![](images/M04/M4-EX2-T1B-S4.png)
 
-5. Locate the **Deployment Stages (Deployment Pipeline)** section, select **New Deployment stage**.
+5. Locate the **Deployment Stages (Deployment Pipeline)** section, select **+ New Deployment Stage**.
 
    ![](images/M04/M4-EX2-T1B-S5.png)
 
@@ -481,7 +479,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 8. Since this is the first stage of our deployment, the **Previous Deployment Stage** field will be left blank for this one.
 
-9. Set the **Target Development Environment** to the **Thrive HR - Test (3)**.
+9. Set the **Target Development Environment** to the **Thrive Hr - Test (3)**.
 
 10. Leave the pre-deployment condition unselected. To learn more about pre-deployment conditions,
     follow this link.
@@ -500,7 +498,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 15. Set the **Previous Deployment Step** to **Deploy to Test (3)**.
 
-16. Set the **Target Development Environment** to the **Thrive HR - Prod (4)**.
+16. Set the **Target Development Environment** to the **Thrive Hr - Prod (4)**.
 
 17. Select **Save and Close (5)**.
 
@@ -515,7 +513,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 1. Navigate to Power Apps in a new tab.
 
-2. Ensure you are in the Thrive HR - Dev environment at the top right.
+2. Ensure you are in the **Thrive HR - Dev** environment at the top right.
 
    ![](images/M04/M4-EX2-T2-S2.png)
 
@@ -551,7 +549,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
     ![](images/M04/M4-EX2-T2-S11.png)
 
-12. The solution is now being processed, validated, and deployed to the Thrive Hr - Test environment.
+12. The solution is now being processed, validated, and deployed to the **Thrive Hr - Test** environment.
 
     ![](images/M04/M4-EX2-T2-S12.png)
 

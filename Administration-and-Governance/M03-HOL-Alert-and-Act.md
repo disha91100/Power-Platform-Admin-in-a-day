@@ -87,19 +87,19 @@ collect additional information allowing it to be tailored to your individual org
 
 ### Task 1: Create Microsoft Form
 
-1. While logged in as the lab admin user navigate to **Microsoft Forms** https://forms.office.com/ and close the welcome screen.
+1. While logged in as the lab admin user navigate to **Microsoft Forms** with https://forms.office.com/ and close the welcome screen.
 
    ![](images/M03/M3-EX1-T1-S1.png)
 
-2. Select **New Form**.
+2. Select **+ New Form**.
 
    ![](images/M03/M3-EX1-T1-S2.png)
 
-3. Select the Untitled Form Header
+3. Select the **Untitled Form** Header.
 
    ![](images/M03/M3-EX1-T1-S3.png)
 
-4. Enter **New Environment Approval Request** for title, enter **New environment request** for description, and select **Add new**.
+4. Enter **New Environment Approval Request** for title, enter **New environment request** for description, and select **+ Add new**.
 
    ![](images/M03/M3-EX1-T1-S4.png)
 
@@ -111,7 +111,7 @@ collect additional information allowing it to be tailored to your individual org
 
    ![](images/M03/M3-EX1-T1-S6.png)
 
-7. Enter **Environment Name**, make the question **Required**, and select **Add New**.
+7. Enter **Environment Name**, make the question **Required**, and select **+ Add New**.
 
    ![](images/M03/M3-EX1-T1-S7.png)
 
@@ -121,7 +121,7 @@ collect additional information allowing it to be tailored to your individual org
 
    ![](images/M03/M3-EX1-T1-S9.png)
 
-10. Select **Add New** and select **Text**.
+10. Select **+ Add New** and select **Text**.
 
 11. Enter **What connectors will you use?** select **Long Answer** and make it **Required**.
 
@@ -166,15 +166,11 @@ the Office 365 connector.
 
    ![](images/M03/M3-EX2-T2-S2.png)
 
-3. Select **My flows**.
-
-4. Select **+ New flow** and select **Automated cloud flow**.
+3. Select **My flows**, select **+ New flow** and select **Automated cloud flow**.
 
    ![](images/M03/M3-EX2-T2-S4.png)
 
-5. Type **New Environment Approval** in the Flow name field.
-
-6. In the **Choose your flow’s trigger** section, search for Microsoft Forms, select **When a new response is submitted**, and select **Create**.
+5. Type **New Environment Approval** in the Flow name field. In the **Choose your flow’s trigger** section, search for Microsoft Forms, select **When a new response is submitted**, and select **Create**.
 
    ![](images/M03/M3-EX2-T2-S6.png)
 
@@ -182,13 +178,11 @@ the Office 365 connector.
 
    ![](images/M03/M3-EX2-T2-S7.png)
 
-8. Search for **Microsoft Forms** and select **Get Response Details**.
+8. Search for **Microsoft Forms** and select **Get response details**.
 
    ![](images/M03/M3-EX2-T2-S8.png)
 
-9. Select **New Environment Approval Request** for **Form Id** and select the **Response Id** field.
-
-10. Select **Response Id** from the Dynamic content pane.
+9. Select **New Environment Approval Request** for Form Id and select the **Response Id** from the Dynamic content pane.
 
     ![](images/M03/M3-EX2-T2-S10.png)
 
@@ -198,7 +192,7 @@ the Office 365 connector.
 
     ![](images/M03/M3-EX2-T2-S12.png)
 
-13. Select **First to Respond** for **Approval Type**.
+13. Select **Approve/Reject - First to Respond** for Approval type.
 
     ![](images/M03/M3-EX2-T2-S13.png)
 
@@ -208,7 +202,7 @@ the Office 365 connector.
 
 16. Type **New Environment was requested by:** in the **Details** field.
 
-17. Select **Responders’ Email** from the Dynamic content pane.
+17. Select **Responders Email** from the Dynamic content pane.
 
     ![](images/M03/M3-EX2-T2-S17.png)
 
@@ -262,7 +256,7 @@ be auto-determined by the user location or something the requester provides.
 
 ### Task 3: Create a Database and Notify the User
 
-1. Select **Add Action** under Create Environment.
+1. Select **Add an action** under Create Environment.
 
    ![](images/M03/M3-EX2-T3-S1.png)
 
@@ -272,7 +266,7 @@ be auto-determined by the user location or something the requester provides.
 
    ![](images/M03/M3-EX2-T3-S3.png)
 
-4. Select on the **Environment Name** dropdown and select **Enter Custom Value**.
+4. Select on the **Environment** dropdown and select **Enter Custom Value**.
 
    ![](images/M03/M3-EX2-T3-S4.png)
 
@@ -292,19 +286,17 @@ be auto-determined by the user location or something the requester provides.
 
    ![](images/M03/M3-EX2-T3-S9.png)
 
-10. Select on the **To:** field and select **Responder’s Email** for the Dynamic Content pane.
+10. Select on the **To:** field and select **Responders Email** for the Dynamic Content pane.
 
 11. Enter **Your environment was created** for **Subject**.
 
-12. Enter **Environment** in the **Body** field and select **Display Name** from the Dynamic Content pane under the **Create Environment** step.
-
-13. Add **was created**.
+12. Enter **Environment** in the **Body** field and select **Display Name** from the Dynamic Content pane under the **Create Environment** step and add **was created** in the last.
 
 14. Your email should look like the image below.
 
     ![](images/M03/M3-EX2-T3-S14.png)
 
-15. Go to the **No** branch and select Add an Action.
+15. Go to the **No** branch and select **Add an Action**.
 
 16. Search for Send email and select **Send an email (V2) Office 365 Outlook**.
 
@@ -322,13 +314,13 @@ be auto-determined by the user location or something the requester provides.
 
     ![](images/M03/M3-EX2-T3-S21.png)
 
-22. Select **Flow Checker** and make sure there are no errors.
+22. Select **Flow checker** and make sure there are no errors.
 
     ![](images/M03/M3-EX2-T3-S22.png)
 
     ![](images/M03/M3-EX2-T3-S22-1.png)
 
-24. Close the **Flow Checker** pane with the X to the right of the pane header.
+24. Close the **Flow checker** pane with the X to the right of the pane header.
 
 25. Select the **Back** button.
 
@@ -340,7 +332,7 @@ be auto-determined by the user location or something the requester provides.
 
    ![](images/M03/M3-EX2-T4-S1.png)
 
-2. Select **Collect Responses** and **Copy** the link.
+2. Select **Collect responses** and **Copy** the link.
 
    ![](images/M03/M3-EX2-T4-S2.png)
 
@@ -386,7 +378,7 @@ be auto-determined by the user location or something the requester provides.
 
     ![](images/M03/M3-EX2-T4-S14.png)
 
-15. Navigate to the Power Platform admin center and select Environments. The new environment should be listed there.
+15. Navigate to the Power Platform admin center and select **Environments**. The new environment should be listed there.
 
     ![](images/M03/M3-EX2-T4-S15.png)
 
@@ -436,21 +428,23 @@ In this task, you will be performing the role of the developer and completing th
 
    ![](images/M03/M3-EX3-T1-S1.png)
 
-2. Navigate to Power Apps and select the **User and Team Productivity** environment.
+2. Navigate to Power Apps and select the **OTU WA AIW (default)** environment.
 
-   ![](images/M03/M3-EX3-T1-S2.png)
+   ![](images/M01/po2.png)
 
 3. Select **Apps** from the left-side navigation.
 
     ![](images/M03/M3-EX3-T1-S3.png)
 
-4. Select the **∙∙∙** next to **Lab Admin #** application where # is your user number.
+3. Select **Apps (1)**, then **+ New app (2)** > **Start with page design (3)**.
 
-   a. If it doesn’t exist, create a canvas app from scratch and name it Test App (Initials), where Initials are your initials. Set the format to Tablet and select Create.
+   ![](images/M04/po29.png)
 
-    ![](images/M03/M3-EX3-T1-S4.png)
+1. Click on **+** on blank canvas app. Make sure **Tablet** is selected.
 
-   b. Skip the next step.
+    ![](images/M04/po30.png)
+
+   b. Click on **Save** on the top right corner and enter name as **Test App (Initials)**.
 
 5. Select **Edit** from the menu that appears, or from the ribbon at the top.
 
@@ -586,9 +580,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 ### Task 1: Create Office 365 Group
 
-1. Navigate to the Azure portal
-
-2. Select **Microsoft Entra ID**.
+1. Navigate to the Azure portal and select **Microsoft Entra ID**.
 
    ![](images/M03/Entra-ID.png)
 
@@ -596,11 +588,11 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
    ![](images/M03/Entra-ID-1.png)
 
-4. Select **+ New Group**.
+4. Select **+ New group**.
 
    ![](images/M03/M3-EX4-T1-S4.png)
 
-5. Select **Microsoft 365** for Group Type, enter **Lab Admin Your# Makers** for Group Name, set the **Azure Roles** to **No**, and select **Create**.
+5. Select **Microsoft 365** for Group Type, enter **Lab Admin Makers** for Group Name, set the **Azure AD Roles** to **No**, and select **Create**.
 
    ![](images/M03/M3-EX4-T1-S5.png)
 
@@ -608,7 +600,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
    ![](images/M03/M3-EX4-T1-S6.png)
 
-7. Select **Properties** and copy the **Object ID**.
+7. Select **Properties** and copy the **Object id**.
 
    ![](images/M03/M3-EX4-T1-S7.png)
 
@@ -617,21 +609,21 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 ### Task 2: Import Flow
 
-1. Navigate to **Power Automate**
+1. Navigate to **Power Automate**.
 
 2. Make sure **Power Platform COE** environment is selected. Note: While we are using this here, in your tenant you might do this in an admin-focused environment or where you have 
    installed the CoE Starter Kit.
 
    ![](images/M03/M3-EX4-T2-S2.png)
 
-3. Select **My Flows** and select **Import Package (Legacy)**. (For this step, you may not be able to access the content while you are in Incognito mode. If this is the case, simply 
-   switch to your normal browser.)
+3. Select **My Flows** and click **Import** and select **Import Package (Legacy)**. (For this step, you may not be able to access the content while you are in Incognito mode. If this is the case, simply 
+   switch to your normal browser).
 
    ![](images/M03/M3-EX4-T2-S3.png)
 
 4. Select **Upload**.
 
-5. Select the **Send Welcome Email** zip file and select **Open**. This will be in your lab resource files you downloaded named SendWelcomeEmailToNewPowerAppsMakers_20190529192359.zip
+5. Select the **Send Welcome Email** zip file and select **Open**. This will be in your lab resource files you downloaded named **SendWelcomeEmailToNewPowerAppsMakers_20190529192359.zip**.
 
    ![](images/M03/M3-EX4-T2-S5.png)
 
@@ -643,7 +635,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
    ![](images/M03/M3-EX4-T2-S7.png)
 
-8. Select **Configure** for **Power Platform for Admin Connection**.
+8. Select **Configure** for **Power platform for Admins Connection**.
 
     ![](images/M03/M3-EX4-T2-S8.png)
 
@@ -655,7 +647,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 11. Select the available connection and select **Save**.
 
-12. Select **Configure** for **Power Apps for Admin Connection**.
+12. Select **Configure** for **PowerApps for Admins Connection**.
 
     ![](images/M03/M3-EX4-T2-S12.png)
 
@@ -712,11 +704,14 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
    ![](images/M03/M3-EX4-T3-S1.png)
 
-2. Select **Apps**.
+1. Select **Apps (1)**, then **+ New app** > **Start with a page design (2)**.
 
-3. Select **+ New app** and select **Canvas**.
+   ![](images/M04/po29.png)
 
-   ![](images/M03/M3-EX4-T3-S3.png)
+
+1. Click on **+** on blank canvas app. Make sure **Tablet** is selected.
+
+   ![](images/M04/po30.png)
 
 4. Enter **Test app** for App name, select **Tablet** for format, and select **Create**.
 
@@ -726,11 +721,11 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
    ![](images/M03/M3-EX4-T3-S5.png)
 
-6. Select on the  back button.
+6. Select on the **Back** button.
 
    ![](images/M03/M3-EX4-T3-S6.png)
 
-7. Go back to the app maker main page by selecting the  **Back** button.
+7. Go back to the app maker main page by selecting the **Back** button.
 
 8. Select **Solutions**.
 

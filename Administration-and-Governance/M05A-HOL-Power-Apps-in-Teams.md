@@ -14,7 +14,7 @@
 
 1. Navigate to Microsoft Teams and log in with the **admin account**.
 
-2. Select **Teams** at the bottom left of the screen and select **Create a team**.
+2. Select **Teams** at the bottom left of the screen and click on **+**.
 
    ![](images/M05/po37.png)
 
@@ -40,7 +40,7 @@
 
    ![](images/M05/T1A-S9.png)
 
-10. Change all the users to have the role of **Owner** to make them co **- owners** of the team and select **Close**.
+10. Change all the users to have the role of **Owner** to make them **co - owners** of the team and select **Close**.
 
     ![](images/M05/T1A-S10.png)
 
