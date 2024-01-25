@@ -12,15 +12,11 @@
 
 ### Task 1: Create a team
 
-1. Navigate to Microsoft Teams and log in with the **admin account.**
+1. Navigate to Microsoft Teams and log in with the **admin account**.
 
-2. Select **Join or create a team** at the bottom left of the screen.
+2. Select **Teams** at the bottom left of the screen and click on **+** icon to create a team.
 
-   ![](images/M05/T1A-S2.png)
-
-3. Select **Create a team**.
-
-   ![](images/M05/T1A-S3.png)
+   ![](images/M05/po37.png)
 
 4. Select **From scratch**.
 
@@ -40,17 +36,17 @@
 
 8. Search for **lab user** again and select **Lab User02**.
 
-9. Do the same for the rest of the users up to **Lab User10** and then select **Add**. _(You will have Lab User__1 - 10 selected to be added to the Team)_
+9. Do the same for the rest of the users up to **Lab User10** and then select **Add**. (You will have Lab User01 - 10 selected to be added to the Team)
 
    ![](images/M05/T1A-S9.png)
 
-10. Change all the users to have the role of **Owner** to make them co **- owners** of the team and select **Close**.
+10. Change all the users to have the role of **Owner** to make them **co-owners** of the team and select **Close**.
 
     ![](images/M05/T1A-S10.png)
 
-### Task 2 : Create an app
+### Task 2: Create an app
 
-1. Navigate to Microsoft Teams and log in with the **admin account.**
+1. Navigate to Microsoft Teams and log in with the **admin account**.
 
 2. Select **∙∙∙** from the navigation bar to the left of the screen, and then select **Power Apps (1)** and select **Start now (2)** from the main card.
 
@@ -58,7 +54,7 @@
 
 3. Select the **Central IT** team and then select **Create**.
 
-   ![](images/M05/T2A-S3.png)
+   ![](images/M05/po38.png)
 
 4. Enter **Accounts (1)** for App name, and then select **Save (2)**.
 

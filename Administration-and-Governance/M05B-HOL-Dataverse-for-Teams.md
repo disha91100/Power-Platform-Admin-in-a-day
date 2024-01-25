@@ -10,7 +10,7 @@
    
    - Task 1: Add Power Apps and pin it
 
-    - Task 2: Create application and table
+   - Task 2: Create an application and table
 
 3. Exercise 2 – Share your app
 
@@ -23,7 +23,7 @@
 
 ## Lab Scenario
 
-In this hands-on lab you will create a Power App in a team and see how to publish it to your team. You will also share with colleagues outside your team to see how broad distribution apps 
+In this hands-on lab, you will create a Power App in a team and see how to publish it to your team. You will also share with colleagues outside your team to see how broad distribution apps 
 work.
 
 ## Lab Test Environment
@@ -39,9 +39,9 @@ will already be completed. Your account will only be an environment administrato
 
 In this task, you will add the Power Apps app, and then pin it to your pinned apps.
 
-1. Navigate to Microsoft Teams and log in with the **admin account.**
+1. Navigate to Microsoft Teams and log in with the **admin account**.
 
-2. Select the **ellipsis** (...), entitled **More added apps** , button within the navigation bar to the left of the screen.
+2. Select the **ellipsis (...)**, entitled **More added apps**, button within the navigation bar to the left of the screen.
 
    ![](images/M05/M5B-EX1-T1-S2.png)
 
@@ -55,12 +55,11 @@ In this task, you will add the Power Apps app, and then pin it to your pinned ap
 
 5. Do not navigate away from this page.
 
+### Task 2: Create an application and table
 
-### Task 2: Create application and table
+In this task, you will create an application, and a table, and add new columns to the table.
 
-In this task, you will create an application, a table, and add new columns to the table.
-
-1. Navigate to Microsoft Teams and login.
+1. Navigate to Microsoft Teams and log in.
 
 2. Select **Use the web instead** if prompted.
 
@@ -72,43 +71,39 @@ In this task, you will create an application, a table, and add new columns to th
 
    ![](images/M05/M5B-EX1-T2-S4-1.png)
 
-5. Enter **Special Request LA X** and select **Save**. Replace X with your lab user number.
+5. Enter **Special Request Lab X** and select **Save**. Replace X with your lab user number.
 
    ![](images/M05/M5B-EX1-T2-S5.png)
 
-6. Select **With Data (1)** , and then select **+Create new table (2).**
+6. Select **With data (1)**, and then select **+ Create new table (2)**.
 
    ![](images/M05/M5B-EX1-T2-S6.png)
 
-7. Enter **LA X Request** for Table name, replacing X with your Lab Admin number and choose **Create**. Replace X with your lab user number.
+1. On the **Create table** pane, select **Start with a blank table**.
+
+   ![](images/M05/po39.png)
+
+7. Enter **Lab X Request** for the Table name, replacing X with your Lab Admin number and choose **Create**. Replace X with your lab user number.
 
    ![](images/M05/M5B-EX1-T2-S7.png)
 
-8. Select **+New column**.
+8. Select **+ New column**.
 
    ![](images/M05/M5B-EX1-T2-S8.png)
 
-9. Enter **Description** for Name, select **Text > Plain Text (Single line of text)** for Data type if not chosen already, and then expand the **Advanced options** section.
+9. Enter **Description** for Name, select **Text > Plain Text (Single line of text)** for Data type if not chosen already.
 
-   ![](images/M05/M5B-EX1-T2-S9.png)
+   ![](images/M05/po40.png)
 
-10. Change the **Maximum character count** to **250** and select **Save**.
+11. Select **+ New column** again.
 
-    ![](images/M05/M5B-EX1-T2-S10.png)
+12. Enter **Requested date** for the Display name, select **Date and time > Date Only** for the Data type (the Format will Autofill), and then select **Save**.
 
-11. Select **+New column** again.
+    ![](images/M05/po41.png)
 
-12. Enter **Requested date** for Display name, select **Date and time > Date Only** for Data type (the Format will Autofill), and then select **Save**.
-
-    ![](images/M05/M5B-EX1-T2-S12.png)
-
-13. The table should now show three columns. Select the first cell within the **Name** column, and type **Ergonomic office chair**.
+13. The table should now show three columns. Select the first cell within the **Name** column, type **Ergonomic office chair**, enter a description within the **Description** cell and select today’s date for the **Requested date** cell.
  
-     ![](images/M05/M5B-EX1-T2-S13.png)
-
-14. Enter a description within the **Description** cell and select today’s date for **Requested date** cell.
- 
-    ![](images/M05/M5B-EX1-T2-S14.png)
+    ![](images/M05/po42.png)
 
 15. Add a few more request rows and select **Close**. You can use the following data to enter into the cells of the table:
 
@@ -118,7 +113,7 @@ In this task, you will create an application, a table, and add new columns to th
      | Security system              | The new A245 building doesn't have a security system  | (today's date) |
      | Fire suppression system test | Test the fire suppression system in buildings         | (today's date) |
 
-     ![](images/M05/M5B-EX1-T2-S15.png)
+     ![](images/M05/po43.png)
 
 16. The app should now have a gallery and a form. Select **Save** and wait for the app to be saved.
 
@@ -128,19 +123,19 @@ In this task, you will create an application, a table, and add new columns to th
 
     ![](images/M05/M5B-EX1-T2-S17.png)
 
-18. The app should start in a preview. Select **+New record**.
+18. The app should start in a preview. Select **+ New record**.
 
     ![](images/M05/M5B-EX1-T2-S18.png)
 
 19. Provide a Name, Description, and Requested data. Use the following data to fill in the fields for the new request:
 
-     | Name                         | Description                                                         | Requested Date |
+     | New Column                         | Description                                                         | Requested Date |
      | ---------------------------- | ------------------------------------------------------------------- | -------------- |
      | Covered outdoor work area    | Build a covered outdoor work area on the west side of building Az45 | (today's date) |
 
 20. Select the **checkmark** in the top right-hand corner to **Save** the record.
 
-    ![](images/M05/M5B-EX1-T2-S19.png)
+    ![](images/M05/po44.png)
 
 21. **Close** the preview.
 
@@ -154,9 +149,9 @@ In this task, you will create an application, a table, and add new columns to th
 
     ![](images/M05/M5B-EX1-T2-S23.png)
 
-24. Select the **plus sign** next to the **General** channel to **Add app as a tab**. This will make it discoverable on the channel. Then, Select **Save and close.**
+24. Select the **Plus sign** next to the **General** channel to **Add app as a tab**. This will make it discoverable on the channel. Then, Select **Save and close**.
 
-    ![](images/M05/M5B-EX1-T2-S24.png)
+    ![](images/M05/po45.png)
 
 25. From the navigation bar, select **Teams** and then select the **General** channel of the **Central IT** team.
 
@@ -164,7 +159,7 @@ In this task, you will create an application, a table, and add new columns to th
 
     ![](images/M05/M5B-EX1-T2-S26.png)
 
-27. Ensure that you can see all of the data you entered into the app while it was in preview mode.
+27. Ensure that you can see all of the data you entered into the app while it is in preview mode.
 
     ![](images/M05/M5B-EX1-T2-S27.png)
 
@@ -194,12 +189,12 @@ In this task, you will share the application and the table you created.
 
 5. Make sure the **Lab Admin Team** team members can use the app and then select **Save**.
 
-   ![](images/M05/M5B-EX2-T1-S5.png)
+   ![](images/M05/po46.png)
 
-6. Select **Tables** , select the table you created and choose **Manage permissions**.
+6. Select **Tables (1)**, select the table you created and choose **Manage permissions (2)**.
 
    ![](images/M05/M5B-EX2-T1-S6.png)
 
-7. Select the **Lab Admin Team** team, give the team members the **Collaborate** permission, and select **Save**. You have now completed sharing with the group.
+7. Select the **Lab Admin Team (1)** team, give the team members the **Collaborate (2)** permission, and select **Save (3)**. You have now completed sharing with the group.
 
    ![](images/M05/M5B-EX2-T1-S7.png)

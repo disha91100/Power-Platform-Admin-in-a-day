@@ -2,9 +2,7 @@
 
 # M03-HOL-Action through Automation
 
-
 ## Table of Contents
-
 
 1. Exercise 1 - Create Environment Request Form
 
@@ -20,7 +18,7 @@
 
    - Task 2: Create New Environment Approval Flow
   
-   - Task 3: Create Database and Notify User
+   - Task 3: Create a Database and Notify the User
   
    - Task 4: Test the Flow
 
@@ -47,9 +45,9 @@
 
 ## Lab Scenario
 
-In this hands-on lab, you are an administrator, helping to adopt the Power Platform.
+In this hands-on lab, you are an administrator, helping to adapt the Power Platform.
 
-Contoso has decided to control creation of Power Platform environments by disabling creation unless you are a global or service admin. Contoso doesn’t want to discourage use of the Power 
+Contoso has decided to control the creation of Power Platform environments by disabling creation unless you are a global or service admin. Contoso doesn’t want to discourage use of the Power 
 Platform so they would like you to put an automated process in place to allow users to request an environment and a Microsoft Dataverse database.
 
 In this lab, you will be building a Microsoft Form to allow users to submit their environment requests. Using the Power Platform administrative connectors and the built-in approval 
@@ -57,18 +55,18 @@ capabilities of Power Automate you will automate the processing of the requests.
 
 The following is an outline of the process you will be implementing:
 
-- A user submits request via the form including justification for the environment.
+- A user submits a request via the form including justification for the environment.
 - Form submission triggers flow to run.
-- Flow uses the approval connector to ask admin team for approval.
+- Flow uses the approval connector to ask the admin team for approval.
 - If approved, the environment and Dataverse database are created.
 - User is notified of the outcome; approved or rejected.
 
-This process could easily be expanded to request approval from the user’s manager as well as the request information along with the environment information could be stored for resource 
-usage charge back.
+This process could easily be expanded to request approval from the user’s manager as well and the request information along with the environment information could be stored for resource 
+usage chargeback.
 
 Contoso has also decided to use the app auditing process from the CoE Starter Kit. You will be seeing how this works by going through the process as both a maker and an admin.
 
-Additionally, you will be installing a pre-created flow that checks for new people building apps and adds them to an Office 365 group and sends them a welcome email.
+Additionally, you will be installing a pre-created flow that checks for new people building apps adds them to an Office 365 group and sends them a welcome email.
 
 
 ## Lab Test Environment
@@ -85,23 +83,23 @@ This lab does not require you to have completed any of the prior labs.
 ### Scenario
 
 In this exercise, you will be creating an environment request form using Microsoft Forms. This form could
-collect additional information allowing it to be tailored to your individual organization requirements.
+collect additional information allowing it to be tailored to your individual organization's requirements.
 
-### Task 1 : Create Microsoft Form
+### Task 1: Create Microsoft Form
 
-1. While logged in as the lab admin user navigate to **Microsoft Forms** and close the welcome screen.
+1. While logged in as the lab admin user navigate to **Microsoft Forms** with https://forms.office.com/ and close the welcome screen.
 
    ![](images/M03/M3-EX1-T1-S1.png)
 
-2. Select **New Form**.
+2. Select **+ New Form**.
 
    ![](images/M03/M3-EX1-T1-S2.png)
 
-3. Select the Untitled Form Header
+3. Select the **Untitled Form** Header.
 
    ![](images/M03/M3-EX1-T1-S3.png)
 
-4. Enter **New Environment Approval Request** for title, enter **New environment request** for description, and select **Add new**.
+4. Enter **New Environment Approval Request** for title, enter **New environment request** for description, and select **+ Add new**.
 
    ![](images/M03/M3-EX1-T1-S4.png)
 
@@ -113,17 +111,17 @@ collect additional information allowing it to be tailored to your individual org
 
    ![](images/M03/M3-EX1-T1-S6.png)
 
-7. Enter **Environment Name** , make the question **Required** , and select **Add New.**
+7. Enter **Environment Name**, make the question **Required**, and select **+ Add New**.
 
    ![](images/M03/M3-EX1-T1-S7.png)
 
 8. Select **Text** again.
 
-9. Enter **Business Justification** , select **Long Answer** , and make it **Required**.
+9. Enter **Business Justification**, select **Long Answer**, and make it **Required**.
 
    ![](images/M03/M3-EX1-T1-S9.png)
 
-10. Select **Add New** and select **Text**.
+10. Select **+ Add New** and select **Text**.
 
 11. Enter **What connectors will you use?** select **Long Answer** and make it **Required**.
 
@@ -142,55 +140,49 @@ collect additional information allowing it to be tailored to your individual org
 
 In this exercise, you will be building the automated flow to process new form submissions.
 
-Note: for the purposes of this exercise, we have hard-coded the language, currency and environment template. The Power Platform Administration connector has actions allowing you to 
-dynamically retrieve these and make the process more flexible. In fact, you could allow the user to specify the values, or infer them from the user’s Office 365 profile information using 
+**Note**: For this exercise, we have hard-coded the language, currency and environment template. The Power Platform Administration connector has actions allowing you to 
+dynamically retrieve these and make the process more flexible. You could allow the user to specify the values, or infer them from the user’s Office 365 profile information using 
 the Office 365 connector.
 
 ### Task 1: Delete your sandbox environment
 
 1. While logged in as the lab admin user navigate to the Power Platform admin center.
 
-2. Locate and select your sandbox environment that you created in module one named **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** in the list of environments.
+2. Locate and select the sandbox environment that you created in module one named **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** in the list of environments.
 
-3. Select the Delete button and confirm the deletion by typing the environment name. We have to delete it in order to create another Trial environment, which we can only have one of at 
+3. Select the **Delete** button and confirm the deletion by typing the environment name. We have to delete it to create another Trial environment, which we can only have one at 
    a time.
 
    ![](images/M03/M3-EX2-T1-S3.png)
 
-### Task 2 : Create New Environment Approval Flow
+### Task 2: Create New Environment Approval Flow
 
-1. Log in with your **Lab Admin** user, navigate to **Power Automate** , and login with your admin user.
+1. Log in with your **Lab Admin** user, navigate to **Power Automate**, and login with your admin user.
 
-2. Confirm that your environment is set to **Power Platform CoE.**
+2. Confirm that your environment is set to **Power Platform CoE**.
 
    Note: This environment is where our CoE starter kit is installed and is intended to be our dedicated admin environment. Even if you don’t use the starter kit, having a dedicated 
    admin environment can be helpful.
 
    ![](images/M03/M3-EX2-T2-S2.png)
 
-3. Select **My flows**.
-
-4. Select **+ New flow** and select **Automated cloud flow**.
+3. Select **My flows**, select **+ New flow** and select **Automated cloud flow**.
 
    ![](images/M03/M3-EX2-T2-S4.png)
 
-5. Type **New Environment Approval** in the Flow name field.
-
-6. In the **Choose your flow’s trigger** section, search for Microsoft Forms, select When a new response is submitted, and select **Create**.
+5. Type **New Environment Approval** in the Flow name field. In the **Choose your flow’s trigger** section, search for Microsoft Forms, select **When a new response is submitted**, and select **Create**.
 
    ![](images/M03/M3-EX2-T2-S6.png)
 
-7. For the **Form Id,** select the **New Environment Approval Request** form you created and select **+****New Step**.
+7. For the **Form Id**, select the **New Environment Approval Request** form you created and select **+ New Step**.
 
    ![](images/M03/M3-EX2-T2-S7.png)
 
-8. Search for **Microsoft Forms** and select **Get Response Details**.
+8. Search for **Microsoft Forms** and select **Get response details**.
 
    ![](images/M03/M3-EX2-T2-S8.png)
 
-9. Select **New Environment Approval Request** for **Form Id** and select the **Response Id** field.
-
-10. Select **Response Id** from the Dynamic content pane.
+9. Select **New Environment Approval Request** for Form Id and select the **Response Id** from the Dynamic content pane.
 
     ![](images/M03/M3-EX2-T2-S10.png)
 
@@ -200,7 +192,7 @@ the Office 365 connector.
 
     ![](images/M03/M3-EX2-T2-S12.png)
 
-13. Select **First to Respond** for **Approval Type**.
+13. Select **Approve/Reject - First to Respond** for Approval type.
 
     ![](images/M03/M3-EX2-T2-S13.png)
 
@@ -210,7 +202,7 @@ the Office 365 connector.
 
 16. Type **New Environment was requested by:** in the **Details** field.
 
-17. Select **Responders’ Email** from the Dynamic content pane.
+17. Select **Responders Email** from the Dynamic content pane.
 
     ![](images/M03/M3-EX2-T2-S17.png)
 
@@ -222,17 +214,17 @@ the Office 365 connector.
 
     ![](images/M03/M3-EX2-T2-S19.png)
 
-20. Hit the enter key again and type **Connectors:** and select **What connectors will you use?** from the Dynamic content pane.
+20. Hit the enter key again type **Connectors:** and select **What connectors will you use?** from the Dynamic content pane.
 
     ![](images/M03/M3-EX2-T2-S20.png)
 
-21. Select **+ New step**.
+21. Select **+ New Step**.
 
 22. Select **Condition** Control.
 
     ![](images/M03/M3-EX2-T2-S22.png)
 
-23. Select on the Choose a value field and select **Outcome.**
+23. Select the Choose a value field and select **Outcome**.
 
 24. Enter **is equals** to for condition, enter **Approve** for value, and select **Add an action** in the **Yes**  branch.
 
@@ -248,8 +240,7 @@ the Office 365 connector.
 
 27. Select **United States** for the **location** and select on the **Display Name** field.
 
-**Note:** Location determines the region for the environment, in a real process you might allow this to
-be auto determined by the user location or something the requester provides.
+    >**Note:** Location determines the region for the environment, in a real process you might allow this to be auto-determined by the user location or something the requester provides.
 
 28. Select **Environment Name** from the Dynamic content pane.
 
@@ -262,19 +253,19 @@ be auto determined by the user location or something the requester provides.
 30. Select **Save**. Do not navigate away from this page.
 
 
-### Task 3 : Create Database and Notify User
+### Task 3: Create a Database and Notify the User
 
-1. Select **Add Action** under Create Environment.
+1. Select **Add an action** under Create Environment.
 
    ![](images/M03/M3-EX2-T3-S1.png)
 
 2. Search for **Power Platform for Admin** and select the Power Platform for Admins icon to filter the view.
 
-3. Select **Create CDS Database.**
+3. Select **Create CDS Database**.
 
    ![](images/M03/M3-EX2-T3-S3.png)
 
-4. Select on the **Environment Name** dropdown and select **Enter Custom Value**.
+4. Select on the **Environment** dropdown and select **Enter Custom Value**.
 
    ![](images/M03/M3-EX2-T3-S4.png)
 
@@ -290,23 +281,21 @@ be auto determined by the user location or something the requester provides.
 
    ![](images/M03/M3-EX2-T3-S8.png)
 
-9. Search for **Send Email** and select **Send an email (V2) Office 365 Outlook.**
+9. Search for **Send Email** and select **Send an email (V2) Office 365 Outlook**.
 
    ![](images/M03/M3-EX2-T3-S9.png)
 
-10. Select on the **To:** field and select **Responder’s Email** for the Dynamic Content pane.
+10. Select on the **To:** field and select **Responders Email** for the Dynamic Content pane.
 
 11. Enter **Your environment was created** for **Subject**.
 
-12. Enter **Environment** in the **Body** field and select **Display Name** from the Dynamic Content pane under the **Create Environment** step.
-
-13. Add **was created**.
+12. Enter **Environment** in the **Body** field and select **Display Name** from the Dynamic Content pane under the **Create Environment** step and add **was created** in the last.
 
 14. Your email should look like the image below.
 
     ![](images/M03/M3-EX2-T3-S14.png)
 
-15. Go to the **No** branch and select Add an Action.
+15. Go to the **No** branch and select **Add an Action**.
 
 16. Search for Send email and select **Send an email (V2) Office 365 Outlook**.
 
@@ -324,26 +313,25 @@ be auto determined by the user location or something the requester provides.
 
     ![](images/M03/M3-EX2-T3-S21.png)
 
-22. Select **Flow Checker** and make sure there are no errors.
+22. Select **Flow checker** and make sure there are no errors.
 
     ![](images/M03/M3-EX2-T3-S22.png)
 
     ![](images/M03/M3-EX2-T3-S22-1.png)
 
-24. Close the **Flow Checker** pane with the X to the right of the pane header.
+24. Close the **Flow checker** pane with the X to the right of the pane header.
 
-25. Select on the **Back** button.
+25. Select the **Back** button.
 
     ![](images/M03/M3-EX2-T3-S24.png)
 
-
-### Task 4 : Test the Flow
+### Task 4: Test the Flow
 
 1. Navigate to Microsoft Forms and open the form you created.
 
    ![](images/M03/M3-EX2-T4-S1.png)
 
-2. Select **Collect Responses** and **Copy** the link.
+2. Select **Collect responses** and **Copy** the link.
 
    ![](images/M03/M3-EX2-T4-S2.png)
 
@@ -351,15 +339,15 @@ be auto determined by the user location or something the requester provides.
 
 3. Paste the link in the browser and navigate to it.
 
-4. The form should load. Provide an Environment Name of **Central Apps Test,** Business Justification, and the connector Microsoft Dataverse. Note: For the purposes of this course, we 
-   will be using this environment we created here later in another lab to deploy the Device Ordering solution using Azure Dev Ops, for that lab it will serve as the Test environment that 
+4. The form should load. Provide an Environment Name of **Central Apps Test**, Business Justification, and the connector Microsoft Dataverse. Note: For this course, we 
+   will be using this environment we created here later in another lab to deploy the Device Ordering solution using Azure Dev Ops, for that lab it will serve as the Test environment which 
    is why we are suggesting naming it Central Apps Test. In real word use, most likely it would be a team/project development environment that would be requested using a form like this.
 
 5. Select **Submit**. Once you confirm the submission, you can close the tab.
 
    ![](images/M03/M3-EX2-T4-S5.png)
 
-6. Go back to **My flows** list and open the flow you created.
+6. Go back to the **My flows** list and open the flow you created.
 
    ![](images/M03/M3-EX2-T4-S6.png)
 
@@ -373,7 +361,7 @@ be auto determined by the user location or something the requester provides.
 
 9. Start a new browser tab and navigate to Outlook.
 
-10. You should have approval request email, select to open it.
+10. You should have an approval request email, select to open it.
 
     ![](images/M03/M3-EX2-T4-S10.png)
 
@@ -389,7 +377,7 @@ be auto determined by the user location or something the requester provides.
 
     ![](images/M03/M3-EX2-T4-S14.png)
 
-15. Navigate to Power Platform admin center and select Environments. The new environment should be listed there.
+15. Navigate to the Power Platform admin center and select **Environments**. The new environment should be listed there.
 
     ![](images/M03/M3-EX2-T4-S15.png)
 
@@ -408,13 +396,13 @@ be auto determined by the user location or something the requester provides.
 
 ##### You can learn more about the details in How to use the Environment Management components - Power Platform | Microsoft Docs
 
-##### Using the starter kit process can save you time, but as you saw in Exercise 1 and 2 the platform also supports you building your own custom processes.
+##### Using the starter kit process can save you time, but as you saw in Exercises 1 and 2 the platform also supports you in building your custom processes.
 
 
 ## Exercise 3: Application Compliance Process
 
-In this exercise, you will be walking through the application compliance process that has been put in place using the CoE Starter Kit. As part of this you will be playing both the role of 
-the application developer and the administrator seeing both sides of the process.
+In this exercise, you will be walking through the application compliance process that has been put in place using the CoE Starter Kit. As part of this, you will be playing both the role of 
+the application developer and the administrator see both sides of the process.
 
 The goal of this process is to help IT that doesn't know what all these apps are intended for or how to support individual apps when the helpdesk is called, and it's unclear whether all 
 the apps are being maintained to any standard. They can see details like the description and number of shared users from the Power Apps for Admins connector, but they need to communicate 
@@ -423,7 +411,7 @@ reaching out to each app owner individually, and those details can't be stored i
 
 To automate this, a flow **Admin | Compliance Detail Request** is used to iterate through all the apps in the tenant and check whether the apps are compliant. If the owner hasn't 
 submitted a business justification and the app was shared broadly (in this example, with more than 20 users or at least one group), the flow sends the owner an email to notify them that 
-their specific app isn't in compliance with policy. The email contains a link to the Developer Compliance Center canvas app, where the owner can provide the business justification details 
+their specific app isn't in compliance with the policy. The email contains a link to the Developer Compliance Center canvas app, where the owner can provide the business justification details 
 in a form submission. The Developer Compliance Center app also contains details about the compliance thresholds and has links to the app settings, so the owner can configure the 
 description and republish if needed.
 
@@ -432,28 +420,30 @@ app, like business justification and the impact of an outage, from the maker.
 
 ### Task 1: Complete Developer Compliance
 
-In this task you will be performing the role of the developer and completing the application information that will be requested by the automated process.
+In this task, you will be performing the role of the developer and completing the application information that will be requested by the automated process.
 
 1. When the full process runs the maker will receive an email like the following, with a link to the Developer Compliance Center. For our exercise, we will briefly review and then we will 
    launch the app from the maker portal.
 
    ![](images/M03/M3-EX3-T1-S1.png)
 
-2. Navigate to Power Apps and select the User **and Team Productivity** environment.
+2. Navigate to Power Apps and select the **OTU WA AIW (default)** environment.
 
-   ![](images/M03/M3-EX3-T1-S2.png)
+   ![](images/M01/po2.png)
 
 3. Select **Apps** from the left-side navigation.
 
     ![](images/M03/M3-EX3-T1-S3.png)
 
-4. Select the **∙∙∙** next to **Lab Admin #** application where # is your user number.
+3. Select **Apps (1)**, then **+ New app (2)** > **Start with page design (3)**.
 
-   a. If it doesn’t exist, create a canvas app from scratch and name it Test App (Initials), where Initials are your initials. Set the format to Tablet and select Create.
+   ![](images/M04/po29.png)
 
-    ![](images/M03/M3-EX3-T1-S4.png)
+1. Click on **+** on blank canvas app. Make sure **Tablet** is selected.
 
-   b. Skip the next step.
+    ![](images/M04/po30.png)
+
+   b. Click on **Save** on the top right corner and enter name as **Test App (Initials)**.
 
 5. Select **Edit** from the menu that appears, or from the ribbon at the top.
 
@@ -463,21 +453,21 @@ In this task you will be performing the role of the developer and completing the
 
     ![](images/M03/M3-EX3-T1-S6.png)
 
-7. Under **General** , locate **Description** , and enter a simple description for a potential app. Then, close the settings with the X at the top right.
+7. Under **General**, locate **Description**, and enter a simple description for a potential app. Then, close the settings with the X at the top right.
 
     ![](images/M03/M3-EX3-T1-S7.png)
 
-8. Select **Save** at the top right, then select **Publish**
+8. Select **Save** at the top right, then select **Publish**.
 
     ![](images/M03/M3-EX3-T1-S8.png)
 
     ![](images/M03/M3-EX3-T1-S8-1.png)
 
-10. From here, we can review the changes we made to the description as well as the app name and icon associated with it. Select **Publish this version.**
+10. From here, we can review the changes we made to the description as well as the app name and icon associated with it. Select **Publish this version**.
 
     ![](images/M03/M3-EX3-T1-S9.png)
 
-11. Wait for the publishing to complete, then select the  **Back** button.
+11. Wait for the publishing to complete, then select the **Back** button.
 
      ![](images/M03/M3-EX3-T1-S10.png)
 
@@ -511,11 +501,11 @@ In this task you will be performing the role of the developer and completing the
 
 19. Close the **Power Platform Admin View** application.
 
-20. Navigate back to Solutions via the left-side navigation and select the **Center of Excellence –** **Governance Components.**
+20. Navigate back to Solutions via the left-side navigation and select the **Center of Excellence –** **Governance Components**.
 
      ![](images/M03/M3-EX3-T1-S19.png)
 
-21. Select Apps from the **Objects** menu, then select **Developer Compliance Center.**
+21. Select Apps from the **Objects** menu, then select **Developer Compliance Center**.
 
     ![](images/M03/M3-EX3-T1-S20.png)
 
@@ -532,7 +522,7 @@ In this task you will be performing the role of the developer and completing the
 25. In the **Support Details** section fill in all the fields with information about your application, you can make it as detailed as you want but submit information for each field in 
     this section.
 
-26. Normally we would also adjust the description by editing the app, but for the purposes of this lab will skip that.
+26. Normally we would also adjust the description by editing the app, but for this lab will skip that.
 
 27. Select **Save** to save the information about the application and close the Support Details panel.
 
@@ -541,13 +531,13 @@ In this task you will be performing the role of the developer and completing the
 
 ### Task 2: Admin Review
 
-In this task you will be performing the administrative review of the application details that was submitted by the developer.
+In this task, you will be performing the administrative review of the application details that were submitted by the developer.
 
-1. In the maker portal, with **Power Platform CoE** environment selected, select Apps.
+1. In the maker portal, with the **Power Platform CoE** environment selected, select Apps.
 
 2. Launch the **Power Platform Admin View** app.
 
-   a. Select on PowerApps Apps in the left navigation and change the view to **Compliance-Submitted**.
+   a. Select PowerApps Apps in the left navigation and change the view to **Compliance-Submitted**.
 
    ![](images/M03/M3-EX3-T2-S2.png)
 
@@ -555,7 +545,7 @@ In this task you will be performing the administrative review of the application
 
    ![](images/M03/M3-EX3-T2-S3.png)
 
-4. Select on **Validate Maker Business Requirements** in the process guide. This shows you the current stage of the review process and highlights the progress. Notice it says the maker 
+4. Select **Validate Maker Business Requirements** in the process guide. This shows you the current stage of the review process and highlights the progress. Notice it says the maker 
    provided the business requirements. Set **Confirm Business Impact** to **Low Risk** and close by selecting the X at the top right of the card.
 
    ![](images/M03/M3-EX3-T2-S4.png)
@@ -572,26 +562,24 @@ In this task you will be performing the administrative review of the application
 
    ![](images/M03/M3-EX3-T2-S7.png)
 
-8. The process guide will now have either Mitigation plan as the active stage or Access risk depending
+8. The process guide will now have either a Mitigation plan as the active stage or an Access risk depending
     on if the maker indicated the app is critical or not, select Next Stage again to advance.
 
 9. In the final stage you can choose a category for the app in the catalog and indicate if it was featured.
     Make your selections and then select Finish.
 
-10. You have now completed the full review process. This is an example that is provided with the starter kit you can tailor the process to your own organization needs including adding 
+10. You have now completed the full review process. This is an example that is provided with the starter kit you can tailor the process to your own organization's needs including adding 
     stages and steps to the process and requiring additional data from the maker.
 
 
-## Exercise 4 : Welcome New Makers (Optional if you have time)
+## Exercise 4: Welcome New Makers (Optional if you have time)
 
 In this exercise, you will be importing a pre-built flow that is designed to identify new app makers and welcome them by sending an email with some information for new makers. 
 Additionally, the flow will add the user to an Office 365 group, so you have an easy way to communicate with all the makers in the company.
 
 ### Task 1: Create Office 365 Group
 
-1. Navigate to Azure portal
-
-2. Select **Microsoft Entra ID**.
+1. Navigate to the Azure portal and select **Microsoft Entra ID**.
 
    ![](images/M03/Entra-ID.png)
 
@@ -599,11 +587,11 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
    ![](images/M03/Entra-ID-1.png)
 
-4. Select **+ New Group.**
+4. Select **+ New group**.
 
    ![](images/M03/M3-EX4-T1-S4.png)
 
-5. Select **Microsoft 365** for Group Type, enter **Lab Admin Your# Makers** for Group Name, set the **Azure Roles** to **No,** and select **Create**.
+5. Select **Microsoft 365** for Group Type, enter **Lab Admin Makers** for Group Name, set the **Azure AD Roles** to **No**, and select **Create**.
 
    ![](images/M03/M3-EX4-T1-S5.png)
 
@@ -611,7 +599,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
    ![](images/M03/M3-EX4-T1-S6.png)
 
-7. Select **Properties** and copy the **Object ID**.
+7. Select **Properties** and copy the **Object id**.
 
    ![](images/M03/M3-EX4-T1-S7.png)
 
@@ -620,21 +608,20 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 ### Task 2: Import Flow
 
-1. Navigate to **Power Automate**
+1. Navigate to **Power Automate**.
 
-2. Make sure **Power Platform COE** environment is selected. Note: While we are using this here, in your own tenant you might do this in an admin focused environment or where you have 
+2. Make sure **Power Platform COE** environment is selected. Note: While we are using this here, in your tenant you might do this in an admin-focused environment or where you have 
    installed the CoE Starter Kit.
 
    ![](images/M03/M3-EX4-T2-S2.png)
 
-3. Select **My Flows** and select **Import Package (Legacy)**. (For this step, you may not be able to access the content while you are in Incognito mode. If this is the case, simply 
-   switch to your normal browser.)
+3. Select **My Flows** and click **Import** and select **Import Package (Legacy)**. (For this step, you may not be able to access the content while you are in Incognito mode. If this is the case, simply switch to your normal browser).
 
    ![](images/M03/M3-EX4-T2-S3.png)
 
 4. Select **Upload**.
 
-5. Select the **Send Welcome Email** zip file and select **Open**. This will be in your lab resource files you downloaded named SendWelcomeEmailToNewPowerAppsMakers_20190529192359.zip
+5. Select the **Send Welcome Email** zip file and select **Open**. This will be in your lab resource files you downloaded named **SendWelcomeEmailToNewPowerAppsMakers_20190529192359.zip**.
 
    ![](images/M03/M3-EX4-T2-S5.png)
 
@@ -646,7 +633,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
    ![](images/M03/M3-EX4-T2-S7.png)
 
-8. Select **Configure** for **Power Platform for Admin Connection**.
+8. Select **Configure** for **Power platform for Admins Connection**.
 
     ![](images/M03/M3-EX4-T2-S8.png)
 
@@ -658,7 +645,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 11. Select the available connection and select **Save**.
 
-12. Select **Configure** for **Power Apps for Admin Connection**.
+12. Select **Configure** for **PowerApps for Admins Connection**.
 
     ![](images/M03/M3-EX4-T2-S12.png)
 
@@ -668,7 +655,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 14. Select **Configure** for **Office 365 Group Connection**.
 
-15. Select **Create new**.
+15. Select **+ Create new**.
 
     ![](images/M03/M3-EX4-T2-S15.png)
 
@@ -690,7 +677,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 21. Go back to the Flow import.
 
-22. Select **Refresh list** , select the connection you just added, and select **Save**.
+22. Select **Refresh list**, select the connection you just added, and select **Save**.
 
     ![](images/M03/M3-EX4-T2-S22.png)
 
@@ -700,7 +687,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 25. Repeat this for the **Office 365 Outlook Connection**.
 
-26. Select **Import** and wait for the import it to complete.
+26. Select **Import** and wait for the import to complete.
 
     ![](images/M03/M3-EX4-T2-S26.png)
 
@@ -711,15 +698,17 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 ### Task 3: Edit and Test Flow
 
-1. Navigate to the maker portal https://make.powerapps.com and select the **Central Apps Test** **environment.**
+1. Navigate to the maker portal https://make.powerapps.com and select the **Central Apps Test** **environment**.
 
    ![](images/M03/M3-EX4-T3-S1.png)
 
-2. Select **Apps**.
+1. Select **Apps (1)**, then **+ New app** > **Start with a page design (2)**.
 
-3. Select **+ New app** and select **Canvas**.
+   ![](images/M04/po29.png)
 
-   ![](images/M03/M3-EX4-T3-S3.png)
+1. Click on **+** on blank canvas app. Make sure **Tablet** is selected.
+
+   ![](images/M04/po30.png)
 
 4. Enter **Test app** for App name, select **Tablet** for format, and select **Create**.
 
@@ -729,11 +718,11 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
    ![](images/M03/M3-EX4-T3-S5.png)
 
-6. Select on the  back button.
+6. Select the **Back** button.
 
    ![](images/M03/M3-EX4-T3-S6.png)
 
-7. Go back to the app maker main page by selecting on the  **Back** button.
+7. Go back to the app maker main page by selecting the **Back** button.
 
 8. Select **Solutions**.
 
@@ -787,7 +776,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
     ![](images/M03/M3-EX4-T3-S25.png)
 
-26. Go back to Azure portal
+26. Go back to the Azure portal
 
 27. Select **Microsoft Enta ID**.
 
@@ -798,9 +787,10 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 29. Select **Members**. You should have at least one member.
 
     ![](images/M03/M3-EX4-T3-S29.png)
-30. Navigate to Outlook.
+    
+31. Navigate to Outlook.
 
-31. You should get a welcome email. Open the email. If you don’t get an email, it is probably because you didn’t create an application in the past 24 hours, create a new Power App and run 
+32. You should get a welcome email. Open the email. If you don’t get an email, it is probably because you didn’t create an application in the past 24 hours, create a new Power App and run 
     the flow again.
     
     ![](images/M03/M3-EX4-T3-S31.png)
