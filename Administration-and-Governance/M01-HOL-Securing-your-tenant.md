@@ -466,8 +466,13 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
     ![](images/M01/M1-EX4-T3-S17.png)
 
-
-**Note**: After you finish this lab if you have time come back and modify the DLP you created to fix the problem. If you have trouble getting it to work, ask your instructor for some tips.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   - Hit the Validate button for the corresponding task.
+   - If you receive a success message, you can proceed to the next task.
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+ 
+   <validation step="3379fa81-ffc4-49c5-82db-97274e81a612" /> 
 
 
 ## Exercise 5: Configure a security role
