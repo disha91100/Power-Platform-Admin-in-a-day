@@ -116,16 +116,20 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 9. The list of environments will show **Production** and _Default_ environments ordered by environment name in ascending order.
 
-   ![](images/M01/po1.png)
+   ![](images/M01/pp1.png)
 
-10. Now remove the filters and you should see all environments.
+10. Now remove the filters, click on **Clear all filters (1)** and then **Apply (2)**. You should see all environments.
 
-    ![](images/M01/M1-EX1-T1-S10.png)
+    ![](images/M01/pp2.png)
 
 11. Next, notice all the environments with **Thrive Hr** in the name. These are a set of environments Contoso uses to manage the lifecycle of their Thrive apps; a suite of employee 
     engagement apps. They are built in Thrive Hr - Dev and then are promoted to Test -> UAT-> Production after testing by your admin team.
 
-12. Select on the **Type** and filter by **Default**.
+    ![](images/M01/pp3.png)    
+
+12. Select on the **Type (1)** and filter by **Default (2)** and then **Apply (3)**.
+
+    ![](images/M01/pp4.png)  
 
 13. This is the environment in which all users are makers and can build their apps and flows. Think of this environment as supporting personal productivity use of the platform. This 
     is also the default location used by any customizations built with Power Apps in Office apps. The default environment can’t be deleted, but you can rename it to make clear its 
@@ -133,7 +137,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 14. Select the default environment by Selecting the name in the list to drill down into the detail page.
 
-    ![](images/M01/po2.png)
+    ![](images/M01/pp5.png)
 
 15. In the **Access** section, you’ll notice that there are multiple options to choose from, which can be used to determine who has access to which items.
 
@@ -144,37 +148,37 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 17. From here, you can review all of the security roles for your company and manage their access to the company’s data. By default, users have access to all security roles. The business 
     unit currently listed is the same as the tenant and these are assigned to all users by default. Managed roles can be modified to create.
 
-18. Use the search box in the top right and enter **Environment Maker** to find the Environment Maker security role, then select the lone result.
+    ![](images/M01/pp6.png)    
 
-    ![](images/M01/po3.png)
+18. Use the search box in the top right and enter **Environment Maker (1)** to find the **Environment Maker (2)** security role, then select the lone result.
+
+    ![](images/M01/pp7.png)
  
     >**Note:** Notice that the org is listed as the **Business Unit**; this means everyone in the organization will have this role by default. For environments other than the default, you control this. 
     However, default is special and Tenant can’t be removed from the role.
 
 20. Go back to the Environment Details page.
 
-    ![](images/M01/po21.png)
+    ![](images/M01/pp8.png)
 
 21. In the **Resources** section, Select **Power Apps**.
 
-    ![](images/M01/M1-EX1-T1-S21.png)
+    ![](images/M01/pp9.png)
 
 22. These are apps built by users in your default environment. Notice many of them are just test names because this is where a lot of users will experiment and build their first app. As 
     you scroll down the list you might notice some names are more deliberate e.g., Product Showcase. Later in the course, we will talk about how to identify these upcoming apps so you 
     can help guide them to ensure they mature and have adequate governance.
 
-23. Click on the **... (1)** and select **Details (2)** to view app details, such as App Type (Standard/Premium), Web link, Connections and Shared information.
-
-    ![](images/M01/po5.png)
+    ![](images/M01/pp10.png)
 
 
 ### Task 2: Review existing Data policies
 
-1. Navigate to the admin portal https://aka.ms/ppac or https://admin.powerplatform.microsoft.com
+1. Expand **Policies** and select **Data policies** on the left navigation.
 
-2. Expand **Policies** and select **Data policies** on the left navigation.
+    ![](images/M01/pp12.png)
 
-3. Review the list of existing policies.
+1. Review the list of existing policies.
 
     - As the login you are using is not a tenant admin but only an environment admin, you will see policies that impact environments of which you are a member.
 
@@ -184,43 +188,42 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
     - As a Global Admin, Admin, Power Platform Service Admin or D365 Service Admin in your tenant, you will see all policies that exist in your tenant, even those that you did not 
       create.
 
-
-4. Notice the Contoso Global DLP policy exists that is intended to span all environments (except selected ones) and represents the global DLP policy. For this lab environment Contoso 
+1. Notice the Contoso Global DLP policy exists that is intended to span all environments (except selected ones) and represents the global DLP policy. For this lab environment Contoso 
    Global DLP policy has 4 environments selected instead of All except 4.
 
-5. You will also notice a DLP for **Thrive Exceptions**. That team had worked with the IT department to agree on exceptions they needed for their environments and their environment would 
+1. You will also notice a DLP for **Thrive Exceptions**. That team had worked with the IT department to agree on exceptions they needed for their environments and their environment would 
    be excluded from the Contoso Global DLP. This exception DLP policy would have their environments included and apply only to them.
 
    ![](images/M01/M1-EX1-T2-S5.png)
 
-6. Select the **Contoso Global DLP (1)** and select **Edit Policy (2)**.
+1. Select the **Contoso Global DLP (1)** and select **Edit Policy (2)**.
 
    ![](images/M01/M1-EX1-T2-S6.png)
 
-7. Select **Prebuilt connectors (1)** and review the **Business (2)** connectors.
+1. Select **Prebuilt connectors (1)** and review the **Business (2)** connectors.
 
     ![](images/M01/M1-EX1-T2-S7.png)
 
-8. Select **Scope** and **Environments** to see how it they are configured.
+1. Select **Scope** and **Environments** to see how it they are configured.
 
    ![](images/M01/M1-EX1-T2-S8.png)
 
-9. Once finished, select either the **Data Policies (1)** button on the left menu panel, or the **Cancel (2)** button in the bottom right to head back to the Data Policies screen.
+1. Once finished, select **Cancel** button in the bottom right to head back to the Data Policies screen.
 
-   ![](images/M01/M1-EX1-T2-S9.png)
+   ![](images/M01/pp13.png)
 
-10. Select the **Thrive Exception DLP (1)** and select **Edit Policy (2)**.
+1. Select the **Thrive Exception DLP (1)** and select **Edit Policy (2)**.
 
     ![](images/M01/M1-EX1-T2-S10.png)
 
-11. Select on the **Prebuilt connectors** and select the **Business** tab. Based on the use case for the Thrive application the connectors in the Business group have been established. 
+1. Select on the **Prebuilt connectors** and select the **Business** tab. Based on the use case for the Thrive application the connectors in the Business group have been established. 
     You can also see how Scope and Environments are configured to only select the Thrive environments.
 
     ![](images/M01/M1-EX1-T2-S11.png)
 
-12. To exit this screen, select the **Data Policies** section on the left-hand side, or the **Cancel** button on the bottom right of the screen again.
+1. To exit this screen, select the **Cancel** button on the bottom right of the screen again.
 
-    ![](images/M01/M1-EX1-T2-S9.png)
+    ![](images/M01/pp14.png)
 
 
 ## Exercise 2: Plan an environment strategy
@@ -271,7 +274,11 @@ get wasted.
 In this task, you use the information from Task 1’s scenario to help you propose an environment plan for Fabrikam. To help you build the plan we have prepared a worksheet with questions 
 for you to answer.
 
-1. Open **M01 – HOL Environment Worksheet.docx** from the Resources folder and complete it by answering each of the questions. You should spend no more than 10 minutes on this before 
+1. Open the File explorer, navigate to `C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M01 - HOL - Securing your tenant\Resources` **(1)** then select **M01 – HOL Environment Plan Worksheet.docx (2)** from the Resources folder.
+
+    ![](images/M01/pp15.png)
+
+1. Complete it by answering each of the questions. You should spend no more than 10 minutes on this before 
    proceeding to the next task.
 
 
@@ -279,7 +286,9 @@ for you to answer.
 
 In this task, we have provided you with a completed environment plan. Review the answers and compare them to the ones you built in the prior task.
 
-1. Open the Example Environment Plan document **M01 – HOL Environment Example.docx** and compare the answers to the one you completed in the previous task.
+1. Open the Example Environment Plan document **M01 – HOL Environment Plan Example.docx** and compare the answers to the one you completed in the previous task.
+
+    ![](images/M01/pp16.png)
 
 2. Talk to your trainer about any significant differences that do not make sense to you.
 
@@ -295,14 +304,16 @@ In this exercise, you will be planning a DLP strategy for Fabrikam using the sam
 In this task, you use the information from the last exercise’s scenario to help you propose a DLP plan for Fabrikam. To help you build the plan we have prepared a worksheet with questions 
 for you to answer.
 
-1. Open **M01 – HOL DLP Worksheet.docx** from the Resources folder and complete it by answering each of the questions. You should spend no more than 10 minutes on this before proceeding 
+1. Open **M01 – HOL DLP Plan Worksheet.docx** from the Resources folder and complete it by answering each of the questions. You should spend no more than 10 minutes on this before proceeding 
    to the next task.
+
+ 
 
 ### Task 2: Review the example DLP plan and compare it to yours
 
 In this task, we have provided you with a completed environment plan. Review the answers and compare them to the ones you built in the prior task.
 
-1. Open the Example Environment Plan document **M01 – HOL DLP Example.docx** and compare the answers to the one you completed in the previous task.
+1. Open the Example Environment Plan document **M01 – HOL DLP Plan Example.docx** and compare the answers to the one you completed in the previous task.
 
 2. Talk to your trainer about any significant differences that do not make sense to you.
 
@@ -317,15 +328,23 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 1. Navigate to the Power Platform admin center.
 
-2. Select **Environments** and select **+ New**.
+2. Select **Environments (1)** and select **+ New (2)**.
 
-   ![](images/M01/M1-EX4-T1-S2.png)
+   ![](images/M01/pp19.png)
 
 3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** for Name, select Region as **United States - Default**, select **Trial** as Type, select **Yes** for Add a Dataverse data store?, and select **Next**.
 
    ![](images/M01/po6.png)
 
-4. You may provide a **URL**, select **Currency**, and then set your security group to **All Contoso users** and select **Save**.
+4. Leave the deafult values for **Language (1)** and **Currency (2)**. Under Security group select **+ Select (3)**.
+
+    ![](images/M01/pp20.png)
+
+1. hen set your security group to **All Contoso users (1)** then select **Done (2)**.
+
+   ![](images/M01/pp21.png)
+
+1. Select **Save**.
 
    ![](images/M01/po7.png)
 
@@ -334,17 +353,17 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 ### Task 2: Create a flow to get the weather
 
-1. Navigate to the Power Apps maker portal and select the environment you created.
+1. Navigate to the **Power App**s maker portal, click on the Environment **(1)** and select the environment you created **(2)**.
 
-   ![](images/M01/po8.png)
+   ![](images/M01/pp23.png)
 
 2. Select **Flows (1)** from the left, select **+ New flow (2)** and select **Scheduled cloud flow (3)**.
 
    ![](images/M01/M1-EX4-T2-S2-1.png)
 
-3. Enter **Weather Flow** for **Name**, select **Repeat every 1 Day**, and select **Create**.
+3. Enter **Weather Flow (1)** for **Name**, select **Repeat every 1 Day (2)**, and select **Create (3)**.
 
-    ![](images/M01/po9.png)
+    ![](images/M01/pp24.png)
 
 4. Select **+ New step**.
 
@@ -360,13 +379,13 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
    ![](images/M01/M1-EX4-T2-S7.png)
 
-8. Provide your email for **To:** **<inject key="AzureAdUserEmail"></inject>** and enter **Current Weather** for **Subject**.
+8. Provide your email for **To:** **<inject key="AzureAdUserEmail"></inject> (1)** and enter **Current Weather (2)** for **Subject**.
 
-9. Select on the Body enter **Current weather for:** and select **Location** from the Dynamic content pane.
+9. Select on the Body enter `Current weather for:` **(3)** and select **Location (4)** from the Dynamic content pane.
 
-   ![](images/M01/M1-EX4-T2-S9.png)
+   ![](images/M01/pp25.png)
 
-10. Hit the **[ENTER]** key **,** enter **Temperature:** and select **Temperature** from the Dynamic content pane.
+10. Hit the **[ENTER]** key **,** enter **Temperature:** and search for **Temperature** and then select **Temperature** from the Dynamic content pane.
 
 11. Hit the **[ENTER]** key **,** enter **Conditions:** and select **Conditions** from the Dynamic content pane.
 
@@ -382,19 +401,17 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
     ![](images/M01/M1-EX4-T2-S14.png)
 
-15. Select to open the flow and Select **Run**.
+15. Select to open the flow **(1)** and Select **Run (2)**.
 
-    ![](images/M01/po11.png)
+    ![](images/M01/pp26.png)
 
 17. Select **Run flow**.
 
-    ![](images/M01/M1-EX4-T2-S17.png)
+    ![](images/M01/pp27.png)
 
-18. Select **Done** and wait for the flow run to complete. Select the **Refresh** button to see the update status.
+18. Select **Done** and wait for the flow run to complete. 
 
-    ![](images/M01/M1-EX4-T2-S18.png)
-
-19. Navigate to **Outlook** and You should get an email with the weather information.
+19. Copy and paste the following link in browser https://outlook.office365.com/ to navigate to **Outlook** and You should get an email with the weather information.
 
     ![](images/M01/po12.png)
 
@@ -402,67 +419,70 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 In this task, you will create an environment-specific DLP and see how it impacts your workflow.
 
-1. Navigate back to the Power Platform admin center. If you’re on the Power Apps website, you can do this by selecting the gear in the header, and selecting **Admin Center**.
+1. Navigate back to the **Power Platform admin center**. If you’re on the **Power Apps** website, you can do this by selecting the **gear** in the header, and selecting **Admin Center**.
 
    ![](images/M01/M1-EX4-T3-S1.png)
 
-2. Select **Data policies (1)** and Select **+ New Policy (2)**.
+1. Select **Data policies (1)** and Select **+ New Policy (2)**.
 
    ![](images/M01/M1-EX4-T3-S2.png)
 
-3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** for **Name** and select **Next**.
+1. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** for **Name** and select **Next (2)**.
 
-   ![](images/M01/po13.png)
+   ![](images/M01/pp28.png)
 
-4. Search for Microsoft Dataverse, select **Microsoft Dataverse (1)**, and select **Move to Business (2)**. Choose carefully, you may have to expand the Name column to differentiate 
+1. Search for Microsoft Dataverse, search for **Microsoft Dataverse (1)** then select **Microsoft Dataverse (2)**, and select **Move to Business (3)**. Choose carefully, you may have to expand the Name column to differentiate 
    between connectors in your search results.
 
-   ![](images/M01/M1-EX4-T3-S4.png)
+   ![](images/M01/pp29.png)
 
-5. Search for SharePoint, select **SharePoint (1)** and select **Move to Business (2)**.
+1. Search for SharePoint, select **SharePoint (1)** and select **Move to Business (2)**.
 
    ![](images/M01/M1-EX4-T3-S5-1.png)
 
-6. Search for Outlook, select **Office 365 Outlook (1)** and select **Move to Business (2)**.
+1. Search for Outlook, select **Office 365 Outlook (1)** and select **Move to Business (2)**.
 
    ![](images/M01/M1-EX4-T3-S6-1.png)
 
-7. Select the **Business** tab.
+1. Select the **Business** tab.
 
-8. You should now have three connectors moved to Business. Select **Next**.
+1. You should now have three connectors moved to Business. Select **Next**.
 
    ![](images/M01/po14.png)
 
-9. Skip the Custom connector by Selecting the **Next** button, we won’t be using any in this example.
+1. Skip the Custom connector by Selecting the **Next** button, we won’t be using any in this example.
 
-10. Select **Add multiple environments (1)** from the options, then select **Next (2)**.
+1. Select **Add multiple environments (1)** from the options, then select **Next (2)**.
 
     ![](images/M01/M1-EX4-T3-S10.png)
 
-11. Choose the environment you created **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** and select **+ Add to Policy (2)**.
+1. Choose the environment you created **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** and select **+ Add to Policy (2)**.
 
     ![](images/M01/po15.png)
 
-12. Once done, select **Next**.
+1. Once done, select **Next**.
 
-13. Review the policy, to make sure you have **(3) Business** connectors added, and only one **Environment** selected and select **Create policy**.
+1. Review the policy, to make sure you have **(3) Business** connectors added, and only one **Environment** selected and select **Create policy**.
 
     ![](images/M01/M1-EX4-T3-S13.png)
 
-14. Navigate to Power Automate and make sure you are in the sandbox environment.
+1. From the **Power Apps** portal, click on **Power Platform (1)** and then select **Power Automate (2)**.
 
-    ![](images/M01/po16.png)
+    ![](images/M01/pp30.png)
 
-15. Select **My flows**.
+1. Make sure you are in the sandbox environment.    
+
+    ![](images/M01/pp31.png)
+
+1. Select **My flows**.
 
     ![](images/M01/M1-EX4-T3-S15.png)
 
-16. The flow should now be suspended because of the DLP you created. Select to open the flow. This can take up to 5 minutes, wait a few minutes and then select refresh.
+1. The flow should now be suspended because of the DLP you created. Select to open the flow. This can take up to 5 minutes, wait a few minutes and then select refresh.
 
     ![](images/M01/M1-EX4-T3-S16.png)
 
-17. You should not be able to run the flow. There will be a notice at the top showing that the DLP is active and restricting access, and the **Status** should be suspended. Feel free to 
-    close the webpage/tab once you’ve confirmed it has been suspended.
+1. You should not be able to run the flow. There will be a notice at the top showing that the DLP is active and restricting access, and the **Status** should be suspended. Feel free to close the webpage/tab once you’ve confirmed it has been suspended.
 
     ![](images/M01/M1-EX4-T3-S17.png)
 
@@ -485,7 +505,7 @@ ID Security group and assign the security role you just built.
 
 ### Task 1: Import project management solution
 
-1. Navigate to the Power Apps maker portal and select The My Sandbox environment named **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** you created.
+1. Navigate to the **Power Apps** maker portal, click on **Environment (1)** and select The My Sandbox environment named **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (2)** you created.
 
    ![](images/M01/po8.png)
 
@@ -495,9 +515,9 @@ ID Security group and assign the security role you just built.
 
 3. Select **Browse**.
 
-4. Select the **Fabrikam Project Management (1)** solution located in the **C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M01 - HOL - Securing your tenant\Resources** folder and select **Open (2)**.
+4. Navigate to **C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M01 - HOL - Securing your tenant\Resources (1)** folder, select the **Fabrikam Project Management (2)** solution and select **Open (3)**.
 
-   ![](images/M01/M1-EX5-T1-S4.png)
+   ![](images/M01/pp32.png)
 
 5. Select **Next**.
 
@@ -525,9 +545,13 @@ ID Security group and assign the security role you just built.
 
     ![](images/M01/M1-EX5-T1-S11.png)
 
-12. At this point, you may be asked to sign in to the flow. Sign in, and then select **Continue**.
+12. At this point, you may be asked to sign in to the flow, lclick on **Sign in**.
 
-    ![](images/M01/M1-EX5-T1-S12.png)
+    ![](images/M01/pp33.png)
+
+    - Select **Continue**.
+
+      ![](images/M01/M1-EX5-T1-S12.png)
 
 13. Select to expand the **Parse JSON** step.
 
@@ -557,11 +581,13 @@ ID Security group and assign the security role you just built.
 
     ![](images/M01/M1-EX5-T1-S20.png)
 
-21. Select **Done** and wait for the run to complete.
+21. If prompted, select **Done** and wait for the run to complete.
 
     ![](images/M01/M1-EX5-T1-S21.png)
 
 22. Select the browser back button.
+
+    ![](images/M01/pp35.png)
 
 23. Go back to the solution page, by selecting the **Back to Solutions** button.
 
