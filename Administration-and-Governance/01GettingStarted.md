@@ -1,4 +1,4 @@
-# Power Platform Workshop
+# Power Platform Workshop: Administration and Governance
 
 ### Overall Estimated Duration: 8 Hours
 
