@@ -77,7 +77,7 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
 
 1. In the JumpVM, click on the **Power Apps** portal shortcut of the Microsoft Edge browser that is available on the desktop.
 
-    ![](images/M01/getstart-pp1.png)
+    ![](images/gp9.png)
 
 1. On the **Sign in** window, you will see the login screen, enter the following username  and click on **Next**.
 
