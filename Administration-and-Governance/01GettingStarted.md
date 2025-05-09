@@ -75,14 +75,6 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
 
 # Getting Started with Lab
 
-1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.
-
-    ![](images/M01/getstart-vm1.png)
-
-1. To get the lab environment details, you can select the **Environment Details** tab. Additionally, the credentials will also be sent to your email address provided during registration.
-
-    ![](images/M01/getstart-env-1.png)
-
 1. In the JumpVM, click on the **Power Apps** portal shortcut of the Microsoft Edge browser that is available on the desktop.
 
     ![](images/M01/getstart-pp1.png)
@@ -99,17 +91,34 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
   
       ![](images/M01/password.png)
 
+1. Select **Get Started**.
+
+    ![](images/gp5.png)
+
 1.  Once logged in, click on **Environment** and select the default environment named **OTU WA AIW <inject key="Deployment ID" enableCopy="false" />**.
 
     ![](images/M01/otu-env.png)
 
-1. Select **Solutions** and click on **Create database**.
+1. Select **Solutions (1)** and click on **Create database (2)**.
 
-    ![](images/M01/solution.png)
+    ![](images/gp6.png)
 
 1. Now, leave all options as default and click on **Create my database** and the database creation process will start.
  
-    ![](images/M01/database.png)
+    ![](images/gp7.png)
 
 
-**Now you can click on **Next** on the bottom of the lab guide to start the HOL**
+## Support Contact
+
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance anytime. We offer dedicated support channels tailored specifically for learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+
+- Email Support: cloudlabs-support@spektrasystems.com
+- Live Chat Support: https://cloudlabs.ai/labs-support
+
+Click **Next** from the lower right corner to move on to the next page.
+
+![Launch Azure Portal](images/gp8.png)
+
+## Happy Learning!!
