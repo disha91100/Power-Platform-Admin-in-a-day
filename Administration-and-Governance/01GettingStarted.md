@@ -34,7 +34,7 @@ By the end of this lab, you will be able to:
  
 Once you are ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
 
-![Explore Lab Resources](images/gp10.png)
+![Explore Lab Resources](images/pp51.png)
 
 ### Lab Guide Zoom In/Zoom Out
 
