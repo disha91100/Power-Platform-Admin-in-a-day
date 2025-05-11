@@ -478,21 +478,23 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
     ![](images/M01/M1-EX4-T3-S15.png)
 
-1. The flow should now be suspended because of the DLP you created. Select to open the flow. This can take up to 5 minutes, wait a few minutes and then select refresh.
+1. The flow should now be suspended because of the **DLP** you created. Select to open the flow. This can take up to 5 minutes, wait a few minutes and then select refresh.
 
     ![](images/M01/M1-EX4-T3-S16.png)
+
+     >**Note:** If your nOt able to see the status as **Suspended**. Navigate to **Weather Flow** flow and the click on **Save** again. Because sometimes Policy may not get reflected immediately. 
 
 1. You should not be able to run the flow. There will be a notice at the top showing that the DLP is active and restricting access, and the **Status** should be suspended. Feel free to close the webpage/tab once you’ve confirmed it has been suspended.
 
     ![](images/M01/M1-EX4-T3-S17.png)
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   - Hit the Validate button for the corresponding task.
-   - If you receive a success message, you can proceed to the next task.
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
-   <validation step="3379fa81-ffc4-49c5-82db-97274e81a612" /> 
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="3379fa81-ffc4-49c5-82db-97274e81a612" />
 
 
 ## Exercise 5: Configure a security role
@@ -595,19 +597,19 @@ ID Security group and assign the security role you just built.
 
 24. Select **Apps (1)** and select **Project List (2)** and click on **Play (3)** to run canvas application.
 
-    ![](images/M01/po17.png)
+    ![](images/M01/pp36.png)
 
-25. The application should load, and you should see the sample project records the flow created. Select the **+** in the top right of the app.
+25. The application should load, and you should see the sample project records the flow created. Select the **+ New** to create a new Project.
 
-    ![](images/M01/M1-EX5-T1-S25.png)
+    ![](images/M01/pp37.png)
 
-26. Enter **Test Project (1)** for **Title**, select **Due date (2)** and select **Submit (3)**.
+26. Enter **Test Project (1)** for **Title**, select **Due date (2)** and select **Save and Close (3)**.
 
-    ![](images/M01/po18.png)
+    ![](images/M01/pp38.png)
 
 27. The application should create a new record and take you back to the list of projects.
 
-     ![](images/M01/M1-EX5-T1-S27.png)
+     ![](images/M01/pp39.png)
 
 28. Close the Project List application browser window or tab.
 
@@ -620,68 +622,63 @@ ID Security group and assign the security role you just built.
 
    ![](images/M01/M1-EX5-T2-S2.png)
 
-3. Select **+ New (1)** and select **Security** > **Security role (2)**.
+3. Select **+ New (1)** and select **Security (2)** > **Security role (3)**.
 
     ![](images/M01/M1-EX5-T2-S3.png)
 
-4. Enter **Project Manager (1)** for **Role Name**  and select **Save (2)**.
+4. Enter **Project Manager (1)** for **Role Name**, select the **Business unit (2)** from the drop down and select **Save (2)**.
 
-   ![](images/M01/M1-EX5-T2-S4.png)
+   ![](images/M01/pp40.png)
 
-5. Select the **Custom Entities** tab.
+5. Select the **Project Manager** role.
 
-6. Scroll down to locate the Project table and click on the name of the entity.
+   ![](images/M01/pp41.png)
 
-    ![](images/M01/M1-EX5-T2-S6.png)
+6. Search for **Project (1)**, locate the **Project** table and click on the name of the entity. This action will give this role User rights to the Project entity **(2)**.
 
-7. This action will give this role User rights to the Project entity. If you kept selecting on the label it would increase the permissions with each click until the user had full 
-   privileges.
+    ![](images/M01/pp42.png)
 
-   ![](images/M01/M1-EX5-T2-S7.png)
+7. But clicking on the dropdown for the permissions, if you kept selecting the **Organization** on the label it would increase the permissions.
 
-8. You will now give this role organization read privilege. Select the second dot from the left. You can also scroll up and see the column headers.
+   ![](images/M01/pp43.png)
 
-   ![](images/M01/M1-EX5-T2-S8.png)
+8. You will now give this role organization **Read** privilege. Select **Organization (1)** from the **None** drop down and click on **Save (2)**.
 
-9. Click on the same dot two more times or until the dot is totally filled. This will allow any user with this role to see all project records in the Dataverse environment.
+   ![](images/M01/pp44.png)
 
-    ![](images/M01/M1-EX5-T2-S9.png)
+9. Click on **<-Back** to navigate back to the Fabrikam Project Management page.
 
-10. Select **Save and Close**.
 
-    ![](images/M01/M1-EX5-T2-S10.png)
+   ![](images/M01/pp45.png)
 
-11. Select **Done** to update the solution.
 
-    ![](images/M01/M1-EX5-T2-S11.png)
-
-12. Select **Publish all customizations** and wait for the publishing to be completed.
+10. Select **Publish all customizations** and wait for the publishing to be completed.
 
     ![](images/M01/M1-EX5-T2-S12.png)
 
-13. Do not navigate away from this page.
+11. Do not navigate away from this page.
 
 ### Task 3: Share app
 
 1. Go back to the **Solutions** page by selecting the **Back to Solutions** button.
 
-2. Click on **Apps (1)**, then choose **Project List (2)** application, and select **Share (3)**.
+   ![](images/M01/pp46.png)
+
+1. Click on **Apps (1)**, then choose **Project List (2)** application, and select **Share (3)**.
 
    ![](images/M01/po19.png)
 
-3. Search for **lab back office** and select it.
+1. Search for **lab back office (1)** and select it **(2)**.
 
-    ![](images/M01/M1-EX5-T3-S3.png)
+    ![](images/M01/pp47.png)
 
-4. Select on the **Assign a security role** role dropdown.
+1. Select **Manage access**.
 
-   ![](images/M01/M1-EX5-T3-S4.png)
+   ![](images/M01/pp48.png)
 
-5. Select the **Project Manager** and **Basic User** roles and then select **Share**.
+1. Navigate to **Pending invites (1)** tab, Click on the **Data access (2)** drop down then select the **Project Manager (3)**. Make sure **User (4)** role is selected for **Apps** and then select **Share (5)**.
 
-   ![](images/M01/M1-EX5-T3-S5.png)
+   ![](images/M01/pp50.png)
 
-   ![](images/M01/M1-EX5-T3-S6.png)
-
-6. Close the share pane.
+1. Close the share pane.
 
