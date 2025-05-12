@@ -30,41 +30,41 @@ By the end of this lab, you will be able to:
 
 ## Getting Started with the Lab
  
-## Accessing Your Lab Environment
+### Accessing Your Lab Environment
  
 Once you are ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
 
-![Explore Lab Resources](../media/afg3.png)
+![Explore Lab Resources](images/pp51.png)
 
-## Lab Guide Zoom In/Zoom Out
+### Lab Guide Zoom In/Zoom Out
 
 To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
 ![Manage Your Virtual Machine](images/gp4.png)
 
-## Virtual Machine & Lab Guide
+### Virtual Machine & Lab Guide
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
  
-## Exploring Your Lab Resources
+### Exploring Your Lab Resources
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
 ![Manage Your Virtual Machine](images/gp1.png)
  
-## Utilizing the Split Window Feature
+### Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
  
 ![Manage Your Virtual Machine](images/gp2.png)
  
-## Managing Your Virtual Machine
+### Managing Your Virtual Machine
  
 Feel free to **start, stop, or restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
  
 ![Manage Your Virtual Machine](images/gp3.png)
 
-## Lab Validation
+### Lab Validation
 
 1. After completing the task, hit the **Validate** button under the Validation tab integrated into your lab guide. You can proceed to the next task if you receive a success message. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 
@@ -73,7 +73,7 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
 1. If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com.
 
 
-# Getting Started with Lab
+## Getting Started with Lab
 
 1. In the JumpVM, click on the **Power Apps** portal shortcut of the Microsoft Edge browser that is available on the desktop.
 
