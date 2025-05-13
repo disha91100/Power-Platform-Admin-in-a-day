@@ -648,9 +648,7 @@ ID Security group and assign the security role you just built.
 
 9. Click on **<-Back** to navigate back to the Fabrikam Project Management page.
 
-
    ![](images/M01/pp45.png)
-
 
 10. Select **Publish all customizations** and wait for the publishing to be completed.
 

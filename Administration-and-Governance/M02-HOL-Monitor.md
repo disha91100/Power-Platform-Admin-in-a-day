@@ -76,13 +76,13 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
 1. Navigate to **Power Platform admin center**.
 
-2. Select **Analytics > Power Apps**.
+2. Select **Analytics **(1)**> Power Apps (2)**.
 
-    ![](images/M02/tenant-analytics1.png)
+    ![](images/M02/pp120.png)
 
-3. Select the Overview tab and select **Enable** to redirect to the Analytics pane.
+3. Select the **Overview (1)** tab and select **Enable (2)** to redirect to the Analytics pane.
 
-   ![](images/M02/tenant-enable1.png)
+   ![](images/M02/pp121.png)
 
 4. In the Analytics pane, grant consent for tenant-level analytics by enabling the **Tenant-level analytics** feature and select **Save**.
 
@@ -90,36 +90,40 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
    >**Note**: Once enabled, this feature aggregates data from environments across all regions in your tenant and copies it into the default environment region for tenant-level reporting. A tenant-level administrator role is required for the one-time operation of granting consent for tenant-level analytics.
 
-5. The Overview tab displays a message indicating that tenant-level analytics has been enabled. Typically, these reports are displayed within 24-48 hours of enabling the feature.
+5. The **Overview** tab displays a message indicating that tenant-level analytics has been enabled. Typically, these reports are displayed within 24-48 hours of enabling the feature.
 
-   ![](images/M02/tenant-report1.png)
+   ![](images/M02/pp122.png)
 
 ### Task 1: Explore the Power Automate analytics
 
 1. Navigate to **Power Platform admin center**.
 
-2. Expand **Analytics** and select **Power Automate**.
+1. Expand **Analytics** and select **Power Automate**.
 
    ![](images/M02/M2-EX1-T1-S3.png)
 
-4. Ensure you’re under the **Environment View**.
+1. Ensure you’re under the **Environment View (1)**. Select **Change filters (2)**
 
-5. Select change filters and change to the Power Platform COE environment.
+   ![](images/M02/pp123.png)
 
-6. Review the visuals in the **Runs** tab and then select the **Usage** tab.
+1. Change the Environmnent to **Power Platform COE (1)** environment and the **Apply (2)**.
+
+   ![](images/M03/pp124.png)
+
+1. Review the visuals in the **Runs** tab and then select the **Usage** tab.
 
    ![](images/M02/M2-EX1-T1-S6.png)
 
-7. Review the visuals in the **Usage** tab.
+1. Review the visuals in the **Usage** tab.
 
-8. Review the visuals in the rest of the tabs.
+1. Review the visuals in the rest of the tabs.
 
-9. In the top left corner of the screen, under the header, select **Overview** to review tenant-level
+1. In the top left corner of the screen, under the header, select **Overview** to review tenant-level
     analytics.
 
     ![](images/M02/M2-EX1-T1-S9.png)
 
-10. Now you are looking at data for all environments you have access to.
+1. Now you are looking at data for all environments you have access to.
 
 11. Review the **Usage** data available on this tab, and then switch to **Maker Activity** and **Inventory** to review the other data available. Notice you can still filter on more specific criteria using the dropdowns.
 
@@ -127,15 +131,9 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
 ### Task 2: Explore the Power Apps analytics
 
-1. Navigate to **Power Platform admin center**.
+1. In the **Power Platform admin center**. Expand **Power Apps (1)**. Change the Primary Tab to **Environment View (2)**. Click on **Change filters (3)**. Switch the environment to **Power Platform COE (4)** by changing the available filters and the click on **Apply (4)**
 
-2. Expand **Power Apps**.
-
-3. Change the Primary Tab to Environment View.
-
-4. Switch the environment to **Power Platform COE** by changing the available filters.
-
-   ![](images/M02/M2-EX1-T2-S4.png)
+   ![](images/M03/pp125.png)
 
 5. Review the visuals in **Usage, Location**, and all other tabs.
 
@@ -167,53 +165,57 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
 1. Navigate to **Power Platform admin center**.
 
-2. Expand **Resources** and select **Capacity**.
+1. Expand **Resources** and select **Capacity**.
 
     ![](images/M02/M2-EX1-T3-S2.png)
 
-3. Notice the data in the **Storage capacity usage** panel.
+1. Notice the data in the **Storage capacity usage** panel.
 
    ![](images/M02/M2-EX1-T3-S3.png)
 
-4. Notice the data under the **Storage capacity by source** panel.
+1. Notice the data under the **Storage capacity by source** panel.
 
    ![](images/M02/M2-EX1-T3-S4.png)
 
-5. Go to the **Top storage usage by environment** panel and notice the capacity usage by top environments.
+1. Go to the **Top storage usage by environment** panel and notice the capacity usage by top environments.
 
    ![](images/M02/M2-EX1-T3-S5.png)
 
-6. Select the **Dataverse** tab from the top row of options.
+1. Select the **Dataverse** tab from the top row of options.
 
    ![](images/M02/M2-EX1-T3-S6.png)
 
-7. Locate the **Device Ordering Development** environment storage capacity and select **Details**.
+1. Locate the **Device Ordering Development** environment storage capacity and select **Details**.
 
    ![](images/M02/M2-EX1-T3-S7.png)
 
-8. Select the **Chart menu** button at the top right of the first chart and select **Download all tables**.
+1. Select the **Chart menu** button at the top right of the first chart and select **Download all tables**.
 
    ![](images/M02/M2-EX1-T3-S8.png)
 
-9. Open the file that was downloaded as a result. You should see a list of all tables and their database size in MB.
+1. Open the file that was downloaded as a result.
+
+   ![](images/M02/pp126.png)
+
+1. You should see a list of all tables and their database size in MB.
 
    ![](images/M02/M2-EX1-T3-S9.png)
 
-10. Close the Excel file. You won’t need to save any changes you’ve made.
+1. Close the Excel file. You won’t need to save any changes you’ve made.
 
-11. Go to the navigation pane on the far left and expand **Analytics**, then select **Dataverse**.
+1. Go to the navigation pane on the far left and expand **Analytics**, then select **Dataverse**.
 
     ![](images/M02/M2-EX1-T3-S11.png)
 
-12. Review the visuals.
+1. Review the visuals.
 
 13. Select **Change filters**.
 
-    ![](images/M02/M2-EX1-T3-S13.png)
+    ![](images/M02/pp127.png)
 
-14. Change the **From** date to one week from today’s date and the **To** date to today. Select **Apply**.
+14. Change the **From** date to one week prior today’s date **(1)** and the **To** date to today **(2)**. Select **Apply (3)**.
 
-    ![](images/M02/M2-EX1-T3-S14.png)
+    ![](images/M02/pp128.png)
 
 15. The visuals should change to reflect your changes.
 
@@ -226,118 +228,118 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
 ### Task 1: Review audit logging in the environment
 
-1. Navigate to the **Power Apps maker portal** and select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** environment at the top right.
+1. Navigate to the **Power Apps maker portal**, click on Current Environment **(1)** and select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (2)** environment.
 
    ![](images/M01/po8.png)
 
-2. Select **Solutions** and choose the **Fabrikam Project Management** solution to open it.
+1. Select **Solutions (1)** and choose the **Fabrikam Project Management (2)** solution to open it.
 
-   ![](images/M02/M2-EX2-T1-S2.png)
+   ![](images/M02/pp129.png)
 
-3. Select **Tables** and select the **Project** table.
+1. Select **Tables (1)** and select the **Project (2)** table. Select **Columns (3)** under the **Schema** section.
 
-4. Select **Columns** under the **Schema** section.
+   ![](images/M02/pp130.png)
 
-   ![](images/M02/M2-EX2-T1-S4.png)
-
-5. Locate and select **Due Date** to open it.
+1. Locate and select **Due Date** to open it.
 
    ![](images/M02/M2-EX2-T1-S5.png)
 
-6. Expand the Advanced Options section. Check and ensure that **Auditing** is enabled for this column. A notice will be underneath the option, informing you that auditing is not enabled 
+1. Expand the Advanced Options section. Check and ensure that **Auditing** is enabled for this column. A notice will be underneath the option, informing you that auditing is not enabled 
    for the organization. We will fix this in a later step.
 
-7. Select **Cancel** to close the field details pane.
+1. Select **Cancel** to close the field details pane.
 
    ![](images/M02/M2-EX2-T1-S7.png)
 
-8. Navigate back to the Tables by either selecting the **Tables** on the left side, or by using the breadcrumbs at the top.
+1. Navigate back to the Tables by either selecting the **Tables** on the left side, or by using the breadcrumbs at the top.
 
    ![](images/M02/M2-EX2-T1-S8.png)
 
-9. Select the **Project** table, and then select **Properties** from the ribbon up top.
+1. Select the **Project (1)** table, and then select **Properties (2)** from the ribbon up top.
 
-   ![](images/M02/M2-EX2-T1-S9.png)
+   ![](images/M02/pp131.png)
 
-10. Expand the **Advanced options** section.
+1. Expand the **Advanced options** section.
 
     ![](images/M02/M2-EX2-T1-S10.png)
 
-11. Scroll down to the **For this table** section.
+1. Scroll down to the **For this table** section.
 
-12. Select the **Audit changes to its data** checkbox and select **Save**.
+1. Select the **Audit changes to its data (1)** checkbox and select **Save (2)**.
 
-    ![](images/M02/M2-EX2-T1-S12.png)
+    ![](images/M02/pp132.png)
 
-13. Select **All** from the left navigation of the solution.
+1. Select **All** from the left navigation of the solution.
 
-14. Select **Publish all customizations** and wait for the publishing to be completed. A green banner will appear to let you know when it is complete.
+    ![](images/M02/pp133.png)
+
+1. Select **Publish all customizations** and wait for the publishing to be completed. A green banner will appear to let you know when it is complete.
 
     ![](images/M02/M2-EX2-T1-S14.png)
 
     ![](images/M02/M2-EX2-T1-S14-1.png)
 
-16. Navigate to **Power Platform admin center** and select **Environments**.
+1. Navigate to **Power Platform admin center** and select **Environments**.
 
     ![](images/M02/M2-EX2-T1-S15.png)
 
-17. Select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** environment and select **Settings (2)** from the ribbon at the top.
+1. Select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** environment and select **Settings (2)** from the ribbon at the top.
 
     ![](images/M02/po22.png)
 
-18. Expand **Audit and logs** section and select **Audit settings**.
+1. Expand **Audit and logs** section and select **Audit settings**.
 
     ![](images/M02/M2-EX2-T1-S17.png)
 
-19. Check on **Start auditing** checkbox, select **Save** and select **Cancel** to close.
+1. Check on **Start auditing (1)** checkbox, select **Save (2)** and select **Cancel** to close.
 
-    ![](images/M02/po23.png)
+    ![](images/M02/pp134.png)
 
 ### Task 2: Test auditing
 
 1. Navigate to the **Power Apps maker portal** and select the **My Sandbox** environment.
 
-2. Select **Apps** and select the **Project Admin** application to launch.
+1. Select **Apps** and select the **Project Admin** application to launch.
 
    ![](images/M02/M2-EX2-T2-S2.png)
 
-3. If you can see the **Annual Conference** project select it to open it and skip to step 7, if you do not see it, continue with the steps below.
+1. If you can see the **Annual Conference** project select it to open it and skip to step 5, if you do not see it, continue with the steps below.
 
    ![](images/M02/po24.png)
 
-4. Create a new project by selecting the green **+ New** from the ribbon at the top.
+   - Create a new project by selecting the green **+ New** from the ribbon at the top.
 
-   ![](images/M02/po25.png)
+     ![](images/M02/po25.png)
 
-5. For the **Title**, enter **Annual Conference**. Choose the **Due date** as today’s date.
+   - For the **Title**, enter **Annual Conference**. Choose the **Due date** as today’s date.
 
-   ![](images/M02/M2-EX2-T2-S5.png)
+     ![](images/M02/M2-EX2-T2-S5.png)
 
-6. Then, select **Save & Close**.
+   - Then, select **Save & Close**.
 
-   ![](images/M02/M2-EX2-T2-S6.png)
+     ![](images/M02/M2-EX2-T2-S6.png)
 
-7. From this screen, reopen the **Annual Conference** project.
+1. From this screen, reopen the **Annual Conference** project.
 
    ![](images/M02/M2-EX2-T2-S7.png)
 
-8. Change the **Due Date** to any date in the future and select **Save**.
+1. Change the **Due Date** to any date in the future **(1)** and select **Save (2)**.
 
-   ![](images/M02/M2-EX2-T2-S8.png)
+   ![](images/M02/pp135.png)
 
-9. Change the **Due Date** and save a couple more times.
+1. Change the **Due Date** and save a couple more times.
 
-10. Select **Related** and select **Audit History**.
+1. Select **Related** and select **Audit History**.
 
     ![](images/M02/M2-EX2-T2-S10.png)
 
-11. You should see the change history for each of your changes. Select **Update/Create** to open one of the change history records.
+1. You should see the change history for each of your changes. Select **Update/Create** to open one of the change history records.
 
-    ![](images/M02/M2-EX2-T2-S11.png)
+    ![](images/M02/pp136.png)
 
-12. You should see the **Filed Name**, **Old Value** and **New Value**.
+1. You should see the **Filed Name**, **Old Value** and **New Value**.
 
-13. Select **Close** to close the update record.
+1. Select **Close** to close the update record.
 
     ![](images/M02/M2-EX2-T2-S13.png)
 
