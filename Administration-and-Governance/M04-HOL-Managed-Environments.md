@@ -52,11 +52,11 @@ In this exercise, you will be shifting a pre-made environment from an unmanaged 
 
 #### Task 1: Create a Managed Environment
 
-1. Navigate to the Power Platform Admin Center (https://aka.ms/ppac).
+1. Navigate to the **Power Platform Admin Center** (https://aka.ms/ppac).
 
-2. Select **Environments**, then select **+ New** to create a new environment.
+2. Select **Environments (1)**, then select **+ New (2)** to create a new environment.
 
-   ![](images/M04/M4-EX1-T1-S2.png)
+   ![](images/M04/p4p1.png)
 
 3. Input **Managed Environment-<inject key="Deployment ID" enableCopy="false" />** for the name, set the region as **United States - Default**, set the Type as **Sandbox**, and select the toggle to 
    enable adding a Dataverse data store, then select **Next**.
