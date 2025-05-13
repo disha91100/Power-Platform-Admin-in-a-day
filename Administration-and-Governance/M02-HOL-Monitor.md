@@ -341,7 +341,7 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
 1. Select **Close** to close the update record.
 
-    ![](images/M02/M2-EX2-T2-S13.png)
+    ![](images/M02/pp137.png)
 
 ## Exercise 3: Setup the CoE Starter Kit Power BI Dashboard
 
