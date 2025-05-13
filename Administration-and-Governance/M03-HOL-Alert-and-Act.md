@@ -87,51 +87,53 @@ collect additional information allowing it to be tailored to your individual org
 
 ### Task 1: Create Microsoft Form
 
-1. While logged in as the lab admin user navigate to **Microsoft Forms** with https://forms.office.com/ and close the welcome screen.
-
-   ![](images/M03/M3-EX1-T1-S1.png)
+1. While logged in as the lab admin user navigate to **Microsoft Forms** with https://forms.office.com/ and close the pop up screen.
 
 2. Select **+ New Form**.
 
-   ![](images/M03/M3-EX1-T1-S2.png)
+   ![](images/M02/pp52.png)
 
 3. Select the **Untitled Form** Header.
 
-   ![](images/M03/M3-EX1-T1-S3.png)
+   ![](images/M02/pp53.png)
 
-4. Enter **New Environment Approval Request** for title, enter **New environment request** for description, and select **+ Add new**.
+4. Enter **New Environment Approval Request (1)** for title, enter **New environment request (2)** for description, and select **+ Quick start with (3)**.
 
-   ![](images/M03/M3-EX1-T1-S4.png)
+   ![](images/M02/pp55.png)
 
-5. Create the Form below, if you need steps, continue the steps here. If you do not need each step, continue to the next exercise.
+5. Create the **Form** below, by following the below steps.
 
    ![](images/M03/M3-EX1-T1-S5.png)
 
 6. Select **Text**.
 
-   ![](images/M03/M3-EX1-T1-S6.png)
+   ![](images/M03/pp56.png)
 
-7. Enter **Environment Name**, make the question **Required**, and select **+ Add New**.
+7. Enter **Environment Name (1)**, make the question **Required (2)**, and select **+ Add new question (3)**.
 
-   ![](images/M03/M3-EX1-T1-S7.png)
+   ![](images/M03/pp57.png)
 
 8. Select **Text** again.
 
-9. Enter **Business Justification**, select **Long Answer**, and make it **Required**.
+9. Enter **Business Justification (1)**, select **Long Answer (2)**, and make it **Required (3)** then select **+Add new question (4)**
 
-   ![](images/M03/M3-EX1-T1-S9.png)
+   ![](images/M03/pp58.png)
 
-10. Select **+ Add New** and select **Text**.
+10. Select **Text**.
 
-11. Enter **What connectors will you use?** select **Long Answer** and make it **Required**.
+11. Enter **What connectors will you use? (1)** select **Long Answer (2)** and make it **Required (3)**.
 
-    ![](images/M03/M3-EX1-T1-S11.png)
+    ![](images/M03/pp59.png)
 
 12. The form will be saved automatically.
 
 13. Select **Preview**.
 
-    ![](images/M03/M3-EX1-T1-S13.png)
+    ![](images/M03/pp60.png)
+
+14. You can see the created form.
+
+    ![](images/M03/pp61.png)
 
 
 ## Exercise 2: Create Environment on Form Submit
@@ -157,100 +159,138 @@ the Office 365 connector.
 
 ### Task 2: Create New Environment Approval Flow
 
-1. Log in with your **Lab Admin** user, navigate to **Power Automate**, and login with your admin user.
+1. Navigate to **Power Automate**.
 
-2. Confirm that your environment is set to **Power Platform CoE**.
+1. Set your environment to **Power Platform CoE**.
 
-   Note: This environment is where our CoE starter kit is installed and is intended to be our dedicated admin environment. Even if you don’t use the starter kit, having a dedicated 
+   **Note**: This environment is where our CoE starter kit is installed and is intended to be our dedicated admin environment. Even if you don’t use the starter kit, having a dedicated 
    admin environment can be helpful.
 
    ![](images/M03/M3-EX2-T2-S2.png)
 
-3. Select **My flows**, select **+ New flow** and select **Automated cloud flow**.
+1. Select **My flows (1)**, select **+ New flow (2)** and select **Automated cloud flow (3)**.
 
-   ![](images/M03/M3-EX2-T2-S4.png)
+   ![](images/M03/pp62.png)
 
-5. Type **New Environment Approval** in the Flow name field. In the **Choose your flow’s trigger** section, search for Microsoft Forms, select **When a new response is submitted**, and select **Create**.
+1. Type **New Environment Approval (1)** in the Flow name field. In the **Choose your flow’s trigger** section, search for **When a new response is submitted (2)** then select **When a new response is submitted (3)**, and select **Create (4)**.
 
-   ![](images/M03/M3-EX2-T2-S6.png)
+   ![](images/M03/pp63.png)
 
-7. For the **Form Id**, select the **New Environment Approval Request** form you created and select **+ New Step**.
+1. Select the **When a new response is submitted** box.
 
-   ![](images/M03/M3-EX2-T2-S7.png)
+   ![](images/M03/pp64.png)
 
-8. Search for **Microsoft Forms** and select **Get response details**.
+1. For the **Form Id**, select the **New Environment Approval Request** form you created.
 
-   ![](images/M03/M3-EX2-T2-S8.png)
+   ![](images/M03/pp65.png)
 
-9. Select **New Environment Approval Request** for Form Id and select the **Response Id** from the Dynamic content pane.
+1. Select **+ Add action**.
+
+   ![](images/M03/pp66.png)
+
+1. Search for **Microsoft Forms (1)** and select **Get response details (2)**.
+
+   ![](images/M03/pp67.png)
+
+1. Select **New Environment Approval Request (1)** for **Form Id** and click on the **dynamic content (2)** symbol to select **Response Id**. 
+
+    ![](images/M03/pp68.png)
+
+1. Select the **Response Id** from the Dynamic content pane.    
 
     ![](images/M03/M3-EX2-T2-S10.png)
 
-11. Select **+ New step**.
+1. Select **+ Add action**.
 
-12. Search for **Approvals** and select **Start and Wait for an Approval**.
+    ![](images/M03/pp69.png)
 
-    ![](images/M03/M3-EX2-T2-S12.png)
+1. Search for **Approvals (1)** and select **Start and Wait for an Approval (2)**.
 
-13. Select **Approve/Reject - First to Respond** for Approval type.
+    ![](images/M03/pp70.png)
 
-    ![](images/M03/M3-EX2-T2-S13.png)
+1. Select **Approve/Reject - First to Respond** for Approval type.
 
-14. Enter **Environment Approval Requested** for Title.
+    ![](images/M03/pp71.png)
 
-15. Select the user you are logged in as for **Assigned to** by typing the name into the field and selecting the correct dropdown item.
+1. Enter **Environment Approval Requested (1)** for Title.
 
-16. Type **New Environment was requested by:** in the **Details** field.
+   - Select the user you are logged in as for **Assigned to** by typing the name into the field and selecting the correct dropdown item **(2)**
 
-17. Select **Responders Email** from the Dynamic content pane.
+   - Type **New Environment was requested by:** in the **Details** field **(3)**
 
-    ![](images/M03/M3-EX2-T2-S17.png)
+   - Select the Dynamic content symbol to select the Responder email **(4)**
 
-18. Hit the enter key and type **Environment Name:** and select **Environment Name** from the Dynamic content pane.
+     ![](images/M03/pp72.png)   
+
+   - Select **Responders Email** from the Dynamic content pane.
+
+     ![](images/M03/M3-EX2-T2-S17.png)
+
+1. Hit the enter key and type **Environment Name:** and select **Environment Name** from the Dynamic content pane.
 
     ![](images/M03/M3-EX2-T2-S18.png)
 
-19. Hit the enter key again and type **Business Justification:** and select **Business Justification** from the Dynamic content pane.
+1. Hit the enter key again and type **Business Justification:** and select **Business Justification** from the Dynamic content pane.
 
     ![](images/M03/M3-EX2-T2-S19.png)
 
-20. Hit the enter key again type **Connectors:** and select **What connectors will you use?** from the Dynamic content pane.
+1. Hit the enter key again type **Connectors:** and select **What connectors will you use?** from the Dynamic content pane.
 
     ![](images/M03/M3-EX2-T2-S20.png)
 
-21. Select **+ New Step**.
+1. Select **+ Add Action**.
 
-22. Select **Condition** Control.
+    ![](images/M03/pp73.png)
 
-    ![](images/M03/M3-EX2-T2-S22.png)
+1. Search for **Condution (1)** and the select **Condition (2)** Control.
 
-23. Select the Choose a value field and select **Outcome**.
+    ![](images/M03/pp74.png)
 
-24. Enter **is equals** to for condition, enter **Approve** for value, and select **Add an action** in the **Yes**  branch.
+1. Click on the dynamic content symbol to select the Value.
 
-    ![](images/M03/M3-EX2-T2-S24.png)
+    ![](images/M03/pp75.png)
 
-25. Search for **Power Platform** and select **Power Platform for admins**.
+1. Select the Choose a value field and select **Outcome**.
 
-    ![](images/M03/M3-EX2-T2-S25.png)
+    ![](images/M03/pp76.png)
 
-26. Select **Create Environment**.
+1. Enter **is equals (1)** to for condition, enter **Approve (2)** for value.
 
-    ![](images/M03/M3-EX2-T2-S26.png)
+    ![](images/M03/pp77.png)
 
-27. Select **United States** for the **location** and select on the **Display Name** field.
+1. Select **Add an action** in the **True**  branch.
 
-    >**Note:** Location determines the region for the environment, in a real process you might allow this to be auto-determined by the user location or something the requester provides.
+    ![](images/M03/pp78.png)
 
-28. Select **Environment Name** from the Dynamic content pane.
+1. Search for **Power Platform for admins** and under **Power Platform for admins** section select **See more (2)**.
+
+    ![](images/M03/pp79.png)
+
+1. Select **Create Environment**.
+
+    ![](images/M03/pp80.png)
+
+1. Click on **Sign in**. Sign in with your lab credentials.
+
+    ![](images/M03/pp81.png)
+
+1. Select **United States (1)** for the **location** and select the dynamic content symbol on the **Display Name** field **(2)**.
+
+    ![](images/M03/pp82.png)
+
+     >**Note:** Location determines the region for the environment, in a real process you might allow this to be auto-determined by the user location or something the requester provides.
+
+1. Select **Environment Name** from the Dynamic content pane.
 
     ![](images/M03/M3-EX2-T2-S28.png)
 
-29. Select **Trial** for **Environment Sku**.
+1. Select **Sandbox** for **Environment Sku**.
 
-    ![](images/M03/M3-EX2-T2-S29.png)
+    ![](images/M03/pp83.png)
 
-30. Select **Save**. Do not navigate away from this page.
+1. Select **Save**. Do not navigate away from this page.
+
+    ![](images/M03/pp85.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
@@ -263,137 +303,171 @@ the Office 365 connector.
 
 ### Task 3: Create a Database and Notify the User
 
-1. Select **Add an action** under Create Environment.
+1. Select **+ Add an action** under **Create Environment**.
 
-   ![](images/M03/M3-EX2-T3-S1.png)
+   ![](images/M03/pp84.png)
 
-2. Search for **Power Platform for Admin** and select the Power Platform for Admins icon to filter the view.
+1. Search for **Power Platform for admins** and under **Power Platform for admins** section select **See more (2)**.
 
-3. Select **Create CDS Database**.
+    ![](images/M03/pp79.png)
 
-   ![](images/M03/M3-EX2-T3-S3.png)
+1. Select **Create CDS Database**.
 
-4. Select on the **Environment** dropdown and select **Enter Custom Value**.
+   ![](images/M03/pp86.png)
+
+1. Select on the **Environment** dropdown and select **Enter Custom Value**.
 
    ![](images/M03/M3-EX2-T3-S4.png)
 
-5. Select **Name** from the Dynamic content pane.
+1. Select **Name (1)** from the Dynamic content pane.
 
    ![](images/M03/M3-EX2-T3-S5.png)
 
-6. Enter **1033** for Base Language and enter **USD** for Currency Code.
+1. Select **Show all (2)**.
 
-7. Enter **D365_CDSSampleApp** for Template Item.
+   ![](images/M03/pp87.png)
 
-8. Select **Add an action**.
+1. Enter **1033 (1)** for Base Language and enter **USD (2)** for Currency Code.
 
-   ![](images/M03/M3-EX2-T3-S8.png)
+1. Enter **D365_CDSSampleApp (3)** for Template Item.
 
-9. Search for **Send Email** and select **Send an email (V2) Office 365 Outlook**.
+   ![](images/M03/pp89.png)
 
-   ![](images/M03/M3-EX2-T3-S9.png)
+1. Select **Add an action** under **Create CDS Databse**.
 
-10. Select on the **To:** field and select **Responders Email** for the Dynamic Content pane.
+   ![](images/M03/pp90.png)
 
-11. Enter **Your environment was created** for **Subject**.
+1. Search for **Send Email (1)** and select **Send an email (V2) Office 365 Outlook (2)**.
 
-12. Enter **Environment** in the **Body** field and select **Display Name** from the Dynamic Content pane under the **Create Environment** step and add **was created** in the last.
+   ![](images/M03/pp91.png)
 
-14. Your email should look like the image below.
+1. Click on **Sign in**. Sign in with the lab credentials.
 
-    ![](images/M03/M3-EX2-T3-S14.png)
+   ![](images/M03/pp92.png)
 
-15. Go to the **No** branch and select **Add an Action**.
+1. Click on **Switch to Advanced Mode**.
 
-16. Search for Send email and select **Send an email (V2) Office 365 Outlook**.
+   ![](images/M03/pp93.png)
 
-17. Select on the **To:** field and select **Responder’s Email** from the Dynamic Content pane.
+1. Select on the **To:** field and select **Responders Email** for the Dynamic Content pane **(1)**.
 
-18. Type **Rejected environment request** for **Subject**.
+1. Enter **Your environment was created** for **Subject (2)**.
 
-19. Enter **Your request for new environment was rejected** in the **Body**.
+1. Enter **Environment** in the **Body** field and select **Display Name** from the Dynamic Content pane under the **Create Environment** step and add **was created** in the last **(3)**.
 
-20. Your email should now look like the image below.
+1. Your email should look like the image below.
 
-    ![](images/M03/M3-EX2-T3-S20.png)
+    ![](images/M03/pp94.png)
 
-21. Select **Save**.
+1. Go to the **False** branch and select **Add an Action**.
+
+   ![](images/M03/pp95.png)
+
+1. Search for Send email and select **Send an email (V2) Office 365 Outlook**.
+
+   ![](images/M03/pp96.png)
+
+1. Select **Switch to Advanced Mode**.
+
+   ![](images/M03/pp97.png)
+
+1. Select on the **To:** field and select **Responder’s Email** from the Dynamic Content pane.
+
+   ![](images/M03/pp98.png)
+
+1. Type **Rejected environment request (1)** for **Subject**.
+
+1. Enter **Your request for new environment was rejected (2)** in the **Body**.
+
+1. Your email should now look like the image below.
+
+    ![](images/M03/pp99.png)
+
+1. Select **Save**.
 
     ![](images/M03/M3-EX2-T3-S21.png)
 
-22. Select **Flow checker** and make sure there are no errors.
+1. Select **Flow checker** and make sure there are no errors.
 
-    ![](images/M03/M3-EX2-T3-S22.png)
+    ![](images/M03/pp101.png)
 
-    ![](images/M03/M3-EX2-T3-S22-1.png)
+    ![](images/M03/pp102.png)
 
-24. Close the **Flow checker** pane with the X to the right of the pane header.
+1. Close the **Flow checker** pane with the X to the right of the pane header.
 
-25. Select the **Back** button.
+1. Select the **Back** button.
 
-    ![](images/M03/M3-EX2-T3-S24.png)
+    ![](images/M03/pp103.png)
 
 ### Task 4: Test the Flow
 
-1. Navigate to Microsoft Forms and open the form you created.
+1. Navigate to **Microsoft Forms** and open the form you created.
 
-   ![](images/M03/M3-EX2-T4-S1.png)
+   ![](images/M03/pp104.png)
 
-2. Select **Collect responses** and **Copy** the link.
+1. Select **Collect responses**.
 
-   ![](images/M03/M3-EX2-T4-S2.png)
+   ![](images/M03/pp105.png)
+
+1. **Copy** the link.   
 
    ![](images/M03/M3-EX2-T4-S2-1.png)
 
-3. Paste the link in the browser and navigate to it.
+1. Paste the link in the browser and navigate to it.
 
-4. The form should load. Provide an Environment Name of **Central Apps Test**, Business Justification, and the connector Microsoft Dataverse. Note: For this course, we 
+   ![](images/M03/pp106.png)
+
+1. The form should load, provide the following details and then click on **Submit (4)**.
+
+   - Environment name: Provide **Central Apps Test (1)**
+   - Business Justification: **We will use this Environment for training new employees (2)**
+   - What connector will you use: **Microsoft Dataverse (3)**. 
+
+     ![](images/M03/pp107.png)   
+   
+      >**Note**: For this course, we 
    will be using this environment we created here later in another lab to deploy the Device Ordering solution using Azure Dev Ops, for that lab it will serve as the Test environment which 
    is why we are suggesting naming it Central Apps Test. In real word use, most likely it would be a team/project development environment that would be requested using a form like this.
 
-5. Select **Submit**. Once you confirm the submission, you can close the tab.
+1. Navigate back to the **Power Automate** portal, Go to **My flows (1)** list and open the flow you created **(2)**.
 
-   ![](images/M03/M3-EX2-T4-S5.png)
+   ![](images/M03/pp108.png)
 
-6. Go back to the **My flows** list and open the flow you created.
+1. You should see the flow running. Select the start date to open it.
 
-   ![](images/M03/M3-EX2-T4-S6.png)
+   ![](images/M03/pp109.png)
 
-7. You should see the flow running. Select the start date to open it.
-
-   ![](images/M03/M3-EX2-T4-S7.png)
-
-8. The flow is waiting for approval.
+1. The flow is waiting for approval.
 
    ![](images/M03/M3-EX2-T4-S8.png)
 
-9. Start a new browser tab and navigate to Outlook.
+1. Navigate to Outlook.
 
-10. You should have an approval request email, select to open it.
+1. You should have an approval request email, select to open it.
 
     ![](images/M03/M3-EX2-T4-S10.png)
 
-11. Select **Approve**.
+1. Select **Approve**.
 
-    ![](images/M03/M3-EX2-T4-S11.png)
+    ![](images/M03/pp110.png)
 
-12. Select **Submit**.
+1. Select **Submit**.
 
-13. Go back to the flow browser tab.
+1. Go back to the flow browser tab.
 
-14. The flow should succeed.
+1. The flow should succeed.
 
-    ![](images/M03/M3-EX2-T4-S14.png)
+    ![](images/M03/pp111.png)
 
-15. Navigate to the Power Platform admin center and select **Environments**. The new environment should be listed there.
+1. Navigate to the **Power Platform admin center**, and select **Environments**. The new environment should be listed there.
 
     ![](images/M03/M3-EX2-T4-S15.png)
 
-16. You should also get an email.
+1. You should also get an email.
  
-    ![](images/M03/M3-EX2-T4-S16.png)
+    ![](images/M03/pp112.png)
 
-17. You may test for request rejection if you like.
+1. You may test for request rejection if you like.
 
 
 ## CoE Environment Management Sample Implementation
@@ -435,15 +509,15 @@ In this task, you will be performing the role of the developer and completing th
 
    ![](images/M03/M3-EX3-T1-S1.png)
 
-2. Navigate to Power Apps and select the **OTU WA AIW (default)** environment.
+1. Navigate to **Power Apps** and select the **OTU WA (default)** environment.
 
-   ![](images/M01/po2.png)
+   ![](images/M03/pp113.png)
 
-3. Select **Apps** from the left-side navigation.
+1. Select **Apps** from the left-side navigation.
 
     ![](images/M03/M3-EX3-T1-S3.png)
 
-3. Select **Apps (1)**, then **+ New app (2)** > **Start with page design (3)**.
+1. Select **Apps (1)**, then **+ New app (2)** > **Start with page design (3)**.
 
    ![](images/M04/po29.png)
 
@@ -451,88 +525,91 @@ In this task, you will be performing the role of the developer and completing th
 
     ![](images/M04/po30.png)
 
-   b. Click on **Save** on the top right corner and enter name as **Test App (Initials)**.
+1. Click on **Save** on the top right corner 
 
-5. Select **Edit** from the menu that appears, or from the ribbon at the top.
+    ![](images/M03/pp114.png)
 
-   ![](images/M03/M3-EX3-T1-S5.png)
+1. Enter name as **Test App (Initials) (1)** and then **Save (2)**. 
 
-6. Select **Settings** from the ribbon at the top.
+    ![](images/M03/pp115.png)
 
-    ![](images/M03/M3-EX3-T1-S6.png)
+1. Click on **elipses...(1)** then select **Settings (2)** from the ribbon at the top.
 
-7. Under **General**, locate **Description**, and enter a simple description for a potential app. Then, close the settings with the X at the top right.
+    ![](images/M03/pp116.png)
 
-    ![](images/M03/M3-EX3-T1-S7.png)
+1. Under **General**, locate **Description** as **An App that counts for you (1)**. Then, close the settings with the **X (2)** at the top right.
 
-8. Select **Save** at the top right, then select **Publish**.
+    ![](images/M03/pp117.png)
+
+1. If enabled, select **Save** at the top right.
 
     ![](images/M03/M3-EX3-T1-S8.png)
 
-    ![](images/M03/M3-EX3-T1-S8-1.png)
+1. Then select **Publish**.    
 
-10. From here, we can review the changes we made to the description as well as the app name and icon associated with it. Select **Publish this version**.
+    ![](images/M03/pp118.png)
+
+1. From here, we can review the changes we made to the description as well as the app name and icon associated with it. Select **Publish this version**.
 
     ![](images/M03/M3-EX3-T1-S9.png)
 
-11. Wait for the publishing to complete, then select the **Back** button.
+1. Wait for the publishing to complete, then select the **Back** button.
 
      ![](images/M03/M3-EX3-T1-S10.png)
 
-12. Switch to the **Power Platform COE** environment.
+1. Select the Current environment **(1)** then Switch to the **Power Platform COE (2)** environment.
 
-     ![](images/M03/M3-EX3-T1-S11.png)
+     ![](images/M03/pp119.png)
 
-13. Select **Solutions** from the left-side navigation, then the **Center of Excellence – Core Components** solution.
+1. Select **Solutions** from the left-side navigation, then the **Center of Excellence – Core Components** solution.
 
      ![](images/M03/M3-EX3-T1-S12.png)
 
-14. Select **Objects > Apps** from the menu on the left,
+1. Select **Objects > Apps** from the menu on the left,
 
      ![](images/M03/M3-EX3-T1-S13.png)
 
-15. Select the **∙∙∙** next to the **Power Platform Admin View** model-driven app and select **Play**.
+1. Select the **∙∙∙** next to the **Power Platform Admin View** model-driven app and select **Play**.
 
      ![](images/M03/M3-EX3-T1-S14.png)
 
-16. Select **PowerApps Apps** and search in the box at the top right for the **Lab Admin X** app, where X is your lab user number or the test app we created. Select the appropriate result.
+1. Select **PowerApps Apps** and search in the box at the top right for the **Lab Admin X** app, where X is your lab user number or the test app we created. Select the appropriate result.
 
      ![](images/M03/M3-EX3-T1-S15.png)
 
-17. Select the **Governance** tab and set the **Admin Risk Assessment State** to **Requested**.
+1. Select the **Governance** tab and set the **Admin Risk Assessment State** to **Requested**.
 
      ![](images/M03/M3-EX3-T1-S16.png)
 
-18. **Save & Close** at the top left.
+1. **Save & Close** at the top left.
 
      ![](images/M03/M3-EX3-T1-S17.png)
 
-19. Close the **Power Platform Admin View** application.
+1. Close the **Power Platform Admin View** application.
 
-20. Navigate back to Solutions via the left-side navigation and select the **Center of Excellence –** **Governance Components**.
+1. Navigate back to Solutions via the left-side navigation and select the **Center of Excellence –** **Governance Components**.
 
      ![](images/M03/M3-EX3-T1-S19.png)
 
-21. Select Apps from the **Objects** menu, then select **Developer Compliance Center**.
+1. Select Apps from the **Objects** menu, then select **Developer Compliance Center**.
 
     ![](images/M03/M3-EX3-T1-S20.png)
 
-22. The application will list all the apps that you are the owner of. The information at the bottom of each card will indicate what is preventing your app from reaching full compliance.
+1. The application will list all the apps that you are the owner of. The information at the bottom of each card will indicate what is preventing your app from reaching full compliance.
 
-23. You should see at least one app that has the name lab admin and your number or the **Test App** name. Select the card to review the details of the app.
+1. You should see at least one app that has the name lab admin and your number or the **Test App** name. Select the card to review the details of the app.
 
      ![](images/M03/M3-EX3-T1-S22.png)
 
-24. Review the App Compliance section which gives clear guidance on what needs to be updated. Select the icon next to **Missing support details** to open the **Support Details** panel.
+1. Review the App Compliance section which gives clear guidance on what needs to be updated. Select the icon next to **Missing support details** to open the **Support Details** panel.
 
      ![](images/M03/M3-EX3-T1-S23.png)
 
-25. In the **Support Details** section fill in all the fields with information about your application, you can make it as detailed as you want but submit information for each field in 
-    this section.
+1. In the **Support Details** section fill in all the fields with information about your application, you can make it as detailed as you want but submit information for each field in this section.
 
-26. Normally we would also adjust the description by editing the app, but for this lab will skip that.
+1. Normally we would also adjust the description by editing the app, but for this lab will skip that.
 
-27. Select **Save** to save the information about the application and close the Support Details panel.
+1. Select **Save** to save the information about the application and close the Support Details panel.
 
      ![](images/M03/M3-EX3-T1-S26.png)
 
