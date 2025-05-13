@@ -475,7 +475,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
     ![](images/M04/M4-EX2-T1A-S12.png)
 
-13. Repeat steps 3-11 for **Thrive Hr - Test** and **Thrive Hr - Prod**, setting the type as **Target Environment** respectively.
+13. Repeat steps 7-11 for **Thrive Hr - Test** and **Thrive Hr - Prod**, setting the type as **Target Environment** respectively.
 
 14. You should have three environments listed now.
 
