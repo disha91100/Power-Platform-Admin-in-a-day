@@ -200,4 +200,12 @@ In this task, you will share the application and the table you created.
 
    ![](images/M05/p5p34.png)
 
+
+### Review
+
+In this lab, you have accomplished the following:
+
+- Exercise 1 - Created your first app
+- Exercise 2 – Shared your app
+
 ### You have successfully completed this lab.   

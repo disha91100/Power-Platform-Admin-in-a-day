@@ -34,7 +34,7 @@ collect additional information allowing it to be tailored to your individual org
 
 ### Task 1: Create Microsoft Form
 
-1. While logged in as the lab admin user navigate to **Microsoft Forms** with https://forms.office.com/ and close the pop up screen.
+1. Navigate to **Microsoft Forms** with https://forms.office.com/ and close the pop up screen.
 
 2. Select **+ New Form**.
 
@@ -95,14 +95,19 @@ the Office 365 connector.
 
 ### Task 1: Delete your sandbox environment
 
-1. While logged in as the lab admin user navigate to the Power Platform admin center.
+1. Navigate to the **Power Platform admin center**.
 
-2. Locate and select the sandbox environment that you created in module one named **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** in the list of environments.
+1. Naigate to **Environment (1)**, select the sandbox environment that you created in module one named **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (2)** in the list of environments.
 
-3. Select the **Delete** button and confirm the deletion by typing the environment name. We have to delete it to create another Trial environment, which we can only have one at 
-   a time.
+   ![](images/ppp1.png)
 
-   ![](images/M03/M3-EX2-T1-S3.png)
+1. Select the **Delete** button.
+
+   ![](images/ppp2.png)
+
+1. Confirm the deletion by typing the environment name **(1)** and then select **Confirm (2)**. We have to delete it to create another Trial environment, which we can only have one at a time.
+
+   ![](images/ppp3.png)
 
 ### Task 2: Create New Environment Approval Flow
 
@@ -826,3 +831,15 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
     the flow again.
     
     ![](images/M03/M3-EX4-T3-S31.png)
+
+### Review
+
+In this lab, you have accomplished the following:
+
+- Exercise 1 - Created Environment Request Form
+- Exercise 2 – Created Environment on Form Submit
+- Exercise 3 – Application Compliance Process
+- Exercise 4 – Welcome New Makers (Optional if you have time)
+
+
+### You have successfully completed this lab.

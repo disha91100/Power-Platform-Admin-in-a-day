@@ -450,7 +450,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
     ![](images/M04/M4-EX2-T1A-S12.png)
 
-1. Repeat steps `7-11` for **Thrive Hr - Test** and **Thrive Hr - Prod**, setting the type as **Target Environment** respectively.
+1. Repeat steps `7-10` for **Thrive Hr - Test** and **Thrive Hr - Prod**, setting the type as **Target Environment** respectively.
 
 1. You should have **three** environments listed now.
 
@@ -620,5 +620,15 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
    <validation step="2cafbfde-046f-4e7f-b645-7543771cb755" />     
+
+
+### Review
+
+In this lab, you have accomplished the following:
+
+
+- Exercise 1 - Managed Environments
+- Exercise 2 – Power Platform Pipelines
+
 
 ### You have successfully completed this lab.

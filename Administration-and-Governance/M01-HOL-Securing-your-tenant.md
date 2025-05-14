@@ -40,13 +40,13 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 ### Task 1: Review existing environments
 
-1. Logged in with the **Lab Admin account** in an in-private browser session navigate to https://aka.ms/ppac and select **Environments**.
+1. Navigate to **Power Platform admin center** by following the link https://aka.ms/ppac, and select **Environments**.
 
-    ![](images/M01/M1-EX1-T1-S1.png)
+    ![](images/pp-2.png)
 
 2. Review the list of environments. These are the environments that are available for you to manage.
 
-   ![](images/M01/M1-EX1-T1-S2.png)
+   ![](images/pp-3.png)
 
 3. Notice the **Type** column, you can see Fabrikam is already using several types of environments.
 
@@ -307,7 +307,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 ### Task 2: Create a flow to get the weather
 
-1. Navigate to the **Power App**s maker portal, click on the Environment **(1)** and select the environment you created **(2)**.
+1. Navigate to the **Power Apps** maker portal, click on the Environment **(1)** and select the environment you created **(2)**.
 
    ![](images/M01/pp23.png)
 
@@ -463,7 +463,7 @@ ID Security group and assign the security role you just built.
 
 1. Navigate to the **Power Apps** maker portal, click on **Environment (1)** and select The My Sandbox environment named **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (2)** you created.
 
-   ![](images/M01/po8.png)
+   ![](images/pp-1.png)
 
 2. Select **Solutions (1)** and select **Import solution (2)**.
 
@@ -634,3 +634,16 @@ ID Security group and assign the security role you just built.
 
 1. Close the share pane.
 
+
+### Review
+
+In this lab, you have accomplished the following:
+
+- Exercise 1 - Explored existing Power Platform usage
+- Exercise 2 – Planned an environment strategy
+- Exercise 3 – Planned a DLP strategy
+- Exercise 4 – Evaluated the impact of adding DLP
+- Exercise 5 –  Configured a security role
+
+
+### You have successfully completed this lab.
