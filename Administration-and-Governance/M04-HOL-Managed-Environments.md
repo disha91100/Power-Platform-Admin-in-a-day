@@ -2,42 +2,19 @@
 
 # M04-HOL- Managed Environments
 
-## Table of Contents
-
-1. Exercise 1 - Managed Environments
-
-   **Scenario**
-   
-   - Task 1: Create a Managed Environment  
-
-   - Task 2: Review the Features of the Managed Environments
-
-2. Exercise 2 – Power Platform Pipelines
-
-   **Scenario**
-   
-   - Task 1: Configure a deployment pipeline
-
-   - Task 2: Run the pipeline
-  
-
-##### Hands-on lab
-
 ## Lab Scenario
 
-In this hands-on lab, you are an administrator, helping to adapt the Power Platform.
+In this hands-on lab, you are an administrator helping Contoso adopt and manage Power Platform more effectively. Contoso wants to gain finer control over their environments by enabling managed environments, and they have asked you to apply these features to an existing unmanaged environment. Additionally, the team developing the Device Order Management app is ready to move their solution from the development environment to the test environment. In this lab, you will use the Managed Environments and Pipelines features in Power Platform to apply new controls, configure the deployment path, and move the solution package through the Dev > Test > Prod cycle, beginning with the initial setup for deployment to the test environment.
 
-Contoso wants to exert finer control over their environments and expand the functionality of an environment by enabling managed environments. They’ve asked you to apply the features of 
-a managed environment to a currently unmanaged environment.
 
-In addition, the team building the Device Order Management app is now ready for you to transport their solution from their development environment to the test environment for testing.
+## Lab Objectives
 
-In this lab, you will be using the Managed Environments feature and the Pipelines features included with the Power Platform to apply new controls and features to an environment 
-and deploy the app through the Dev>Test>Prod cycle.
+In this lab, you will complete the following exercises:
 
-Because this is the first deployment to test, you will have to do some setup to configure the path for the pipeline and the solution package.
+- Exercise 1 - Managed Environments
+- Exercise 2 – Power Platform Pipelines
 
-## Lab Test Environment
+### Lab Test Environment
 
 This hands-on lab is designed to be completed in an environment setup for multiple students to complete the Admin in a day series of hands-on labs.
 

@@ -2,11 +2,16 @@
 
 # M05A-HOL-Power Apps in Teams
 
-## Table of Contents
-   
-   - Task 1: Create a team  
+## Lab Scenario
 
-   - Task 2: Create an app
+In this hands-on lab, you will create a new team in Microsoft Teams and build a Power App within it. You will also learn how to configure team ownership and publish the app for collaboration within the team.
+
+## Lab Objectives
+
+In this lab, you will complete the following tasks:
+
+- Task 1: Create a team
+- Task 2: Create an app
 
 ## Teams setup
 

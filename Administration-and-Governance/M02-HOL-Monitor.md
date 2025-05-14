@@ -2,69 +2,25 @@
 
 # M02-HOL-Reporting and Telemetry
 
-## Table of Contents
-
-1. Exercise 1 - Explore the out-of-the-box analytics
-
-   **Scenario**
-   
-   - Task 1: Explore the Power Automate analytics
-
-   - Task 2: Review existing Data policies
-  
-   - Task 3: Explore the Capacity analytics
-
-2. Exercise 2 – Configure Dataverse logging for a table
-
-   **Scenario**
-   
-   - Task 1: Review audit logging in the environment
-
-   - Task 2: Test auditing
-
-3. Exercise 3 – Setup the CoE Starter Kit Power BI Dashboard
-
-   **Scenario**
-   
-   - Task 1: Explore the Power Platform Admin View app
-   
-   - Task 2: Power BI Dashboard 
-
-4. Exercise 4 – Perform a risk assessment of overshared resources
-
-   **Scenario**
-   
-   - Task 1: Locate Overshared Apps
-
-5. Exercise 5 –  How much is a connector used in your organization
-
-   **Scenario**
-   
-   - Task 1: Locate resources that use the SharePoint connector
-
-6. Exercise 6 –  Review tenant audit logs (Optional if you have time)
-
-   **Scenario**
-   
-   - Task 1: Review audit logging in the environment
-
-7. Exercise 7 –   Get notification of new apps, flows and connectors (Optional if you have time)
-
-   **Scenario**
-   
-   - Task 1: Create the flow from the template
-
-
-#### Hands-on lab
-
 ## Lab Scenario
 
-In this Hands-on Lab, you are an administrator helping adopt the Power Platform.
-
-An important part of keeping the Power Platform running successfully is monitoring the ongoing usage. In this hands-on lab, you will be using the platform tools and the COE Starter Kit to 
+In this Hands-on Lab, you are an administrator helping adopt the Power Platform. An important part of keeping the Power Platform running successfully is monitoring the ongoing usage. In this hands-on lab, you will be using the platform tools and the COE Starter Kit to 
 perform usage monitoring.
 
-## Lab Test Environment
+## Lab Objectives
+
+In this lab, you will complete the following exercises:
+
+- Exercise 1 - Explore the out-of-the-box analytics
+- Exercise 2 – Configure Dataverse logging for a table
+- Exercise 3 – Setup the CoE Starter Kit Power BI Dashboard
+- Exercise 4 – Perform a risk assessment of overshared resources
+- Exercise 5 –  How much is a connector used in your organization
+- Exercise 6 –  Review tenant audit logs (Optional if you have time)
+- Exercise 7 –   Get notification of new apps, flows and connectors (Optional if you have time)
+
+
+### Lab Test Environment
 
 This lab is designed to be completed in an environment setup for multiple students to complete the Admin in a day series of hands-on labs.
 

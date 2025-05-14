@@ -2,74 +2,21 @@
 
 # M03-HOL-Action through Automation
 
-## Table of Contents
-
-1. Exercise 1 - Create Environment Request Form
-
-   **Scenario**
-   
-   - Task 1: Create Microsoft Form
-
-2. Exercise 2 – Create Environment on Form Submit
-
-   **Scenario**
-   
-   - Task 1: Delete your sandbox environment
-
-   - Task 2: Create New Environment Approval Flow
-  
-   - Task 3: Create a Database and Notify the User
-  
-   - Task 4: Test the Flow
-
-3. Exercise 3 – Application Compliance Process
-
-   **Scenario**
-   
-   - Task 1: Complete Developer Compliance
-   
-   - Task 2: Admin Review
-
-4. Exercise 4 – Welcome New Makers (Optional if you have time)
-
-   **Scenario**
-   
-   - Task 1: Create Office 365 Group
-   
-   - Task 2: Import Flow
-  
-   - Task 3: Edit and Test Flow
-
-
-#### Hands-on lab
-
 ## Lab Scenario
 
-In this hands-on lab, you are an administrator, helping to adapt the Power Platform.
-
-Contoso has decided to control the creation of Power Platform environments by disabling creation unless you are a global or service admin. Contoso doesn’t want to discourage use of the Power 
-Platform so they would like you to put an automated process in place to allow users to request an environment and a Microsoft Dataverse database.
-
-In this lab, you will be building a Microsoft Form to allow users to submit their environment requests. Using the Power Platform administrative connectors and the built-in approval 
-capabilities of Power Automate you will automate the processing of the requests.
-
-The following is an outline of the process you will be implementing:
-
-- A user submits a request via the form including justification for the environment.
-- Form submission triggers flow to run.
-- Flow uses the approval connector to ask the admin team for approval.
-- If approved, the environment and Dataverse database are created.
-- User is notified of the outcome; approved or rejected.
-
-This process could easily be expanded to request approval from the user’s manager as well and the request information along with the environment information could be stored for resource 
-usage chargeback.
-
-Contoso has also decided to use the app auditing process from the CoE Starter Kit. You will be seeing how this works by going through the process as both a maker and an admin.
-
-Additionally, you will be installing a pre-created flow that checks for new people building apps adds them to an Office 365 group and sends them a welcome email.
+In this hands-on lab, you are an administrator supporting Contoso's efforts to streamline and control Power Platform usage. Contoso has restricted environment creation to global or service admins and wants an automated process for users to request new environments and Dataverse databases without discouraging platform adoption. You will build a Microsoft Form for users to submit requests, and then use Power Automate with administrative connectors and approval workflows to automate the review and provisioning process. The solution will handle approvals, environment creation, and user notifications. You’ll also explore the app auditing process from the CoE Starter Kit by stepping through it as both a maker and an admin, and install a prebuilt flow to identify new app makers, add them to an Office 365 group, and send them a welcome email.
 
 
-## Lab Test Environment
+## Lab Objectives
+
+In this lab, you will complete the following exercises:
+
+- Exercise 1 - Create Environment Request Form
+- Exercise 2 – Create Environment on Form Submit
+- Exercise 3 – Application Compliance Process
+- Exercise 4 – Welcome New Makers (Optional if you have time)
+
+### Lab Test Environment
 
 This hands-on lab is designed to be completed in an environment setup for multiple students to complete the Admin in a day series of hands-on labs.
 
