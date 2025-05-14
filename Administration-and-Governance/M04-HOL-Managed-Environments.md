@@ -443,43 +443,41 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 1. Repeat this process with **Thrive Hr – Test** and **Thrive Hr – Prod**, copying the IDs to the same notepad.
 
-1. Navigate to **Power Apps** and set the environment to the **Thrive Hr(Intials) – Host** environment.
+1. Navigate to **Power Apps** and set the environment to the **Thrive Hr– Host** environment.
 
-   ![](images/M04/p4p43.png)
+   ![](images/M04/p4p57.png)
 
-7. Navigate to **Apps (1)** and select **Deployment Pipeline Configuration (2)**, then select **Play (3)** from the ribbon at the top.
+1. Navigate to **Apps (1)** and select **Deployment Pipeline Configuration (2)**, then select **Play (3)** from the ribbon at the top.
 
    ![](images/M04/po34.png)
 
-8. Select **Environments (1)** on the left pane, and then click on **+ New** symbol.
+1. Select **Environments (1)** on the left pane, and then click on **+ New** symbol.
 
-   ![](images/M04/M4-EX2-T1A-S8.png)
+   ![](images/M04/p4p44.png)
 
-9. You’ll need to add the Dev, Test, and Prod environments as our deployment environments to create the environment records in Dataverse:
+1. You’ll need to add the **Dev, Test**, and **Prod** environments as our deployment environments to create the environment records in Dataverse. Add the following records and then select **Save (4)**
 
-    a. Name: **Thrive Hr - Dev (1)**
+   - Name: **Thrive Hr - Dev (1)**
 
-    b. Environment Type: **Development Environment (2)**
+   - Environment Type: **Development Environment (2)**
 
-    c. Environment ID: Paste the **Environment ID (3)** you copied from earlier here.
+   - Environment ID: Paste the **Environment ID (3)** you copied from earlier here.
 
-      ![](images/M04/M4-EX2-T1A-S9.png)
+     ![](images/M04/p4p45.png)
 
-10. Select **Save**.
+1. **Refresh (1)** the form, then verify **Validation Status** equals **Success (2)**.
 
-11. **Refresh (1)** the form, then verify **Validation Status** equals **Success (2)**.
+    ![](images/M04/p4p46.png)
 
-    ![](images/M04/M4-EX2-T1A-S11.png)
-
-12. Select **Save and Close**.
+1. Select **Save and Close**.
 
     ![](images/M04/M4-EX2-T1A-S12.png)
 
-13. Repeat steps 7-11 for **Thrive Hr - Test** and **Thrive Hr - Prod**, setting the type as **Target Environment** respectively.
+1. Repeat steps `7-11` for **Thrive Hr - Test** and **Thrive Hr - Prod**, setting the type as **Target Environment** respectively.
 
-14. You should have three environments listed now.
+1. You should have **three** environments listed now.
 
-    ![](images/M04/M4-EX2-T1A-S14.png)
+    ![](images/M04/p4p49.png)
 
 #### 1B. Create a pipeline.
 
@@ -487,135 +485,154 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
    ![](images/M04/M4-EX2-T1B-S1.png)
 
-2. Set the **Name** to be **Thrive Hr Standard Deployment Pipeline (1)** and select **Save (2)** to show the rest of the content available..
+1. Set the **Name** to be **Thrive Hr Standard Deployment Pipeline (1)** and select **Save (2)** to show the rest of the content available..
 
-   ![](images/M04/M4-EX2-T1B-S2.png)
+   ![](images/M04/p4p51.png)
 
-3. Now we need to add the environments we've created to the pipeline. In the **Linked Developments** section, Select **Add Existing Deployment Environment**.
+1. Now we need to add the environments we've created to the pipeline. Scroll down, in the **Linked Developments (1)** section, click on the **elipses(...) (2)** and then elect **Add Existing Deployment Environment (3)**.
 
-   ![](images/M04/M4-EX2-T1B-S3.png)
+   ![](images/M04/p4p52.png)
 
-4. Select the **Thrive HR - Dev** to add the environments to the list and clcik on **Add**.
+1. Select the **Thrive HR - Dev (1)** to add the environments to the list and clcik on **Add (2)**.
 
-   ![](images/M04/M4-EX2-T1B-S4.png)
+   ![](images/M04/p4p53.png)
 
-5. Locate the **Deployment Stages (Deployment Pipeline)** section, select **+ New Deployment Stage**.
+1. Locate the **Deployment Stages (Deployment Pipeline)** section, select **+ New Deployment Stage**.
 
    ![](images/M04/M4-EX2-T1B-S5.png)
 
-6. Set the **Name** to **Deploy to Test (1)**.
+1. **On the New Deployment Stage** section provide the following details and then select **Save (4)**.
 
-7. Set the **Description** to **Deploy the completed development content to the Test phase (2)**.
+   - Name: **Deploy to Test (1)**
 
-8. Since this is the first stage of our deployment, the **Previous Deployment Stage** field will be left blank for this one.
+   - Description: Enter **Deploy the completed development content to the Test phase (2)**
 
-9. Set the **Target Development Environment** to the **Thrive Hr - Test (3)**.
+   - Since this is the first stage of our deployment, the **Previous Deployment Stage** field will be left blank for this one
 
-10. Leave the pre-deployment condition unselected. To learn more about pre-deployment conditions,
-    follow this link.
+   - **Target Development Environment ID**: Enter **Thrive Hr - Test** and then **Thrive Hr - Test (3)**
 
-11. Confirm that your setup reflects the image below.
+   - Leave the pre-deployment condition unselected. To learn more about pre-deployment conditions,
+    follow this link
 
-    ![](images/M04/M4-EX2-T1B-S11.png)
+     ![](images/M04/p4p54.png)
 
-12. Select the arrow next to **Save** and select **+ New**.
+1. Select **+ New**.
 
-    ![](images/M04/po35.png)
+   ![](images/M04/p4p55.png)
 
-13. Set the **Name** to **Deploy to Prod (1)**.
+1. Again **On the New Deployment Stage** section provide the following details and then select **Save Aand close (6)**.
 
-14. Set the **Description** to **Deploy the completed development content to the Production phase (2)**.
+   - Name: **Deploy to Prod (1)**
 
-15. Set the **Previous Deployment Step** to **Deploy to Test (3)**.
+   - Description: Enter **Deploy the completed development content to the Production phase (2)**
 
-16. Set the **Target Development Environment** to the **Thrive Hr - Prod (4)**.
+   - Deployement pipeline: Select **Thrive Hr Standard deployment pipeline (3)**
 
-17. Select **Save and Close (5)**.
+   - Previous Deployment Stage: **Deploy to Test (4)**
 
-18. Confirm that your setup reflects the image below.
+   - Target Development Environment ID: **Thrive Hr - Prod (5)**
 
-    ![](images/M04/po36.png)
+     ![](images/M04/p4p56.png)   
 
-19. Do not navigate away from this page.
+1. Do not navigate away from this page.
 
-#### Task 2: Run the pipeline
+### Task 2: Run the pipeline
 
-1. Navigate to Power Apps in a new tab.
+1. Navigate to **Power Apps** in a new tab.
 
-2. Ensure you are in the **Thrive HR - Dev** environment at the top right.
+1. Ensure to select **Thrive HR - Dev** environment at the top right.
 
-   ![](images/M04/M4-EX2-T2-S2.png)
+   ![](images/M04/p4p58.png)
 
-3. Select **Solutions (1)** from the left-side navigation, then select **Import Solution (2)** from the ribbon at the top.
+1. Select **Solutions (1)** from the left-side navigation, then select **Import Solution (2)** from the ribbon at the top.
 
    ![](images/M04/M4-EX2-T2-S3.png)
 
-4. Select Browse and locate  **PipelineExample_1_0_0_1.zip** in **Labfiles**.
+1. Select **Browse**.
 
-5. Select **Next**.
+   ![](images/M04/p4p59.png)
 
-6. Review the details and select **Import**. This is the solution we will be deploying through our pipeline. Any solutions sent through a pipeline must be unmanaged.
+1. Navigate to `C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M04 - HOL - Managed Environments\Resources` **(1)**, select  **PipelineExample_1_0_0_1.zip (2)** and the click on **Open (3)**.
+
+   ![](images/M04/p4p60.png)
+
+1. Select **Next**.
+
+   ![](images/M04/p4p61.png)
+
+1. Review the details and select **Import**. This is the solution we will be deploying through our pipeline. Any solutions sent through a pipeline must be unmanaged.
 
    ![](images/M04/M4-EX2-T2-S6.png)
 
-7. Once the solution has been imported, select it from the available solutions.
+1. Wait for the solution to get imported, once the solution has been imported, navigate to **Solutions (1)** and then select **Pipeline Example (2) (2)**.
 
-   ![](images/M04/M4-EX2-T2-S7.png)
+   ![](images/M04/p4p62.png)
 
-8. Select **Pipelines** from the left side navigation. From here we can view the current deployment stage, and what stage we will be deploying to next.
+1. Click on the three horizontal line from the top left corner **(1)** and the select **Pipelines (2)** from the left side navigation. From here we can view the current deployment stage, and what stage we will be deploying to next.
 
-   ![](images/M04/M4-EX2-T2-S8.png)
+   ![](images/M04/p4p63.png)
 
-9. Select **Deploy here**.
+1. Select **Deploy here**.
 
-    ![](images/M04/M4-EX2-T2-S9.png)
+    ![](images/M04/p4p64.png)
 
-10. This is where you can schedule deployments or deploy immediately. Set the deployment schedule to **Now** and select **Next**.
+1. This is where you can schedule deployments or deploy immediately. Set the deployment schedule to **Now (1)** and select **Next (2)**.
 
-    ![](images/M04/M4-EX2-T2-S10.png)
+    ![](images/M04/p4p65.png)
 
-11. Add any appropriate deployment notes and select **Deploy**.
+1. Add any appropriate deployment notes and select **Deploy**.
 
     ![](images/M04/M4-EX2-T2-S11.png)
 
-12. The solution is now being processed, validated, and deployed to the **Thrive Hr - Test** environment.
+1. The solution is now being processed, validated, and deployed to the **Thrive Hr - Test** environment.
 
     ![](images/M04/M4-EX2-T2-S12.png)
 
-13. Once the deployment is complete, the option to deploy to production appears. Select **Deploy** **here** for the **Deploy to Prod** stage.
+1. Once the deployment is complete, the option to deploy to production appears. Select **Deploy** **here** for the **Deploy to Prod** stage.
 
     ![](images/M04/M4-EX2-T2-S13.png)
 
-14. This time, we'll schedule the deployment. To do so, select **Later** from the radial menu, and set the deployment time closest to your current time (ex. Your current time is 4:53 PM, 
-    select 5:00  PM. then select **Next**.
+1. This time, we'll schedule the deployment. To do so, select **Later (1)** from the radial menu, set the date to todays date **(2)** and set the deployment time closest to your current time **(3)** (ex. Your current time is 4:53 PM, select 5:00  PM. then select **Next (4)**.
 
-    ![](images/M04/M4-EX2-T2-S14.png)
+    ![](images/M04/p4p66.png)
 
-15. Review any details and optionally add deployment notes, then select **Deploy**.
+1. Review any details and optionally add deployment notes, then select **Deploy**.
 
-16. If needed, administrators can change the time of or cancel a deployment from this screen by selecting the **Cancel Deployment** button, or by selecting the Run History tab and 
-    selecting the three dots next to the Start time. From here, you can also view the run information, such as any notes or comments.
+    ![](images/M04/p4p67.png)
+
+1. If needed, administrators can change the time of or cancel a deployment from this screen by selecting the **Cancel Deployment** button, or by selecting the **Run History** tab and selecting the **three dots** next to the Start time. From here, you can also view the run information, such as any notes or comments.
 
     ![](images/M04/M4-EX2-T2-S16.png)
 
-     ![](images/M04/M4-EX2-T2-S16-1.png)
+    ![](images/M04/p4p68.png)
 
-17. Administrations can also make changes to the run record from the Deployment Pipeline Configuration app, such as altering the starting time and deployment notes. Return to the 
-    **Deployment Pipeline Configuration App** in the host environment and select **Run history**.
+1. Select the **Thrive Hr– Host** environment.
 
-    ![](images/M04/M4-EX2-T2-S17.png)
+   ![](images/M04/p4p57.png)
 
-18. Select the scheduled deployment and select **Edit** at the top right.
+1. Select **Solutions (1)** and then select **Deployment Pipeline Configuration App (2)**.   
 
-    ![](images/M04/M4-EX2-T2-S18.png)
+   ![](images/M04/p4p69.png)
 
-19. Locate the **Scheduled Time** and select the clock next to the selected time.
+1. Administrations can also make changes to the run record from the Deployment Pipeline Configuration app, such as altering the starting time and deployment notes.
 
-    ![](images/M04/M4-EX2-T2-S19.png)
+1. Select **Run history view**.
 
-20. Select the new time, and then select **Save and Close**.
+   ![](images/M04/p4p70.png)
 
-    ![](images/M04/M4-EX2-T2-S20.png)
+1. Select the scheduled deployment **(1)** and select **Edit (2)** at the top right.
+
+    ![](images/M04/p4p71.png)
+
+1. Locate the **Scheduled Time** and select the clock next to the selected time.
+
+    ![](images/M04/p4p72.png)
+
+1. Select the new time.
+
+    ![](images/M04/p4p73.png)
+
+1. Then select **Save and Close**.    
 
     ![](images/M04/M4-EX2-T2-S20-1.png)
 
@@ -627,3 +644,4 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
  
    <validation step="2cafbfde-046f-4e7f-b645-7543771cb755" />     
 
+### You have successfully completed this lab.
