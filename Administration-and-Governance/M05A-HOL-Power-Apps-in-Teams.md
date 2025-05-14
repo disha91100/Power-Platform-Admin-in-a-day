@@ -2,63 +2,76 @@
 
 # M05A-HOL-Power Apps in Teams
 
-## Table of Contents
-   
-   - Task 1: Create a team  
+## Lab Scenario
 
-   - Task 2: Create an app
+In this hands-on lab, you will create a new team in Microsoft Teams and build a Power App within it. You will also learn how to configure team ownership and publish the app for collaboration within the team.
+
+## Lab Objectives
+
+In this lab, you will complete the following tasks:
+
+- Task 1: Create a team
+- Task 2: Create an app
 
 ## Teams setup
 
 ### Task 1: Create a team
 
-1. Navigate to Microsoft Teams and log in with the **admin account**.
+1. Navigate to **Microsoft Teams**, using the following link https://teams.microsoft.com/v2/. 
 
-2. Select **Teams** at the bottom left of the screen and click on **+** icon to create a team.
+1. If prompted, log in with the lab credentials.
 
-   ![](images/M05/po37.png)
+1. Click on the **Chat (1)**, select the dropdown **(2)** and then click on **New team (3)**.
 
-4. Select **From scratch**.
+   ![](images/M05/p5p1.png)
 
-   ![](images/M05/T1A-S4.png)
+1. On the **Create a team** page, provide the following details and then click on **Create (4)**:
 
-5. Select **Private**.
+   - Team name: Enter **Central IT (1)**
+   - Team type: **Private (2)**
+   - Name the first channel: Enter **Central IT channel (3)**
 
-   ![](images/M05/T1A-S5.png)
+     ![](images/M05/p5p2.png)
 
-6. Enter **Central IT** for Team name and select **Create**.
+1. On the **Add members to Cental IT**, search for **lab user (1)** and select **Lab User01 (2)**.
 
-   ![](images/M05/T1A-S6.png)
+   ![](images/M05/p5p3.png)
 
-7. Search for **lab user** and select **Lab User01**.
+1. Search for **lab user** again and select **Lab User02**.
 
-   ![](images/M05/T1A-S7.png)
+1. Do the same for the rest of the users up to **Lab User10** and then select **Add**. (You will have **Lab User01 - 10** selected to be added to the Team).
 
-8. Search for **lab user** again and select **Lab User02**.
+1. Change all the users to have the role of **Owner (1)** to make them **co-owners** of the team and then click on **Create (2)**
 
-9. Do the same for the rest of the users up to **Lab User10** and then select **Add**. (You will have Lab User01 - 10 selected to be added to the Team)
-
-   ![](images/M05/T1A-S9.png)
-
-10. Change all the users to have the role of **Owner** to make them **co-owners** of the team and select **Close**.
-
-    ![](images/M05/T1A-S10.png)
+   ![](images/M05/p5p4.png)
 
 ### Task 2: Create an app
 
-1. Navigate to Microsoft Teams and log in with the **admin account**.
+1. From the left navigation pane, click on **Apps (1)**, search for **Power Apps (2)** then select **Open (3)**.
 
-2. Select **∙∙∙** from the navigation bar to the left of the screen, and then select **Power Apps (1)** and select **Start now (2)** from the main card.
+   ![](images/M05/p5p5.png)
 
-   ![](images/M05/T2A-S2.png)
+1. Select **Open**.
 
-3. Select the **Central IT** team and then select **Create**.
+   ![](images/M05/p5p6.png)
 
-   ![](images/M05/po38.png)
+1. Select **Start now** from the main card.
 
-4. Enter **Accounts (1)** for App name, and then select **Save (2)**.
+   ![](images/M05/p5p7.png)
 
-   ![](images/M05/T2A-S4.png)
+1. Select the **Central IT (2)** team and then select **Create (2)**.
+
+   ![](images/M05/p5p8.png)
+
+1. Click on **Close**.
+
+   ![](images/M05/p5p9.png)
+
+    >**Note**: It might take some time to create the App.
+
+1. If promted, Enter **Accounts (1)** for App name, and then select **Save (2)**.
+
+   ![](images/M05/p5p14.png)
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    - Hit the Validate button for the corresponding task.
@@ -67,3 +80,5 @@
    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
    <validation step="2d8c92b8-a1b7-4905-b5a4-5550f3c9c011" /> 
+
+### You have successfully completed this lab.   

@@ -4,68 +4,22 @@
 
 # M01-HOL-Securing your Tenant
 
-## Table of Contents
-
-1. Exercise 1 - Exploring existing Power Platform usage
-
-   **Scenario**
-   
-   - Task 1: Review existing environments 
-
-   - Task 2: Review existing Data policies
-
-2. Exercise 2 – Plan an environment strategy
-
-   **Scenario**
-   
-   - Task 1: Read about the current situation at Fabrikam
-
-   - Task 2: Build an Environment Plan
-  
-   - Task 3: Review the example environment plan and compare it to yours 
-
-3. Exercise 3 – Plan a DLP strategy
-
-   **Scenario**
-   
-   - Task 1: Build a DLP Plan
-   
-   - Task 2: Review the example DLP plan and compare it to yours 
-
-4. Exercise 4 – Evaluate the impact of adding DLP
-
-   **Scenario**
-   
-   - Task 1: Create a trial environment
-   
-   - Task 2: Create a flow to get the weather
-  
-   - Task 3: Create a DLP Policy
-
-5. Exercise 5 –  Configure a security role
-
-   **Scenario**
-   
-   - Task 1: Import project management solution
-   
-   - Task 2: Create a security role
-  
-   - Task 3: Share app
-
-
-#### Hands-on lab
 
 ## Lab Scenario
 
-In this hands-on lab, you will be an environment administrator for Fabrikam helping to adopt the Power Platform. You have been assigned responsibility for ensuring that Fabrikam’s 
-employees can build Power Apps applications and flows using Power Automate to help them be productive. At the same time, you are expected to ensure that Fabrikam’s data and 
-security policies are followed. 
+In this hands-on lab, you will act as an environment administrator for Fabrikam, supporting the adoption of the Power Platform while ensuring compliance with the organization's data and security policies. Your responsibilities include enabling employees to build Power Apps and Power Automate flows to boost productivity, while also maintaining control over data governance. You will begin by assessing existing Power Platform usage across the organization and then implement baseline security policies to align with Fabrikam’s compliance requirements.
 
-Some of Fabrikam’s employees have already started experimenting with the Power Platform so your first task is to get an understanding of what is already in use.
+## Lab Objectives
 
-Next, you will be taking steps to put some baseline security policies in place to implement Fabrikam’s data and security policies.
+In this lab, you will complete the following exercises:
 
-## Lab Test Environment
+- Exercise 1 - Exploring existing Power Platform usage
+- Exercise 2 – Plan an environment strategy
+- Exercise 3 – Plan a DLP strategy
+- Exercise 4 – Evaluate the impact of adding DLP
+- Exercise 5 –  Configure a security role
+
+### Lab Test Environment
 
 This lab is designed to be completed in an environment setup for multiple students to complete the Admin in a day series of hands-on labs. We will be providing an environment for you to 
 utilize for this course.
