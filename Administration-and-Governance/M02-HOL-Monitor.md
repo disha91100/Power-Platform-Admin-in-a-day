@@ -15,9 +15,9 @@ In this lab, you will complete the following exercises:
 - Exercise 2 – Configure Dataverse logging for a table
 - Exercise 3 – Setup the CoE Starter Kit Power BI Dashboard
 - Exercise 4 – Perform a risk assessment of overshared resources
-- Exercise 5 –  How much is a connector used in your organization
-- Exercise 6 –  Review tenant audit logs (Optional if you have time)
-- Exercise 7 –   Get notification of new apps, flows and connectors (Optional if you have time)
+- Exercise 5 – How much is a connector used in your organization
+- Exercise 6 – Review tenant audit logs (Optional if you have time)
+- Exercise 7 – Get notification of new apps, flows and connectors (Optional if you have time)
 
 
 ### Lab Test Environment
@@ -186,7 +186,7 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
 1. Navigate to the **Power Apps maker portal**, click on Current Environment **(1)** and select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (2)** environment.
 
-   ![](images/M01/po8.png)
+   ![](images/pp-1.png)
 
 1. Select **Solutions (1)** and choose the **Fabrikam Project Management (2)** solution to open it.
 
@@ -710,3 +710,18 @@ email.
 
 
 In addition to simply seeing who is building what in your tenant you can also use the list of new connectors to evaluate if you need to adjust your DLP policies.
+
+
+### Review
+
+In this lab, you have accomplished the following:
+
+- Exercise 1 - Explored the out-of-the-box analytics
+- Exercise 2 – Configured Dataverse logging for a table
+- Exercise 3 – Setup the CoE Starter Kit Power BI Dashboard
+- Exercise 4 – Performed a risk assessment of overshared resources
+- Exercise 5 – How much is a connector used in your organization
+- Exercise 6 – Reviewed tenant audit logs (Optional if you have time)
+- Exercise 7 – Got notification of new apps, flows and connectors (Optional if you have time)
+
+### You have successfully completed this lab.

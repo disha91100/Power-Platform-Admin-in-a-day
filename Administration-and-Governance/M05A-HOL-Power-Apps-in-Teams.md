@@ -81,4 +81,12 @@ In this lab, you will complete the following tasks:
  
    <validation step="2d8c92b8-a1b7-4905-b5a4-5550f3c9c011" /> 
 
+
+### Review
+
+In this lab, you have accomplished the following:
+
+- Task 1: Created a team
+- Task 2: Created an app
+
 ### You have successfully completed this lab.   
