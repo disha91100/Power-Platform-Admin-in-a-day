@@ -633,7 +633,7 @@ ID Security group and assign the security role you just built.
    ![](images/M01/pp50.png)
 
 1. Close the share pane.
-
+ 
 
 ### Review
 
