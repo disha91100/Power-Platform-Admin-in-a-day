@@ -236,9 +236,9 @@ the Office 365 connector.
 
     ![](images/M03/M3-EX2-T2-S28.png)
 
-1. Select **Sandbox** for **Environment Sku**.
+1. Select **Trail** for **Environment Sku**.
 
-    ![](images/M03/pp83.png)
+    ![](images/M03/pp-83.png)
 
 1. Select **Save**. Do not navigate away from this page.
 
