@@ -17,7 +17,7 @@ In this lab, you will complete the following exercises:
 - Exercise 2 – Plan an environment strategy
 - Exercise 3 – Plan a DLP strategy
 - Exercise 4 – Evaluate the impact of adding DLP
-- Exercise 5 –  Configure a security role
+- Exercise 5 – Configure a security role
 
 ### Lab Test Environment
 
@@ -643,7 +643,7 @@ In this lab, you have accomplished the following:
 - Exercise 2 – Planned an environment strategy
 - Exercise 3 – Planned a DLP strategy
 - Exercise 4 – Evaluated the impact of adding DLP
-- Exercise 5 –  Configured a security role
+- Exercise 5 – Configured a security role
 
 
 ### You have successfully completed this lab.
