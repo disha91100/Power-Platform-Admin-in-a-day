@@ -244,15 +244,6 @@ the Office 365 connector.
 
     ![](images/M03/pp85.png)
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
- 
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-   <validation step="47a18ff9-abe7-41a2-972e-f81f61974f30" />
-
-
 ### Task 3: Create a Database and Notify the User
 
 1. Select **+ Add an action** under **Create Environment**.
