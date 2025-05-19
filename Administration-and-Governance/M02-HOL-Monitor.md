@@ -371,15 +371,27 @@ Now in this exercise, you will explore the following key components:
 
 ### Task 2: Power BI Dashboard
 
-1. Navigate in your browser to Power BI and **Sign in** with your lab credentials.
+1. Navigate to PowerBI using the following link https://app.powerbi.com/ in your browser and **Sign in** with your lab credentials.
 
-2. When you see that You have an account with us, select Sign In again and then select Start.
+    ![](images/M02/pt3.png)
 
-    ![](images/M02/M2-EX3-T2-S2.png)
+1. Select **Continue**.
 
-3. Select **Start**.
+    ![](images/M02/pt1.png)
 
-4. When prompted to Invite more people, select **Skip**.
+1. Select **Next**.
+
+    ![](images/M02/pt2.png)
+
+1. If promtped, please solve the puzzle.
+
+1. On the **Create your account** page, provide the following details and then click on **Get started (4)**.
+
+   - Country: **Unites states (1)**
+   - Job: **PowerPlatformEngineer(2)**
+   - Phone number: Enter random 10 digits **(3)**
+
+
 
 5. On the left side navigation select **Workspaces**.
 
