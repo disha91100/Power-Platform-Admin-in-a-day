@@ -290,11 +290,11 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
    ![](images/M01/po6.png)
 
-4. Leave the deafult values for **Language (1)** and **Currency (2)**. Under Security group select **+ Select (3)**.
+4. Leave the default values for **Language (1)** and **Currency (2)**. Under Security group select **+ Select (3)**.
 
     ![](images/M01/pp20.png)
 
-1. hen set your security group to **All Contoso users (1)** then select **Done (2)**.
+1. Then set your security group to **All Contoso users (1)** then select **Done (2)**.
 
    ![](images/M01/pp21.png)
 
@@ -351,7 +351,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
     ![](images/M01/po10.png)
 
-14. Go to My Flows by selecting the  button located on the top left of the page.
+14. Go to My Flows by selecting the back arrow button located on the top left of the page.
 
     ![](images/M01/M1-EX4-T2-S14.png)
 
@@ -436,7 +436,7 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
     ![](images/M01/M1-EX4-T3-S16.png)
 
-     >**Note:** If your nOt able to see the status as **Suspended**. Navigate to **Weather Flow** flow and the click on **Save** again. Because sometimes Policy may not get reflected immediately. 
+     >**Note:** If your not able to see the status as **Suspended**. Navigate to **Weather Flow** flow and the click on **Save** again. Because sometimes Policy may not get reflected immediately. 
 
 1. You should not be able to run the flow. There will be a notice at the top showing that the DLP is active and restricting access, and the **Status** should be suspended. Feel free to close the webpage/tab once you’ve confirmed it has been suspended.
 
@@ -501,7 +501,7 @@ ID Security group and assign the security role you just built.
 
     ![](images/M01/M1-EX5-T1-S11.png)
 
-12. At this point, you may be asked to sign in to the flow, lclick on **Sign in**.
+12. At this point, you may be asked to sign in to the flow, click on **Sign in**.
 
     ![](images/M01/pp33.png)
 
@@ -545,7 +545,7 @@ ID Security group and assign the security role you just built.
 
     ![](images/M01/pp35.png)
 
-23. Go back to the solution page, by selecting the **Back to Solutions** button.
+23. Go back to the solution page, by selecting the **Back to Solutions** button. Click on the back arrow untill you get the **Power Apps**, **Solution** page.
 
     ![](images/M01/M1-EX5-T1-S23.png)
 
@@ -572,47 +572,43 @@ ID Security group and assign the security role you just built.
 
 1. Navigate to the Power Apps maker portal and make sure you have your sandbox environment selected.
 
-2. Select **Solutions (1)** and select to open the **Fabrikam Project Management (2)** solution.
+1. Select **Solutions (1)** and select to open the **Fabrikam Project Management (2)** solution.
 
    ![](images/M01/M1-EX5-T2-S2.png)
 
-3. Select **+ New (1)** and select **Security (2)** > **Security role (3)**.
+1. Select **+ New (1)** and select **Security (2)** > **Security role (3)**.
 
     ![](images/M01/M1-EX5-T2-S3.png)
 
-4. Enter **Project Manager (1)** for **Role Name**, select the **Business unit (2)** from the drop down and select **Save (2)**.
+1. Enter **Project Manager (1)** for **Role Name**, select the **Business unit (2)** from the drop down and select **Save (3)**.
 
    ![](images/M01/pp40.png)
 
-5. Select the **Project Manager** role.
-
-   ![](images/M01/pp41.png)
-
-6. Search for **Project (1)**, locate the **Project** table and click on the name of the entity. This action will give this role User rights to the Project entity **(2)**.
+1. Search for **Project (1)**, locate the **Project** table and click on the name of the entity. This action will give this role User rights to the Project entity **(2)**.
 
     ![](images/M01/pp42.png)
 
-7. But clicking on the dropdown for the permissions, if you kept selecting the **Organization** on the label it would increase the permissions.
+1. By clicking on the dropdown for the permissions, if you kept selecting the **Organization** on the label it would increase the permissions.
 
    ![](images/M01/pp43.png)
 
-8. You will now give this role organization **Read** privilege. Select **Organization (1)** from the **None** drop down and click on **Save (2)**.
+1. You will now give this role organization **Read** privilege. Select **Organization (1)** from the **None** drop down and click on **Save (2)**.
 
    ![](images/M01/pp44.png)
 
-9. Click on **<-Back** to navigate back to the Fabrikam Project Management page.
+1. Click on **<-Back** to navigate back to the Fabrikam Project Management page.
 
    ![](images/M01/pp45.png)
 
-10. Select **Publish all customizations** and wait for the publishing to be completed.
+1. Select **Publish all customizations** and wait for the publishing to be completed.
 
     ![](images/M01/M1-EX5-T2-S12.png)
 
-11. Do not navigate away from this page.
+1. Do not navigate away from this page.
 
 ### Task 3: Share app
 
-1. Go back to the **Solutions** page by selecting the **Back to Solutions** button.
+1. Go back to the **Solutions** page by selecting the **Back to Solutions** button. Keep selecting the back arrow untill you get the **Power Apps, Solution** page.
 
    ![](images/M01/pp46.png)
 

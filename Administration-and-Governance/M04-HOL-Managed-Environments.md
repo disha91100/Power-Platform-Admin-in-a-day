@@ -400,6 +400,8 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
     ![](images/M04/p4p36.png)
 
+     >**Note**: Wait until the Installation is complete, it may take around 20 - 25 mins. Then only you can see the App in Next task.
+
 1. Do not navigate away from this page.
 
 

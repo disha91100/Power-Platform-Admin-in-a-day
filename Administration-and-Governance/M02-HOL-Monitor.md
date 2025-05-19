@@ -87,32 +87,32 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
 ### Task 2: Explore the Power Apps analytics
 
-1. In the **Power Platform admin center**. Expand **Power Apps (1)**. Change the Primary Tab to **Environment View (2)**. Click on **Change filters (3)**. Switch the environment to **Power Platform COE (4)** by changing the available filters and the click on **Apply (4)**
+1. In the **Power Platform admin center**. Under **Analytics**, expand **Power Apps (1)**. Change the Primary Tab to **Environment View (2)**. Click on **Change filters (3)**. Switch the environment to **Power Platform COE (4)** by changing the available filters and the click on **Apply (4)**
 
    ![](images/M03/pp125.png)
 
-5. Review the visuals in **Usage, Location**, and all other tabs.
+1. Review the visuals in **Usage**, and all other tabs.
 
-6. In the top left corner of the screen, under the header, select **Overview** to review tenant-level analytics.
+1. In the top left corner of the screen, under the header, select **Overview** to review tenant-level analytics.
 
    ![](images/M02/M2-EX1-T2-S6.png)
 
-7. Now you are looking at data for all environments you have access to.
+1. Now you are looking at data for all environments you have access to.
 
-8. Review the **Usage** data available on this tab, and then switch to **Maker Activity** and **Inventory** to review the other data available. Notice you can still filter on more 
+1. Review the **Usage** data available on this tab, and then switch to **Maker Activity** and **Inventory** to review the other data available. Notice you can still filter on more 
    specific criteria.
 
    ![](images/M02/M2-EX1-T2-S8.png)
 
-9. Hover your mouse over the far-right corner of the unique user's data, and under **Region** you can select **...** to show more options.
+1. Hover your mouse over the far-right corner of the unique user's data, and under **Region** you can select **...** to show more options.
 
    ![](images/M02/M2-EX1-T2-S9.png)
 
-10. Select **Export data**.
+1. Select **Export data**.
 
     ![](images/M02/M2-EX1-T2-S10.png)
 
-11. If you have Excel installed choose one of the options and select **Export**. After the file downloads review the details available. If you don’t have Excel simply select Cancel.
+1. If you have Excel installed choose one of the options and select **Export**. After the file downloads review the details available. If you don’t have Excel simply select **Cancel**.
 
     ![](images/M02/M2-EX1-T2-S11.png)
 
