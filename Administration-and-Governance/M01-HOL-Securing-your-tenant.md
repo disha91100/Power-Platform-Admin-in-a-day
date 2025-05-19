@@ -450,7 +450,6 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
    <validation step="3379fa81-ffc4-49c5-82db-97274e81a612" />
 
-
 ## Exercise 5: Configure a security role
 
 ### Scenario
