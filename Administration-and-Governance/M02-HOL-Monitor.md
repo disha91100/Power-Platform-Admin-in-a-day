@@ -391,61 +391,71 @@ Now in this exercise, you will explore the following key components:
    - Job: **PowerPlatformEngineer(2)**
    - Phone number: Enter random 10 digits **(3)**
 
+     ![](images/M02/pt4.png)
 
+1. Click on **Get Started**.
 
-5. On the left side navigation select **Workspaces**.
+    ![](images/M02/pt5.png)
 
-   ![](images/M02/M2-EX3-T2-S5.png)
+1. Click on the Acoount manager icon **(1)** from the top right corner and then click on **Free trial (2)**.
 
-6. When prompted select **Try free**.
+    ![](images/M02/pt6.png)
 
-   ![](images/M02/M2-EX3-T2-S6.png)
+1. Select **Activate**.
 
-7. After the trial has started, you will have to re-navigate to Workspaces and then **+ New workspace**.
+    ![](images/M02/pt7.png)
 
-8. On the Create panel, provide a unique name like **CoE-LabAdmin<inject key="Deployment ID" enableCopy="false" />** and your lab admin user number and select **Apply**.
+1. Select **Stay on current page**.
 
-   ![](images/M02/po26.png)
+    ![](images/M02/pt-8.png)
 
-9. Launch Power BI Desktop on your local computer, if you don’t have it installed you can install it from Downloads | Microsoft Power BI
+1. On the left side navigation select **Workspaces** and then click on **+ New workspace (2)**.
 
-10. Close the popup window.
+    ![](images/M02/pt9.png)
 
-11. Select Sign-in and provide your lab admin account credentials.
+1. On the Create panel, provide a unique name like **CoE-LabAdmin<inject key="Deployment ID" enableCopy="false" /> (1)** and your lab admin user number and select **Apply (2)**.
 
-12. Once signed in, select **File**, **Open report**, and select **Browse reports**.
+   ![](images/M02/pt10.png)
 
-    ![](images/M02/M2-EX3-T2-S12.png)
+1. Launch **Power BI Desktop** on your local computer from the desktop.
 
-13. Locate the folder containing the lab files you downloaded.
+1. Close the popup window.
 
-14. Change to file type filter to PowerBI template files (.pbit). Select the **Production_CoEDashboard.pbit** file.
+1. If prompted, sign-in with your lab admin account credentials.
 
-15. You will be asked to provide your org URL. Let’s go find it.
+1. Once signed in, click on **Open (1)**, then **Browse this device (2)**.
+
+    ![](images/M02/pt11.png)
+
+1. Navigate to `C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M02 - HOL - Monitor` **(1)**, then select **Production_CoEDashboard.pbit** file **(2)** and then **Open (3)**.
+
+    ![](images/M02/pt12.png)
+
+1. You will be asked to provide your org URL. Let’s go find it.
 
     ![](images/M02/M2-EX3-T2-S15.png)
 
-16. Navigate to Power Platform Admin Center Power Platform Admin Center and select **Environments**.
+1. Navigate to **Power Platform Admin Center** and select **Environments**.
 
-17. Locate the **Power Platform COE** environment and select the name to show the details page.
+1. Locate the **Power Platform COE** environment and select the name to show the details page.
 
     ![](images/M02/M2-EX3-T2-S17.png)
 
-18. Right select the **Environment URL** and select **Copy link address**.
+1. Right select the **Environment URL** and select **Copy link address**.
 
     ![](images/M02/M2-EX3-T2-S18.png)
 
-19. Back in Power BI Desktop, paste the **OrgURL** and select **Load**.
+1. Back in Power BI Desktop, paste the **OrgURL** and select **Load**.
 
     ![](images/M02/M2-EX3-T2-S19.png)
 
-20. Select **Continue**. Follow prompts for credentials if they appear.
+1. Select **Continue**. Follow prompts for credentials if they appear.
 
     ![](images/M02/M2-EX3-T2-S20.png)
 
-21. The report should load automatically once the refresh has been completed.
+1. The report should load automatically once the refresh has been completed.
 
-22. Follow the steps below to enable map and filled map visuals:
+1. Follow the steps below to enable **map and filled map visuals**:
 
      a) Select **File** at the top right, then select **Options and Settings > Options**.
    
@@ -461,63 +471,63 @@ Now in this exercise, you will explore the following key components:
 
      ![](images/M02/M2-EX3-T2-S22-E.png)
 
-23. Review the **Introduction** page.
+1. Review the **Introduction** page.
 
     ![](images/M02/M2-EX3-T2-S23.png)
 
-24. Select the **Overview – Power Apps** tab, notice it gives a good high-level look at our tenant activity. If you have multiple locations, it will quickly highlight which users are 
+1. Select the **Overview – Power Apps** tab, notice it gives a good high-level look at our tenant activity. If you have multiple locations, it will quickly highlight which users are 
     more engaged with building apps. You can also quickly see which environments are most active. Additionally, items that are detailed as **(Blank)** indicate that there is no data to 
     reference in the table.
 
     ![](images/M02/M2-EX3-T2-S24.png)
 
-25. Review each page using the navigation at the bottom of the app and review the insights available.
+1. Review each page using the navigation at the bottom of the app and review the insights available.
 
-26. Select the **Environments** page.
+1. Select the **Environments** page.
 
     ![](images/M02/M2-EX3-T2-S26.png)
 
-27. On the Environments page, use the date range picker and see how it affects the other data on the page. When you are done leave it set at the max date range.
+1. On the Environments page, use the date range picker and see how it affects the other data on the page. When you are done leave it set at the max date range.
 
     ![](images/M02/M2-EX3-T2-S27.png)
 
-28. Select the **Apps** tab from the navigation at the bottom of the screen.
+1. Select the **Apps** tab from the navigation at the bottom of the screen.
 
     ![](images/M02/M2-EX3-T2-S28.png)
 
-29. On the Apps page notice the Creation Trend, this is an effective way to watch adoption progress.
+1. On the Apps page notice the Creation Trend, this is an effective way to watch adoption progress.
 
     ![](images/M02/M2-EX3-T2-S29.png)
 
-30. Select the other pages via the tabs at the bottom and review the data available.
+1. Select the other pages via the tabs at the bottom and review the data available.
 
-31. Select **Publish** from the **Home** tab in the ribbon at the top.
+1. Select **Publish** from the **Home** tab in the ribbon at the top.
 
     ![](images/M02/M2-EX3-T2-S31.png)
 
-32. Save the report if prompted as **PBI Report (Your Initials)**, which will look something like **PBI** **Report HR** for example.
+1. Save the report if prompted as **PBI Report (Your Initials)**, which will look something like **PBI** **Report HR** for example.
 
-33. Select the **CoE - ODL Admin** workspace you created and choose **Select**.
+1. Select the **CoE-LabAdmin<inject key="Deployment ID" enableCopy="false" /> (1)** workspace you created and choose **Select (2)**.
 
-     ![](images/M02/M2-EX3-T2-S33.png)
+     ![](images/M02/pt13.png)
 
-34. Wait for the publishing to complete and select **Open 'PBI’** Report in Power BI or **Got it**.
+1. Wait for the publishing to complete and select **Open 'PBI’** Report in Power BI or **Got it**.
 
      ![](images/M02/M2-EX3-T2-S34.png)
 
-35. If you selected **Open**, skip this step. Otherwise, if you selected ‘Got it’, navigate to Power BI. Select **Workspaces** and then **CoE - ODL Admin** Workspace you created. Otherwise, skip to step 37.
+1. If you selected **Open**, skip this step. Otherwise, if you selected ‘Got it’, navigate to Power BI. Select **Workspaces (1)** and then ****CoE-LabAdmin<inject key="Deployment ID" enableCopy="false" /> (2)** Workspace you created. Otherwise, skip to step 37.
 
-     ![](images/M02/M2-EX3-T2-S35.png)
+     ![](images/M02/pt14.png)
 
-36. Select the **CoE Starter** with the type of **Report** from the list. You’ll notice a few other items have been generated; these are done by default.
+1. Select the **CoE Starter** with the type of **Report** from the list. You’ll notice a few other items have been generated; these are done by default.
 
-     ![](images/M02/M2-EX3-T2-S36.png)
+     ![](images/M02/pt15.png)
 
-37. Once the report loads, select the Environments page. Use the date slider to ensure the date range includes the last month.
+1. Once the report loads, select the Environments page. Use the date slider to ensure the date range includes the last month.
 
      ![](images/M02/M2-EX3-T2-S37.png)
 
-38. You have now successfully deployed the Power BI reports that come with the CoE starter kit.
+1. You have now successfully deployed the Power BI reports that come with the CoE starter kit.
 
 
 ## Exercise 4: Perform a risk assessment of overshared resources
@@ -737,3 +747,4 @@ In this lab, you have accomplished the following:
 - Exercise 7 – Got notification of new apps, flows and connectors (Optional if you have time)
 
 ### You have successfully completed this lab.
+
