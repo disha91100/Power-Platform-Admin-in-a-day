@@ -97,7 +97,7 @@ the Office 365 connector.
 
 1. Navigate to the **Power Platform admin center**.
 
-1. Naigate to **Environment (1)**, select the sandbox environment that you created in module one named **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (2)** in the list of environments.
+1. Navigate to **Environment (1)**, select the sandbox environment that you created in module one named **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (2)** in the list of environments.
 
    ![](images/ppp1.png)
 
@@ -108,6 +108,8 @@ the Office 365 connector.
 1. Confirm the deletion by typing the environment name **(1)** and then select **Confirm (2)**. We have to delete it to create another Trial environment, which we can only have one at a time.
 
    ![](images/ppp3.png)
+
+    >**Note**: Environment deletion might take some time, please wait until its get deleted.
 
 ### Task 2: Create New Environment Approval Flow
 
@@ -160,6 +162,8 @@ the Office 365 connector.
 
     ![](images/M03/pp70.png)
 
+     >**Note**: If prompted, please click on **Create**.
+
 1. Select **Approve/Reject - First to Respond** for Approval type.
 
     ![](images/M03/pp71.png)
@@ -194,7 +198,7 @@ the Office 365 connector.
 
     ![](images/M03/pp73.png)
 
-1. Search for **Condution (1)** and the select **Condition (2)** Control.
+1. Search for **Condition (1)** and the select **Condition (2)** Control.
 
     ![](images/M03/pp74.png)
 
@@ -236,22 +240,13 @@ the Office 365 connector.
 
     ![](images/M03/M3-EX2-T2-S28.png)
 
-1. Select **Trail** for **Environment Sku**.
+1. Select **Trial** for **Environment Sku**.
 
     ![](images/M03/pp-83.png)
 
 1. Select **Save**. Do not navigate away from this page.
 
     ![](images/M03/pp85.png)
-
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
- 
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-   <validation step="47a18ff9-abe7-41a2-972e-f81f61974f30" />
-
 
 ### Task 3: Create a Database and Notify the User
 
@@ -289,7 +284,7 @@ the Office 365 connector.
 
    ![](images/M03/pp90.png)
 
-1. Search for **Send Email (1)** and select **Send an email (V2) Office 365 Outlook (2)**.
+1. Search for **Send Email (1)** and select **Send an email (V2) (2)**.
 
    ![](images/M03/pp91.png)
 
@@ -311,7 +306,7 @@ the Office 365 connector.
 
     ![](images/M03/pp94.png)
 
-1. Go to the **False** branch and select **Add an Action**.
+1. Go to the **False** branch and select **Add an Action** to create a new connection under the **False** branch.
 
    ![](images/M03/pp95.png)
 
@@ -489,7 +484,7 @@ In this task, you will be performing the role of the developer and completing th
 
     ![](images/M03/pp116.png)
 
-1. Under **General**, locate **Description** as **An App that counts for you (1)**. Then, close the settings with the **X (2)** at the top right.
+1. Under **General**, enter **Description** as **An App that counts for you (1)**. Then, close the settings with the **X (2)** at the top right.
 
     ![](images/M03/pp117.png)
 
@@ -616,31 +611,39 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 ### Task 1: Create Office 365 Group
 
-1. Navigate to the Azure portal and select **Microsoft Entra ID**.
+1. Navigate to the **Azure portal** from the desktop.
+
+1. If prompted to stay signed in, you can click **No**.
+
+1. If an **Action required** pop-up window appears, click on **Ask later**.
+
+1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **"Cancel"** to skip the tour.
+
+1. Select **Microsoft Entra ID**.
 
    ![](images/M03/Entra-ID.png)
 
-3. Select **Groups**.
+1. Select **Groups**.
 
    ![](images/M03/Entra-ID-1.png)
 
-4. Select **+ New group**.
+1. Select **+ New group**.
 
    ![](images/M03/M3-EX4-T1-S4.png)
 
-5. Select **Microsoft 365** for Group Type, enter **Lab Admin Makers** for Group Name, set the **Azure AD Roles** to **No**, and select **Create**.
+1. Select **Microsoft 365** for Group Type, enter **Lab Admin Makers** for Group Name, set the **Azure AD Roles** to **No**, and select **Create**.
 
    ![](images/M03/M3-EX4-T1-S5.png)
 
-6. Open the group after it gets created.
+1. Open the group after it gets created.
 
    ![](images/M03/M3-EX4-T1-S6.png)
 
-7. Select **Properties** and copy the **Object id**.
+1. Select **Properties** and copy the **Object id**.
 
    ![](images/M03/M3-EX4-T1-S7.png)
 
-8. Paste the object ID to a notepad, you will need it in future steps.
+1. Paste the object ID to a notepad, you will need it in future steps.
 
 
 ### Task 2: Import Flow
