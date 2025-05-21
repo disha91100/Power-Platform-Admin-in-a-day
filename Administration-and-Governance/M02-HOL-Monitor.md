@@ -201,7 +201,7 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
    ![](images/M02/M2-EX2-T1-S5.png)
 
-1. Expand the Advanced Options section. Check and ensure that **Auditing** is enabled for this column. A notice will be underneath the option, informing you that auditing is not enabled 
+1. Expand the **Advanced Options** section. Check and ensure that **Enable Auditing** is enabled for this column. A notice will be underneath the option, informing you that auditing is not enabled 
    for the organization. We will fix this in a later step.
 
 1. Select **Cancel** to close the field details pane.
@@ -254,7 +254,7 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
 ### Task 2: Test auditing
 
-1. Navigate to the **Power Apps maker portal** and select the **My Sandbox** environment.
+1. Navigate to the **Power Apps** maker portal and make sure your in **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** environment.
 
 1. Select **Apps** and select the **Project Admin** application to launch.
 
@@ -372,19 +372,21 @@ Now in this exercise, you will explore the following key components:
 
 ### Task 2: Power BI Dashboard
 
-1. Navigate to PowerBI using the following link https://app.powerbi.com/ in your browser and **Sign in** with your lab credentials.
+1. Navigate to PowerBI using the following link https://app.powerbi.com/ in your browser.
+
+1. If prompted, **Sign in** with your lab credentials.
 
     ![](images/M02/pt3.png)
-
-1. Select **Continue**.
-
-    ![](images/M02/pt1.png)
 
 1. Select **Next**.
 
     ![](images/M02/pt2.png)
 
-1. If promtped, please solve the puzzle.
+1. If prompted, please solve the puzzle.    
+
+1. Select **Continue**.
+
+    ![](images/M02/pt1.png)
 
 1. On the **Create your account** page, provide the following details and then click on **Get started (4)**.
 
@@ -420,9 +422,11 @@ Now in this exercise, you will explore the following key components:
 
 1. Launch **Power BI Desktop** on your local computer from the desktop.
 
+   ![](images/M02/ppt22.png)
+
 1. Close the popup window.
 
-1. If prompted, sign-in with your lab admin account credentials.
+1. Click on **Sign in** from the top bar, sign-in with your lab admin account credentials.
 
 1. Once signed in, click on **Open (1)**, then **Browse this device (2)**.
 
@@ -431,28 +435,6 @@ Now in this exercise, you will explore the following key components:
 1. Navigate to `C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M02 - HOL - Monitor` **(1)**, then select **Production_CoEDashboard.pbit** file **(2)** and then **Open (3)**.
 
     ![](images/M02/pt12.png)
-
-1. You will be asked to provide your org URL. Let’s go find it.
-
-    ![](images/M02/M2-EX3-T2-S15.png)
-
-1. Navigate to **Power Platform Admin Center** and select **Environments**.
-
-1. Locate the **Power Platform COE** environment and select the name to show the details page.
-
-    ![](images/M02/M2-EX3-T2-S17.png)
-
-1. Right select the **Environment URL** and select **Copy link address**.
-
-    ![](images/M02/M2-EX3-T2-S18.png)
-
-1. Back in Power BI Desktop, paste the **OrgURL** and select **Load**.
-
-    ![](images/M02/M2-EX3-T2-S19.png)
-
-1. Select **Continue**. Follow prompts for credentials if they appear.
-
-    ![](images/M02/M2-EX3-T2-S20.png)
 
 1. The report should load automatically once the refresh has been completed.
 
@@ -516,7 +498,7 @@ Now in this exercise, you will explore the following key components:
 
      ![](images/M02/M2-EX3-T2-S34.png)
 
-1. If you selected **Open**, skip this step. Otherwise, if you selected ‘Got it’, navigate to Power BI. Select **Workspaces (1)** and then ****CoE-LabAdmin<inject key="Deployment ID" enableCopy="false" /> (2)** Workspace you created. Otherwise, skip to step 37.
+1. If you selected **Open**, skip this step. Otherwise, if you selected ‘Got it’, navigate to Power BI. Select **Workspaces (1)** and then **CoE-LabAdmin<inject key="Deployment ID" enableCopy="false" /> (2)** Workspace you created. Otherwise, skip to step 37.
 
      ![](images/M02/pt14.png)
 
@@ -540,7 +522,7 @@ to look for apps that are over-shared.
 
 ### Task 1: Locate Overshared Apps
 
-1. Navigate to the Power BI report you just published.
+1. Navigate to the **Power BI report** you just published.
 
 2. Select the **Apps** page in the report.
 
@@ -572,7 +554,7 @@ Using the Power BI report, you can easily see what apps and flows are using a co
 
 ### Task 1: Locate resources that use the SharePoint connector
 
-1. Navigate to the Power BI report you just published.
+1. Navigate to the **Power BI report** you just published.
 
 2. Select the **App Connections** page in the report.
 
@@ -599,58 +581,67 @@ In this exercise, you will be using the log search and alert tools to work with 
 
 ### Task 1: Review audit logging in the environment
 
-1. Navigate to https://compliance.microsoft.com/.
+1. Navigate to **Microsoft purview** using the following link https://purview.microsoft.com/.
 
-2. Locate and select **Audit** on the left side navigation.
+1. Click on **Get Started**.
 
-   ![](images/M02/M2-EX6-T1-S2.png)
+   ![](images/M02/ppt23.png)
 
-3. Select **Search** using the default search criteria.
+1. Select **Solution (1)** and then choose **Audit (2)** on the left side navigation.
+
+   ![](images/M02/ppt24.png)
+
+1. Click on the **Start recording user and admin activity**.
+
+   ![](images/M02/ppt25.png)
+
+1. Select **Search** using the default search criteria.
 
    ![](images/M02/M2-EX6-T1-S3.png)
 
-4. Select **Start Search**.
-
-   ![](images/M02/M2-EX6-T1-S4.png)
-
-5. The **Job Status** will read as **Queued** once it has been set to process. **Refresh** the audit every few minutes or so until the status reads as **Completed**.
+1. The **Job Status** will read as **Queued** once it has been set to process. **Refresh** the audit every few minutes or so until the status reads as **Completed**.
 
    ![](images/M02/M2-EX6-T1-S5.png)
 
-6. Select the Search name, which defaults to the audit date if no name has been inputted.
+1. Select the Search name, which defaults to the audit date if no name has been inputted.
 
    ![](images/M02/M2-EX6-T1-S6.png)
 
-7. Review the items displayed; drill into a few of them to see the type of data available.
+    >**Note**: Portal will be updating your organization to support customization. So it might take around 24 to 48 hours to show the data and activities.
+
+     ![](images/M02/ppt26.png)    
+
+1. Please go through the steps, no need to perform as currently there is no data available.     
+
+1. Review the items displayed; drill into a few of them to see the type of data available.
 
    ![](images/M02/M2-EX6-T1-S7.png)
 
-8. Select **Export** if you’d like to download the data for later viewing. Using export, you can open the data in other tools for analysis.
+1. Select **Export** if you’d like to download the data for later viewing. Using export, you can open the data in other tools for analysis.
 
    ![](images/M02/M2-EX6-T1-S8.png)
 
-9. The export will begin and may take some time to complete.
+1. The export will begin and may take some time to complete.
 
     ![](images/M02/M2-EX6-T1-S9.png)
 
-10. Select **Audit search** breadcrumb at the top of the page to navigate back to the search. This will not interrupt the export.
+1. Select **Audit search** breadcrumb at the top of the page to navigate back to the search. This will not interrupt the export.
 
     ![](images/M02/M2-EX6-T1-S10.png)
 
-11. Select the **Activities** dropdown and select all Power Apps and Power Automate activities.
+1. Select the **Activities** dropdown and select all Power Apps and Power Automate activities.
 
     ![](images/M02/M2-EX6-T1-S11.png)
 
-12. Select **Search** again and review the results once the status is Completed.
+1. Select **Search** again and review the results once the status is Completed.
 
-13. Look for an activity of Edited Flow, and select the item to open the detail. Review what data is provided.
+1. Look for an activity of Edited Flow, and select the item to open the detail. Review what data is provided.
 
-14. A common task is to look at all of the activity for a particular user. Copy the user from this Edited flow activity and go back to the Audit search.
+1. A common task is to look at all of the activity for a particular user. Copy the user from this Edited flow activity and go back to the Audit search.
 
-15. Paste the user you copied into the Users filter and select search again. Now you are looking at all the activity for a single user.
+1. Paste the user you copied into the Users filter and select search again. Now you are looking at all the activity for a single user.
 
-16. Try selecting an item to view detail. Copy the Item field and then go back to the list and select the filter results. Paste the item info you just copied into the file. The results 
-    list will now only show activities related to that item. For example, you could use this to show all activities for a specific flow.
+1. Try selecting an item to view detail. Copy the Item field and then go back to the list and select the filter results. Paste the item info you just copied into the file. The results list will now only show activities related to that item. For example, you could use this to show all activities for a specific flow.
 
 
 **Note:** Any information from before auditing was enabled, cannot be retrieved. This can be seen by selecting a date range from before the auditing was enabled.
