@@ -40,7 +40,15 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 ### Task 1: Review existing environments
 
-1. Navigate to **Power Platform admin center** by following the link https://aka.ms/ppac, and select **Environments**.
+1. Navigate to **Power Platform admin center** by following the link https://aka.ms/ppac.
+
+1. Close the Pop up screen.
+
+1. Disable the toggle button to get back to the previous **Power Platform admin center** version.
+
+    ![](images/ppt-1.png)
+
+1. Select **Environments**.
 
     ![](images/pp-2.png)
 
@@ -111,7 +119,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
     >**Note:** Notice that the org is listed as the **Business Unit**; this means everyone in the organization will have this role by default. For environments other than the default, you control this. 
     However, default is special and Tenant can’t be removed from the role.
 
-20. Go back to the Environment Details page, bu clicking on the default environment name.
+20. Go back to the Environment Details page, by clicking on the default environment name.
 
     ![](images/M01/ppt8.png)
 
@@ -279,7 +287,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 ### Task 1: Create a trial environment
 
-1. Navigate to the Power Platform admin center.
+1. Navigate back to the **Power Platform admin center**.
 
 2. Select **Environments (1)** and select **+ New (2)**.
 
@@ -306,7 +314,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 ### Task 2: Create a flow to get the weather
 
-1. Navigate to the **Power Apps** maker portal, click on the Environment **(1)** and select the environment you created **(2)**.
+1. Navigate to the **Power Apps** maker portal, click on the Environment **(1)** and select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** environment that you have created **(2)**.
 
    ![](images/M01/ppt13.png)
 
@@ -320,7 +328,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 4. Select **+ New step**.
 
-5. Search for **MSN (1)** and select **Get current weather MSN Weather (2)**.
+5. Search for **MSN (1)** and select **Get current weather** MSN Weather **(2)**.
 
    ![](images/M01/M1-EX4-T2-S5.png)
 
@@ -328,7 +336,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
    ![](images/M01/M1-EX4-T2-S6.png)
 
-7. Search for **Send an email (1)** and select **Send an email (V2) Office 365 Outlook (2)**.
+7. Search for **Send an email (1)** and select **Send an email (V2) (2)**.
 
    ![](images/M01/M1-EX4-T2-S7.png)
 
@@ -336,9 +344,9 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 9. Select on the Body enter `Current weather for:` **(3)** and select **Location (4)** from the Dynamic content pane.
 
-   ![](images/M01/pp25.png)
+   ![](images/M01/ppt18.png)
 
-10. Hit the **[ENTER]** key **,** enter **Temperature:** and search for **Temperature** and then select **Temperature** from the Dynamic content pane.
+10. Hit the **[ENTER]** key **,** enter **Temperature:** and then select **Temperature** from the Dynamic content pane.
 
 11. Hit the **[ENTER]** key **,** enter **Conditions:** and select **Conditions** from the Dynamic content pane.
 
@@ -354,7 +362,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
     ![](images/M01/M1-EX4-T2-S14.png)
 
-15. Select to open the flow **(1)** and Select **Run (2)**.
+15. Select the flow to open **(1)** and Select **Run (2)**.
 
     ![](images/M01/pp26.png)
 
@@ -376,7 +384,7 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
    ![](images/M01/M1-EX4-T3-S1.png)
 
-1. Select **Data policies (1)** and Select **+ New Policy (2)**.
+1. Select **Data policies (1)** under **Policies** and Select **+ New Policy (2)**.
 
    ![](images/M01/M1-EX4-T3-S2.png)
 
@@ -423,7 +431,7 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
     ![](images/M01/pp30.png)
 
-1. Make sure you are in the sandbox environment.    
+1. Make sure you are in **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** environment.  
 
     ![](images/M01/ppt16.png)
 
@@ -435,7 +443,7 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
     ![](images/M01/M1-EX4-T3-S16.png)
 
-     >**Note:** If your not able to see the status as **Suspended**. Navigate to **Weather Flow** flow and the click on **Save** again. Because sometimes Policy may not get reflected immediately. 
+     >**Note:** It might take some time to reflect. If your not able to see the status as **Suspended**. Navigate to **Weather Flow** flow in Power Apps and then click on **Save** again. Because sometimes Policy may not get reflected immediately. 
 
 1. You should not be able to run the flow. There will be a notice at the top showing that the DLP is active and restricting access, and the **Status** should be suspended. Feel free to close the webpage/tab once you’ve confirmed it has been suspended.
 
@@ -521,7 +529,7 @@ ID Security group and assign the security role you just built.
 
     ![](images/M01/M1-EX5-T1-S16.png)
 
-17. Open the flow again.
+17. Open the **Import Sample Data – Projects** flow again.
 
 18. **Turn on** the flow if Status is off.
 
@@ -537,17 +545,15 @@ ID Security group and assign the security role you just built.
 
 21. If prompted, select **Done** and wait for the run to complete.
 
-    ![](images/M01/M1-EX5-T1-S21.png)
+22. Select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** environment.
 
-22. Select the browser back button.
+    ![](images/M01/ppt21.png)
+
+23. Go back to the solution page, by selecting the **Back arrow** button.
 
     ![](images/M01/pp35.png)
 
-23. Go back to the solution page, by selecting the **Back to Solutions** button. Click on the back arrow untill you get the **Power Apps**, **Solution** page.
-
-    ![](images/M01/M1-EX5-T1-S23.png)
-
-24. Select **Apps (1)** and select **Project List (2)** and click on **Play (3)** to run canvas application.
+24. Select **Apps (1)** and select **Project Admin (2)** and click on **Play (3)** to run canvas application.
 
     ![](images/M01/pp36.png)
 
@@ -568,7 +574,7 @@ ID Security group and assign the security role you just built.
 
 ### Task 2: Create a security role
 
-1. Navigate to the Power Apps maker portal and make sure you have your sandbox environment selected.
+1. Navigate to the **Power Apps** maker portal and make sure you have your sandbox environment selected.
 
 1. Select **Solutions (1)** and select to open the **Fabrikam Project Management (2)** solution.
 
@@ -606,7 +612,7 @@ ID Security group and assign the security role you just built.
 
 ### Task 3: Share app
 
-1. Go back to the **Solutions** page by selecting the **Back to Solutions** button. Keep selecting the back arrow untill you get the **Power Apps, Solution** page.
+1. Go back to the **Solutions** page by selecting the **Back to Solutions** button. 
 
    ![](images/M01/pp46.png)
 

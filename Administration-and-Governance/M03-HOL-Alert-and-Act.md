@@ -162,7 +162,7 @@ the Office 365 connector.
 
     ![](images/M03/pp70.png)
 
-     >**Note**: If prompted, please click on **Create**.
+1. Click on **Create new**.
 
 1. Select **Approve/Reject - First to Respond** for Approval type.
 
@@ -194,7 +194,7 @@ the Office 365 connector.
 
     ![](images/M03/M3-EX2-T2-S20.png)
 
-1. Select **+ Add Action**.
+1. Select **+ Add Action** under **Start and Wait for an Approval**.
 
     ![](images/M03/pp73.png)
 
@@ -220,11 +220,11 @@ the Office 365 connector.
 
 1. Search for **Power Platform for admins** and under **Power Platform for admins** section select **See more (2)**.
 
-    ![](images/M03/pp79.png)
+    ![](images/M03/ppt27.png)
 
 1. Select **Create Environment**.
 
-    ![](images/M03/pp80.png)
+    ![](images/M03/ppt28.png)
 
 1. Click on **Sign in**. Sign in with your lab credentials.
 
@@ -256,11 +256,13 @@ the Office 365 connector.
 
 1. Search for **Power Platform for admins** and under **Power Platform for admins** section select **See more (2)**.
 
-    ![](images/M03/pp79.png)
+    ![](images/M03/ppt27.png)
 
 1. Select **Create CDS Database**.
 
-   ![](images/M03/pp86.png)
+1. Select an existing connection.
+
+   ![](images/M03/ppt29.png)
 
 1. Select on the **Environment** dropdown and select **Enter Custom Value**.
 
@@ -288,6 +290,10 @@ the Office 365 connector.
 
    ![](images/M03/pp91.png)
 
+1. Select an existing connection.
+
+   ![](images/M03/ppt31.png)
+
 1. Click on **Sign in**. Sign in with the lab credentials.
 
    ![](images/M03/pp92.png)
@@ -310,7 +316,7 @@ the Office 365 connector.
 
    ![](images/M03/pp95.png)
 
-1. Search for Send email and select **Send an email (V2) Office 365 Outlook**.
+1. Search for Send email and select **Send an email (V2)**.
 
    ![](images/M03/pp96.png)
 
@@ -621,9 +627,9 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 1. Select **Microsoft Entra ID**.
 
-   ![](images/M03/Entra-ID.png)
+   ![](images/M03/ppt32.png)
 
-1. Select **Groups**.
+1. Select **Groups** under **Manage**.
 
    ![](images/M03/Entra-ID-1.png)
 
@@ -631,17 +637,17 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
    ![](images/M03/M3-EX4-T1-S4.png)
 
-1. Select **Microsoft 365** for Group Type, enter **Lab Admin Makers** for Group Name, set the **Azure AD Roles** to **No**, and select **Create**.
+1. Select **Microsoft 365 (1)** for Group Type, enter **Lab Admin Makers (2)** for Group Name, if present set the **Azure AD Roles** to **No**, and select **Create (3)**.
 
-   ![](images/M03/M3-EX4-T1-S5.png)
+   ![](images/M03/ppt33.png)
 
 1. Open the group after it gets created.
 
-   ![](images/M03/M3-EX4-T1-S6.png)
+   ![](images/M03/ppt34.png)
 
-1. Select **Properties** and copy the **Object id**.
+1. Select **Properties (1)** and copy the **Object id (2)**.
 
-   ![](images/M03/M3-EX4-T1-S7.png)
+   ![](images/M03/ppt35.png)
 
 1. Paste the object ID to a notepad, you will need it in future steps.
 
@@ -661,7 +667,11 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 4. Select **Upload**.
 
-5. Select the **Send Welcome Email** zip file and select **Open**. This will be in your lab resource files you downloaded named **SendWelcomeEmailToNewPowerAppsMakers_20190529192359.zip**.
+5. Navigate to `C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M03 - HOL - Alert and Act` **(1)**, Select the **Send Welcome Email (2)** zip file and select **Open (3)**.
+
+   ![](images/M03/ppt36.png)
+
+1. This will be in your lab resource files you downloaded named **SendWelcomeEmailToNewPowerAppsMakers_20190529192359.zip**.
 
    ![](images/M03/M3-EX4-T2-S5.png)
 
@@ -689,49 +699,87 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
     ![](images/M03/M3-EX4-T2-S12.png)
 
-13. Select to select the available connection and select **Save**.
+1. Click on **+ Create new**.
 
-    ![](images/M03/M3-EX4-T2-S9.png)
-
-14. Select **Configure** for **Office 365 Group Connection**.
-
-15. Select **+ Create new**.
-
-    ![](images/M03/M3-EX4-T2-S15.png)
-
-16. Select **+ New connection**.
+1. Select **+ New connection**.
 
     ![](images/M03/M3-EX4-T2-S16.png)
 
-17. Search for **Office 365 Groups** and select **Add**.
+1. Search for **Power apps (1)**  and select **PowerApps for Admins (2)**.
 
-    ![](images/M03/M3-EX4-T2-S17.png)
+    ![](images/M03/ppt37.png)
 
-18. Select **Create**.
+1. Select **Create**.
 
-19. Login with your maker credentials.
+1. Login with your maker credentials.
 
-20. You should now have the connections listed in the image below.
+1. You should now have the connections listed in the image below.
 
     ![](images/M03/M3-EX4-T2-S20.png)
 
-21. Go back to the Flow import.
+1. Go back to the Flow import.
 
-22. Select **Refresh list**, select the connection you just added, and select **Save**.
+1. Select **Refresh list**, select the connection you just added, and select **Save**.
 
     ![](images/M03/M3-EX4-T2-S22.png)
 
-23. Select Action for **Office 365 Users Connection**.
+1. Select **Configure** for **Office 365 Group Connection**.
 
-24. Select the available connection and select **Save**.
+    ![](images/M03/ppt38.png)
 
-25. Repeat this for the **Office 365 Outlook Connection**.
+1. Select **+ Create new**.
 
-26. Select **Import** and wait for the import to complete.
+    ![](images/M03/M3-EX4-T2-S15.png)
+
+1. Select **+ New connection**.
+
+    ![](images/M03/M3-EX4-T2-S16.png)
+
+1. Search for **Office 365 Groups** and select **Add**.
+
+    ![](images/M03/M3-EX4-T2-S17.png)
+
+1. Select **Create**.
+
+1. Login with your maker credentials.
+
+1. You should now have the connections listed in the image below.
+
+    ![](images/M03/M3-EX4-T2-S20.png)
+
+1. Go back to the Flow import.
+
+1. Select **Refresh list**, select the connection you just added, and select **Save**.
+
+    ![](images/M03/M3-EX4-T2-S22.png)
+
+1. Select Action for **Office 365 Users Connection**.
+
+1. Select **+ Create new**.
+
+    ![](images/M03/M3-EX4-T2-S15.png)
+
+1. Select **+ New connection**.
+
+    ![](images/M03/M3-EX4-T2-S16.png)
+
+1. Search for **Office 365 Users** and select **Add**.
+
+1. Select **Create**.
+
+1. Login with your maker credentials.
+
+1. Select **Refresh list**, select the connection you just added, and select **Save**.
+
+1. Repeat this for the **Office 365 Outlook Connection**.
+
+1. Select the available connection and then click on **Save**.
+
+1. Select **Import** and wait for the import to complete.
 
     ![](images/M03/M3-EX4-T2-S26.png)
 
-27. The flow should import successfully.
+1. The flow should import successfully.
 
     ![](images/M03/M3-EX4-T2-S27.png)
 
@@ -750,90 +798,92 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
    ![](images/M04/po30.png)
 
-4. Enter **Test app** for App name, select **Tablet** for format, and select **Create**.
+1. The app designer should open. Select **Save** at the top right of the page.
 
-   ![](images/M03/M3-EX4-T3-S4.png)
+   ![](images/M03/M3-EX4-T3-S5.png)   
 
-5. The app designer should open. Select **Save** at the top right of the page.
+1. Enter **Test app (1)** for App name and select **Create (2)**.
 
-   ![](images/M03/M3-EX4-T3-S5.png)
+   ![](images/M03/ppt39.png)
 
-6. Select the **Back** button.
+1. Select the **Back** button.
 
    ![](images/M03/M3-EX4-T3-S6.png)
 
-7. Go back to the app maker main page by selecting the **Back** button.
+1. Go back to the app maker main page by selecting the **Back** button.
 
-8. Select **Solutions**.
+1. Select **Solutions**.
 
-9. Select **Publish all customizations** and wait for the publishing to complete.
+1. Select **Publish all customizations** and wait for the publishing to complete.
 
    ![](images/M03/M3-EX4-T3-S9.png)
 
-10. Navigate to Power Automate and select the **Power Platform CoE** environment.
+1. Navigate to Power Automate and select the **Power Platform CoE** environment.
 
-11. Select **My Flows**.
+1. Select **My Flows**.
 
-12. Locate the flow you imported and select **Edit**.
+1. Locate the flow you imported and select **Edit**.
 
     ![](images/M03/M3-EX4-T3-S12.png)
 
-13. Expand the **Recurrence** and make sure the flow is set to run once a day.
+1. Expand the **Recurrence** and make sure the flow is set to run once a day.
 
     ![](images/M03/M3-EX4-T3-S13.png)
 
-14. Expand the **Office Group ID** step.
+1. Expand the **Office Group ID** step.
 
-15. Clear the current **Group ID**.
+1. Clear the current **Group ID**.
 
-16. Copy the **Group ID** from your notepad and paste it here.
+1. Copy the **Group ID** from your notepad and paste it here.
 
     ![](images/M03/M3-EX4-T3-S16.png)
 
-17. You may examine the steps of the flow.
+1. You may examine the steps of the flow.
 
-18. Select **Save**.
+1. Select **Save**.
 
-19. Select on the back button.
+1. Select on the back button.
 
     ![](images/M03/M3-EX4-T3-S19.png)
 
-20. **Turn on** the flow if needed.
+1. **Turn on** the flow if it is off.
 
-21. Select **Run**.
+1. Select **Run**.
 
     ![](images/M03/M3-EX4-T3-S21.png)
 
-22. Select **Run Flow**.
+1. Select **Run Flow**.
 
     ![](images/M03/M3-EX4-T3-S22.png)
 
-23. Select **Done**.
+1. Select **Done**.
 
-24. **Refresh** every few seconds until the flow status changes.
-
-25. Your flow run should succeed.
+1. **Refresh** every few seconds until the flow status changes. Your flow run should succeed.
 
     ![](images/M03/M3-EX4-T3-S25.png)
 
-26. Go back to the Azure portal
+1. Go back to the **Azure portal**.
 
-27. Select **Microsoft Enta ID**.
+1. Select **Microsoft Enta ID**.
 
-28. Select **Groups** and open the group you created.
+1. Select **Groups** under **Manage**.
 
-    ![](images/M03/M3-EX4-T3-S28.png)
+1. Select **All groups**.
 
-29. Select **Members**. You should have at least one member.
+1. Search for **Lab Admin Makers** and then select it.
 
-    ![](images/M03/M3-EX4-T3-S29.png)
+    ![](images/M03/ppt40.png)
+
+1. Select **Members**. You should have at least one member.
+
+    ![](images/M03/ppt42.png)
     
-31. Navigate to Outlook.
+1. Navigate to [Outlook](https://outlook.office365.com/).
 
-32. You should get a welcome email. Open the email. If you don’t get an email, it is probably because you didn’t create an application in the past 24 hours, create a new Power App and run 
+1. You should get a welcome email. Open the email. If you don’t get an email, it is probably because you didn’t create an application in the past 24 hours, create a new Power App and run 
     the flow again.
     
-    ![](images/M03/M3-EX4-T3-S31.png)
+    ![](images/M03/ppt41.png)
 
 ### Review
 
