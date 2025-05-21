@@ -300,6 +300,132 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
     ![](images/M02/pp137.png)
 
+## Exercise 3: Set up inventory components
+
+This article guides you in setting up the inventory component of the CoE Starter Kit. The inventory centralizes data on apps, flows, and makers, helping you monitor and manage your Power Platform environment. It enables admin apps, dashboards, and tools like DLP Editor and Set App Permissions for better governance.
+
+Now in this exercise, you will explore the following key components:
+
+- Import the Creator Kit and make connections
+- Set up the Inventory components using the Setup Wizard
+- Set up the CoE Admin Command Center app
+- Set up Audit Logs solution
+- Set up the Power BI dashboard
+- Share apps with other admins
+
+### Task 1 :  Import the Creator Kit and make connections
+
+### Installation of Creator Kit
+1. Go to the [Creator Kit page on AppSource](https://appsource.microsoft.com/en-US/product/dynamics-365/microsoftpowercatarch.creatorkit1?tab=Overview) page.
+
+**Note:** Sign in to an account with ODL Credentials
+
+2. Select the button **Get it now**.
+
+   ![](images/M02/M2-EX3N-T1-S1.png)
+
+3. The App Source install experience will launch the Power Platform admin center and ask you to identify the target Environment. Close the popups and continue.
+
+4. Choose the **Power Platform COE** Environment, review and agree to the two agreement checkboxes, then select the Install button to continue.
+    ![](images/M02/M2-EX3N-T1-S2.png)
+
+Note: Installation may take some time; meanwhile, you can continue with the next steps.
+
+### Create Connections
+1. Go to [Power Automate](https://make.powerautomate.com/) in new tab.
+2. Select your Power Platform COE environment.
+
+    ![](images/M02/M2-EX3N-T1-S3.png)
+
+3. Select **More** from left navigaation > **Connections** 
+
+    ![](images/M02/M2-EX3N-T1-S4.png)
+
+4. Select **+New Connection** and search for **HTTP with Microsoft Entra ID**.
+
+    ![](images/M02/M2-EX3N-T1-S5.png)
+
+5. Click on **HTTP with Microsoft Entra ID (preauthorized)**, and set **Base Resource URL (1)** and **Microsoft Entra ID Resource URI (Application ID URI) (2)** to https://graph.microsoft.com/. Click **createb (3)**.
+
+    ![](images/M02/M2-EX3N-T1-S6.png)
+
+**Note:** Sign in with your ODL credentials.
+
+### Import the core components solution
+1. Download the CoE Starter Kit [compressed file](https://aka.ms/CoeStarterKitDownload) to your Virtual Machine.
+
+2. Open File Explorer on your computer.
+
+3. Navigate to the Downloads folder.
+
+4. Locate the downloaded CoEStarterKit.zip file.
+
+5. Right-click on the ZIP file and select "Extract All...".
+
+6. In the dialog box that appears, click the "Extract" button to unzip the contents.
+
+    ![](images/M02/M2-EX3N-T1-S7.png)
+
+**Note:** The CoE Starter Kit compressed file contains all solution components in addition to the non–solution-aware components that make up the CoE Starter Kit. 
+
+7. Go to [Power Apps](https://make.powerapps.com/) and sign in.
+
+8. Choose the **Power Platform COE** Environment.
+
+9. In the left menu, click **Solutions**.
+
+    ![](images/M02/M2-EX3N-T1-S8.png)
+
+10. Click the **Import Solution** button at the top.
+
+11. Click Browse, select the **CenterOfExcellenceCoreComponents_x_x_x_xx_managed.zip** solution file from the extracted folder, and click Next.
+
+    ![](images/M02/M2-EX3N-T1-S9.png)
+
+12. Review the details, click next.. next, Leave all environment variable values blank/as it is,  then click Import.
+
+**NOTE:** Wait for the import to complete — you'll see a confirmation once it's done. The import can take up to 20-30 minutes to be complete, and upgrades can take up to two hours.
+
+### Task 2: Set up the Inventory components using the Setup Wizard
+
+1. After the solution import is successful,refresh the tab and open the Center of Excellence - Core Components solution.
+
+    ![](images/M02/M2-EX3N-T1-S10.png)
+
+2. Open the CoE Setup and Upgrade Wizard app.
+
+    ![](images/M02/M2-EX3N-T1-S11.png)
+
+3. Grant all app permission and click **Allow**.
+
+    ![](images/M02/M2-EX3N-T1-S12.png)
+
+4. Confirm pre-requisites: Click Next.
+
+    ![](images/M02/M2-EX3N-T1-S13.png)
+
+5. Configure communication methods: Click **configure group** and select Create new group 
+for persona.
+
+    ![](images/M02/M2-EX3N-T1-S14.png)
+
+6. You will be navigate to azure portal select Microsoft 365 for group type. Give group name as COE admin Group 
+
+7. Configure mandatory settings: Review tenant id from Service principal details in the environment section of lab guide and select **Next**
+
+8. Configure inventory data source : Click Next.
+
+9. Run setup flows: Click **Refresh**, wait about 5 minutes for the process to complete, then refresh again. Once done, click **Next**.
+
+10. Run Inventory flows: Click Next.
+
+11. Configure dataflows: Click Next.
+
+12. Share apps: Click Next.
+
+13. Publish PowerBI dashboard: Click Next and then Done
+
+
 ## Exercise 3: Setup the CoE Starter Kit Power BI Dashboard
 
 ### Scenario
