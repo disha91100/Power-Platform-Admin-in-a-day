@@ -50,6 +50,8 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
    ![](images/M02/pp122.png)
 
+**Note**: The below tasks 1,2 and 3 has been made as read only because the service can take 24 to 36 hours to reflect service activities from the previous day. Please go through the provided link for more details [Tenant-level analytics for Power Apps](https://learn.microsoft.com/en-us/power-platform/admin/tenant-level-analytics?tabs=new#how-do-i-enable-tenant-level-analytics)   
+
 ### Task 1: Explore the Power Automate analytics (Read only)
 
 1. Navigate to **Power Platform admin center**.
@@ -115,7 +117,6 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 1. If you have Excel installed choose one of the options and select **Export**. After the file downloads review the details available. If you don’t have Excel simply select **Cancel**.
 
     ![](images/M02/M2-EX1-T2-S11.png)
-
 
 ### Task 3: Explore the Capacity analytics (Read only)
 
