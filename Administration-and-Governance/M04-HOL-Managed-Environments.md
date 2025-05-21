@@ -430,6 +430,8 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
    ![](images/M04/po34.png)
 
+    >**Note**: App will not be available until the **Power Platform Pipelines** installation complete in previous step.
+
 1. Select **Environments (1)** on the left pane, and then click on **+ New** symbol.
 
    ![](images/M04/p4p44.png)
