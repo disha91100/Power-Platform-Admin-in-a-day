@@ -50,7 +50,7 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
    ![](images/M02/pp122.png)
 
-### Task 1: Explore the Power Automate analytics
+### Task 1: Explore the Power Automate analytics (Read only)
 
 1. Navigate to **Power Platform admin center**.
 
@@ -85,7 +85,7 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
     ![](images/M02/M2-EX1-T1-S11.png)
 
-### Task 2: Explore the Power Apps analytics
+### Task 2: Explore the Power Apps analytics (Read only)
 
 1. In the **Power Platform admin center**. Under **Analytics**, expand **Power Apps (1)**. Change the Primary Tab to **Environment View (2)**. Click on **Change filters (3)**. Switch the environment to **Power Platform COE (4)** by changing the available filters and the click on **Apply (4)**
 
@@ -117,7 +117,7 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
     ![](images/M02/M2-EX1-T2-S11.png)
 
 
-### Task 3: Explore the Capacity analytics
+### Task 3: Explore the Capacity analytics (Read only)
 
 1. Navigate to **Power Platform admin center**.
 

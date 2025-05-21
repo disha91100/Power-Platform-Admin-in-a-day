@@ -81,7 +81,6 @@ In this lab, you will complete the following tasks:
  
    <validation step="2d8c92b8-a1b7-4905-b5a4-5550f3c9c011" /> 
 
-
 ### Review
 
 In this lab, you have accomplished the following:

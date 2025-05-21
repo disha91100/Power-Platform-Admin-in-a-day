@@ -95,9 +95,9 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
 
     ![](images/gp5.png)
 
-1.  Once logged in, click on **Environment** and select the default environment named **OTU WA CNE <inject key="Deployment ID" enableCopy="false" />**.
+1.  Once logged in, click on **Environment** and select the default environment named **OTU WA HOL <inject key="Deployment ID" enableCopy="false" />**.
 
-    ![](images/M01/otu-env.png)
+    ![](images/ppt1.png)
 
 1. Select **Solutions (1)** and click on **Create database (2)**.
 

@@ -623,7 +623,6 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
  
    <validation step="2cafbfde-046f-4e7f-b645-7543771cb755" />     
 
-
 ### Review
 
 In this lab, you have accomplished the following:

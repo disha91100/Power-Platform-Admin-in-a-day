@@ -46,7 +46,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 2. Review the list of environments. These are the environments that are available for you to manage.
 
-   ![](images/pp-3.png)
+   ![](images/M01/ppt2.png)
 
 3. Notice the **Type** column, you can see Fabrikam is already using several types of environments.
 
@@ -70,7 +70,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 9. The list of environments will show **Production** and _Default_ environments ordered by environment name in ascending order.
 
-   ![](images/M01/pp1.png)
+   ![](images/M01/ppt3.png)
 
 10. Now remove the filters, click on **Clear all filters (1)** and then **Apply (2)**. You should see all environments.
 
@@ -91,29 +91,29 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 14. Select the default environment by Selecting the name in the list to drill down into the detail page.
 
-    ![](images/M01/pp5.png)
+    ![](images/M01/ppt4.png)
 
 15. In the **Access** section, you’ll notice that there are multiple options to choose from, which can be used to determine who has access to which items.
 
 16. Select **See all** under **Security Roles**.
 
-    ![](images/M01/po20.png)
+    ![](images/M01/ppt5.png)
 
 17. From here, you can review all of the security roles for your company and manage their access to the company’s data. By default, users have access to all security roles. The business 
     unit currently listed is the same as the tenant and these are assigned to all users by default. Managed roles can be modified to create.
 
-    ![](images/M01/pp6.png)    
+    ![](images/M01/ppt6.png)    
 
 18. Use the search box in the top right and enter **Environment Maker (1)** to find the **Environment Maker (2)** security role, then select the lone result.
 
-    ![](images/M01/pp7.png)
+    ![](images/M01/ppt7.png)
  
     >**Note:** Notice that the org is listed as the **Business Unit**; this means everyone in the organization will have this role by default. For environments other than the default, you control this. 
     However, default is special and Tenant can’t be removed from the role.
 
-20. Go back to the Environment Details page.
+20. Go back to the Environment Details page, bu clicking on the default environment name.
 
-    ![](images/M01/pp8.png)
+    ![](images/M01/ppt8.png)
 
 21. In the **Resources** section, Select **Power Apps**.
 
@@ -123,14 +123,14 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
     you scroll down the list you might notice some names are more deliberate e.g., Product Showcase. Later in the course, we will talk about how to identify these upcoming apps so you 
     can help guide them to ensure they mature and have adequate governance.
 
-    ![](images/M01/pp10.png)
+    ![](images/M01/ppt9.png)
 
 
 ### Task 2: Review existing Data policies
 
 1. Expand **Policies** and select **Data policies** on the left navigation.
 
-    ![](images/M01/pp12.png)
+    ![](images/M01/ppt10.png)
 
 1. Review the list of existing policies.
 
@@ -145,8 +145,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 1. Notice the Contoso Global DLP policy exists that is intended to span all environments (except selected ones) and represents the global DLP policy. For this lab environment Contoso 
    Global DLP policy has 4 environments selected instead of All except 4.
 
-1. You will also notice a DLP for **Thrive Exceptions**. That team had worked with the IT department to agree on exceptions they needed for their environments and their environment would 
-   be excluded from the Contoso Global DLP. This exception DLP policy would have their environments included and apply only to them.
+1. You will also notice a DLP for **Thrive Exceptions**. That team had worked with the IT department to agree on exceptions they needed for their environments and their environment would be excluded from the Contoso Global DLP. This exception DLP policy would have their environments included and apply only to them.
 
    ![](images/M01/M1-EX1-T2-S5.png)
 
@@ -164,7 +163,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 1. Once finished, select **Cancel** button in the bottom right to head back to the Data Policies screen.
 
-   ![](images/M01/pp13.png)
+   ![](images/M01/ppt11.png)
 
 1. Select the **Thrive Exception DLP (1)** and select **Edit Policy (2)**.
 
@@ -286,9 +285,9 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
    ![](images/M01/pp19.png)
 
-3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** for Name, select Region as **United States - Default**, select **Trial** as Type, select **Yes** for Add a Dataverse data store?, and select **Next**.
+3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** for Name, select Region as **United States - Default (2)**, select **Trial (3)** as Type, select **Yes (4)** for Add a Dataverse data store?, and select **Next (5)**.
 
-   ![](images/M01/po6.png)
+   ![](images/M01/ppt12.png)
 
 4. Leave the default values for **Language (1)** and **Currency (2)**. Under Security group select **+ Select (3)**.
 
@@ -309,7 +308,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 1. Navigate to the **Power Apps** maker portal, click on the Environment **(1)** and select the environment you created **(2)**.
 
-   ![](images/M01/pp23.png)
+   ![](images/M01/ppt13.png)
 
 2. Select **Flows (1)** from the left, select **+ New flow (2)** and select **Scheduled cloud flow (3)**.
 
@@ -367,7 +366,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 19. Copy and paste the following link in browser https://outlook.office365.com/ to navigate to **Outlook** and You should get an email with the weather information.
 
-    ![](images/M01/po12.png)
+    ![](images/M01/ppt14.png)
 
 ### Task 3: Create a DLP Policy
 
@@ -412,7 +411,7 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
 1. Choose the environment you created **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** and select **+ Add to Policy (2)**.
 
-    ![](images/M01/po15.png)
+    ![](images/M01/ppt15.png)
 
 1. Once done, select **Next**.
 
@@ -426,7 +425,7 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
 1. Make sure you are in the sandbox environment.    
 
-    ![](images/M01/pp31.png)
+    ![](images/M01/ppt16.png)
 
 1. Select **My flows**.
 
@@ -449,7 +448,6 @@ In this task, you will create an environment-specific DLP and see how it impacts
 - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
    <validation step="3379fa81-ffc4-49c5-82db-97274e81a612" />
-
 
 ## Exercise 5: Configure a security role
 
@@ -559,7 +557,7 @@ ID Security group and assign the security role you just built.
 
 26. Enter **Test Project (1)** for **Title**, select **Due date (2)** and select **Save and Close (3)**.
 
-    ![](images/M01/pp38.png)
+    ![](images/M01/ppt17.png)
 
 27. The application should create a new record and take you back to the list of projects.
 
