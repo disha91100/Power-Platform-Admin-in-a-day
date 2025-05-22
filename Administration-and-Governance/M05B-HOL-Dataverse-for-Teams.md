@@ -416,21 +416,21 @@ In this task, you will be performing the role of the developer and completing th
 
      ![](images/M03/pp119.png)
 
-1. Select **Solutions** from the left-side navigation, then the **Center of Excellence – Core Components** solution.
+1. Select **Solutions** from the left-side navigation, select **Managed**, then the **Center of Excellence – Core Components** solution.
 
-     ![](images/M03/M3-EX3-T1-S12.png)
+     ![](images/M03/M3-EX3-T1-S12-1.png)
 
-1. Select **Objects > Apps** from the menu on the left,
+1. Select Apps** from the menu on the left,
 
-     ![](images/M03/M3-EX3-T1-S13.png)
+     ![](images/M03/M3-EX3-T1-S13-1.png)
 
 1. Select the **∙∙∙** next to the **Power Platform Admin View** model-driven app and select **Play**.
 
      ![](images/M03/M3-EX3-T1-S14.png)
 
-1. Select **PowerApps Apps** and search in the box at the top right for the **Lab Admin X** app, where X is your lab user number or the test app we created. Select the appropriate result.
+1. Select **PowerApps Apps** and search in the box at the top right for the **Test App**. Select **Test App**.
 
-     ![](images/M03/M3-EX3-T1-S15.png)
+     ![](images/M03/M3-EX3-T1-S15-1.png)
 
 1. Select the **Governance** tab and set the **Admin Risk Assessment State** to **Requested**.
 
