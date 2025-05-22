@@ -1,210 +1,21 @@
 ## Admin in a day
 
-# M05B-HOL-Dataverse for Teams (Optional)
+# M06-Explore the CoE Starter Kit (Optional)
 
 ## Lab Scenario
-
-In this hands-on lab, you will create a Power App in a team and see how to publish it to your team. You will also share with colleagues outside your team to see how broad distribution apps 
-work.
 
 ## Lab Objectives
 
 In this lab, you will complete the following exercises:
 
-- Exercise 1 - Create your first app
-- Exercise 2 – Share your app
-- Exercise 3 - Explore the CoE Starter Kit
-- Exercise 4 - Perform a risk assessment of overshared resources
-- Exercise 5 - How much is a connector used in your
-- Exercise 6 - Review tenant audit logs (Optional if you have time)
-- Exercise 7 - Application Compliance Process
+- Exercise 1 - Explore the CoE Starter Kit
+- Exercise 2 - Perform a risk assessment of overshared resources
+- Exercise 3 - How much is a connector used in your
+- Exercise 4 - Review tenant audit logs (Optional if you have time)
+- Exercise 5 - Application Compliance Process
 
-### Lab Test Environment
 
-This hands-on lab is designed to be completed in an environment setup for multiple students to complete the Admin in a day series of hands-on labs.
-
-You will be assigned one or more users to use to complete the tasks. Because this is a shared environment, some tasks that require a tenant Global Administrator or a Service Administrator 
-will already be completed. Your account will only be an environment administrator.
-
-## Exercise 1: Create your first app
-
-### Task 1: Add Power Apps and pin it
-
-In this task, you will add the Power Apps app, and then pin it to your pinned apps.
-
-1. If not logged in yet, navigate to Microsoft Teams using the following link https://teams.microsoft.com/v2/ and log in with the lab credentials.
-
-1. Select the **ellipsis (...) (1)** from the navigation bar to the left of the screen then select **Power Apps (2)**.
-
-   ![](images/M05/p5p10.png)
-
-1. Within the navigation bar, right-click on the **Power Apps (1)** app and select **Pin (2)**.
-
-   ![](images/M05/p5p11.png)
-
-1. Do not navigate away from this page.
-
-### Task 2: Create an application and table
-
-In this task, you will create an application, and a table, and add new columns to the table.
-
-1. Select **Power Apps (1)** from the navigation bar, then select the **Home (2)** tab and choose **Start now (3)**.
-
-   ![](images/M05/M5B-EX1-T2-S3.png)
-
-1. Select the **Central IT (1)** team and then select **Create (2)**.
-
-   ![](images/M05/p5p13.png)
-
-1. Enter **Special Request Lab 01 (1)** and select **Save (2)**. 
-
-   ![](images/M05/p5p15.png)
-
-    >**Note**: If **Name your app** does not appear, please perform the steps again. Sometimes it might take some time.
-
-1. Select **With data (1)**, and then select **+ Create new table (2)**.
-
-   ![](images/M05/M5B-EX1-T2-S6.png)
-
-1. On the **Create table** pane, select **Start with a blank table**.
-
-   ![](images/M05/po39.png)
-
-1. Enter **Lab 01 Request (1)** for the Table name, and choose **Save (2)**.
-
-   ![](images/M05/p5p16.png)
-
-1. Select **+ New column**.
-
-   ![](images/M05/M5B-EX1-T2-S8.png)
-
-1. On the **New column** page, enter the followig details and then click on **Save (5)**.
-
-   - Display name: Enter **Description (1)**
-   - Data type: Select **Single line of text (2)** if not chosen already.
-   - Format: **Text (3)**
-   - Enable Required **(4)**
-
-     ![](images/M05/p5p17.png)
-
-1. Select **+ New column** again.
-
-1. On the **New column** page, enter the followig details and then click on **Save (5)**.
-
-   - Display name: Enter **Requested date (1)**
-   - Data type: Select **Date and time (2)** if not chosen already.
-   - Format: **Date Only (3)**
-   - Enable Required **(4)**
-
-     ![](images/M05/p5p18.png)
-
-1. The table should now show three columns. 
-
-    ![](images/M05/p5p19.png)
-
-1. Select the first cell within the **Name** column, type **Ergonomic office chair**, enter a description within the **Description** cell and select today’s date for the **Requested date** cell.
- 
-    ![](images/M05/p5p20.png)
-
-1. Add a few more request rows and select **Save and close**. You can use the following data to enter into the cells of the table:
-
-     | Name                         | Description                                           | Date           |
-     | ---------------------------- | ----------------------------------------------------- | -------------- |
-     | Plotter Printer              | Facilities department needs a plotter printer         | (today's date) |
-     | Security system              | The new A245 building doesn't have a security system  | (today's date) |
-     | Fire suppression system test | Test the fire suppression system in buildings         | (today's date) |
-
-     ![](images/M05/p5p21.png)
-
-1. Select **With data (1)** and then choose **Lab 01 Requests (2)**.     
-
-    ![](images/M05/p5p22.png)
-
-    ![](images/M05/p5p23.png)    
-    
-     >**Note**: The app should now have a gallery and a form. Select **Save**, if Save is enabled otherwise no issues it will get saved by default and wait for the app to be saved.
-
-      ![](images/M05/M5B-EX1-T2-S16.png)
-
-1. Select **Preview**.
-
-    ![](images/M05/M5B-EX1-T2-S17.png)
-
-1. The app should start in a preview. Select **+ New record**.
-
-    ![](images/M05/p5p35.png) 
-
-1. Provide a Name, Description, and Requested data. Use the following data to fill in the fields for the new request:
-
-     | New Column **(2)**                        | Description **(2)**                                                        | Requested Date **(3)** |
-     | ---------------------------- | ------------------------------------------------------------------- | -------------- |
-     | Covered outdoor work area    | Build a covered outdoor work area on the west side of building Az45 | (today's date) |
-
-1. Select the **checkmark (4)** in the top right-hand corner to **Save** the record.
-
-    ![](images/M05/p5p25.png)
-
-1. **Close** the preview.
-
-    ![](images/M05/M5B-EX1-T2-S21.png)
-
-1. Select **Publish to Teams**.
-
-    ![](images/M05/M5B-EX1-T2-S22.png)
-
-1. Review the information and select **Next**.
-
-    ![](images/M05/M5B-EX1-T2-S23.png)
-
-1. Select the **Plus sign (1)** next to the **General** channel to **Add app as a tab**. This will make it discoverable on the channel. Then, Select **Save and close (2)**.
-
-    ![](images/M05/p5p26.png)
-
-1. From the navigation bar, select **Chat (1)**, then click on **Central IT channel (2)**. Locate the app tab you added and select it **(3)**. The app should load.
-
-    ![](images/M05/p5p27.png)
-
-1. Ensure that you can see all of the data you entered into the app while it is in preview mode.
-
-    ![](images/M05/p5p28.png)
-
-1. Do not navigate away from this page.
-
-## Exercise 2: Share your app
-
-### Task 1: Share the app
-
-In this task, you will share the application and the table you created.
-
-1. Select **Power Apps (1)** from the navigation bar to the left of the screen, then select **Build (2)**.
-
-   ![](images/M05/M5B-EX2-T1-S1.png)
-
-1. From here, choose the **Central IT (1)** team, and select **See all (2)**.
-
-   ![](images/M05/p5p29.png)
-
-1. Select **Apps (1)** and then choose **Share with colleagues (2)**. This can share the app outside the team’s membership.
-
-   ![](images/M05/p5p30.png)
-
-1. Within the search bar, search for **lab (1)** and select **Lab Admin Team (2)**.
-
-   ![](images/M05/p5p31.png)
-
-1. To make sure the **Lab Admin Team** team members can use the app, enable the **Colleague can use** toggle **(1)**  and then select **Save (2)**.
-
-   ![](images/M05/p5p32.png)
-
-1. Select **Tables (1)**, select the **Lab 01 Request (2)** table that you have created. Click on the **elipses(...) (3)** and then choose **Manage permissions (4)**.
-
-   ![](images/M05/p5p33.png)
-
-1. Select the **Lab Admin Team (1)** team, give the team members the **Collaborate (2)** permission, and select **Save (3)**. You have now completed sharing with the group.
-
-   ![](images/M05/p5p34.png) 
-
-## Exercise 3: Explore the CoE Starter Kit
+## Exercise 1: Explore the CoE Starter Kit
 
 ### Scenario
 
@@ -433,7 +244,7 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 1. You have now successfully deployed the Power BI reports that come with the CoE starter kit.
 
 
-## Exercise 4: Perform a risk assessment of overshared resources
+## Exercise 2: Perform a risk assessment of overshared resources
 
 ### Scenario
 
@@ -464,7 +275,7 @@ to look for apps that are over-shared.
    name to contact the person who made the app to get more details to determine if it was appropriate to share with everyone.
 
 
-## Exercise 5: How much is a connector used in your
+## Exercise 3: How much is a connector used in your
 
 ### Scenario
 
@@ -487,7 +298,7 @@ Using the Power BI report, you can easily see what apps and flows are using a co
 5. Using this you could evaluate things like the impact of changing DLP policies or other governance or training that might be needed related to a connector.
 
 
-## Exercise 6: Review tenant audit logs (Optional if you have time)
+## Exercise 4: Review tenant audit logs (Optional if you have time)
 
 ### Scenario
 
@@ -564,7 +375,7 @@ In this exercise, you will be using the log search and alert tools to work with 
 
 **Note:** Any information from before auditing was enabled, cannot be retrieved. This can be seen by selecting a date range from before the auditing was enabled.
 
-## Exercise 7: Application Compliance Process
+## Exercise 5: Application Compliance Process
 
 In this exercise, you will be walking through the application compliance process that has been put in place using the CoE Starter Kit. As part of this, you will be playing both the role of 
 the application developer and the administrator see both sides of the process.
@@ -744,12 +555,10 @@ In this task, you will be performing the administrative review of the applicatio
 
 In this lab, you have accomplished the following:
 
-- Exercise 1 - Created your first app
-- Exercise 2 – Shared your app
-- Exercise 3 - Explore the CoE Starter Kit
-- Exercise 4 - Perform a risk assessment of overshared resources
-- Exercise 5 - How much is a connector used in your
-- Exercise 6 - Review tenant audit logs (Optional if you have time)
-- Exercise 7 - Application Compliance Process
+- Exercise 1 - Explore the CoE Starter Kit
+- Exercise 2 - Perform a risk assessment of overshared resources
+- Exercise 3 - How much is a connector used in your
+- Exercise 4 - Review tenant audit logs (Optional if you have time)
+- Exercise 5 - Application Compliance Process
 
 ### You have successfully completed this lab.  
