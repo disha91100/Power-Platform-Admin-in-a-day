@@ -11,7 +11,7 @@ In this lab, you will complete the following exercises:
 - Exercise 1 - Explore the CoE Starter Kit
 - Exercise 2 - Perform a risk assessment of overshared resources
 - Exercise 3 - How much is a connector used in your
-- Exercise 4 - Review tenant audit logs (Optional if you have time)
+- Exercise 4 - Review tenant audit logs 
 - Exercise 5 - Application Compliance Process
 
 
@@ -298,7 +298,7 @@ Using the Power BI report, you can easily see what apps and flows are using a co
 5. Using this you could evaluate things like the impact of changing DLP policies or other governance or training that might be needed related to a connector.
 
 
-## Exercise 4: Review tenant audit logs (Optional if you have time)
+## Exercise 4: Review tenant audit logs 
 
 ### Scenario
 
@@ -558,7 +558,7 @@ In this lab, you have accomplished the following:
 - Exercise 1 - Explore the CoE Starter Kit
 - Exercise 2 - Perform a risk assessment of overshared resources
 - Exercise 3 - How much is a connector used in your
-- Exercise 4 - Review tenant audit logs (Optional if you have time)
+- Exercise 4 - Review tenant audit logs
 - Exercise 5 - Application Compliance Process
 
 ### You have successfully completed this lab.  
