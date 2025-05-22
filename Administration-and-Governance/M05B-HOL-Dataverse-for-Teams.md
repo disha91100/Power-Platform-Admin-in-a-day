@@ -9,10 +9,9 @@
 In this lab, you will complete the following exercises:
 
 - Exercise 1 - Explore the CoE Starter Kit
-- Exercise 2 - Perform a risk assessment of overshared resources
-- Exercise 3 - How much is a connector used in your
-- Exercise 4 - Review tenant audit logs 
-- Exercise 5 - Application Compliance Process
+- Exercise 2 - How much is a connector used in your
+- Exercise 3 - Review tenant audit logs 
+- Exercise 4 - Application Compliance Process
 
 
 ## Exercise 1: Explore the CoE Starter Kit
@@ -236,44 +235,13 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
      ![](images/M02/pt15-1.png)
 
-1. Once the report loads, select the Environments page.use any filters to visualize data.
-     ![](images/M02/M2-EX3-T2-S37.png)
+1. Once the report loads, select the Environments page. Use any filters to visualize data.
+     ![](images/M02/M2-EX3-T2-S37-1.png)
 
 1. You have now successfully deployed the Power BI reports that come with the CoE starter kit.
 
 
-## Exercise 2: Perform a risk assessment of overshared resources
-
-### Scenario
-
-We were going to perform a risk assessment to look for apps that have been shared with your tenant. To accomplish this, you are going to use the Power BI report that you just published 
-to look for apps that are over-shared.
-
-### Task 1: Locate Overshared Apps
-
-1. Navigate to the **Power BI report** you just published.
-
-2. Select the **Apps** page in the report.
-
-3. Select the Show navigation button and select **Apps Risk Assessment**. This will take you to the risk assessment page of the report.
-
-   ![](images/M02/M2-EX4-T1-S3.png)
-
-4. The list of apps you'll see now is the ones that qualify for the default criteria. We want to focus on the ones that have been shared with the entire organization and validate that 
-   they are appropriate.
-
-   ![](images/M02/M2-EX4-T1-S4.png)
-
-5. In the filter panel, select True in the Shared with Everyone section.
-
-   ![](images/M02/M2-EX4-T1-S5.png)
-
-6. The filter will take place immediately and you will see a small list of apps that have been shared with everyone. In many cases, a quick evaluation of the name of the app would 
-   indicate whether it was appropriate, but it also allows you to drill down into more details by hovering your mouse pointer over the name of the app. You might also use the owner’s 
-   name to contact the person who made the app to get more details to determine if it was appropriate to share with everyone.
-
-
-## Exercise 3: How much is a connector used in your
+## Exercise 2: How much is a connector used in your
 
 ### Scenario
 
@@ -283,20 +251,18 @@ Using the Power BI report, you can easily see what apps and flows are using a co
 
 1. Navigate to the **Power BI report** you just published.
 
-2. Select the **App Connections** page in the report.
+2. Select the **App Connections deep dive** page in the report.
 
-   ![](images/M02/M2-EX5-T1-S2.png)
+   ![](images/M02/M2-EX5-T1-S2-1.png)
 
-3. In the filter panel, in the **Connector** section search for **Office 365 Outlook** and select it.
+3. You can click on **Office 365 outlook** connector in visual to view the filtered data. 
 
-   ![](images/M02/M2-EX5-T1-S3.png)
+   ![](images/M02/M2-EX5-T1-S3-1.png)
 
-4. The page will now filter on makers, and apps that use Office 365.
-
-5. Using this you could evaluate things like the impact of changing DLP policies or other governance or training that might be needed related to a connector.
+5. Using this you could evaluate things like the apps/flows using connector or Connector tier.
 
 
-## Exercise 4: Review tenant audit logs 
+## Exercise 3: Review tenant audit logs 
 
 ### Scenario
 
@@ -373,7 +339,7 @@ In this exercise, you will be using the log search and alert tools to work with 
 
 **Note:** Any information from before auditing was enabled, cannot be retrieved. This can be seen by selecting a date range from before the auditing was enabled.
 
-## Exercise 5: Application Compliance Process
+## Exercise 4: Application Compliance Process
 
 In this exercise, you will be walking through the application compliance process that has been put in place using the CoE Starter Kit. As part of this, you will be playing both the role of 
 the application developer and the administrator see both sides of the process.
@@ -554,9 +520,8 @@ In this task, you will be performing the administrative review of the applicatio
 In this lab, you have accomplished the following:
 
 - Exercise 1 - Explore the CoE Starter Kit
-- Exercise 2 - Perform a risk assessment of overshared resources
-- Exercise 3 - How much is a connector used in your
-- Exercise 4 - Review tenant audit logs
-- Exercise 5 - Application Compliance Process
+- Exercise 2 - How much is a connector used in your
+- Exercise 3 - Review tenant audit logs
+- Exercise 4 - Application Compliance Process
 
 ### You have successfully completed this lab.  
