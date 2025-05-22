@@ -253,8 +253,6 @@ Using the Power BI report, you can easily see what apps and flows are using a co
 
 2. Select the **App Connections deep dive** page in the report.
 
-   ![](images/M02/M2-EX5-T1-S2-1.png)
-
 3. You can click on **Office 365 outlook** connector in visual to view the filtered data. 
 
    ![](images/M02/M2-EX5-T1-S3-1.png)
