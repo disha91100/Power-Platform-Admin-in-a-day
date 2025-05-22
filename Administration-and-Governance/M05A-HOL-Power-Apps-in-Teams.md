@@ -40,7 +40,7 @@ In this lab, you will complete the following exercises:
 
 1. Search for **lab user** again and select **Lab User02**.
 
-1. Do the same for the rest of the users up to **Lab User10** and then select **Add**. (You will have **Lab User01 - 10** selected to be added to the Team).
+1. Do the same for the rest of the users up to **Lab User10** and then select **Add**. (You will have **Lab User01 - Lab User05** selected to be added to the Team).
 
 1. Change all the users to have the role of **Owner (1)** to make them **co-owners** of the team and then click on **Create (2)**
 
@@ -68,27 +68,25 @@ In this lab, you will complete the following exercises:
 
    ![](images/M05/p5p9.png)
 
-    >**Note**: It might take some time to create the App.
+    >**Note**: As your creating the App for the first time t might take around 10-15 minutes to create please wait.
 
-1. If promted, Enter **Accounts (1)** for App name, and then select **Save (2)**.
+1. Please keep checking on the **Activity (1)** section, where you will get the notification once the App is ready then you can build the app **(2)**.
 
-   ![](images/M05/p5p14.png)
+   ![](images/M05/ppt51.png)
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   - Hit the Validate button for the corresponding task.
-   - If you receive a success message, you can proceed to the next task.
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
-   <validation step="2d8c92b8-a1b7-4905-b5a4-5550f3c9c011" /> 
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="2d8c92b8-a1b7-4905-b5a4-5550f3c9c011" />
 
 ## Exercise 2: Create your first app
 
 ### Task 1: Add Power Apps and pin it
 
 In this task, you will add the Power Apps app, and then pin it to your pinned apps.
-
-1. If not logged in yet, navigate to Microsoft Teams using the following link https://teams.microsoft.com/v2/ and log in with the lab credentials.
 
 1. Select the **ellipsis (...) (1)** from the navigation bar to the left of the screen then select **Power Apps (2)**.
 
@@ -116,7 +114,7 @@ In this task, you will create an application, and a table, and add new columns t
 
    ![](images/M05/p5p15.png)
 
-    >**Note**: If **Name your app** does not appear, please perform the steps again. Sometimes it might take some time.
+    >**Note**: You will be able to name the app only after the app is created that will take around 10-15 minutes as mentioned in the previous task.
 
 1. Select **With data (1)**, and then select **+ Create new table (2)**.
 
@@ -125,6 +123,10 @@ In this task, you will create an application, and a table, and add new columns t
 1. On the **Create table** pane, select **Start with a blank table**.
 
    ![](images/M05/po39.png)
+
+1. Click on **Edit**.
+
+   ![](images/M05/ppt52.png)
 
 1. Enter **Lab 01 Request (1)** for the Table name, and choose **Save (2)**.
 
@@ -192,7 +194,7 @@ In this task, you will create an application, and a table, and add new columns t
 
 1. Provide a Name, Description, and Requested data. Use the following data to fill in the fields for the new request:
 
-     | New Column **(2)**                        | Description **(2)**                                                        | Requested Date **(3)** |
+     | New Column **(2)**                        | Description **(1)**                                                        | Requested Date **(3)** |
      | ---------------------------- | ------------------------------------------------------------------- | -------------- |
      | Covered outdoor work area    | Build a covered outdoor work area on the west side of building Az45 | (today's date) |
 
@@ -206,7 +208,7 @@ In this task, you will create an application, and a table, and add new columns t
 
 1. Select **Publish to Teams**.
 
-    ![](images/M05/M5B-EX1-T2-S22.png)
+   ![](images/M05/ppt53.png)
 
 1. Review the information and select **Next**.
 
@@ -218,7 +220,7 @@ In this task, you will create an application, and a table, and add new columns t
 
 1. From the navigation bar, select **Chat (1)**, then click on **Central IT channel (2)**. Locate the app tab you added and select it **(3)**. The app should load.
 
-    ![](images/M05/p5p27.png)
+   ![](images/M05/ppt54.png)
 
 1. Ensure that you can see all of the data you entered into the app while it is in preview mode.
 

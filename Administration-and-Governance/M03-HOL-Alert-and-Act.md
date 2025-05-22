@@ -33,7 +33,7 @@ collect additional information allowing it to be tailored to your individual org
 
 ### Task 1: Create Microsoft Form
 
-1. Navigate to **Microsoft Forms** with https://forms.office.com/ and close the pop up screen.
+1. Navigate to **Microsoft Forms** with the following link https://forms.office.com/Pages/DesignPageV2.aspx and if prompted, close the pop up screen.
 
 2. Select **+ New Form**.
 
