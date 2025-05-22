@@ -426,7 +426,7 @@ for persona.
 13. Publish PowerBI dashboard: Click Next and then Done
 
 
-## Exercise 3: Setup the CoE Starter Kit Power BI Dashboard
+## Exercise 4: Setup the CoE Starter Kit Power BI Dashboard
 
 ### Scenario
 
@@ -498,6 +498,18 @@ Now in this exercise, you will explore the following key components:
 
 ### Task 2: Power BI Dashboard
 
+#### Get the environment URL
+You need the URL of the Power Platform environment where the CoE Starter Kit is installed. Power BI connects to Dataverse tables in that environment.
+
+1. Go to the [Power Platform admin center](https://aka.ms/ppac).
+
+2. Select Environments, then choose Power platform COE environment.
+
+3. Right-click on the Environment URL and select Copy Link Address.
+
+
+#### Configure the Production and Governance Power BI dashboard
+
 1. Navigate to PowerBI using the following link https://app.powerbi.com/ in your browser.
 
 1. If prompted, **Sign in** with your lab credentials.
@@ -558,9 +570,13 @@ Now in this exercise, you will explore the following key components:
 
     ![](images/M02/pt11.png)
 
-1. Navigate to `C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M02 - HOL - Monitor` **(1)**, then select **Production_CoEDashboard.pbit** file **(2)** and then **Open (3)**.
+1. Navigate to Downloads folder> COE Starter Kit > Select Production_CoEDashboard_MMMYY.pbit **(1)**, and then **Open (2)**.
 
     ![](images/M02/pt12.png)
+
+1. Enter the URL of your environment instance. Include the https:// prefix for OrgUrl. leave the dropdown as the default Commercial. 
+
+**Note:** Paste the Environment URL you copied earlier.
 
 1. The report should load automatically once the refresh has been completed.
 
@@ -639,7 +655,7 @@ Now in this exercise, you will explore the following key components:
 1. You have now successfully deployed the Power BI reports that come with the CoE starter kit.
 
 
-## Exercise 4: Perform a risk assessment of overshared resources
+## Exercise 5: Perform a risk assessment of overshared resources
 
 ### Scenario
 
@@ -670,7 +686,7 @@ to look for apps that are over-shared.
    name to contact the person who made the app to get more details to determine if it was appropriate to share with everyone.
 
 
-## Exercise 5: How much is a connector used in your
+## Exercise 6: How much is a connector used in your
 
 ## organization
 
@@ -695,7 +711,7 @@ Using the Power BI report, you can easily see what apps and flows are using a co
 5. Using this you could evaluate things like the impact of changing DLP policies or other governance or training that might be needed related to a connector.
 
 
-## Exercise 6: Review tenant audit logs (Optional if you have time)
+## Exercise 7: Review tenant audit logs (Optional if you have time)
 
 ### Scenario
 
@@ -772,7 +788,7 @@ In this exercise, you will be using the log search and alert tools to work with 
 
 **Note:** Any information from before auditing was enabled, cannot be retrieved. This can be seen by selecting a date range from before the auditing was enabled.
 
-## Exercise 7: Get notification of new apps, flows and connectors (Optional if you have time)
+## Exercise 8: Get notification of new apps, flows and connectors (Optional if you have time)
 
 ### Scenario
 
