@@ -9,10 +9,9 @@
 In this lab, you will complete the following exercises:
 
 - Exercise 1 - Explore the CoE Starter Kit
-- Exercise 2 - Perform a risk assessment of overshared resources
-- Exercise 3 - How much is a connector used in your
-- Exercise 4 - Review tenant audit logs 
-- Exercise 5 - Application Compliance Process
+- Exercise 2 - How much is a connector used in your
+- Exercise 3 - Review tenant audit logs 
+- Exercise 4 - Application Compliance Process
 
 
 ## Exercise 1: Explore the CoE Starter Kit
@@ -37,28 +36,25 @@ Now in this exercise, you will explore the following key components:
 
    ![](images/M02/M2-EX3-T1-S2.png)
 
-3. Select **Apps** from the left side navigation and you should see a list of available apps in this environment, select **Power Platform Admin View**.
+3. Select **Apps** from the left side navigation and you should see a list of available apps in this environment, Check **Power Platform Admin View**, Click **Play**.
 
-   ![](images/M02/M2-EX3-T1-S3.png)
+   ![](images/M02/M2-EX3-T1-S3A.png)
 
 4. When the app starts you will land on the Power Platform Dashboard page. This dashboard gives you a quick look at the most active makers, and environments.
 
-   ![](images/M02/M2-EX3-T1-S4.png)
+   ![](images/M02/M2-EX3-T1-S4A.png)
 
-5. Select **Power Apps** and you will see a list of all apps in all environments without having to visit each environment. The Flows navigation link does the same thing for Microsoft 
-   Power Automate flows.
+5. Select **Power Apps** and you will see a list of all apps in all environments without having to visit each environment. The Flows navigation link does the same thing for Microsoft Power Automate flows.
 
-6. Select the **Device Ordering App** in the list to open the app details.
+6. Select the any app in the list to open the app details.
 
-   ![](images/M02/M2-EX3-T1-S6.png)
+   ![](images/M02/M2-EX3-T1-S6A.png)
 
-7. In the **Governance** tab you can see the Business Justification provided by the app maker using the Developer Compliance Center app. The bottom part is where you as an admin can 
-   provide your risk assessment. You can also tag the app to show in the App Catalog and make it featured. You can customize the CoE entities to add additional fields here if needed.
+7. In the **Governance** tab you can see the Business Justification provided by the app maker using the Developer Compliance Center app. The bottom part is where you as an admin can provide your risk assessment. You can also tag the app to show in the App Catalog and make it featured. You can customize the CoE entities to add additional fields here if needed.
 
-   ![](images/M02/M2-EX3-T1-S7.png)
+   ![](images/M02/M2-EX3-T1-S7A.png)
 
-8. Select **Environments** in the left navigation. This will show you a list of all the environments in your tenant and key metrics like several apps. To view all your environments, 
-   similar to the image below, switch the view at the top to **Active Environments**.
+8. Select **Environments** in the left navigation. This will show you a list of all the environments in your tenant and key metrics like several apps. To view all your environments, similar to the image below, switch the view at the top to **Active Environments**.
 
    ![](images/M02/M2-EX3-T1-S8-1.png)
 
@@ -94,8 +90,7 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
 2. Select Environments, then choose Power platform COE environment.
 
-3. Right-click on the Environment URL and select Copy Link Address.
-
+3. Right-click on the Environment URL and select Copy Link Address and paste it on notepad for future reference.
 
 #### Configure the Production and Governance Power BI dashboard
 
@@ -159,15 +154,17 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
     ![](images/M02/pt11.png)
 
-1. Navigate to Downloads folder in File Explorer> COE Starter Kit > Select Production_CoEDashboard_MMMYY.pbit **(1)**, and then **Open (2)**. Wait for sometime you will notice popup appears for org URL
+1. Path for Report : *C:\Users\demouser\Downloads\CoEStarterKit*. Navigate to Downloads folder in File Explorer> CoEStarterKit > Select Production_CoEDashboard_MMMYY.pbit **(1)**, and then **Open (2)**. Wait for sometime you will notice popup appears for org URL
 
-    ![](images/M02/pt11A.png)
+    ![](images/M02/pt11B.png)
 
-1. Enter the URL of your environment instance. Include the https:// prefix for OrgUrl.
+1. Wait for report to load. Enter the URL of your environment instance. Include the https:// prefix for OrgUrl. Then Click **Load**.
 
-**Note:** Paste the Environment URL you copied earlier.
+    ![](images/M02/pt11C.png)
 
-1. The report should load automatically once the refresh has been completed.
+**Note:**  Paste the Environment URL you copied earlier. If the report loads before you provide the Environment URL, click **Transform Data**, then select **Edit Parameters** to paste your **Environment URL** and tenant type is commercial.
+
+1.Sign In with environment credentials. The report should load automatically once the refresh has been completed.
 
 1. Follow the steps below to enable **map and filled map visuals**:
 
@@ -201,9 +198,9 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
     ![](images/M02/M2-EX3-T2-S26.png)
 
-1. On the Environments page, use the date range picker and see how it affects the other data on the page. When you are done leave it set at the max date range.
+1. Select any environment visual to view the filtered datain the report
 
-    ![](images/M02/M2-EX3-T2-S27.png)
+    ![](images/M02/M2-EX3-T2-S27-1.png)
 
 1. Select the **Apps** tab from the navigation at the bottom of the screen.
 
@@ -211,7 +208,7 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
 1. On the Apps page notice the Creation Trend, this is an effective way to watch adoption progress.
 
-    ![](images/M02/M2-EX3-T2-S29.png)
+    ![](images/M02/M2-EX3-T2-S29-1.png)
 
 1. Select the other pages via the tabs at the bottom and review the data available.
 
@@ -235,47 +232,15 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
 1. Select the **CoE Starter** with the type of **Report** from the list. You’ll notice a few other items have been generated; these are done by default.
 
-     ![](images/M02/pt15.png)
+     ![](images/M02/pt15-1.png)
 
-1. Once the report loads, select the Environments page. Use the date slider to ensure the date range includes the last month.
-
-     ![](images/M02/M2-EX3-T2-S37.png)
+1. Once the report loads, select the Environments page. Use any filters to visualize data.
+     ![](images/M02/M2-EX3-T2-S37-1.png)
 
 1. You have now successfully deployed the Power BI reports that come with the CoE starter kit.
 
 
-## Exercise 2: Perform a risk assessment of overshared resources
-
-### Scenario
-
-We were going to perform a risk assessment to look for apps that have been shared with your tenant. To accomplish this, you are going to use the Power BI report that you just published 
-to look for apps that are over-shared.
-
-### Task 1: Locate Overshared Apps
-
-1. Navigate to the **Power BI report** you just published.
-
-2. Select the **Apps** page in the report.
-
-3. Select the Show navigation button and select **Apps Risk Assessment**. This will take you to the risk assessment page of the report.
-
-   ![](images/M02/M2-EX4-T1-S3.png)
-
-4. The list of apps you'll see now is the ones that qualify for the default criteria. We want to focus on the ones that have been shared with the entire organization and validate that 
-   they are appropriate.
-
-   ![](images/M02/M2-EX4-T1-S4.png)
-
-5. In the filter panel, select True in the Shared with Everyone section.
-
-   ![](images/M02/M2-EX4-T1-S5.png)
-
-6. The filter will take place immediately and you will see a small list of apps that have been shared with everyone. In many cases, a quick evaluation of the name of the app would 
-   indicate whether it was appropriate, but it also allows you to drill down into more details by hovering your mouse pointer over the name of the app. You might also use the owner’s 
-   name to contact the person who made the app to get more details to determine if it was appropriate to share with everyone.
-
-
-## Exercise 3: How much is a connector used in your
+## Exercise 2: How much is a connector used in your
 
 ### Scenario
 
@@ -285,20 +250,16 @@ Using the Power BI report, you can easily see what apps and flows are using a co
 
 1. Navigate to the **Power BI report** you just published.
 
-2. Select the **App Connections** page in the report.
+2. Select the **App Connections deep dive** page in the report.
 
-   ![](images/M02/M2-EX5-T1-S2.png)
+3. You can click on **Office 365 outlook** connector in visual to view the filtered data. 
 
-3. In the filter panel, in the **Connector** section search for **Office 365 Outlook** and select it.
+   ![](images/M02/M2-EX5-T1-S3-1.png)
 
-   ![](images/M02/M2-EX5-T1-S3.png)
-
-4. The page will now filter on makers, and apps that use Office 365.
-
-5. Using this you could evaluate things like the impact of changing DLP policies or other governance or training that might be needed related to a connector.
+5. Using this you could evaluate things like the apps/flows using connector or Connector tier.
 
 
-## Exercise 4: Review tenant audit logs 
+## Exercise 3: Review tenant audit logs 
 
 ### Scenario
 
@@ -375,7 +336,7 @@ In this exercise, you will be using the log search and alert tools to work with 
 
 **Note:** Any information from before auditing was enabled, cannot be retrieved. This can be seen by selecting a date range from before the auditing was enabled.
 
-## Exercise 5: Application Compliance Process
+## Exercise 4: Application Compliance Process
 
 In this exercise, you will be walking through the application compliance process that has been put in place using the CoE Starter Kit. As part of this, you will be playing both the role of 
 the application developer and the administrator see both sides of the process.
@@ -556,9 +517,8 @@ In this task, you will be performing the administrative review of the applicatio
 In this lab, you have accomplished the following:
 
 - Exercise 1 - Explore the CoE Starter Kit
-- Exercise 2 - Perform a risk assessment of overshared resources
-- Exercise 3 - How much is a connector used in your
-- Exercise 4 - Review tenant audit logs
-- Exercise 5 - Application Compliance Process
+- Exercise 2 - How much is a connector used in your
+- Exercise 3 - Review tenant audit logs
+- Exercise 4 - Application Compliance Process
 
 ### You have successfully completed this lab.  
