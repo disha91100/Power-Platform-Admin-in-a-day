@@ -37,25 +37,23 @@ Now in this exercise, you will explore the following key components:
 
    ![](images/M02/M2-EX3-T1-S2.png)
 
-3. Select **Apps** from the left side navigation and you should see a list of available apps in this environment, select **Power Platform Admin View**.
+3. Select **Apps** from the left side navigation and you should see a list of available apps in this environment, Check **Power Platform Admin View**, Click **Play**.
 
-   ![](images/M02/M2-EX3-T1-S3.png)
+   ![](images/M02/M2-EX3-T1-S3A.png)
 
 4. When the app starts you will land on the Power Platform Dashboard page. This dashboard gives you a quick look at the most active makers, and environments.
 
-   ![](images/M02/M2-EX3-T1-S4.png)
+   ![](images/M02/M2-EX3-T1-S4A.png)
 
-5. Select **Power Apps** and you will see a list of all apps in all environments without having to visit each environment. The Flows navigation link does the same thing for Microsoft 
-   Power Automate flows.
+5. Select **Power Apps** and you will see a list of all apps in all environments without having to visit each environment. The Flows navigation link does the same thing for Microsoft Power Automate flows.
 
-6. Select the **Device Ordering App** in the list to open the app details.
+6. Select the any app in the list to open the app details.
 
-   ![](images/M02/M2-EX3-T1-S6.png)
+   ![](images/M02/M2-EX3-T1-S6A.png)
 
-7. In the **Governance** tab you can see the Business Justification provided by the app maker using the Developer Compliance Center app. The bottom part is where you as an admin can 
-   provide your risk assessment. You can also tag the app to show in the App Catalog and make it featured. You can customize the CoE entities to add additional fields here if needed.
+7. In the **Governance** tab you can see the Business Justification provided by the app maker using the Developer Compliance Center app. The bottom part is where you as an admin can provide your risk assessment. You can also tag the app to show in the App Catalog and make it featured. You can customize the CoE entities to add additional fields here if needed.
 
-   ![](images/M02/M2-EX3-T1-S7.png)
+   ![](images/M02/M2-EX3-T1-S7A.png)
 
 8. Select **Environments** in the left navigation. This will show you a list of all the environments in your tenant and key metrics like several apps. To view all your environments, 
    similar to the image below, switch the view at the top to **Active Environments**.
@@ -94,8 +92,7 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
 2. Select Environments, then choose Power platform COE environment.
 
-3. Right-click on the Environment URL and select Copy Link Address.
-
+3. Right-click on the Environment URL and select Copy Link Address and paste it on notepad for future reference.
 
 #### Configure the Production and Governance Power BI dashboard
 
@@ -159,15 +156,17 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
     ![](images/M02/pt11.png)
 
-1. Navigate to Downloads folder in File Explorer> COE Starter Kit > Select Production_CoEDashboard_MMMYY.pbit **(1)**, and then **Open (2)**. Wait for sometime you will notice popup appears for org URL
+1. Path for Report : *C:\Users\demouser\Downloads\CoEStarterKit*. Navigate to Downloads folder in File Explorer> CoEStarterKit > Select Production_CoEDashboard_MMMYY.pbit **(1)**, and then **Open (2)**. Wait for sometime you will notice popup appears for org URL
 
-    ![](images/M02/pt11A.png)
+    ![](images/M02/pt11B.png)
 
-1. Enter the URL of your environment instance. Include the https:// prefix for OrgUrl.
+1. Wait for report to load. Enter the URL of your environment instance. Include the https:// prefix for OrgUrl. Then Click **Load**.
 
-**Note:** Paste the Environment URL you copied earlier.
+    ![](images/M02/pt11C.png)
 
-1. The report should load automatically once the refresh has been completed.
+**Note:**  Paste the Environment URL you copied earlier. If the report loads before you provide the Environment URL, click **Transform Data**, then select **Edit Parameters** to paste your **Environment URL** and tenant type is commercial.
+
+1.Sign In with environment credentials. The report should load automatically once the refresh has been completed.
 
 1. Follow the steps below to enable **map and filled map visuals**:
 
@@ -201,9 +200,9 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
     ![](images/M02/M2-EX3-T2-S26.png)
 
-1. On the Environments page, use the date range picker and see how it affects the other data on the page. When you are done leave it set at the max date range.
+1. Select any environment visual to view the filtered datain the report
 
-    ![](images/M02/M2-EX3-T2-S27.png)
+    ![](images/M02/M2-EX3-T2-S27-1.png)
 
 1. Select the **Apps** tab from the navigation at the bottom of the screen.
 
@@ -211,7 +210,7 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
 1. On the Apps page notice the Creation Trend, this is an effective way to watch adoption progress.
 
-    ![](images/M02/M2-EX3-T2-S29.png)
+    ![](images/M02/M2-EX3-T2-S29-1.png)
 
 1. Select the other pages via the tabs at the bottom and review the data available.
 
@@ -235,10 +234,9 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
 1. Select the **CoE Starter** with the type of **Report** from the list. You’ll notice a few other items have been generated; these are done by default.
 
-     ![](images/M02/pt15.png)
+     ![](images/M02/pt15-1.png)
 
-1. Once the report loads, select the Environments page. Use the date slider to ensure the date range includes the last month.
-
+1. Once the report loads, select the Environments page.use any filters to visualize data.
      ![](images/M02/M2-EX3-T2-S37.png)
 
 1. You have now successfully deployed the Power BI reports that come with the CoE starter kit.
