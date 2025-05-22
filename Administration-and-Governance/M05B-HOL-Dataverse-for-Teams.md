@@ -54,8 +54,7 @@ Now in this exercise, you will explore the following key components:
 
    ![](images/M02/M2-EX3-T1-S7A.png)
 
-8. Select **Environments** in the left navigation. This will show you a list of all the environments in your tenant and key metrics like several apps. To view all your environments, 
-   similar to the image below, switch the view at the top to **Active Environments**.
+8. Select **Environments** in the left navigation. This will show you a list of all the environments in your tenant and key metrics like several apps. To view all your environments, similar to the image below, switch the view at the top to **Active Environments**.
 
    ![](images/M02/M2-EX3-T1-S8-1.png)
 
