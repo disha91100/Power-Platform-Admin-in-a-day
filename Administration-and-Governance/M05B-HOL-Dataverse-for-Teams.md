@@ -240,13 +240,13 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 1. You have now successfully deployed the Power BI reports that come with the CoE starter kit.
 
 
-## Exercise 2: How much is a connector used in your
+## Exercise 2: How much is a connector used in your Apps
 
 ### Scenario
 
-Using the Power BI report, you can easily see what apps and flows are using a connector. In this exercise, you will find out who is using the SharePoint connector.
+Using the Power BI report, you can easily see what apps and flows are using a connector. In this exercise, you will find out who is using the Office 365 outlook connector.
 
-### Task 1: Locate resources that use the SharePoint connector
+### Task 1: Locate resources that use the Office 365 Outlook connector
 
 1. Navigate to the **Power BI report** you just published.
 
