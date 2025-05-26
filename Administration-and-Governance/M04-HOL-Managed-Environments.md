@@ -240,7 +240,7 @@ Usage insights provide insights about your managed environments via a weekly dig
 most impactful makers, and inactive resources which can be cleaned up safely. For this to operate, tenant-level analytics must be enabled, which was enabled in a previous tenant for this 
 module.
 
-**Note:** You will not receive a weekly digest in this course, as the digest is delivered at the end of the business week. The images below are examples of the digest.
+>**Note:** You will not receive a weekly digest in this course, as the digest is delivered at the end of the business week. The images below are examples of the digest.
 
 ### Feature 4: Maker Welcome
 
@@ -402,7 +402,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
     ![](images/M04/p4p36.png)
 
-     >**Note**: Wait until the Installation is complete, it may take around 20 - 25 mins. Then only you can see the App in Next task.
+   >**Note**: Wait until the Installation is complete, it may take around 20 - 25 mins. Then only you can see the App in Next task.
 
 1. Do not navigate away from this page.
 

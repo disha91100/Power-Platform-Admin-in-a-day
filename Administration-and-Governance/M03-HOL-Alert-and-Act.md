@@ -90,9 +90,7 @@ collect additional information allowing it to be tailored to your individual org
 
 In this exercise, you will be building the automated flow to process new form submissions.
 
-**Note**: For this exercise, we have hard-coded the language, currency and environment template. The Power Platform Administration connector has actions allowing you to 
-dynamically retrieve these and make the process more flexible. You could allow the user to specify the values, or infer them from the user’s Office 365 profile information using 
-the Office 365 connector.
+> **Note**: For this exercise, we have hard-coded the language, currency and environment template. The Power Platform Administration connector has actions allowing you to dynamically retrieve these and make the process more flexible. You could allow the user to specify the values, or infer them from the user’s Office 365 profile information using the Office 365 connector.
 
 ### Task 1: Delete your sandbox environment
 
@@ -118,7 +116,7 @@ the Office 365 connector.
 
 1. Set your environment to **Power Platform CoE**.
 
-   **Note**: This environment is where our CoE starter kit is installed and is intended to be our dedicated admin environment. Even if you don’t use the starter kit, having a dedicated 
+   >**Note**: This environment is where our CoE starter kit is installed and is intended to be our dedicated admin environment. Even if you don’t use the starter kit, having a dedicated 
    admin environment can be helpful.
 
    ![](images/M03/M3-EX2-T2-S2.png)
@@ -235,7 +233,7 @@ the Office 365 connector.
 
     ![](images/M03/pp82.png)
 
-     >**Note:** Location determines the region for the environment, in a real process you might allow this to be auto-determined by the user location or something the requester provides.
+    >**Note:** Location determines the region for the environment, in a real process you might allow this to be auto-determined by the user location or something the requester provides.
 
 1. Select **Environment Name** from the Dynamic content pane.
 
@@ -379,9 +377,7 @@ the Office 365 connector.
 
      ![](images/M03/pp107.png)   
    
-      >**Note**: For this course, we 
-   will be using this environment we created here later in another lab to deploy the Device Ordering solution using Azure Dev Ops, for that lab it will serve as the Test environment which 
-   is why we are suggesting naming it Central Apps Test. In real word use, most likely it would be a team/project development environment that would be requested using a form like this.
+    >**Note**: For this course, we will be using this environment we created here later in another lab to deploy the Device Ordering solution using Azure Dev Ops, for that lab it will serve as the Test environment which is why we are suggesting naming it Central Apps Test. In real word use, most likely it would be a team/project development environment that would be requested using a form like this.
 
 1. Navigate back to the **Power Automate** portal, Go to **My flows (1)** list and open the flow you created **(2)**.
 
@@ -480,7 +476,8 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 1. Navigate to **Power Automate**.
 
-2. Make sure **Power Platform COE** environment is selected. Note: While we are using this here, in your tenant you might do this in an admin-focused environment or where you have 
+2. Make sure **Power Platform COE** environment is selected. 
+    > **Note:** While we are using this here, in your tenant you might do this in an admin-focused environment or where you have 
    installed the CoE Starter Kit.
 
    ![](images/M03/M3-EX4-T2-S2.png)
