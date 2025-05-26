@@ -48,7 +48,7 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
    ![](images/M02/pp122.png)
 
-**Note**: The below tasks 1,2 and 3 has been made as read only because the service can take 24 to 36 hours to reflect service activities from the previous day. Please go through the provided link for more details [Tenant-level analytics for Power Apps](https://learn.microsoft.com/en-us/power-platform/admin/tenant-level-analytics?tabs=new#how-do-i-enable-tenant-level-analytics)   
+    > **Note**: The below tasks 1,2 and 3 has been made as read only because the service can take 24 to 36 hours to reflect service activities from the previous day. Please go through the provided link for more details [Tenant-level analytics for Power Apps](https://learn.microsoft.com/en-us/power-platform/admin/tenant-level-analytics?tabs=new#how-do-i-enable-tenant-level-analytics)   
 
 ### Task 1: Explore the Power Automate analytics (Read only)
 
@@ -316,7 +316,7 @@ Now in this exercise, you will explore the following key components:
 ### Installation of Creator Kit
 1. Go to the [Creator Kit page on AppSource](https://appsource.microsoft.com/en-US/product/dynamics-365/microsoftpowercatarch.creatorkit1?tab=Overview) page.
 
-**Note:** Sign in to an account with ODL Credentials
+    > **Note:** Sign in to an account with ODL Credentials
 
 2. Select the button **Get it now**.
 
@@ -327,7 +327,8 @@ Now in this exercise, you will explore the following key components:
 4. Choose the **Power Platform COE** Environment, review and agree to the two agreement checkboxes, then select the Install button to continue.
     ![](images/M02/M2-EX3N-T1-S2.png)
 
-Note: Installation may take some time; meanwhile, you can continue with the next steps.
+
+    >**Note**: Installation may take some time; meanwhile, you can continue with the next steps.
 
 ### Create Connections
 1. Go to [Power Automate](https://make.powerautomate.com/) in new tab.
@@ -347,7 +348,7 @@ Note: Installation may take some time; meanwhile, you can continue with the next
 
     ![](images/M02/M2-EX3N-T1-S6.png)
 
-**Note:** Sign in with your ODL credentials.
+    > **Note:** Sign in with your ODL credentials.
 
 ### Import the core components solution
 1. Download the CoE Starter Kit [compressed file](https://aka.ms/CoeStarterKitDownload) to your Virtual Machine.
@@ -364,7 +365,7 @@ Note: Installation may take some time; meanwhile, you can continue with the next
 
     ![](images/M02/M2-EX3N-T1-S7.png)
 
-**Note:** The CoE Starter Kit compressed file contains all solution components in addition to the non–solution-aware components that make up the CoE Starter Kit. 
+    > **Note:** The CoE Starter Kit compressed file contains all solution components in addition to the non–solution-aware components that make up the CoE Starter Kit. 
 
 7. Go to [Power Apps](https://make.powerapps.com/) and sign in.
 
@@ -382,7 +383,23 @@ Note: Installation may take some time; meanwhile, you can continue with the next
 
 12. Review the details, click next.. next, Leave all environment variable values blank/as it is,  then click Import.
 
-**NOTE:** Wait for the import to complete — you'll see a confirmation once it's done. The import can take up to 20-30 minutes to be complete, and upgrades can take up to two hours.
+    > **Note:** This may take **20–30 minutes**. During the import, you may see a **warning notification** at the top of the screen (e.g., *"Flow imported with warnings"*). This is expected and does not necessarily indicate a failure.
+
+
+### Install COE Governance Solution.
+1. Go to the **Solutions** tab.
+
+2. Click on **Import** Solution.
+
+3. Browse to your **Downloads** folder and locate the **CoEStarteKit** directory.
+
+4. Open the folder and select the following file:
+**CenterofExcellenceAuditComponents_3_27_1_managed.zip**
+(Full path: C:\Users\demouser\Downloads\CoEStarterKit\CenterofExcellenceAuditComponents_3_27_1_managed.zip
+
+5. Click **Next**, review the connections, click **Next** again, and proceed with the **import** process.
+
+> **Note**: Wait for the import process to complete. Once the import is complete, you can verify the installation by checking the **Center of Excellence – Core Components** and **Center of Excellence - Governance Components** under the **Solutions** section.
 
 ### Task 2: Set up the Inventory components using the Setup Wizard
 
@@ -398,7 +415,7 @@ Note: Installation may take some time; meanwhile, you can continue with the next
 
     ![](images/M02/M2-EX3N-T1-S10B.png)
 
-4. Click **Environment Varibles** from left navigation pannel and then click **admin_AdminMail**, then click **edit**.
+4. Click **Environment Varibles** under CoE configuration from left navigation pannel and then click **admin_AdminMail**, then click **edit**.
 
     ![](images/M02/M2-EX3N-T1-S10C.png)
 
@@ -414,7 +431,7 @@ Note: Installation may take some time; meanwhile, you can continue with the next
 
     ![](images/M02/M2-EX3N-T1-S12.png)
 
-4. Confirm pre-requisites: Click Next.
+4. Confirm pre-requisites: Click **Next**.
 
     ![](images/M02/M2-EX3N-T1-S13.png)
 
@@ -423,15 +440,15 @@ for persona.
 
     ![](images/M02/M2-EX3N-T1-S14.png)
 
-6. You will be navigate to azure portal select **Microsoft 365** (1) for group type. Give group name as **COE Admin Group** (2). Click **No Owners Selected** (3). 
+6. You will be navigate to azure portal. Select **Microsoft 365** (1) for group type. Give group name as **COE Admin Group** (2). Click **No Owners Selected** (3). 
 
     ![](images/M02/M2-EX3N-T1-S14A.png)
 
-6. Search for and select the environment email ID. Similarly, you can select multiple members to assign to the Admin persona.  Once you've made your selections, click Create to proceed.
+6. Search for and select the **environment email ID**. Similarly, you can select multiple members to assign to the Admin persona.  Once you've made your selections, click Create to proceed.
 
     ![](images/M02/M2-EX3N-T1-S14B.png)
 
-8. Navigate back to the CoE Setup and Upgrade Wizard tab. Refresh the page, then proceed to configure the Admin persona by selecting the newly created group.
+8. Navigate back to the **CoE Setup and Upgrade Wizard** tab. Refresh the page, then proceed to configure the Admin persona by selecting the newly created group.
 
     ![](images/M02/M2-EX3N-T1-S14C.png)
 
@@ -439,17 +456,38 @@ for persona.
 
 9. Configure mandatory settings: Review tenant id from Service principal details in the environment section of lab guide and select **Next**
 
-8. Configure inventory data source : Click Next.
+8. Configure inventory data source : Click **Next**.
 
 9. Run setup flows: Click **Refresh**, wait about 5 minutes for the process to complete, then refresh again. Once done, click **Next**.
 
-10. Run Inventory flows: Click toggle button for all the flows available on the page. Click Next.
+10. Run Inventory flows: Click toggle button for all the flows available on the page until all the flows are removed from the page. Click **Next**.
 
-11. Configure dataflows: Click Next.
+    >**Note**: Proceed Next if no flows on the page
 
-12. Share apps: Click Next.
+11. Configure dataflows: Click **Next**.
 
-13. Publish PowerBI dashboard: Click Next and then Done
+12. Share apps: Click **Next**.
+
+13. Publish PowerBI dashboard: Click **Next** and then **Done**
+ 
+14. Navigate to the **More features** page and select **Compliance process**.
+
+    ![](images/M02/M2-EX3N-T1-S15.png)
+
+    > **Note:** The app will guide you through the setup process.
+
+15. Click **Refresh**. If a pop-up appears regarding flow configuration, proceed as prompted.
+
+16. On the **Get Started** screen, click **Next**.
+
+17. On the **Exempt environments from this process** screen, click **Next**.  
+    ![](images/M02/M2-EX3N-T1-S16.png)
+
+18. On the **Configure settings** screen, click **Next**.
+
+19. On the **Turn on flows** screen, toggle **On** for all listed flows, then click **Next**.
+
+20. On the **Share Apps** screen, click **Done**.
 
 ### Review
 

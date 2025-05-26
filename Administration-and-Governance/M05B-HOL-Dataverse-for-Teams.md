@@ -5,6 +5,9 @@
 ### Estimated Duration: 75 minutes
 
 ## Lab Scenario
+In this lab, you will explore the Center of Excellence (CoE) Starter Kit—a powerful toolkit that helps you manage, govern, and nurture Power Platform adoption within your organization. You’ll learn how to leverage insights from the CoE dashboard, track connector usage, review audit logs, and apply compliance processes to applications.
+
+By the end of this lab, you will gain practical experience in using the CoE Starter Kit to support effective governance and make informed decisions regarding app usage and security.
 
 ## Lab Objectives
 
@@ -164,9 +167,9 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
     ![](images/M02/pt11C.png)
 
-**Note:**  Paste the Environment URL you copied earlier. If the report loads before you provide the Environment URL, click **Transform Data**, then select **Edit Parameters** to paste your **Environment URL** and tenant type is commercial.
+    > **Note:**  Paste the Environment URL you copied earlier. If the report loads before you provide the Environment URL, click **Transform Data**, then select **Edit Parameters** to paste your **Environment URL** and tenant type is commercial.
 
-1.Sign In with environment credentials. The report should load automatically once the refresh has been completed.
+1. Sign In with environment credentials. The report should load automatically once the refresh has been completed.
 
 1. Follow the steps below to enable **map and filled map visuals**:
 
@@ -252,7 +255,7 @@ Using the Power BI report, you can easily see what apps and flows are using a co
 
 1. Navigate to the **Power BI report** you just published.
 
-2. Select the **App Connections deep dive** page in the report.
+2. Select the **App Connector deep dive** page in the report.
 
 3. You can click on **Office 365 outlook** connector in visual to view the filtered data. 
 
@@ -336,7 +339,7 @@ In this exercise, you will be using the log search and alert tools to work with 
 1. Try selecting an item to view detail. Copy the Item field and then go back to the list and select the filter results. Paste the item info you just copied into the file. The results list will now only show activities related to that item. For example, you could use this to show all activities for a specific flow.
 
 
-**Note:** Any information from before auditing was enabled, cannot be retrieved. This can be seen by selecting a date range from before the auditing was enabled.
+    > **Note:** Any information from before auditing was enabled, cannot be retrieved. This can be seen by selecting a date range from before the auditing was enabled.
 
 ## Exercise 4: Application Compliance Process
 
@@ -434,6 +437,8 @@ In this task, you will be performing the role of the developer and completing th
 
      ![](images/M03/M3-EX3-T1-S15-1.png)
 
+    > **Note:** If the **Test App** is not available as an option, you may select any **Canvas** application to proceed with the remaining steps.
+
 1. Select the **Governance** tab and set the **Admin Risk Assessment State** to **Requested**.
 
      ![](images/M03/M3-EX3-T1-S16.png)
@@ -448,7 +453,8 @@ In this task, you will be performing the role of the developer and completing th
 
      ![](images/M03/M3-EX3-T1-S19.png)
 
-1. Select Apps from the **Objects** menu, then select **Developer Compliance Center**.
+1. Select Apps from the **Objects** menu, then select **play** from three dots next to 
+ **Developer Compliance Center**.
 
     ![](images/M03/M3-EX3-T1-S20.png)
 
