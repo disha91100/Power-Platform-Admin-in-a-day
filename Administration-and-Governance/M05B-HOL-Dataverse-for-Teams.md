@@ -5,6 +5,9 @@
 ### Estimated Duration: 75 minutes
 
 ## Lab Scenario
+In this lab, you will explore the Center of Excellence (CoE) Starter Kit—a powerful toolkit that helps you manage, govern, and nurture Power Platform adoption within your organization. You’ll learn how to leverage insights from the CoE dashboard, track connector usage, review audit logs, and apply compliance processes to applications.
+
+By the end of this lab, you will gain practical experience in using the CoE Starter Kit to support effective governance and make informed decisions regarding app usage and security.
 
 ## Lab Objectives
 
@@ -252,7 +255,7 @@ Using the Power BI report, you can easily see what apps and flows are using a co
 
 1. Navigate to the **Power BI report** you just published.
 
-2. Select the **App Connections deep dive** page in the report.
+2. Select the **App Connector deep dive** page in the report.
 
 3. You can click on **Office 365 outlook** connector in visual to view the filtered data. 
 

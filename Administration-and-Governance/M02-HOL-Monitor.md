@@ -383,7 +383,8 @@ Now in this exercise, you will explore the following key components:
 
 12. Review the details, click next.. next, Leave all environment variable values blank/as it is,  then click Import.
 
-    >**NOTE:** Wait for the import to complete — you'll see a confirmation once it's done. The import can take up to 20-30 minutes to be complete, and upgrades can take up to two hours.
+    > **Note:** This may take **20–30 minutes**. During the import, you may see a **warning notification** at the top of the screen (e.g., *"Flow imported with warnings"*). This is expected and does not necessarily indicate a failure.
+
 
 ### Install COE Governance Solution.
 1. Go to the **Solutions** tab.
@@ -398,6 +399,7 @@ Now in this exercise, you will explore the following key components:
 
 5. Click **Next**, review the connections, click **Next** again, and proceed with the **import** process.
 
+> **Note**: Wait for the import process to complete. Once the import is complete, you can verify the installation by checking the **Center of Excellence – Core Components** and **Center of Excellence - Governance Components** under the **Solutions** section.
 
 ### Task 2: Set up the Inventory components using the Setup Wizard
 
