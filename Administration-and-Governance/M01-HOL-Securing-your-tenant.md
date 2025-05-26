@@ -4,6 +4,7 @@
 
 # M01-HOL-Securing your Tenant
 
+### Estimated Duration: 60 minutes
 
 ## Lab Scenario
 

@@ -2,6 +2,8 @@
 
 # M05A-HOL-Power Apps in Teams
 
+### Estimated Duration: 45 minutes
+
 ## Lab Scenario
 
 In this hands-on lab, you will create a new team in Microsoft Teams and build a Power App within it. You will also learn how to configure team ownership and publish the app for collaboration within the team. In this hands-on lab, you will create a Power App in a team and see how to publish it to your team. You will also share with colleagues outside your team to see how broad distribution apps work.

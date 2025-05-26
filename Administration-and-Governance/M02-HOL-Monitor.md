@@ -2,6 +2,8 @@
 
 # M02-HOL-Reporting and Telemetry
 
+### Estimated Duration: 90 minutes
+
 ## Lab Scenario
 
 In this Hands-on Lab, you are an administrator helping adopt the Power Platform. An important part of keeping the Power Platform running successfully is monitoring the ongoing usage. In this hands-on lab, you will be using the platform tools and the COE Starter Kit to 
