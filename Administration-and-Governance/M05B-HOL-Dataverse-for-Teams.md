@@ -2,6 +2,8 @@
 
 # M06-Explore the CoE Starter Kit (Optional)
 
+### Estimated Duration: 75 minutes
+
 ## Lab Scenario
 
 ## Lab Objectives
