@@ -6,7 +6,7 @@
 
 ## Lab Scenario
 
-In this hands-on lab, you will create a new team in Microsoft Teams and build a Power App within it. You will also learn how to configure team ownership and publish the app for collaboration within the team. In this hands-on lab, you will create a Power App in a team and see how to publish it to your team. You will also share with colleagues outside your team to see how broad distribution apps work.
+In this hands-on lab, you will create a new team in Microsoft Teams and build a Power App within it. You will also learn how to configure team ownership and publish the app for collaboration within the team. 
 
 ## Lab Objectives
 
@@ -269,7 +269,7 @@ In this task, you will share the application and the table you created.
 In this lab, you have accomplished the following:
 
 - Exercise 1 - Teams setup
-- Exercise 2 - Create your first app 
+- Exercise 2 - Create your first app
 - Exercise 3 - Share your app
 
 ### You have successfully completed this lab.   

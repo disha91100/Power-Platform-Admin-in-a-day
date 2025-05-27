@@ -306,10 +306,6 @@ Now in this exercise, you will explore the following key components:
 
 - Import the Creator Kit and make connections
 - Set up the Inventory components using the Setup Wizard
-- Set up the CoE Admin Command Center app
-- Set up Audit Logs solution
-- Set up the Power BI dashboard
-- Share apps with other admins
 
 ### Task 1 :  Import the Creator Kit and make connections
 

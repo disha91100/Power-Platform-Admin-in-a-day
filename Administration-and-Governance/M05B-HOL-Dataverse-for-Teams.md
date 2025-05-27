@@ -21,8 +21,6 @@ In this lab, you will complete the following exercises:
 
 ## Exercise 1: Explore the CoE Starter Kit
 
-### Scenario
-
 In this exercise, you will explore some of the apps and analytics that are part of the Power Platform CoE Starter Kit. We have already installed and configured the starter kit for the 
 tenant you are using for this lab. As part of configuring, we imported the solution, shared the apps, configured the flows that synchronize data and published the Power BI report. If you 
 were doing this with your tenant, you would follow the instructions to complete these steps.
@@ -338,8 +336,7 @@ In this exercise, you will be using the log search and alert tools to work with 
 
 1. Try selecting an item to view detail. Copy the Item field and then go back to the list and select the filter results. Paste the item info you just copied into the file. The results list will now only show activities related to that item. For example, you could use this to show all activities for a specific flow.
 
-
-    > **Note:** Any information from before auditing was enabled, cannot be retrieved. This can be seen by selecting a date range from before the auditing was enabled.
+>**Note:** Any information from before auditing was enabled, cannot be retrieved. This can be seen by selecting a date range from before the auditing was enabled.
 
 ## Exercise 4: Application Compliance Process
 
