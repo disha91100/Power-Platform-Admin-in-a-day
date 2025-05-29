@@ -393,7 +393,7 @@ Now in this exercise, you will explore the following key components:
 **CenterofExcellenceAuditComponents_3_27_1_managed.zip**
 from **C:\Users\demouser\Downloads\CoEStarterKit\CenterofExcellenceAuditComponents_3_27_1_managed.zip** .
 
-5. Click **Next**, review the connections, click **Next** again, and proceed with the **import** process.
+5. Review the details, click **Next**, leave all environment variable values as default until you see the Import button, and finally click on **Import**.
 
     > **Note**: Wait for the import process to complete. Once the import is complete, you can verify the installation by checking the **Center of Excellence – Core Components** and **Center of Excellence - Governance Components** under the **Solutions** section.
 
