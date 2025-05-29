@@ -41,7 +41,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 ### Task 1: Review existing environments
 
-1. Navigate to **Power Platform admin center** by following the link https://aka.ms/ppac.
+1. Navigate to **Power Platform admin center** by following the link `https://aka.ms/ppac`.
 
 1. Close the Pop up screen.
 
@@ -49,7 +49,9 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
     ![](images/ppt-1.png)
 
-1. Select **Environments**.
+    >**Note:** If you recieve any feedback pop-up, close it.
+
+1. From the left navigation menu, select **Environments**.
 
     ![](images/pp-2.png)
 
@@ -61,23 +63,23 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 4. You can filter and order environments. Select on the **Type (1)** column, select filter by **Production (2)**, and Select **Apply (3)**.
 
-   ![](images/M01/M1-EX1-T1-S4.png)
+   ![](images/po-04.png)
 
 5. You should now see only the **Production** type environments.
 
-   ![](images/M01/M1-EX1-T1-S5.png)
+   ![](images/po-03.png)
 
 6. Select on the **Type (1)** column again and filter by **Default (2)** and **Production (3)**, and select **Apply (4)**.
 
-   ![](images/M01/M1-EX1-T1-S6.png)
+   ![](images/po-02.png)
 
 7. You should now see **Production** and **Default** environments.
 
 8. Select on the **Environments (1)** column, select **Sort order** by **Ascending (2)**, and select **Apply (3)**.
 
-   ![](images/M01/M1-EX1-T1-S8.png)
+   ![](images/po-01.png)
 
-9. The list of environments will show **Production** and _Default_ environments ordered by environment name in ascending order.
+9. The list of environments will show **Production** and .**Default** environments ordered by environment name in ascending order.
 
    ![](images/M01/ppt3.png)
 
@@ -94,9 +96,8 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
     ![](images/M01/pp4.png)  
 
-13. This is the environment in which all users are makers and can build their apps and flows. Think of this environment as supporting personal productivity use of the platform. This 
-    is also the default location used by any customizations built with Power Apps in Office apps. The default environment can’t be deleted, but you can rename it to make clear its 
-    purpose. For example, some name it _User__and Team Productivity_ like we have in this tenant.
+13. This is the environment in which all users are makers and can build their apps and flows. Think of this environment as supporting personal productivity use of the platform. This is also the default location used by any customizations built with Power Apps in Office apps. The default environment can’t be deleted, but you can rename it to make clear its 
+    purpose. For example, some name it **User and Team Productivity** like we have in this tenant.
 
 14. Select the default environment by Selecting the name in the list to drill down into the detail page.
 
@@ -108,17 +109,15 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
     ![](images/M01/ppt5.png)
 
-17. From here, you can review all of the security roles for your company and manage their access to the company’s data. By default, users have access to all security roles. The business 
-    unit currently listed is the same as the tenant and these are assigned to all users by default. Managed roles can be modified to create.
+17. From here, you can review all of the security roles for your company and manage their access to the company’s data. By default, users have access to all security roles. The business unit currently listed is the same as the tenant and these are assigned to all users by default. Managed roles can be modified to create.
 
     ![](images/M01/ppt6.png)    
 
-18. Use the search box in the top right and enter **Environment Maker (1)** to find the **Environment Maker (2)** security role, then select the lone result.
+18. Use the search box in the top right to enter **Environment Maker (1)**, then select the only result for **Environment Maker (2)** security role.
 
     ![](images/M01/ppt7.png)
  
-    >**Note:** Notice that the org is listed as the **Business Unit**; this means everyone in the organization will have this role by default. For environments other than the default, you control this. 
-    However, default is special and Tenant can’t be removed from the role.
+    >**Note:** Notice that the org is listed as the **Business Unit**; this means everyone in the organization will have this role by default. For environments other than the default, you control this. However, default is special and Tenant can’t be removed from the role.
 
 20. Go back to the Environment Details page, by clicking on the default environment name.
 
@@ -128,18 +127,16 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
     ![](images/M01/pp9.png)
 
-22. These are apps built by users in your default environment. Notice many of them are just test names because this is where a lot of users will experiment and build their first app. As 
-    you scroll down the list you might notice some names are more deliberate e.g., Product Showcase. Later in the course, we will talk about how to identify these upcoming apps so you 
-    can help guide them to ensure they mature and have adequate governance.
+22. These are apps built by users in your default environment. Notice many of them are just test names because this is where a lot of users will experiment and build their first app. As you scroll down the list you might notice some names are more deliberate e.g., Product Showcase. Later in the course, we will talk about how to identify these upcoming apps so you can help guide them to ensure they mature and have adequate governance.
 
     ![](images/M01/ppt9.png)
 
 
 ### Task 2: Review existing Data policies
 
-1. Expand **Policies** and select **Data policies** on the left navigation.
+1. From the left navigation menu, expand **Policies** and select **Data policies (1)**.
 
-    ![](images/M01/ppt10.png)
+    ![](images/ppt10-01.png)
 
 1. Review the list of existing policies.
 
@@ -151,24 +148,23 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
     - As a Global Admin, Admin, Power Platform Service Admin or D365 Service Admin in your tenant, you will see all policies that exist in your tenant, even those that you did not 
       create.
 
-1. Notice the Contoso Global DLP policy exists that is intended to span all environments (except selected ones) and represents the global DLP policy. For this lab environment Contoso 
-   Global DLP policy has 4 environments selected instead of All except 4.
+1. Notice that the **Contoso Global DLP** policy is intended to span all environments (except selected ones) and represents the Global DLP policy. In this lab environment, the **Contoso Global DLP** policy has 4 environments selected instead of "All except 4".
 
 1. You will also notice a DLP for **Thrive Exceptions**. That team had worked with the IT department to agree on exceptions they needed for their environments and their environment would be excluded from the Contoso Global DLP. This exception DLP policy would have their environments included and apply only to them.
 
-   ![](images/M01/M1-EX1-T2-S5.png)
+   ![](images/po-05.png)
 
 1. Select the **Contoso Global DLP (1)** and select **Edit Policy (2)**.
 
-   ![](images/M01/M1-EX1-T2-S6.png)
+   ![](images/po-06.png)
 
 1. Select **Prebuilt connectors (1)** and review the **Business (2)** connectors.
 
-    ![](images/M01/M1-EX1-T2-S7.png)
+    ![](images/po-07.png)
 
 1. Select **Scope** and **Environments** to see how it they are configured.
 
-   ![](images/M01/M1-EX1-T2-S8.png)
+   ![](images/po-08.png)
 
 1. Once finished, select **Cancel** button in the bottom right to head back to the Data Policies screen.
 
@@ -176,12 +172,11 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
 1. Select the **Thrive Exception DLP (1)** and select **Edit Policy (2)**.
 
-    ![](images/M01/M1-EX1-T2-S10.png)
+    ![](images/po-09.png)
 
-1. Select on the **Prebuilt connectors** and select the **Business** tab. Based on the use case for the Thrive application the connectors in the Business group have been established. 
-    You can also see how Scope and Environments are configured to only select the Thrive environments.
+1. Select on the **Prebuilt connectors** and select the **Business** tab. Based on the use case for the Thrive application the connectors in the Business group have been established. You can also see how Scope and Environments are configured to only select the Thrive environments.
 
-    ![](images/M01/M1-EX1-T2-S11.png)
+    ![](images/po-10.png)
 
 1. To exit this screen, select the **Cancel** button on the bottom right of the screen again.
 
@@ -290,19 +285,19 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 1. Navigate back to the **Power Platform admin center**.
 
-2. Select **Environments (1)** and select **+ New (2)**.
+1. From the left navigation menu, select **Environments (1)** and select **+ New (2)**.
 
    ![](images/M01/pp19.png)
 
-3. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** for Name, select Region as **United States - Default (2)**, select **Trial (3)** as Type, select **Yes (4)** for Add a Dataverse data store?, and select **Next (5)**.
+1. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** for Name, select Region as **United States - Default (2)**, select **Trial (3)** as Type, select **Yes (4)** for Add a Dataverse data store?, and select **Next (5)**.
 
-   ![](images/M01/ppt12.png)
+   ![](images/po-11.png)
 
-4. Leave the default values for **Language (1)** and **Currency (2)**. Under Security group select **+ Select (3)**.
+1. Leave the default values for **Language (1)** and **Currency (2)**. Under **Security group** section, select **+ Select (3)**.
 
     ![](images/M01/pp20.png)
 
-1. Then set your security group to **All Contoso users (1)** then select **Done (2)**.
+1. Then set your security group to **All Contoso users (1)** and then select **Done (2)**.
 
    ![](images/M01/pp21.png)
 
@@ -310,7 +305,9 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
    ![](images/M01/po7.png)
 
-5. Wait for the environment to be created. The state will change to **Ready** when the environment is ready.
+1. Wait for the environment to be created. The state will change to **Ready** when the environment is ready.
+
+    ![](images/po-12.png)
 
 
 ### Task 2: Create a flow to get the weather
@@ -321,13 +318,13 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 2. Select **Flows (1)** from the left, select **+ New flow (2)** and select **Scheduled cloud flow (3)**.
 
-   ![](images/M01/M1-EX4-T2-S2-1.png)
+   ![](images/po-13.png)
 
 3. Enter **Weather Flow (1)** for **Name**, select **Repeat every 1 Day (2)**, and select **Create (3)**.
 
     ![](images/M01/pp24.png)
 
-4. Select **+ New step**.
+4. On the **Weather Flow** page, select **+ New step**.
 
 5. Search for **MSN (1)** and select **Get current weather** MSN Weather **(2)**.
 
@@ -339,7 +336,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 7. Search for **Send an email (1)** and select **Send an email (V2) (2)**.
 
-   ![](images/M01/M1-EX4-T2-S7.png)
+   ![](images/po-14.png)
 
 8. Provide your email for **To:** **<inject key="AzureAdUserEmail"></inject> (1)** and enter **Current Weather (2)** for **Subject**.
 
@@ -369,11 +366,11 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 17. Select **Run flow**.
 
-    ![](images/M01/pp27.png)
+    ![](images/pp27-1.png)
 
 18. Select **Done** and wait for the flow run to complete. 
 
-19. Copy and paste the following link in browser https://outlook.office365.com/ to navigate to **Outlook** and You should get an email with the weather information.
+19. Open a new tab in the same browser. Copy and paste the following link in browser https://outlook.office365.com/ to navigate to **Outlook** and You should get an email with the weather information.
 
     ![](images/M01/ppt14.png)
 
@@ -387,7 +384,7 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
 1. Select **Data policies (1)** under **Policies** and Select **+ New Policy (2)**.
 
-   ![](images/M01/M1-EX4-T3-S2.png)
+   ![](images/po-15.png)
 
 1. Enter **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** for **Name** and select **Next (2)**.
 
@@ -400,11 +397,11 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
 1. Search for SharePoint, select **SharePoint (1)** and select **Move to Business (2)**.
 
-   ![](images/M01/M1-EX4-T3-S5-1.png)
+   ![](images/po-16.png)
 
-1. Search for Outlook, select **Office 365 Outlook (1)** and select **Move to Business (2)**.
+1. Search for **Outlook (1)**, select **Office 365 Outlook (2)** and select **Move to Business (3)**.
 
-   ![](images/M01/M1-EX4-T3-S6-1.png)
+   ![](images/po-17.png)
 
 1. Select the **Business** tab.
 
@@ -416,7 +413,7 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
 1. Select **Add multiple environments (1)** from the options, then select **Next (2)**.
 
-    ![](images/M01/M1-EX4-T3-S10.png)
+    ![](images/po-18.png)
 
 1. Choose the environment you created **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** and select **+ Add to Policy (2)**.
 
@@ -426,7 +423,7 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
 1. Review the policy, to make sure you have **(3) Business** connectors added, and only one **Environment** selected and select **Create policy**.
 
-    ![](images/M01/M1-EX4-T3-S13.png)
+    ![](images/po-19.png)
 
 1. From the **Power Apps** portal, click on **Power Platform (1)** and then select **Power Automate (2)**.
 
@@ -434,21 +431,21 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
 1. Make sure you are in **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** environment.  
 
-    ![](images/M01/ppt16.png)
+    ![](images/po-20.png)
 
-1. Select **My flows**.
+1. From the left navigation menu, select **My flows**.
 
-    ![](images/M01/M1-EX4-T3-S15.png)
+    ![](images/po-21.png)
 
 1. The flow should now be suspended because of the **DLP** you created. Select to open the flow. This can take up to 5 minutes, wait a few minutes and then select refresh.
 
-    ![](images/M01/M1-EX4-T3-S16.png)
+    ![](images/po-22.png)
 
      >**Note:** It might take some time to reflect. If your not able to see the status as **Suspended**. Navigate to **Weather Flow** flow in Power Apps and then click on **Save** again. Because sometimes Policy may not get reflected immediately. 
 
 1. You should not be able to run the flow. There will be a notice at the top showing that the DLP is active and restricting access, and the **Status** should be suspended. Feel free to close the webpage/tab once you’ve confirmed it has been suspended.
 
-    ![](images/M01/M1-EX4-T3-S17.png)
+    ![](images/po-23.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
@@ -474,9 +471,9 @@ ID Security group and assign the security role you just built.
 
 2. Select **Solutions (1)** and select **Import solution (2)**.
 
-   ![](images/M01/M1-EX5-T1-S2.png)
+   ![](images/po-24.png)
 
-3. Select **Browse**.
+3. On the **Import a solution**, and select **Browse**.
 
 4. Navigate to **C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M01 - HOL - Securing your tenant\Resources (1)** folder, select the **Fabrikam Project Management (2)** solution and select **Open (3)**.
 
@@ -484,17 +481,17 @@ ID Security group and assign the security role you just built.
 
 5. Select **Next**.
 
-   ![](images/M01/M1-EX5-T1-S5.png)
+   ![](images/po-25.png)
 
-6. Select **Import** and wait for the import to complete. You should get a notification when the import succeeds.
+6. Select **Import** and wait for the import to complete. You should get a **notification (1)** when the import succeeds.
 
-7. Select **Publish all customizations** and wait for the publishing to complete.
+7. Select **Publish all customizations (2)** and wait for the publishing to complete.
 
-   ![](images/M01/M1-EX5-T1-S7.png)
+   ![](images/po-26.png)
 
 8. Select to open the solution you just imported.
 
-   ![](images/M01/M1-EX5-T1-S8.png)
+   ![](images/po-27.png)
 
 9. The solution should have six components.
 
@@ -502,11 +499,11 @@ ID Security group and assign the security role you just built.
 
 10. Select to open the **Import Sample Data – Projects** flow. You are going to run this flow to insert some sample project data for the app to use.
 
-    ![](images/M01/M1-EX5-T1-S10.png)
+    ![](images/po-28.png)
 
 11. Select **Edit**.
 
-    ![](images/M01/M1-EX5-T1-S11.png)
+    ![](images/po-29.png)
 
 12. At this point, you may be asked to sign in to the flow, click on **Sign in**.
 
@@ -514,17 +511,17 @@ ID Security group and assign the security role you just built.
 
     - Select **Continue**.
 
-      ![](images/M01/M1-EX5-T1-S12.png)
+      ![](images/po-30.png)
 
 13. Select to expand the **Parse JSON** step.
 
-    ![](images/M01/M1-EX5-T1-S13.png)
+    ![](images/po-31.png)
 
 14. Examine the sample records the flow will create.
 
 15. Select **Save** and wait for the flow to be saved.
 
-    ![](images/M01/M1-EX5-T1-S15.png)
+    ![](images/po-32.png)
 
 16. Go back to the details view of the flow by selecting the back button.
 
@@ -534,27 +531,25 @@ ID Security group and assign the security role you just built.
 
 18. **Turn on** the flow if Status is off.
 
-    ![](images/M01/M1-EX5-T1-S18.png)
-
 19. Select **Run** to run the flow.
 
-    ![](images/M01/M1-EX5-T1-S19.png)
+    ![](images/po-33.png)
 
 20. Select **Run flow**.
 
-    ![](images/M01/M1-EX5-T1-S20.png)
+    ![](images/po-34.png)
 
 21. If prompted, select **Done** and wait for the run to complete.
 
 22. Select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** environment.
 
-    ![](images/M01/ppt21.png)
+    ![](images/po-35.png)
 
 23. Go back to the solution page, by selecting the **Back arrow** button.
 
     ![](images/M01/pp35.png)
 
-24. Select **Apps (1)** and select **Project Admin (2)** and click on **Play (3)** to run canvas application.
+24. Select **Apps (1)**, then **Project Admin (2)**, and click **Play (3)** to run the Canvas application.
 
     ![](images/M01/pp36.png)
 
@@ -579,15 +574,15 @@ ID Security group and assign the security role you just built.
 
 1. Select **Solutions (1)** and select to open the **Fabrikam Project Management (2)** solution.
 
-   ![](images/M01/M1-EX5-T2-S2.png)
+   ![](images/po-36.png)
 
 1. Select **+ New (1)** and select **Security (2)** > **Security role (3)**.
 
-    ![](images/M01/M1-EX5-T2-S3.png)
+    ![](images/po-37.png)
 
 1. Enter **Project Manager (1)** for **Role Name**, select the **Business unit (2)** from the drop down and select **Save (3)**.
 
-   ![](images/M01/pp40.png)
+   ![](images/po-38.png)
 
 1. Search for **Project (1)**, locate the **Project** table and click on the name of the entity. This action will give this role User rights to the Project entity **(2)**.
 
@@ -607,7 +602,7 @@ ID Security group and assign the security role you just built.
 
 1. Select **Publish all customizations** and wait for the publishing to be completed.
 
-    ![](images/M01/M1-EX5-T2-S12.png)
+    ![](images/po-40.png)
 
 1. Do not navigate away from this page.
 
@@ -621,17 +616,15 @@ ID Security group and assign the security role you just built.
 
    ![](images/M01/po19.png)
 
-1. Search for **lab back office (1)** and select it **(2)**.
+   >**Note:** Select the radio button of the project list.
 
-    ![](images/M01/pp47.png)
+1. On the **Share** pane, select the **ellipses (1)**, and select **Use classic sharing (2)**.
 
-1. Select **Manage access**.
+    ![](images/po-41.png)    
 
-   ![](images/M01/pp48.png)
+1. On the **Enter a name, email** box, search for **lab back office (1)** and select it. Under **Data permissions** section , from the drop-down, select the **Project Manager (2)**, and then select **Share (3)**
 
-1. Navigate to **Pending invites (1)** tab, Click on the **Data access (2)** drop down then select the **Project Manager (3)**. Make sure **User (4)** role is selected for **Apps** and then select **Share (5)**.
-
-   ![](images/M01/pp50.png)
+    ![](images/po-42.png)
 
 1. Close the share pane.
  

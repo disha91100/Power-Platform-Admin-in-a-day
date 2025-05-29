@@ -183,7 +183,7 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
 ### Task 1: Review audit logging in the environment
 
-1. Navigate to the **Power Apps maker portal**, click on Current Environment **(1)** and select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (2)** environment.
+1. Navigate to the **Power Apps** portal, click on Current Environment **(1)** and select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (2)** environment.
 
    ![](images/pp-1.png)
 
@@ -199,18 +199,18 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
    ![](images/M02/M2-EX2-T1-S5.png)
 
-1. Expand the **Advanced Options** section. Check and ensure that **Enable Auditing** is enabled for this column. A notice will be underneath the option, informing you that auditing is not enabled 
+1. Expand the **Advanced Options** section. Check and ensure that **Enable Auditing (1)** is enabled for this column. A notice will be underneath the option, informing you that auditing is not enabled 
    for the organization. We will fix this in a later step.
 
-1. Select **Cancel** to close the field details pane.
+1. Select **Cancel (2)** to close the field details pane.
 
-   ![](images/M02/M2-EX2-T1-S7.png)
+   ![](images/po-43.png)
 
-1. Navigate back to the Tables by either selecting the **Tables** on the left side, or by using the breadcrumbs at the top.
+1. Navigate back to the Tables by either selecting the **Tables** using the breadcrumbs at the top.
 
-   ![](images/M02/M2-EX2-T1-S8.png)
+   ![](images/po-44.png)
 
-1. Select the **Project (1)** table, and then select **Properties (2)** from the ribbon up top.
+1. Select the **Project (1)** table radio-button, and then select **Properties (2)** from the ribbon up top.
 
    ![](images/M02/pp131.png)
 
@@ -230,13 +230,13 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
 1. Select **Publish all customizations** and wait for the publishing to be completed. A green banner will appear to let you know when it is complete.
 
-    ![](images/M02/M2-EX2-T1-S14.png)
+    ![](images/po-45.png)
 
-    ![](images/M02/M2-EX2-T1-S14-1.png)
+    ![](images/po-46.png)
 
 1. Navigate to **Power Platform admin center** and select **Environments**.
 
-    ![](images/M02/M2-EX2-T1-S15.png)
+    ![](images/po-47.png)
 
 1. Select the **My Sandbox-<inject key="Deployment ID" enableCopy="false" /> (1)** environment and select **Settings (2)** from the ribbon at the top.
 
@@ -244,7 +244,7 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
 1. Expand **Audit and logs** section and select **Audit settings**.
 
-    ![](images/M02/M2-EX2-T1-S17.png)
+    ![](images/po-48.png)
 
 1. Check on **Start auditing (1)** checkbox, select **Save (2)** and select **Cancel** to close.
 
@@ -254,9 +254,9 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
 1. Navigate to the **Power Apps** maker portal and make sure your in **My Sandbox-<inject key="Deployment ID" enableCopy="false" />** environment.
 
-1. Select **Apps** and select the **Project Admin** application to launch.
+1. Select **Apps (1)** and select the **Project Admin (2)** application to launch.
 
-   ![](images/M02/M2-EX2-T2-S2.png)
+   ![](images/po-49.png)
 
 1. If you can see the **Annual Conference** project select it to open it and skip to step 5, if you do not see it, continue with the steps below.
 
@@ -268,15 +268,11 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
    - For the **Title**, enter **Annual Conference**. Choose the **Due date** as today’s date.
 
-     ![](images/M02/M2-EX2-T2-S5.png)
-
    - Then, select **Save & Close**.
 
      ![](images/M02/M2-EX2-T2-S6.png)
 
 1. From this screen, reopen the **Annual Conference** project.
-
-   ![](images/M02/M2-EX2-T2-S7.png)
 
 1. Change the **Due Date** to any date in the future **(1)** and select **Save (2)**.
 
@@ -284,9 +280,9 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
 1. Change the **Due Date** and save a couple more times.
 
-1. Select **Related** and select **Audit History**.
+1. Select **Related (1)** and select **Audit History (2)**.
 
-    ![](images/M02/M2-EX2-T2-S10.png)
+    ![](images/po-50.png)
 
 1. You should see the change history for each of your changes. Select **Update/Create** to open one of the change history records.
 
@@ -312,7 +308,7 @@ Now in this exercise, you will explore the following key components:
 ### Installation of Creator Kit
 1. Go to the [Creator Kit page on AppSource](https://appsource.microsoft.com/en-US/product/dynamics-365/microsoftpowercatarch.creatorkit1?tab=Overview) page.
 
-    > **Note:** Sign in to an account with ODL Credentials
+    > **Note:** If required sign in to an account with ODL Credentials
 
 2. Select the button **Get it now**.
 
@@ -321,6 +317,7 @@ Now in this exercise, you will explore the following key components:
 3. The App Source install experience will launch the Power Platform admin center and ask you to identify the target Environment. Close the popups and continue.
 
 4. Choose the **Power Platform COE** Environment, review and agree to the two agreement checkboxes, then select the Install button to continue.
+
     ![](images/M02/M2-EX3N-T1-S2.png)
 
 
@@ -328,6 +325,7 @@ Now in this exercise, you will explore the following key components:
 
 ### Create Connections
 1. Go to [Power Automate](https://make.powerautomate.com/) in new tab.
+
 2. Select your Power Platform COE environment.
 
     ![](images/M02/M2-EX3N-T1-S3.png)
@@ -336,66 +334,68 @@ Now in this exercise, you will explore the following key components:
 
     ![](images/M02/M2-EX3N-T1-S4.png)
 
-4. Select **+New Connection** and search for **HTTP with Microsoft Entra ID**.
+4. Select **+ New Connection** and search for **HTTP with Microsoft Entra ID**.
 
     ![](images/M02/M2-EX3N-T1-S5.png)
 
-5. Click on **HTTP with Microsoft Entra ID (preauthorized)**, and set **Base Resource URL (1)** and **Microsoft Entra ID Resource URI (Application ID URI) (2)** to https://graph.microsoft.com/. Click **createb (3)**.
+5. Click on **HTTP with Microsoft Entra ID (preauthorized)**, and set **Base Resource URL (1)** and **Microsoft Entra ID Resource URI (Application ID URI) (2)** to https://graph.microsoft.com/. Click **create (3)**.
 
     ![](images/M02/M2-EX3N-T1-S6.png)
 
-    > **Note:** Sign in with your ODL credentials.
+    > **Note:** On the **Pick an account** pop-up, select <inject key="AzureAdUserEmail"></inject>.
 
 ### Import the core components solution
-1. Download the CoE Starter Kit [compressed file](https://aka.ms/CoeStarterKitDownload) to your Virtual Machine.
+1. Open a new tab in the browser, copy and paste the link, and download the **[CoE Starter Kit](https://aka.ms/CoeStarterKitDownload)** to your virtual machine.
 
-2. Open File Explorer on your computer.
 
-3. Navigate to the Downloads folder.
+2. Open **File Explorer** on your computer inside the Lab-VM.
 
-4. Locate the downloaded CoEStarterKit.zip file.
+3. Navigate to the **Downloads** folder.
 
-5. Right-click on the ZIP file and select "Extract All...".
+4. Locate the downloaded **CoEStarterKit.zip** file.
 
-6. In the dialog box that appears, click the "Extract" button to unzip the contents.
+5. Right-click on the ZIP file and select **Extract All...**.
+
+6. In the dialog box that appears, click the "**Extract**" button to unzip the contents.
 
     ![](images/M02/M2-EX3N-T1-S7.png)
 
     > **Note:** The CoE Starter Kit compressed file contains all solution components in addition to the non–solution-aware components that make up the CoE Starter Kit. 
 
-7. Go to [Power Apps](https://make.powerapps.com/) and sign in.
+7. Navigate back to the [Power Apps](https://make.powerapps.com/) portal.
 
-8. Choose the **Power Platform COE** Environment.
+8. Choose the **Power Platform COE (1)** Environment.
 
-9. In the left menu, click **Solutions**.
+9. In the left menu, click **Solutions (2)**.
 
-    ![](images/M02/M2-EX3N-T1-S8.png)
+    ![](images/po-51.png)
 
 10. Click the **Import Solution** button at the top.
 
-11. Click Browse, select the **CenterOfExcellenceCoreComponents_x_x_x_xx_managed.zip** solution file from the extracted folder, and click Next.
+11. Click **Browse (1)**, select the file from **C:\Users\demouser\Downloads\CoEStarterKit\CenterOfExcellenceCoreComponents_4_49_2_managed.zip (2)** solution file from the extracted folder, and click **Next**.
 
     ![](images/M02/M2-EX3N-T1-S9.png)
 
-12. Review the details, click next.. next, Leave all environment variable values blank/as it is,  then click Import.
+12. Review the details, click **Next**, leave all environment variable values as default until you see the Import button, and finally click on **Import**.
 
-    > **Note:** This may take **20–30 minutes**. During the import, you may see a **warning notification** at the top of the screen (e.g., *"Flow imported with warnings"*). This is expected and does not necessarily indicate a failure.
+    > **Note:** Please wait until this is complete before moving on to new tasks. This may take **20–30 minutes**. During the import, you may see a **warning notification** at the top of the screen (e.g., "Flow imported with warnings"). This is expected and does not necessarily indicate a failure.
 
 
 ### Install COE Governance Solution.
+
 1. Go to the **Solutions** tab.
 
-2. Click on **Import** Solution.
+2. Click on **Import solution** from the top-menu.
 
 3. Browse to your **Downloads** folder and locate the **CoEStarteKit** directory.
 
 4. Open the folder and select the following file:
 **CenterofExcellenceAuditComponents_3_27_1_managed.zip**
-(Full path: C:\Users\demouser\Downloads\CoEStarterKit\CenterofExcellenceAuditComponents_3_27_1_managed.zip
+from **C:\Users\demouser\Downloads\CoEStarterKit\CenterofExcellenceAuditComponents_3_27_1_managed.zip** .
 
 5. Click **Next**, review the connections, click **Next** again, and proceed with the **import** process.
 
-> **Note**: Wait for the import process to complete. Once the import is complete, you can verify the installation by checking the **Center of Excellence – Core Components** and **Center of Excellence - Governance Components** under the **Solutions** section.
+    > **Note**: Wait for the import process to complete. Once the import is complete, you can verify the installation by checking the **Center of Excellence – Core Components** and **Center of Excellence - Governance Components** under the **Solutions** section.
 
 ### Task 2: Set up the Inventory components using the Setup Wizard
 

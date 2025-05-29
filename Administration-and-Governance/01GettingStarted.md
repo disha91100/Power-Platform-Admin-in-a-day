@@ -91,7 +91,7 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
   
       ![](images/M01/password.png)
 
-1. Select **Get Started**.
+1. When prompted, select **Get Started**.
 
     ![](images/gp5.png)
 
