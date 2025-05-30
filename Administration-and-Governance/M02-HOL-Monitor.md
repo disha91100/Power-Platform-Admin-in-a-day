@@ -316,7 +316,7 @@ Now in this exercise, you will explore the following key components:
 
 3. The App Source install experience will launch the Power Platform admin center and ask you to identify the target Environment. Close the popups and continue.
 
-4. Choose the **Power Platform COE** Environment, review and agree to the two agreement checkboxes, then select the Install button to continue.
+4. Choose the **Power Platform COE (1)** Environment, review and agree to the two agreement checkboxes **(2)(3)**, then select the **Install (4)** button to continue.
 
     ![](images/M02/M2-EX3N-T1-S2.png)
 
@@ -326,19 +326,19 @@ Now in this exercise, you will explore the following key components:
 ### Create Connections
 1. Go to [Power Automate](https://make.powerautomate.com/) in new tab.
 
-2. Select your Power Platform COE environment.
+2. Select your **Power Platform COE** environment.
 
     ![](images/M02/M2-EX3N-T1-S3.png)
 
-3. Select **More** from left navigaation > **Connections** 
+3. Select **More (1)** from left navigation > **Connections (2)** 
 
     ![](images/M02/M2-EX3N-T1-S4.png)
 
-4. Select **+ New Connection** and search for **HTTP with Microsoft Entra ID**.
+4. Select **+ New Connection** and search for **HTTP with Microsoft Entra ID (1)** and then click on **HTTP with Microsoft Entra ID (preauthorized) (2)**
 
     ![](images/M02/M2-EX3N-T1-S5.png)
 
-5. Click on **HTTP with Microsoft Entra ID (preauthorized)**, and set **Base Resource URL (1)** and **Microsoft Entra ID Resource URI (Application ID URI) (2)** to https://graph.microsoft.com/. Click **create (3)**.
+5. Set **Base Resource URL (1)** and **Microsoft Entra ID Resource URI (Application ID URI) (2)** to https://graph.microsoft.com/. Click **Create (3)**.
 
     ![](images/M02/M2-EX3N-T1-S6.png)
 
@@ -362,128 +362,153 @@ Now in this exercise, you will explore the following key components:
 
     > **Note:** The CoE Starter Kit compressed file contains all solution components in addition to the non–solution-aware components that make up the CoE Starter Kit. 
 
-7. Navigate back to the [Power Apps](https://make.powerapps.com/) portal.
+7. Before proceeding to the next step, navigate back to the **Power Platform Admin Center**, **Refresh (1)** the portal and make sure that **CoE Kit** is installed.
 
-8. Choose the **Power Platform COE (1)** Environment.
+    ![](images/M02/ppm1.png)
 
-9. In the left menu, click **Solutions (2)**.
+8. Navigate back to the [Power Apps](https://make.powerapps.com/) portal.
+
+9. Choose the **Power Platform COE (1)** Environment.
+
+10. In the left menu, click **Solutions (2)**.
 
     ![](images/po-51.png)
 
-10. Click the **Import Solution** button at the top.
+11. Click the **Import Solution** button at the top.
 
-11. Click **Browse (1)**, select the file from **C:\Users\demouser\Downloads\CoEStarterKit\CenterOfExcellenceCoreComponents_4_49_2_managed.zip (2)** solution file from the extracted folder, and click **Next**.
+12. Click **Browse (1)**, navigate to  **C:\Users\demouser\Downloads\CoEStarterKit** then select **CenterOfExcellenceCoreComponents_4_49_2_managed.zip (2)** solution file from the extracted folder then click on **Open (3)** and click **Next**.
 
     ![](images/M02/M2-EX3N-T1-S9.png)
 
-12. Review the details, click **Next**, leave all environment variable values as default until you see the Import button, and finally click on **Import**.
+13. Review the details, click **Next**, leave all environment variable values as default until you see the Import button, and finally click on **Import**.
 
-    > **Note:** Please wait until this is complete before moving on to new tasks. This may take **20–30 minutes**. During the import, you may see a **warning notification** at the top of the screen (e.g., "Flow imported with warnings"). This is expected and does not necessarily indicate a failure.
+14. Please wait until this is complete before moving on to new tasks. This may take **20–30 minutes**. During the import, you may see a **warning notification** at the top of the screen (e.g., "Flow imported with warnings"). This is expected and does not necessarily indicate a failure.
+
+    ![](images/M02/ppm2.png)
 
 
 ### Install COE Governance Solution.
 
-1. Go to the **Solutions** tab.
+1. Go to the **Solutions (1)** tab.
 
-2. Click on **Import solution** from the top-menu.
+2. Click on **Import solution (2)** from the top-menu.
 
-3. Browse to your **Downloads** folder and locate the **CoEStarteKit** directory.
+    ![](images/M02/ppm3.png)
 
-4. Open the folder and select the following file:
-**CenterofExcellenceAuditComponents_3_27_1_managed.zip**
-from **C:\Users\demouser\Downloads\CoEStarterKit\CenterofExcellenceAuditComponents_3_27_1_managed.zip** .
+3. Click on **Browse (1)**.
+
+4. Navigate to **C:\Users\demouser\Downloads\CoEStarterKit (2)** folder then select the following file:
+**CenterofExcellenceAuditComponents_3_27_1_managed.zip (3)** and then click on **Open (4)**.
+
+    ![](images/M02/ppm4.png)
 
 5. Review the details, click **Next**, leave all environment variable values as default until you see the Import button, and finally click on **Import**.
 
-    > **Note**: Wait for the import process to complete. Once the import is complete, you can verify the installation by checking the **Center of Excellence – Core Components** and **Center of Excellence - Governance Components** under the **Solutions** section.
+1. Wait for the import process to complete. This may take **5 minutes**. During the import, you may see a **warning notification** at the top of the screen (e.g., "Flow imported with warnings"). This is expected and does not necessarily indicate a failure.
+
+1. Please do **Refrsh (1)** the portal then you will be able to see the successfully imported message **(2)**.
+
+    ![](images/M02/ppm5.png)
+
+1. Once the import is complete, navigate to **Solutions (1)** then **All (2)** and then you can verify the installation by checking the **Center of Excellence – Core Components (3)** and **Center of Excellence - Governance Components (4)**.
+
+    ![](images/M02/ppm6.png)
 
 ### Task 2: Set up the Inventory components using the Setup Wizard
 
-1. After the solution import is successful, refresh the tab and open the **Center of Excellence - Core Components** solution.
+1. From the **Solution (1)**, navigate to **Managed (2)** refresh the tab and open the **Center of Excellence - Core Components (3)** solution.
 
     ![](images/M02/M2-EX3N-T1-S10.png)
 
-2. Play COE Admin Command Center app.
+1. Navigate to **Apps (1)** then click on the three dots in **Play COE Admin Command Center (2)** app and then **Play (3)**.
 
     ![](images/M02/M2-EX3N-T1-S10A.png)
 
-3. Click **Sign In** for RSS, then click **Allow**. 
+1. Click **Sign In (1)** for RSS, then click **Allow (2)**. 
 
     ![](images/M02/M2-EX3N-T1-S10B.png)
 
-4. Click **Environment Varibles** under CoE configuration from left navigation pannel and then click **admin_AdminMail**, then click **edit**.
+1. Click **Environment Varibles (1)** under **CoE configuration** from left navigation pannel and then click **admin_AdminMail (2)**, then click **edit (3)**.
 
     ![](images/M02/M2-EX3N-T1-S10C.png)
 
-5. Paste <inject key="AzureAdUserEmail"></inject> email id in the **Value** section , then click **Save**
+1. Paste **<inject key="AzureAdUserEmail"></inject> (1)** email id in the **Value** section , then click **Save (2)**
 
-    ![](images/M02/M2-EX3N-T1-S10D.png)
+    ![](images/M02/ppm7.png)
 
-6. Now return to the previous tab where your “Center of Excellence - Core Components” is open. Open the CoE Setup and Upgrade Wizard app. Click **Apps** (1), Click the three ellipses (⋯) next to the **CoE Setup and Upgrade Wizard** (2). Select **Play** (3) to launch the app.
+1. Now return to the previous tab where your “Center of Excellence - Core Components” is open.
+
+    ![](images/M02/ppm8.png)
+
+1. Open the CoE Setup and Upgrade Wizard app. Click **Apps** **(1)**, Click the three ellipses (⋯) next to the **CoE Setup and Upgrade Wizard** **(2)**. Select **Play** **(3)** to launch the app.
 
     ![](images/M02/M2-EX3N-T1-S11.png)
 
-3. Grant all app permission and click **Allow**.
+1. Grant all app permission and click **Allow**.
 
     ![](images/M02/M2-EX3N-T1-S12.png)
 
-4. Confirm pre-requisites: Click **Next**.
+1. Confirm pre-requisites: Click **Next**.
 
     ![](images/M02/M2-EX3N-T1-S13.png)
 
-5. Configure communication methods: Click **configure group** and select **Create new group** 
+1. Configure communication methods: Click **configure group** and select **Create new group** 
 for persona.
 
     ![](images/M02/M2-EX3N-T1-S14.png)
 
-6. You will be navigate to azure portal. Select **Microsoft 365** (1) for group type. Give group name as **COE Admin Group** (2). Click **No Owners Selected** (3). 
+1. You will be navigate to azure portal. Select **Microsoft 365** (1) for group type. Give group name as **COE Admin Group** (2). Click **No Owners Selected** (3). 
 
     ![](images/M02/M2-EX3N-T1-S14A.png)
 
-6. Search for and select the **environment email ID**. Similarly, you can select multiple members to assign to the Admin persona.  Once you've made your selections, click Create to proceed.
+1. Search for **odl (1)**, select the **environment email ID (2)** and then **Select (3)** Similarly, you can select multiple members to assign to the Admin persona. 
 
     ![](images/M02/M2-EX3N-T1-S14B.png)
 
-8. Navigate back to the **CoE Setup and Upgrade Wizard** tab. Refresh the page, then proceed to configure the Admin persona by selecting the newly created group.
+1. Once you've made your selections, click **Create** to proceed.    
+
+1. Navigate back to the **CoE Setup and Upgrade Wizard** tab. **Refresh** the page, then proceed to configure the Admin persona by selecting the newly created group **COE Admin Group (1)** and then **Select group (2)**.
 
     ![](images/M02/M2-EX3N-T1-S14C.png)
 
-8. In the same way, you can create new groups for the Maker persona and User persona. For now, you can select the same **CoE Admin Group** for both, After completing all three configuration, click **Next** to continue.
+1. In the same way, you can create new groups for the **Maker persona** and **User persona**. For now, you can select the same **CoE Admin Group** for both, After completing all three configuration, click **Next** to continue.
 
-9. Configure mandatory settings: Review tenant id from Service principal details in the environment section of lab guide and select **Next**
+1. **Configure mandatory settings**: Review tenant id from Service principal details in the environment section of lab guide and select **Next**
 
-8. Configure inventory data source : Click **Next**.
+1. **Configure inventory data source** : Click **Next**.
 
-9. Run setup flows: Click **Refresh**, wait about 5 minutes for the process to complete, then refresh again. Once done, click **Next**.
+1. **Run setup flows**: Click **Refresh**, wait about 5 minutes for the process to complete, then refresh again. Once done, click **Next**.
 
-10. Run Inventory flows: Click toggle button for all the flows available on the page until all the flows are removed from the page. Click **Next**.
+    ![](images/M02/ppm9.png)
 
-    >**Note**: Proceed Next if no flows on the page
+1. **Run Inventory flows**: Click toggle button for all the flows available on the page until all the flows are removed from the page. Click **Next**.
 
-11. Configure dataflows: Click **Next**.
+    >**Note**: This page might take some to load please wait untill its loaded. Proceed Next if no flows on the page
 
-12. Share apps: Click **Next**.
+1. **Configure dataflows**: Click **Next**.
 
-13. Publish PowerBI dashboard: Click **Next** and then **Done**
+1. **Share apps**: Click **Next**.
+
+1. Publish PowerBI dashboard: Click **Next** and then **Done**
  
-14. Navigate to the **More features** page and select **Compliance process**.
+1. Navigate to the **More features** page and select **Configure the feature** in **Compliance process**.
 
     ![](images/M02/M2-EX3N-T1-S15.png)
 
     > **Note:** The app will guide you through the setup process.
 
-15. Click **Refresh**. If a pop-up appears regarding flow configuration, proceed as prompted.
+1. Click **Refresh**. If a pop-up appears regarding flow configuration, proceed as prompted.
 
-16. On the **Get Started** screen, click **Next**.
+1. On the **Get Started** screen, click **Next**.
 
-17. On the **Exempt environments from this process** screen, click **Next**.  
+1. On the **Exempt environments from this process** screen, click **Next**.  
     ![](images/M02/M2-EX3N-T1-S16.png)
 
-18. On the **Configure settings** screen, click **Next**.
+1. On the **Configure settings** screen, click **Next**.
 
-19. On the **Turn on flows** screen, toggle **On** for all listed flows, then click **Next**.
+1. On the **Turn on flows** screen, toggle **On** for all listed flows, then click **Next**.
 
-20. On the **Share Apps** screen, click **Done**.
+1. On the **Share Apps** screen, click **Done**.
 
 ### Review
 
