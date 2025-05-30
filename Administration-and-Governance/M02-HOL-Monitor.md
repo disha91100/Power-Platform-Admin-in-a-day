@@ -316,7 +316,7 @@ Now in this exercise, you will explore the following key components:
 
 3. The App Source install experience will launch the Power Platform admin center and ask you to identify the target Environment. Close the popups and continue.
 
-4. Choose the **Power Platform COE** Environment, review and agree to the two agreement checkboxes, then select the Install button to continue.
+4. Choose the **Power Platform COE (1)** Environment, review and agree to the two agreement checkboxes **(2)(3)**, then select the **Install (4)** button to continue.
 
     ![](images/M02/M2-EX3N-T1-S2.png)
 
@@ -326,19 +326,19 @@ Now in this exercise, you will explore the following key components:
 ### Create Connections
 1. Go to [Power Automate](https://make.powerautomate.com/) in new tab.
 
-2. Select your Power Platform COE environment.
+2. Select your **Power Platform COE** environment.
 
     ![](images/M02/M2-EX3N-T1-S3.png)
 
-3. Select **More** from left navigaation > **Connections** 
+3. Select **More (1)** from left navigaation > **Connections (2)** 
 
     ![](images/M02/M2-EX3N-T1-S4.png)
 
-4. Select **+ New Connection** and search for **HTTP with Microsoft Entra ID**.
+4. Select **+ New Connection** and search for **HTTP with Microsoft Entra ID (1)** and Click on **HTTP with Microsoft Entra ID (preauthorized) (2)**,
 
     ![](images/M02/M2-EX3N-T1-S5.png)
 
-5. Click on **HTTP with Microsoft Entra ID (preauthorized)**, and set **Base Resource URL (1)** and **Microsoft Entra ID Resource URI (Application ID URI) (2)** to https://graph.microsoft.com/. Click **create (3)**.
+5. Set **Base Resource URL (1)** and **Microsoft Entra ID Resource URI (Application ID URI) (2)** to https://graph.microsoft.com/. Click **create (3)**.
 
     ![](images/M02/M2-EX3N-T1-S6.png)
 
