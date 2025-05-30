@@ -59,7 +59,9 @@ In this exercise, you will be shifting a pre-made environment from an unmanaged 
 
    ![](images/M04/p4p4.png)
 
-1. Wait for the environment to be provisioned and marked as Ready.
+1. Click refresh and check for the environment to be provisioned and marked as Ready.
+
+    >**Note**: You can also refresh the portal to check for the environment
 
 1. Click on the **Environment (1)** then select **Managed Environment-<inject key="Deployment ID" enableCopy="false" />** Environment.
 
@@ -87,7 +89,7 @@ In this exercise, you will be shifting a pre-made environment from an unmanaged 
 
     d. Leave the **Usage insights** checked. This item is selected by default. 
 
-    e. For **Maker welcome content**, copy and paste the following into the text box: 
+    e. For **Maker welcome content**, copy and paste the following into the text box. This will be used to greet users when they log in or switch to the environment. This can either be written in plain text, or as Markdown.
 
        ![Contoso](https://i.ibb.co/SNSTCx3/something.png) 
        ## Welcome to Contoso Power Apps 
@@ -97,11 +99,9 @@ In this exercise, you will be shifting a pre-made environment from an unmanaged 
        2. **Contribute ideas:** Submit an idea for a new app or flow idea at [Suggestion box]() 
        3. **Learn from others:** [Top tips]() by expert makers at Contoso
 
-      • This will be used to greet users when they log in or switch to the environment. This can either be written in plain text, or as Markdown, as seen above.
-
       ![](images/M04/p4p9.png) 
 
-    f. Leave data policies as is. We will alter and review these later. 
+    f. Leave data policies as it is. We will alter and review these later. 
 
       ![](images/M04/M4-EX1-T1-S8.png)
 
@@ -133,8 +133,7 @@ checker enforcer, follow this link (https://learn.microsoft.com/en-us/power-apps
 
    a. **None:** This option will turn off automatic solution validating and will not give any experience or behavioural changes to authoring, exports, and imports for solutions.
 
-   b. **Warn:** All custom solutions being imported will be automatically verified, but if there are any highly critical issues, you will receive a notice, but the import will not halt. 
-          After the solution is imported, a message will appear showing the validation issues that occurred upon import.
+   b. **Warn:** All custom solutions being imported will be automatically verified, but if there are any highly critical issues, you will receive a notice, but the import will not halt. After the solution is imported, a message will appear showing the validation issues that occurred upon import.
 
    c. **Block:** Similar to the Warn feature, however when highly-critical issues occur, the import process is cancelled, rather than continuing. This will not cause any changes to the 
       environment, since this occurs during the actual import process. For both the Warn and Block options, Power Platform environment admins will receive a summary email with of 
@@ -178,23 +177,23 @@ checker enforcer, follow this link (https://learn.microsoft.com/en-us/power-apps
 
 1. Open a new tab and navigate back to the **Power Platform Admin Center**.
 
-1. Select **Environments**, then select the circle icon next to **Managed Environment-<inject key="Deployment ID" enableCopy="false" />**.
+1. Select **Environments (1)**, then click **Managed Environment-<inject key="Deployment ID" enableCopy="false" /> (2)**.
 
    ![](images/M04/p4p5.png)
 
 1. Select **Edit Managed Environments** from the ribbon at the top of the page.
 
-   ![](images/M04/p4p6.png)
+   ![](images/M04/ppm14.png)
 
 1. Change the **Solution checker** slider to **Block (1)**, then select **Save (2)**.
 
     ![](images/M04/p4p15.png)
 
-1. Navigate back to the Power Apps solutions page.
+1. Navigate back to the Power Apps **Solutions** page.
 
     a. You will need to delete the imported solution from the environment to ensure the solution checker is working correctly.
 
-1. Select the three dots next to our imported solution, **Critical Error Solution** and select **Delete**.
+1. Select the **three dots** next to our imported solution, **Critical Error Solution** and select **Delete**.
  
     ![](images/M04/M4-EX1-T2-S17.png)
 
@@ -221,10 +220,9 @@ A managed environment allows administrators to add additional data policies in p
 
 1. Select **Edit Managed Environments**.
 
-   ![](images/M04/p4p6.png)
+   ![](images/M04/ppm14.png)
 
-1. Under **Data policies**, select the link to navigate to the current data policies applied to the managed environment. Here is where you will see any data policies applied to the 
-   environment, including any tenant-wide policies.
+1. Scroll down and check for **data policies**. Under **Data policies**, select the **link** to navigate to the current data policies applied to the managed environment. Here is where you will see any data policies applied to the environment, including any tenant-wide policies.
 
    ![](images/M04/M4-EX1-T2-F2-S4.png)
 
@@ -249,11 +247,11 @@ information for the makers associated with the environment.
 
 1. Navigate back to the **Power Platform Admin Center.**
 
-1. Select **Environments**, then select the circle icon next to **Managed Environment-<inject key="Deployment ID" enableCopy="false" />**.
+1. Select **Environments (1)**, then select the circle icon next to **Managed Environment-<inject key="Deployment ID" enableCopy="false" /> (2)**.
 
    ![](images/M04/p4p5.png)
 
-1. Select **Edit Managed Environments**.
+1. Select **Enable Managed Environments**.
 
    ![](images/M04/p4p6.png)
 
@@ -292,17 +290,23 @@ in a team that is not bound to the environment.
 
    ![](images/M04/po30.png)
 
-1. Once the app loads, select **+ (1)** on the view window and select **Rectangle (2)**.
+1. Once the app loads, skip popup then select **+ (1)** on the view window and click on **Rectangle (2)**.
 
     ![](images/M04/p4p21.png)
 
-1. Enter the App name as **Play with Sharing**, set the format to **Tablet**, and then select **Create**.
+1. Navigate to three elipses **(...)(1)** then select **Settings (2)**.
 
-   ![](images/M04/M4-EX1-T2-F5-S4.png)
+    ![](images/M04/p4p22.png)
+
+1. Enter the App name as **Play with Sharing**.
+
+    ![](images/M04/p4p23.png)
 
 1. Select **Publish** right next to it.
 
    ![](images/M04/M4-EX1-T2-F5-S6-1.png)
+
+1. Then select **Publish this version**.   
 
 1. Select **Share**. This will open a new tab where you can share this app with other users.
 
@@ -377,12 +381,13 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 1. Repeat this process for **Thrive Hr - Prod** and **Thrive Hr - Test** environments in the setup .
 
-1. Click on the **Environment (1)** then select **Thrive Hr- Host (2)**.
+1. Click on the **Environment (1)** then select **Thrive Hr (Initials) - Host (2)**.
 
-    ![](images/M04/p4p42.png)
+    ![](images/M04/ppm15.png)
 
-1. Now, you need to install the pipelines app onto the host environment. In the Resources Panel, select **Dynamics 365 apps**. A list of apps currently installed for the environment 
-    will appear.
+     >**Note**: Refresh the portal, if you don not see the environment.
+
+1. Now, you need to install the pipelines app onto the host environment. In the Resources Panel, select **Dynamics 365 apps**. A list of apps currently installed for the environment will appear.
   
     ![](images/M04/p4p35.png)
 
@@ -402,7 +407,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
     ![](images/M04/p4p36.png)
 
-   >**Note**: Wait until the Installation is complete, it may take around 20 - 25 mins. Then only you can see the App in Next task.
+   >**Note**: Wait until the Installation is complete, it may take around 20 - 25 mins. Then only you can see the App in Next task. Click **refresh** and check.
 
 1. Do not navigate away from this page.
 
