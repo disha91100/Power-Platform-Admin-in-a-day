@@ -237,7 +237,9 @@ In this exercise, you will be building the automated flow to process new form su
 
 1. Select **Environment Name** from the Dynamic content pane.
 
-    ![](images/M03/M3-EX2-T2-S28.png)
+    ![](images/M03/ppm13.png)
+
+     >**Note**: Enter **/ (1)** and select **Insert dynamic content (2)** to get the dynamic values.
 
 1. Select **Trial** for **Environment Sku**.
 
@@ -263,13 +265,17 @@ In this exercise, you will be building the automated flow to process new form su
 
    ![](images/M03/ppt29.png)
 
-1. Select on the **Environment** dropdown and select **Enter Custom Value**.
+1. Select on the **Environment (1)** dropdown and select **Enter Custom Value (2)**.
 
-   ![](images/M03/M3-EX2-T3-S4.png)
+   ![](images/M03/ppm10.png)
 
-1. Select **Name (1)** from the Dynamic content pane.
+1. Enter **/ (1)** and select **Insert dynamic content (2)** to get the dynamic values.  
 
-   ![](images/M03/M3-EX2-T3-S5.png)
+   ![](images/M03/ppm11.png)
+
+1. Select **Name** from the Dynamic content pane.
+
+   ![](images/M03/ppm12.png)
 
 1. Select **Show all (2)**.
 
@@ -510,7 +516,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 9. Select the available connection and select **Save**.
 
-   ![](images/M03/M3-EX4-T2-S9.png)
+   ![](images/M03/ppt47.png)
 
 10. Select Action for **Office 365 Outlook Connection**.
 
@@ -524,7 +530,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 1. Select **+ New connection**.
 
-    ![](images/M03/M3-EX4-T2-S16.png)
+    ![](images/M03/ppt50.png)
 
 1. Search for **Power apps (1)**  and select **PowerApps for Admins (2)**.
 
@@ -536,13 +542,13 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 1. You should now have the connections listed in the image below.
 
-    ![](images/M03/M3-EX4-T2-S20.png)
+    ![](images/M03/ppt49.png)
 
 1. Go back to the Flow import.
 
 1. Select **Refresh list**, select the connection you just added, and select **Save**.
 
-    ![](images/M03/M3-EX4-T2-S22.png)
+    ![](images/M03/ppt47.png)
 
 1. Select **Configure** for **Office 365 Group Connection**.
 
@@ -554,7 +560,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 1. Select **+ New connection**.
 
-    ![](images/M03/M3-EX4-T2-S16.png)
+    ![](images/M03/ppt50.png)
 
 1. Search for **Office 365 Groups** and select **Add**.
 
@@ -566,13 +572,13 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 1. You should now have the connections listed in the image below.
 
-    ![](images/M03/M3-EX4-T2-S20.png)
+    ![](images/M03/ppt49.png)
 
 1. Go back to the Flow import.
 
 1. Select **Refresh list**, select the connection you just added, and select **Save**.
 
-    ![](images/M03/M3-EX4-T2-S22.png)
+    ![](images/M03/ppt47.png)
 
 1. Select Action for **Office 365 Users Connection**.
 
@@ -582,7 +588,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 1. Select **+ New connection**.
 
-    ![](images/M03/M3-EX4-T2-S16.png)
+    ![](images/M03/ppt50.png)
 
 1. Search for **Office 365 Users** and select **Add**.
 
@@ -598,7 +604,7 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 1. Select **Import** and wait for the import to complete.
 
-    ![](images/M03/M3-EX4-T2-S26.png)
+    ![](images/M03/ppt48.png)
 
 1. The flow should import successfully.
 
