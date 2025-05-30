@@ -18,6 +18,9 @@ In this lab, you will complete the following exercises:
 - Exercise 3 - Review tenant audit logs 
 - Exercise 4 - Application Compliance Process
 
+**Note:** All these exercises depend on the successful setup of the Inventory component of the CoE Starter Kit, which you completed in a previous exercise. Once the setup is complete, it may take approximately 3–4 hours for the data to be fully reflected in both the Power Platform and Power BI.
+
+You may proceed with the exercises if the data has loaded successfully. If not, you'll need to wait until the data becomes available. In the meantime, you can review the exercises to familiarize yourself with the lab content.
 
 ## Exercise 1: Explore the CoE Starter Kit
 
