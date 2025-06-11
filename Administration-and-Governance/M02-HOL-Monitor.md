@@ -438,11 +438,11 @@ Now in this exercise, you will explore the following key components:
 
 1. From the **Solution (1)**, navigate to **Managed (2)** refresh the tab and open the **Center of Excellence - Core Components (3)** solution.
 
-    ![](images/M02/M2-EX3N-T1-S10.png)
+    ![](images/M02/pv19.png)
 
 1. Navigate to **Apps (1)** then click on the three dots in **COE Admin Command Center (2)** app and then **Play (3)**.
 
-    ![](images/M02/M2-EX3N-T1-S10A.png)
+    ![](images/M02/pv20.png)
 
 1. Click **Sign In (1)** for RSS, then click **Allow (2)**. 
 
@@ -450,7 +450,7 @@ Now in this exercise, you will explore the following key components:
 
 1. Click **Environment Varibles (1)** under **CoE configuration** from left navigation pannel and then click **admin_AdminMail (2)**, then click **edit (3)**.
 
-    ![](images/M02/M2-EX3N-T1-S10C.png)
+    ![](images/M02/pv21.png)
 
 1. Paste **<inject key="AzureAdUserEmail"></inject> (1)** email id in the **Value** section , then click **Save (2)**
 
@@ -462,7 +462,7 @@ Now in this exercise, you will explore the following key components:
 
 1. Open the CoE Setup and Upgrade Wizard app. Click **Apps** **(1)**, Click the three ellipses (⋯) next to the **CoE Setup and Upgrade Wizard** **(2)**. Select **Play** **(3)** to launch the app.
 
-    ![](images/M02/M2-EX3N-T1-S11.png)
+    ![](images/M02/pv22.png)
 
 1. Grant all app permission and click **Allow**.
 
@@ -470,32 +470,40 @@ Now in this exercise, you will explore the following key components:
 
 1. Confirm pre-requisites: Click **Next**.
 
-    ![](images/M02/M2-EX3N-T1-S13.png)
+    ![](images/M02/pv23.png)
 
 1. Configure communication methods: Click **configure group** and select **Create new group** 
 for persona.
 
-    ![](images/M02/M2-EX3N-T1-S14.png)
+    ![](images/M02/pv24.png)
 
-1. You will be navigate to azure portal. Select **Microsoft 365** (1) for group type. Give group name as **COE Admin Group** (2). Click **No Owners Selected** (3). 
+1. You will be navigate to azure portal. Select **Microsoft 365** **(1)** for group type. Give group name as **COE Admin Group** **(2)**. Click **No Owners Selected** **(3)**. 
 
-    ![](images/M02/M2-EX3N-T1-S14A.png)
+    ![](images/M02/pv-23.png)
 
 1. Search for **odl (1)**, select the **environment email ID (2)** and then **Select (3)** Similarly, you can select multiple members to assign to the Admin persona. 
 
-    ![](images/M02/M2-EX3N-T1-S14B.png)
+    ![](images/M02/pv26.png)
 
 1. Once you've made your selections, click **Create** to proceed.    
 
+    ![](images/M02/pv27.png)
+
 1. Navigate back to the **CoE Setup and Upgrade Wizard** tab. **Refresh** the page, then proceed to configure the Admin persona by selecting the newly created group **COE Admin Group (1)** and then **Select group (2)**.
 
-    ![](images/M02/M2-EX3N-T1-S14C.png)
+    ![](images/M02/pv28.png)
 
-1. In the same way, you can create new groups for the **Maker persona** and **User persona**. For now, you can select the same **CoE Admin Group** for both, After completing all three configuration, click **Next** to continue.
+1. In the same way, you can create new groups for the **Maker persona** and **User persona**. For now, you can select the same **CoE Admin Group** for both.
+
+1. After completing all three configuration, click **Next** to continue.
+
+    ![](images/M02/pv29.png)
 
 1. **Configure mandatory settings**: Review tenant id from Service principal details in the environment section of lab guide and select **Next**
 
 1. **Configure inventory data source** : Click **Next**.
+
+    ![](images/M02/pv30.png)
 
 1. **Run setup flows**: Click **Refresh**, wait about 5 minutes for the process to complete, then refresh again. Once done, click **Next**.
 
@@ -503,7 +511,9 @@ for persona.
 
 1. **Run Inventory flows**: Click toggle button for all the flows available on the page until all the flows are removed from the page. Click **Next**.
 
-    >**Note**: This page might take some to load please wait untill its loaded. Proceed Next if no flows on the page
+    ![](images/M02/pv31.png)
+
+     >**Note**: This page might take some to load please wait untill its loaded. Proceed Next if no flows on the page
 
 1. **Configure dataflows**: Click **Next**.
 
