@@ -107,7 +107,9 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
  
     ![](images/gp7.png)
 
-    >**Note**: You may get **Try again** message, please do refresh the page after 3-4 mins and the click on **Try again**.
+    >**Note**: You may get an error like **Self service signup plan is required to complete the request**, but you can ignore that as the dataverse will be creating in the backend. It might take around 5-10 mins. You can proceed with the next steps.
+
+    >**Note**: You may get **Try again** message, please do refresh the page after 5-6 mins.
 
 
 ## Support Contact
