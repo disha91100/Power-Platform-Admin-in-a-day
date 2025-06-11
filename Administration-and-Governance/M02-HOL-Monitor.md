@@ -48,7 +48,7 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
    ![](images/M02/pp122.png)
 
-    > **Note**: The below tasks 1,2 and 3 has been made as read only because the service can take 24 to 36 hours to reflect service activities from the previous day. Please go through the provided link for more details [Tenant-level analytics for Power Apps](https://learn.microsoft.com/en-us/power-platform/admin/tenant-level-analytics?tabs=new#how-do-i-enable-tenant-level-analytics)   
+    > **Note**: The below **tasks 1,2 and 3** has been made as read only because the service can take 24 to 36 hours to reflect service activities from the previous day. Please go through the provided link for more details [Tenant-level analytics for Power Apps](https://learn.microsoft.com/en-us/power-platform/admin/tenant-level-analytics?tabs=new#how-do-i-enable-tenant-level-analytics)   
 
 ### Task 1: Explore the Power Automate analytics (Read only)
 
@@ -288,6 +288,8 @@ In this exercise, you will configure Dataverse logging for a table that requires
 
     ![](images/M02/pp136.png)
 
+     >**Note**: Sometimes it might take sometime to get open, no need to wait. Please proceed with the next Exercise.
+
 1. You should see the **Filed Name**, **Old Value** and **New Value**.
 
 1. Select **Close** to close the update record.
@@ -306,6 +308,7 @@ Now in this exercise, you will explore the following key components:
 ### Task 1 :  Import the Creator Kit and make connections
 
 ### Installation of Creator Kit
+
 1. Go to the [Creator Kit page on AppSource](https://appsource.microsoft.com/en-US/product/dynamics-365/microsoftpowercatarch.creatorkit1?tab=Overview) page.
 
     > **Note:** If required sign in to an account with ODL Credentials
@@ -314,73 +317,87 @@ Now in this exercise, you will explore the following key components:
 
    ![](images/M02/M2-EX3N-T1-S1.png)
 
-3. The App Source install experience will launch the Power Platform admin center and ask you to identify the target Environment. Close the popups and continue.
+3. The App Source install experience will launch the **Power Platform admin center** and ask you to identify the target Environment. Close the popups and continue.
 
 4. Choose the **Power Platform COE (1)** Environment, review and agree to the two agreement checkboxes **(2)(3)**, then select the **Install (4)** button to continue.
 
-    ![](images/M02/M2-EX3N-T1-S2.png)
+    ![](images/M02/pv5.png)
 
+1. Installation may take some time; meanwhile, you can continue with the next steps.
 
-    >**Note**: Installation may take some time; meanwhile, you can continue with the next steps.
+    ![](images/M02/pv6.png)
 
 ### Create Connections
 1. Go to [Power Automate](https://make.powerautomate.com/) in new tab.
 
-2. Select your **Power Platform COE** environment.
+1. Select your **Power Platform COE** environment.
 
     ![](images/M02/M2-EX3N-T1-S3.png)
 
-3. Select **More (1)** from left navigation > **Connections (2)** 
+1. Select **More (1)** from left navigation > **Connections (2)** 
 
-    ![](images/M02/M2-EX3N-T1-S4.png)
+    ![](images/M02/pv7.png)
 
-4. Select **+ New Connection** and search for **HTTP with Microsoft Entra ID (1)** and then click on **HTTP with Microsoft Entra ID (preauthorized) (2)**
+1. Select **+ New Connection**.
 
-    ![](images/M02/M2-EX3N-T1-S5.png)
+    ![](images/M02/pv8.png)
 
-5. Set **Base Resource URL (1)** and **Microsoft Entra ID Resource URI (Application ID URI) (2)** to https://graph.microsoft.com/. Click **Create (3)**.
+1. Search for **HTTP with Microsoft Entra ID (1)** and then click on **HTTP with Microsoft Entra ID (preauthorized) (2)**
 
-    ![](images/M02/M2-EX3N-T1-S6.png)
+    ![](images/M02/pv9.png)
+
+1. Set **Base Resource URL (1)** and **Microsoft Entra ID Resource URI (Application ID URI) (2)** to https://graph.microsoft.com/. Click **Create (3)**.
+
+    ![](images/M02/pv10.png)
 
     > **Note:** On the **Pick an account** pop-up, select <inject key="AzureAdUserEmail"></inject>.
 
 ### Import the core components solution
 1. Open a new tab in the browser, copy and paste the link, and download the **[CoE Starter Kit](https://aka.ms/CoeStarterKitDownload)** to your virtual machine.
 
+1. You can see the downloaded file in the right top corner, **download (1)** section. Click on the **Folder (2)** icon to open the foder in the File explorer.
 
-2. Open **File Explorer** on your computer inside the Lab-VM.
+    ![](images/M02/pv11.png)
 
-3. Navigate to the **Downloads** folder.
+1. Locate the downloaded **CoEStarterKit.zip** file.
 
-4. Locate the downloaded **CoEStarterKit.zip** file.
+1. Right-click on the ZIP file **(1)** and select **Extract All... (2)**.
 
-5. Right-click on the ZIP file and select **Extract All...**.
+    ![](images/M02/pv12.png)
 
-6. In the dialog box that appears, click the "**Extract**" button to unzip the contents.
+1. In the dialog box that appears, review the destination path **(1)** and then click on the "**Extract (2)**" button to unzip the contents.
 
-    ![](images/M02/M2-EX3N-T1-S7.png)
+    ![](images/M02/pv13.png)
 
     > **Note:** The CoE Starter Kit compressed file contains all solution components in addition to the non–solution-aware components that make up the CoE Starter Kit. 
 
-7. Before proceeding to the next step, navigate back to the **Power Platform Admin Center**, **Refresh (1)** the portal and make sure that **CoE Kit** is installed.
+1. Before proceeding to the next step, navigate back to the **Power Platform Admin Center**, **Refresh (1)** the portal and make sure that **CoE Kit** is installed.
 
     ![](images/M02/ppm1.png)
 
-8. Navigate back to the [Power Apps](https://make.powerapps.com/) portal.
+1. Navigate back to the [Power Apps](https://make.powerapps.com/) portal.
 
-9. Choose the **Power Platform COE (1)** Environment.
-
-10. In the left menu, click **Solutions (2)**.
+1. Choose the **Power Platform COE (1)** Environment. In the left menu, click **Solutions (2)**.
 
     ![](images/po-51.png)
 
-11. Click the **Import Solution** button at the top.
+1. Click the **Import Solution** button at the top.
 
-12. Click **Browse (1)**, navigate to  **C:\Users\demouser\Downloads\CoEStarterKit** then select **CenterOfExcellenceCoreComponents_4_49_2_managed.zip (2)** solution file from the extracted folder then click on **Open (3)** and click **Next**.
+    ![](images/M02/pv14.png)
 
-    ![](images/M02/M2-EX3N-T1-S9.png)
+1. Click **Browse (1)**.
 
-13. Review the details, click **Next**, leave all environment variable values as default until you see the Import button, and finally click on **Import**.
+1. Navigate to  **C:\Users\demouser\Downloads\CoEStarterKit (1)** then select **CenterOfExcellenceCoreComponents_4_49_2_managed.zip (2)** solution file from the extracted folder then click on **Open (3)**.
+
+    ![](images/M02/pv15.png)
+
+1. Click **Next**.    
+
+1. Review the details, click **Next** twice, leave all environment variable values as default until you see the Import button.
+
+1. Finally, click on **Import**.
+
+    ![](images/M02/pv17.png)
 
 14. Please wait until this is complete before moving on to new tasks. This may take **20–30 minutes**. During the import, you may see a **warning notification** at the top of the screen (e.g., "Flow imported with warnings"). This is expected and does not necessarily indicate a failure.
 
@@ -391,22 +408,25 @@ Now in this exercise, you will explore the following key components:
 
 1. Go to the **Solutions (1)** tab.
 
-2. Click on **Import solution (2)** from the top-menu.
+1. Click on **Import solution (2)** from the top-menu.
 
     ![](images/M02/ppm3.png)
 
-3. Click on **Browse (1)**.
+1. Click on **Browse (1)**.
 
-4. Navigate to **C:\Users\demouser\Downloads\CoEStarterKit (2)** folder then select the following file:
-**CenterofExcellenceAuditComponents_3_27_1_managed.zip (3)** and then click on **Open (4)**.
+1. Navigate to **C:\Users\demouser\Downloads\CoEStarterKit (2)** folder then select the following file **CenterofExcellenceAuditComponents_3_27_1_managed.zip (3)** and then click on **Open (4)**.
 
     ![](images/M02/ppm4.png)
 
-5. Review the details, click **Next**, leave all environment variable values as default until you see the Import button, and finally click on **Import**.
+1. Review the details, click **Next**, leave all environment variable values as default until you see the Import button.
+
+1. Finally, click on **Import**.
+
+    ![](images/M02/pv18.png)
 
 1. Wait for the import process to complete. This may take **5 minutes**. During the import, you may see a **warning notification** at the top of the screen (e.g., "Flow imported with warnings"). This is expected and does not necessarily indicate a failure.
 
-1. Please do **Refrsh (1)** the portal then you will be able to see the successfully imported message **(2)**.
+1. Please do **Refresh (1)** the portal then you will be able to see the successfully imported message **(2)**.
 
     ![](images/M02/ppm5.png)
 
@@ -420,7 +440,7 @@ Now in this exercise, you will explore the following key components:
 
     ![](images/M02/M2-EX3N-T1-S10.png)
 
-1. Navigate to **Apps (1)** then click on the three dots in **Play COE Admin Command Center (2)** app and then **Play (3)**.
+1. Navigate to **Apps (1)** then click on the three dots in **COE Admin Command Center (2)** app and then **Play (3)**.
 
     ![](images/M02/M2-EX3N-T1-S10A.png)
 

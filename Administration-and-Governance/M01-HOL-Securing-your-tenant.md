@@ -551,9 +551,9 @@ ID Security group and assign the security role you just built.
 
     ![](images/M01/pp35.png)
 
-24. Select **Apps (1)**, then **Project Admin (2)**, and click **Play (3)** to run the Canvas application.
+24. Select **Apps (1)**, then select three vertical on **Project Admin (2)**, and click **Play (3)** to run the Canvas application.
 
-    ![](images/M01/pp36.png)
+    ![](images/M01/pv4.png)
 
 25. The application should load, and you should see the sample project records the flow created. Select the **+ New** to create a new Project.
 
