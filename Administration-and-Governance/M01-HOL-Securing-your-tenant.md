@@ -109,7 +109,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
     ![](images/M01/ppt5.png)
 
-17. From here, you can review all of the security roles for your company and manage their access to the company’s data. By default, users have access to all security roles. The business unit currently listed is the same as the tenant and these are assigned to all users by default. Managed roles can be modified to create.
+17. From here, you can review all of the **security roles** for your company and manage their access to the company’s data. By default, users have access to all security roles. The business unit currently listed is the same as the tenant and these are assigned to all users by default. Managed roles can be modified to create.
 
     ![](images/M01/ppt6.png)    
 
@@ -119,7 +119,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
  
     >**Note:** Notice that the org is listed as the **Business Unit**; this means everyone in the organization will have this role by default. For environments other than the default, you control this. However, default is special and Tenant can’t be removed from the role.
 
-20. Go back to the Environment Details page, by clicking on the default environment name.
+20. Go back to the Environment Details page, by clicking on the **default environment** name.
 
     ![](images/M01/ppt8.png)
 
@@ -138,7 +138,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
     ![](images/ppt10-01.png)
 
-1. Review the list of existing policies.
+1. Review the list of existing policies **(2)**.
 
     - As the login you are using is not a tenant admin but only an environment admin, you will see policies that impact environments of which you are a member.
 
@@ -162,7 +162,7 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
     ![](images/po-07.png)
 
-1. Select **Scope** and **Environments** to see how it they are configured.
+1. Select **Scope (1)** and **Environments (2)** to see how it they are configured.
 
    ![](images/po-08.png)
 
@@ -174,9 +174,9 @@ In this exercise, you will be exploring the tenant to see what Power Platform as
 
     ![](images/po-09.png)
 
-1. Select on the **Prebuilt connectors** and select the **Business** tab. Based on the use case for the Thrive application the connectors in the Business group have been established. You can also see how Scope and Environments are configured to only select the Thrive environments.
+1. Select on the **Prebuilt connectors (1)** and select the **Business (2)** tab. Based on the use case for the Thrive application the connectors in the Business group have been established. You can also see how Scope and Environments are configured to only select the Thrive environments.
 
-    ![](images/po-10.png)
+    ![](images/M01/pv1.png)
 
 1. To exit this screen, select the **Cancel** button on the bottom right of the screen again.
 
@@ -305,7 +305,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
    ![](images/M01/po7.png)
 
-1. Wait for the environment to be created. The state will change to **Ready** when the environment is ready.
+1. Wait for the environment to be created. Please do **refresh** the page. The state will change to **Ready** when the environment is ready.
 
     ![](images/po-12.png)
 
@@ -325,6 +325,8 @@ In this exercise, you will create an environment, and a flow, and then view the 
     ![](images/M01/pp24.png)
 
 4. On the **Weather Flow** page, select **+ New step**.
+
+    ![](images/M01/pv2.png)
 
 5. Search for **MSN (1)** and select **Get current weather** MSN Weather **(2)**.
 
@@ -358,7 +360,7 @@ In this exercise, you will create an environment, and a flow, and then view the 
 
 14. Go to My Flows by selecting the back arrow button located on the top left of the page.
 
-    ![](images/M01/M1-EX4-T2-S14.png)
+    ![](images/M01/pv3.png)
 
 15. Select the flow to open **(1)** and Select **Run (2)**.
 
@@ -437,7 +439,7 @@ In this task, you will create an environment-specific DLP and see how it impacts
 
     ![](images/po-21.png)
 
-1. The flow should now be suspended because of the **DLP** you created. Select to open the flow. This can take up to 5 minutes, wait a few minutes and then select refresh.
+1. The flow should now be suspended because of the **DLP** you created. **Select to open the flow.** This can take up to 5 minutes, wait a few minutes and then select refresh.
 
     ![](images/po-22.png)
 

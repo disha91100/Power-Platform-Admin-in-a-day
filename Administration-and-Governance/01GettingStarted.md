@@ -107,6 +107,8 @@ Feel free to **start, stop, or restart (2)** your virtual machine as needed from
  
     ![](images/gp7.png)
 
+    >**Note**: You may get **Try again** message, please do refresh the page after 3-4 mins and the click on **Try again**.
+
 
 ## Support Contact
 
