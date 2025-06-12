@@ -28,6 +28,12 @@ In this lab, you will complete the following exercises:
 
    ![](images/M05/p5p1.png)
 
+   - If you you do not get the above UI, please follow the below step.
+
+   - Select **Teams (1)**, click on **+ (2)** icon and then select **Create team (3)**.
+
+     ![](images/M05/pv92.png)
+
 1. On the **Create a team** page, provide the following details and then click on **Create (4)**:
 
    - Team name: Enter **Central IT (1)**
@@ -116,7 +122,7 @@ In this task, you will create an application, and a table, and add new columns t
 
    ![](images/M05/p5p15.png)
 
-    >**Note**: You will be able to name the app only after the app is created that will take around 10-15 minutes as mentioned in the previous task.
+    >**Note**: You will be able to name the app only after the app is created that will take around 10-15 minutes as mentioned in the previous task. After 10-15 mins, please re perform **Step 1 to 2**. You will be able to provide the App name.
 
 1. Select **With data (1)**, and then select **+ Create new table (2)**.
 
@@ -136,7 +142,7 @@ In this task, you will create an application, and a table, and add new columns t
 
 1. Select **+ New column**.
 
-   ![](images/M05/M5B-EX1-T2-S8.png)
+   ![](images/M05/pv87.png)
 
 1. On the **New column** page, enter the followig details and then click on **Save (5)**.
 
@@ -214,7 +220,7 @@ In this task, you will create an application, and a table, and add new columns t
 
 1. Review the information and select **Next**.
 
-    ![](images/M05/M5B-EX1-T2-S23.png)
+    ![](images/M05/pv88.png)
 
 1. Select the **Plus sign (1)** next to the **General** channel to **Add app as a tab**. This will make it discoverable on the channel. Then, Select **Save and close (2)**.
 
@@ -238,7 +244,7 @@ In this task, you will share the application and the table you created.
 
 1. Select **Power Apps (1)** from the navigation bar to the left of the screen, then select **Build (2)**.
 
-   ![](images/M05/M5B-EX2-T1-S1.png)
+   ![](images/M05/pv89.png)
 
 1. From here, choose the **Central IT (1)** team, and select **See all (2)**.
 
