@@ -81,7 +81,7 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
 1. Now you are looking at data for all environments you have access to.
 
-11. Review the **Usage** data available on this tab, and then switch to **Maker Activity** and **Inventory** to review the other data available. Notice you can still filter on more specific criteria using the dropdowns.
+1. Review the **Usage** data available on this tab, and then switch to **Maker Activity** and **Inventory** to review the other data available. Notice you can still filter on more specific criteria using the dropdowns.
 
     ![](images/M02/M2-EX1-T1-S11.png)
 
