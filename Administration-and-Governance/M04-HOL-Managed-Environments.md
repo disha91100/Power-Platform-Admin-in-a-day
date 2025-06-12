@@ -341,9 +341,9 @@ in a team that is not bound to the environment.
 
 1. Then select **Share**.    
 
-    ![](images/M04/M4-EX1-T2-F5-S11-1.png)
+    ![](images/M04/pv83.png)
 
-12. Once complete, a banner should appear notifying you of the success.
+1. Once complete, a banner should appear notifying you of the success.
 
     ![](images/M04/p4p29.png)
 
@@ -431,9 +431,9 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 1. Repeat this process with **Thrive Hr – Test** and **Thrive Hr – Prod**, copying the IDs to the same notepad.
 
-1. Navigate to **Power Apps** and set the environment to the **Thrive Hr– Host** environment.
+1. Navigate to **Power Apps** and set the environment to the **Thrive Hr (Initials) - Host** environment.
 
-   ![](images/M04/p4p57.png)
+   ![](images/M04/pv84.png)
 
 1. Navigate to **Apps (1)** and select **Deployment Pipeline Configuration (2)**, then select **Play (3)** from the ribbon at the top.
 
@@ -473,7 +473,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 1. Select **Pipelines (1)** on the left navigation pane, and then select **+ New (2)** to create a new deployment pipeline.
 
-   ![](images/M04/M4-EX2-T1B-S1.png)
+   ![](images/M04/pv85.png)
 
 1. Set the **Name** to be **Thrive Hr Standard Deployment Pipeline (1)** and select **Save (2)** to show the rest of the content available..
 
@@ -590,19 +590,21 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
     ![](images/M04/p4p67.png)
 
-1. If needed, administrators can change the time of or cancel a deployment from this screen by selecting the **Cancel Deployment** button, or by selecting the **Run History** tab and selecting the **three dots** next to the Start time. From here, you can also view the run information, such as any notes or comments.
+1. If needed, administrators can change the time of or cancel a deployment from this screen by selecting the **Cancel Deployment** button.
 
     ![](images/M04/M4-EX2-T2-S16.png)
 
-    ![](images/M04/p4p68.png)
+1. By selecting the **Run History (1)** tab and selecting the **three dots (2)** next to the Start time. From here, you can also view the run information, such as any notes or comments **(3)**.    
 
-1. Select the **Thrive Hr– Host** environment.
+    ![](images/M04/pv90.png)
 
-   ![](images/M04/p4p57.png)
+1. Select the **Thrive Hr (Initials) - Host** environment.
 
-1. Select **Solutions (1)** and then select **Deployment Pipeline Configuration App (2)**.   
+   ![](images/M04/pv84.png)
 
-   ![](images/M04/p4p69.png)
+1. Select **Apps (1)** and then select **Deployment Pipeline Configuration App (2)**.   
+
+   ![](images/M04/pv91.png)
 
 1. Administrations can also make changes to the run record from the Deployment Pipeline Configuration app, such as altering the starting time and deployment notes.
 
