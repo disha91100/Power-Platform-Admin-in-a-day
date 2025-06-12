@@ -119,7 +119,7 @@ In this exercise, you will be building the automated flow to process new form su
    >**Note**: This environment is where our CoE starter kit is installed and is intended to be our dedicated admin environment. Even if you don’t use the starter kit, having a dedicated 
    admin environment can be helpful.
 
-   ![](images/M03/M3-EX2-T2-S2.png)
+   ![](images/M03/pv32.png)
 
 1. Select **My flows (1)**, select **+ New flow (2)** and select **Automated cloud flow (3)**.
 
@@ -157,15 +157,15 @@ In this exercise, you will be building the automated flow to process new form su
 
     ![](images/M03/pp69.png)
 
-1. Search for **Approvals (1)** and select **Start and Wait for an Approval (2)**.
+1. Search for **Approvals (1)** and select **Start and Wait for an approval (2)**.
 
-    ![](images/M03/pp70.png)
+    ![](images/M03/pv33.png)
 
-1. Click on **Create new**.
+1. If prompted, click on **Create new**.
 
 1. Select **Approve/Reject - First to Respond** for Approval type.
 
-    ![](images/M03/pp71.png)
+    ![](images/M03/pv34.png)
 
 1. Enter **Environment Approval Requested (1)** for Title.
 
@@ -179,23 +179,23 @@ In this exercise, you will be building the automated flow to process new form su
 
    - Select **Responders Email** from the Dynamic content pane.
 
-     ![](images/M03/M3-EX2-T2-S17.png)
+     ![](images/M03/pv35.png)
 
 1. Hit the enter key and type **Environment Name:** and select **Environment Name** from the Dynamic content pane.
 
-    ![](images/M03/M3-EX2-T2-S18.png)
+    ![](images/M03/pv36.png)
 
 1. Hit the enter key again and type **Business Justification:** and select **Business Justification** from the Dynamic content pane.
 
-    ![](images/M03/M3-EX2-T2-S19.png)
+    ![](images/M03/pv37.png)
 
 1. Hit the enter key again type **Connectors:** and select **What connectors will you use?** from the Dynamic content pane.
 
-    ![](images/M03/M3-EX2-T2-S20.png)
+    ![](images/M03/pv38.png)
 
 1. Select **+ Add Action** under **Start and Wait for an Approval**.
 
-    ![](images/M03/pp73.png)
+    ![](images/M03/pv39.png)
 
 1. Search for **Condition (1)** and the select **Condition (2)** Control.
 
@@ -211,7 +211,7 @@ In this exercise, you will be building the automated flow to process new form su
 
 1. Enter **is equals (1)** to for condition, enter **Approve (2)** for value.
 
-    ![](images/M03/pp77.png)
+    ![](images/M03/pv40.png)
 
 1. Select **Add an action** in the **True**  branch.
 
@@ -225,13 +225,13 @@ In this exercise, you will be building the automated flow to process new form su
 
     ![](images/M03/ppt28.png)
 
-1. Click on **Sign in**. Sign in with your lab credentials.
+1. Click on **Sign in**, if prompted. Sign in with your lab credentials.
 
     ![](images/M03/pp81.png)
 
 1. Select **United States (1)** for the **location** and select the dynamic content symbol on the **Display Name** field **(2)**.
 
-    ![](images/M03/pp82.png)
+    ![](images/M03/pv41.png)
 
     >**Note:** Location determines the region for the environment, in a real process you might allow this to be auto-determined by the user location or something the requester provides.
 
@@ -253,13 +253,15 @@ In this exercise, you will be building the automated flow to process new form su
 
 1. Select **+ Add an action** under **Create Environment**.
 
-   ![](images/M03/pp84.png)
+   ![](images/M03/pv42.png)
 
 1. Search for **Power Platform for admins** and under **Power Platform for admins** section select **See more (2)**.
 
     ![](images/M03/ppt27.png)
 
 1. Select **Create CDS Database**.
+
+    ![](images/M03/pv43.png)
 
 1. Select an existing connection.
 
@@ -279,17 +281,17 @@ In this exercise, you will be building the automated flow to process new form su
 
 1. Select **Show all (2)**.
 
-   ![](images/M03/pp87.png)
+   ![](images/M03/pv44.png)
 
 1. Enter **1033 (1)** for Base Language and enter **USD (2)** for Currency Code.
 
-1. Enter **D365_CDSSampleApp (3)** for Template Item.
+    - Enter **D365_CDSSampleApp (3)** for Template Item.
 
-   ![](images/M03/pp89.png)
+      ![](images/M03/pv45.png)
 
 1. Select **Add an action** under **Create CDS Databse**.
 
-   ![](images/M03/pp90.png)
+   ![](images/M03/pv46.png)
 
 1. Search for **Send Email (1)** and select **Send an email (V2) (2)**.
 
@@ -303,9 +305,9 @@ In this exercise, you will be building the automated flow to process new form su
 
    ![](images/M03/pp92.png)
 
-1. Click on **Switch to Advanced Mode**.
+1. Click on Settings dropdown **(1)** and then select **Use dynamic content (2)**.
 
-   ![](images/M03/pp93.png)
+   ![](images/M03/pv47.png)
 
 1. Select on the **To:** field and select **Responders Email** for the Dynamic Content pane **(1)**.
 
@@ -319,15 +321,15 @@ In this exercise, you will be building the automated flow to process new form su
 
 1. Go to the **False** branch and select **Add an Action** to create a new connection under the **False** branch.
 
-   ![](images/M03/pp95.png)
+   ![](images/M03/pv48.png)
 
 1. Search for Send email and select **Send an email (V2)**.
 
    ![](images/M03/pp96.png)
 
-1. Select **Switch to Advanced Mode**.
+1. Click on Settings dropdown **(1)** and then select **Use dynamic content (2)**.
 
-   ![](images/M03/pp97.png)
+   ![](images/M03/pv49.png)
 
 1. Select on the **To:** field and select **Responder’s Email** from the Dynamic Content pane.
 
@@ -415,9 +417,9 @@ In this exercise, you will be building the automated flow to process new form su
 
     ![](images/M03/pp111.png)
 
-1. Navigate to the **Power Platform admin center**, and select **Environments**. The new environment should be listed there.
+1. Navigate to the **Power Platform admin center**, and select **Environments (1)**. Click on **Refresh (2)** The new environment **Central Apps Test** should be listed there **(3)**.
 
-    ![](images/M03/M3-EX2-T4-S15.png)
+    ![](images/M03/pv50.png)
 
 1. You should also get an email.
  
@@ -451,50 +453,51 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **"Cancel"** to skip the tour.
 
-1. Select **Microsoft Entra ID**.
+1. On the search bar, search for **Microsoft Entra ID (1)** and select **Microsoft Entra ID (2)**.
 
-   ![](images/M03/ppt32.png)
+   ![](images/M03/pv51.png)
 
 1. Select **Groups** under **Manage**.
 
-   ![](images/M03/Entra-ID-1.png)
+   ![](images/M03/pv52.png)
 
 1. Select **+ New group**.
 
-   ![](images/M03/M3-EX4-T1-S4.png)
+   ![](images/M03/pv53.png)
 
 1. Select **Microsoft 365 (1)** for Group Type, enter **Lab Admin Makers (2)** for Group Name, if present set the **Azure AD Roles** to **No**, and select **Create (3)**.
 
    ![](images/M03/ppt33.png)
 
-1. Open the group after it gets created.
+1. Select **All groups (1)**, search for **Lab Admin Makers (2)** and select **Lab Admin Makers (3)**. 
 
-   ![](images/M03/ppt34.png)
+   ![](images/M03/pv54.png)
 
 1. Select **Properties (1)** and copy the **Object id (2)**.
 
    ![](images/M03/ppt35.png)
 
-1. Paste the object ID to a notepad, you will need it in future steps.
+1. Paste the **object ID** to a notepad, you will need it in future steps.
 
 
 ### Task 2: Import Flow
 
 1. Navigate to **Power Automate**.
 
-2. Make sure **Power Platform COE** environment is selected. 
+1. Make sure **Power Platform COE** environment is selected. 
+
     > **Note:** While we are using this here, in your tenant you might do this in an admin-focused environment or where you have 
    installed the CoE Starter Kit.
 
-   ![](images/M03/M3-EX4-T2-S2.png)
+   ![](images/M03/pv32.png)
 
-3. Select **My Flows** and click **Import** and select **Import Package (Legacy)**. (For this step, you may not be able to access the content while you are in Incognito mode. If this is the case, simply switch to your normal browser).
+1. Select **My Flows (1)** and click **Import (2)** and select **Import Package (Legacy) (3)**. (For this step, you may not be able to access the content while you are in Incognito mode. If this is the case, simply switch to your normal browser).
 
-   ![](images/M03/M3-EX4-T2-S3.png)
+   ![](images/M03/pv55.png)
 
-4. Select **Upload**.
+1. Select **Upload**.
 
-5. Navigate to `C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M03 - HOL - Alert and Act` **(1)**, Select the **Send Welcome Email (2)** zip file and select **Open (3)**.
+1. Navigate to `C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M03 - HOL - Alert and Act` **(1)**, Select the **Send Welcome Email (2)** zip file and select **Open (3)**.
 
    ![](images/M03/ppt36.png)
 
@@ -502,49 +505,57 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
    ![](images/M03/M3-EX4-T2-S5.png)
 
-6. Select Configure for the flow.
+1. Select Configure for the flow.
 
    ![](images/M03/M3-EX4-T2-S6.png)
 
-7. Select **Create as new** and select **Save**.
+1. Select **Create as new (1)** and select **Save (2)**.
 
-   ![](images/M03/M3-EX4-T2-S7.png)
+   ![](images/M03/pv56.png)
 
-8. Select **Configure** for **Power platform for Admins Connection**.
+1. Select **Configure** for **Power platform for Admins Connection**.
 
-    ![](images/M03/M3-EX4-T2-S8.png)
+    ![](images/M03/pv57.png)
 
-9. Select the available connection and select **Save**.
+1. Select the available connection **(1)** and select **Save (2)**.
 
-   ![](images/M03/ppt47.png)
+   ![](images/M03/pv58.png)
 
-10. Select Action for **Office 365 Outlook Connection**.
+1. Select Action for **Office 365 Outlook Connection**.
 
-11. Select the available connection and select **Save**.
+   ![](images/M03/pv59.png)
 
-12. Select **Configure** for **PowerApps for Admins Connection**.
+1. Select the available connection **(1)** and select **Save (2)**.
 
-    ![](images/M03/M3-EX4-T2-S12.png)
+   ![](images/M03/pv60.png)
 
-1. Click on **+ Create new**.
+1. Select **Configure** for **PowerApps for Admins Connection**.
 
-1. Select **+ New connection**.
+   ![](images/M03/pv61.png)
 
-    ![](images/M03/ppt50.png)
+1. Select the available connection and select **Save**.   
 
-1. Search for **Power apps (1)**  and select **PowerApps for Admins (2)**.
+1. If the connection is not listed, then follow the below steps:
 
-    ![](images/M03/ppt37.png)
+    - Click on **+ Create new**.
 
-1. Select **Create**.
+    - Select **+ New connection**.
 
-1. Login with your maker credentials.
+      ![](images/M03/ppt50.png)
+
+    - Search for **Power apps (1)**  and select **PowerApps for Admins (2)**.
+
+      ![](images/M03/ppt37.png)
+
+    - Select **Create**.
+
+    - Login with your maker credentials.
 
 1. You should now have the connections listed in the image below.
 
     ![](images/M03/ppt49.png)
 
-1. Go back to the Flow import.
+1. Go back to the **Flow import**.
 
 1. Select **Refresh list**, select the connection you just added, and select **Save**.
 
@@ -554,27 +565,31 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
     ![](images/M03/ppt38.png)
 
-1. Select **+ Create new**.
+1. Select the available connection and select **Save**.   
 
-    ![](images/M03/M3-EX4-T2-S15.png)
+1. If the connection is not listed, then follow the below steps:    
 
-1. Select **+ New connection**.
+    - Select **+ Create new**.
 
-    ![](images/M03/ppt50.png)
+      ![](images/M03/M3-EX4-T2-S15.png)
 
-1. Search for **Office 365 Groups** and select **Add**.
+    - Select **+ New connection**.
 
-    ![](images/M03/M3-EX4-T2-S17.png)
+      ![](images/M03/ppt50.png)
 
-1. Select **Create**.
+    - Search for **Office 365 Groups** and select **Add**.
 
-1. Login with your maker credentials.
+      ![](images/M03/M3-EX4-T2-S17.png)
+
+    - Select **Create**.
+
+    - Login with your maker credentials.
 
 1. You should now have the connections listed in the image below.
 
     ![](images/M03/ppt49.png)
 
-1. Go back to the Flow import.
+1. Go back to the **Flow import**.
 
 1. Select **Refresh list**, select the connection you just added, and select **Save**.
 
@@ -582,25 +597,27 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 1. Select Action for **Office 365 Users Connection**.
 
-1. Select **+ Create new**.
+1. Select the available connection and select **Save**.   
 
-    ![](images/M03/M3-EX4-T2-S15.png)
+1. If the connection is not listed, then follow the below steps:
 
-1. Select **+ New connection**.
+    - Select **+ Create new**.
 
-    ![](images/M03/ppt50.png)
+      ![](images/M03/M3-EX4-T2-S15.png)
 
-1. Search for **Office 365 Users** and select **Add**.
+    - Select **+ New connection**.
 
-1. Select **Create**.
+      ![](images/M03/ppt50.png)
 
-1. Login with your maker credentials.
+    - Search for **Office 365 Users** and select **Add**.
+
+    - Select **Create**.
+
+    - Login with your maker credentials.
 
 1. Select **Refresh list**, select the connection you just added, and select **Save**.
 
-1. Repeat this for the **Office 365 Outlook Connection**.
-
-1. Select the available connection and then click on **Save**.
+    ![](images/M03/ppt47.png)
 
 1. Select **Import** and wait for the import to complete.
 
@@ -613,11 +630,11 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 ### Task 3: Edit and Test Flow
 
-1. Navigate to the maker portal https://make.powerapps.com and select the **Central Apps Test** **environment**.
+1. Navigate to the maker portal https://make.powerapps.com and select the **Central Apps Test** environment.
 
-   ![](images/M03/M3-EX4-T3-S1.png)
+   ![](images/M03/pv62.png)
 
-1. Select **Apps (1)**, then **+ New app** > **Start with a page design (2)**.
+1. Select **Apps (1)**, then **+ New app (2)** > **Start with a page design (3)**.
 
    ![](images/M04/po29.png)
 
@@ -627,11 +644,11 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 1. The app designer should open. Select **Save** at the top right of the page.
 
-   ![](images/M03/M3-EX4-T3-S5.png)   
+   ![](images/M03/pv63.png)   
 
 1. Enter **Test app (1)** for App name and select **Create (2)**.
 
-   ![](images/M03/ppt39.png)
+   ![](images/M03/pv64.png)
 
 1. Select the **Back** button.
 
@@ -639,19 +656,21 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 1. Go back to the app maker main page by selecting the **Back** button.
 
-1. Select **Solutions**.
+1. Select **Solutions (1)**. Click on  **Publish all customizations (2)**.
 
-1. Select **Publish all customizations** and wait for the publishing to complete.
+   ![](images/M03/pv65.png)
 
-   ![](images/M03/M3-EX4-T3-S9.png)
+1. Wait for the publishing to complete.   
 
-1. Navigate to Power Automate and select the **Power Platform CoE** environment.
+   ![](images/M03/pv66.png)
 
-1. Select **My Flows**.
+1. Navigate to **Power Automate**.
 
-1. Locate the flow you imported and select **Edit**.
+1. Select the **Power Platform CoE** environment.
 
-    ![](images/M03/M3-EX4-T3-S12.png)
+1. Select **My Flows (1)**. Search for **New Maker (2)** and then click on **Edit (3)** icon in the **Admin Aler|New Maker**.
+
+    ![](images/M03/pv67.png)
 
 1. Expand the **Recurrence** and make sure the flow is set to run once a day.
 
@@ -663,37 +682,43 @@ Additionally, the flow will add the user to an Office 365 group, so you have an 
 
 1. Copy the **Group ID** from your notepad and paste it here.
 
-    ![](images/M03/M3-EX4-T3-S16.png)
+    ![](images/M03/pv68.png)
 
 1. You may examine the steps of the flow.
 
 1. Select **Save**.
 
+    ![](images/M03/pv69.png)
+
 1. Select on the back button.
 
-    ![](images/M03/M3-EX4-T3-S19.png)
+    ![](images/M03/pv70.png)
 
 1. **Turn on** the flow if it is off.
 
+    ![](images/M03/pv71.png)
+
 1. Select **Run**.
 
-    ![](images/M03/M3-EX4-T3-S21.png)
+    ![](images/M03/pv72.png)
 
 1. Select **Run Flow**.
 
-    ![](images/M03/M3-EX4-T3-S22.png)
+    ![](images/M03/pv73.png)
 
 1. Select **Done**.
 
-1. **Refresh** every few seconds until the flow status changes. Your flow run should succeed.
+1. **Refresh (1)** every few seconds until the flow status changes. Your flow run should succeed **(2)**.
 
-    ![](images/M03/M3-EX4-T3-S25.png)
+    ![](images/M03/pv74.png)
 
 1. Go back to the **Azure portal**.
 
 1. Select **Microsoft Enta ID**.
 
 1. Select **Groups** under **Manage**.
+
+   ![](images/M03/pv52.png)
 
 1. Select **All groups**.
 
