@@ -44,11 +44,11 @@ Now in this exercise, you will explore the out-of-the-box analytics that are ava
 
    >**Note**: Once enabled, this feature aggregates data from environments across all regions in your tenant and copies it into the default environment region for tenant-level reporting. A tenant-level administrator role is required for the one-time operation of granting consent for tenant-level analytics.
 
-5. The **Overview** tab displays a message indicating that tenant-level analytics has been enabled. Typically, these reports are displayed within 24-48 hours of enabling the feature.
+5. The **Overview** tab displays a message indicating that tenant-level analytics has been enabled. **Typically, these reports are displayed within 24-48 hours of enabling the feature**.
 
    ![](images/M02/pp122.png)
 
-    > **Note**: The below **tasks 1,2 and 3** has been made as read only because the service can take 24 to 36 hours to reflect service activities from the previous day. Please go through the provided link for more details [Tenant-level analytics for Power Apps](https://learn.microsoft.com/en-us/power-platform/admin/tenant-level-analytics?tabs=new#how-do-i-enable-tenant-level-analytics)   
+    > **Note**: **The below **tasks 1,2 and 3** has been made as read only because the service can take 24 to 36 hours to reflect service activities from the previous day**. Please go through the provided link for more details [Tenant-level analytics for Power Apps](https://learn.microsoft.com/en-us/power-platform/admin/tenant-level-analytics?tabs=new#how-do-i-enable-tenant-level-analytics)   
 
 ### Task 1: Explore the Power Automate analytics (Read only)
 
