@@ -40,17 +40,19 @@ Now in this exercise, you will explore the following key components:
 
 2. Select the **Power Platform CoE** environment in the environment selector.
 
-   ![](images/M02/M2-EX3-T1-S2.png)
+   ![](images/M02/pv93.png)
 
-3. Select **Apps** from the left side navigation and you should see a list of available apps in this environment, Check **Power Platform Admin View**, Click **Play**.
+3. Select **Apps (1)** from the left side navigation and you should see a list of available apps in this environment, click on three dots in **Power Platform Admin View (2)**, Click **Play (3)**.
 
-   ![](images/M02/M2-EX3-T1-S3A.png)
+   ![](images/M02/pv94.png)
 
 4. When the app starts you will land on the Power Platform Dashboard page. This dashboard gives you a quick look at the most active makers, and environments.
 
    ![](images/M02/M2-EX3-T1-S4A.png)
 
-5. Select **Power Apps** and you will see a list of all apps in all environments without having to visit each environment. The Flows navigation link does the same thing for Microsoft Power Automate flows.
+5. Select **PowerApps Apps** and you will see a list of all apps in all environments without having to visit each environment. The Flows navigation link does the same thing for Microsoft Power Automate flows.
+
+   ![](images/M02/pv95.png)
 
 6. Select the any app in the list to open the app details.
 
@@ -60,31 +62,31 @@ Now in this exercise, you will explore the following key components:
 
    ![](images/M02/M2-EX3-T1-S7A.png)
 
-8. Select **Environments** in the left navigation. This will show you a list of all the environments in your tenant and key metrics like several apps. To view all your environments, similar to the image below, switch the view at the top to **Active Environments**.
+8. Select **Environments (1)** in the left navigation. This will show you a list of all the environments in your tenant and key metrics like several apps. To view all your environments, similar to the image below, switch the view at the top to **Active Environments (2)**.
 
-   ![](images/M02/M2-EX3-T1-S8-1.png)
+   ![](images/M02/pv96.png)
 
-9. Select the **User and Team Productivity** environment to open the detail form.
+9. Select any environment to open the detail form.
 
 10. Review the data available.
 
-11. Select the **Connectors** link from the left navigation. This shows all the connectors available.
+11. Select the **Connectors (1)** link from the left navigation. This shows all the connectors available **(2)**.
 
-    ![](images/M02/M2-EX3-T1-S11.png)
+    ![](images/M02/pv97.png)
 
-12. In the upper right corner, search for **Microsoft Dataverse**.
+12. In the upper right corner, search for **Microsoft Dataverse (1)**. In the search results, select the **Microsoft Dataverse (2)** connector.
 
-    ![](images/M02/M2-EX3-T1-S12.png)
+    ![](images/M02/pv98.png)
 
-13. In the search results, select the **Microsoft Dataverse** connector.
+13. The **Used in (1)** tab quickly shows you what apps are using this connector in all environments in your tenant **(2)**.
 
-    ![](images/M02/M2-EX3-T1-S13.png)
+    ![](images/M02/pv99.png)
 
-14. The **Used in** tab quickly shows you what apps are using this connector in all environments in your tenant.
+14. Select **Users (1)**, then **Makers (2)** from the left navigation; this shows you all the people who have built apps in your company.
 
-15. Select **Users**, then **Makers** from the left navigation; this shows you all the people who have built apps in your company.
+    ![](images/M02/pv101.png)
 
-16. Select one of the Makers and explore the detail form.
+15. Select one of the Makers and explore the detail form.
 
 
 ### Task 2: Power BI Dashboard
@@ -94,9 +96,13 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
 1. Go to the [Power Platform admin center](https://aka.ms/ppac).
 
-2. Select Environments, then choose Power platform COE environment.
+2. Select **Environments (1)**, then choose Power **platform COE environment (2)**.
 
-3. Right-click on the Environment URL and select Copy Link Address and paste it on notepad for future reference.
+    ![](images/M02/pv102.png)
+
+3. Right-click on the **Environment URL** **(1)** and select **Copy Link (2)** Address and paste it on notepad for future reference.
+
+    ![](images/M02/pv103.png)
 
 #### Configure the Production and Governance Power BI dashboard
 
@@ -160,17 +166,27 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
     ![](images/M02/pt11.png)
 
-1. Path for Report : *C:\Users\demouser\Downloads\CoEStarterKit*. Navigate to Downloads folder in File Explorer> CoEStarterKit > Select Production_CoEDashboard_MMMYY.pbit **(1)**, and then **Open (2)**. Wait for sometime you will notice popup appears for org URL
+1. Path for Report : `C:\Users\demouser\Downloads\CoEStarterKit` **(1)**. Select **Production_CoEDashboard_MMMYY.pbit** **(1)**, and then **Open (2)**. 
 
-    ![](images/M02/pt11B.png)
+    ![](images/M02/pv100.png)
 
-1. Wait for report to load. Enter the URL of your environment instance. Include the https:// prefix for OrgUrl. Then Click **Load**.
+1. Wait for sometime you will notice popup appears for org URL.    
+
+1. Wait for report to load. Enter the URL of your environment instance that yu have copies earlier. Include the https:// prefix for OrgUrl **(1)**. Then Click **Load (2)**.
 
     ![](images/M02/pt11C.png)
 
-    > **Note:**  Paste the Environment URL you copied earlier. If the report loads before you provide the Environment URL, click **Transform Data**, then select **Edit Parameters** to paste your **Environment URL** and tenant type is commercial.
+    >**Note:**  Paste the Environment URL you copied earlier. If the report loads before you provide the Environment URL, click **Transform Data (1)**, then select **Edit Parameters (2)** to 
+    
+     ![](images/M02/pv104.png)
 
-1. Sign In with environment credentials. The report should load automatically once the refresh has been completed.
+     - Paste your **Environment URL (1)** then tenant type as **commercial (2)** and the click **Ok (3)**.
+
+       ![](images/M02/pv105.png)     
+
+1. Sign In with environment credentials.
+
+1. The report should load automatically once the refresh has been completed.
 
 1. Follow the steps below to enable **map and filled map visuals**:
 
@@ -178,19 +194,19 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
    
      ![](images/M02/M2-EX3-T2-S22-A.png)
    
-     b) Select **Security** from the left.
+     b) Select **Security (1)** from the left.
    
      c) Scroll down to the Map and Filled Map visuals section.
    
-     d) Check the **Use Map and Filled Map visuals** checkbox.
+     d) Check the **Use Map and Filled Map visuals (2)** checkbox.
    
-     e) Select **OK** to close the Options dialog.
+     e) Select **OK (3)** to close the Options dialog.
 
-     ![](images/M02/M2-EX3-T2-S22-E.png)
+     ![](images/M02/pv106.png)
 
 1. Review the **Introduction** page.
 
-    ![](images/M02/M2-EX3-T2-S23.png)
+    ![](images/M02/pv108.png)
 
 1. Select the **Overview – Power Apps** tab, notice it gives a good high-level look at our tenant activity. If you have multiple locations, it will quickly highlight which users are 
     more engaged with building apps. You can also quickly see which environments are most active. Additionally, items that are detailed as **(Blank)** indicate that there is no data to 
@@ -200,19 +216,11 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
 1. Review each page using the navigation at the bottom of the app and review the insights available.
 
-1. Select the **Environments** page.
-
-    ![](images/M02/M2-EX3-T2-S26.png)
-
-1. Select any environment visual to view the filtered datain the report
+1. Select any **Environment** visual to view the filtered datain the report
 
     ![](images/M02/M2-EX3-T2-S27-1.png)
 
-1. Select the **Apps** tab from the navigation at the bottom of the screen.
-
-    ![](images/M02/M2-EX3-T2-S28.png)
-
-1. On the Apps page notice the Creation Trend, this is an effective way to watch adoption progress.
+1. Select **Apps**. On the **Apps** page notice the Creation Trend, this is an effective way to watch adoption progress.
 
     ![](images/M02/M2-EX3-T2-S29-1.png)
 
@@ -230,15 +238,15 @@ You need the URL of the Power Platform environment where the CoE Starter Kit is 
 
 1. Wait for the publishing to complete and select **Open 'PBI’** Report in Power BI or **Got it**.
 
-     ![](images/M02/M2-EX3-T2-S34.png)
+     ![](images/M02/pv109.png)
 
 1. If you selected **Open**, skip this step. Otherwise, if you selected ‘Got it’, navigate to Power BI. Select **Workspaces (1)** and then **CoE-LabAdmin<inject key="Deployment ID" enableCopy="false" /> (2)** Workspace you created. Otherwise, skip to step 37.
 
      ![](images/M02/pt14.png)
 
-1. Select the **CoE Starter** with the type of **Report** from the list. You’ll notice a few other items have been generated; these are done by default.
+1. Select the **Production_COEDashboard** with the type of **Report** from the list. You’ll notice a few other items have been generated; these are done by default.
 
-     ![](images/M02/pt15-1.png)
+     ![](images/M02/pv110.png)
 
 1. Once the report loads, select the Environments page. Use any filters to visualize data.
      ![](images/M02/M2-EX3-T2-S37-1.png)
@@ -373,10 +381,6 @@ In this task, you will be performing the role of the developer and completing th
 
    ![](images/M03/pp113.png)
 
-1. Select **Apps** from the left-side navigation.
-
-    ![](images/M03/M3-EX3-T1-S3.png)
-
 1. Select **Apps (1)**, then **+ New app (2)** > **Start with page design (3)**.
 
    ![](images/M04/po29.png)
@@ -421,103 +425,110 @@ In this task, you will be performing the role of the developer and completing th
 
      ![](images/M03/pp119.png)
 
-1. Select **Solutions** from the left-side navigation, select **Managed**, then the **Center of Excellence – Core Components** solution.
+1. Select **Solutions (1)** from the left-side navigation, select **Managed (2)**, then the **Center of Excellence – Core Components (3)** solution.
 
      ![](images/M03/M3-EX3-T1-S12-1.png)
 
-1. Select Apps** from the menu on the left,
+1. Select **Apps** from the menu on the left,
 
      ![](images/M03/M3-EX3-T1-S13-1.png)
 
-1. Select the **∙∙∙** next to the **Power Platform Admin View** model-driven app and select **Play**.
+1. Select the **∙∙∙ (1)** next to the **Power Platform Admin View** model-driven app and select **Play (2)**.
 
-     ![](images/M03/M3-EX3-T1-S14.png)
+     ![](images/M02/pv111.png)
 
-1. Select **PowerApps Apps** and search in the box at the top right for the **Test App**. Select **Test App**.
+1. Select **PowerApps Apps (1)** and search in the box at the top right for the **Test App (1)**. Select **Test App (3)**.
 
      ![](images/M03/M3-EX3-T1-S15-1.png)
 
     > **Note:** If the **Test App** is not available as an option, you may select any **Canvas** application to proceed with the remaining steps.
 
-1. Select the **Governance** tab and set the **Admin Risk Assessment State** to **Requested**.
+1. Select the **Governance (1)** tab and set the **Admin Risk Assessment State** to **Requested (2)**.
 
-     ![](images/M03/M3-EX3-T1-S16.png)
+     ![](images/M02/pv112.png)
 
 1. **Save & Close** at the top left.
 
-     ![](images/M03/M3-EX3-T1-S17.png)
+     ![](images/M02/pv113.png)
 
 1. Close the **Power Platform Admin View** application.
 
-1. Navigate back to Solutions via the left-side navigation and select the **Center of Excellence –** **Governance Components**.
+1. Navigate back to **Power Apps** main page, select **Solutions (1)** via the left-side navigation. Click on **Managed (2)** and then select the **Center of Excellence –** **Governance Components (3)**.
 
-     ![](images/M03/M3-EX3-T1-S19.png)
+     ![](images/M03/pv114.png)
 
-1. Select Apps from the **Objects** menu, then select **play** from three dots next to 
- **Developer Compliance Center**.
+1. Select **Apps (1)** from the **Objects** menu, then click three dots next to 
+ **Developer Compliance Center (2)** and then select **play (3)**. 
 
-    ![](images/M03/M3-EX3-T1-S20.png)
+    ![](images/M03/pv115.png)
 
 1. The application will list all the apps that you are the owner of. The information at the bottom of each card will indicate what is preventing your app from reaching full compliance.
 
+1. Click on **Allow**.
+
+    ![](images/M03/pv116.png)
+
 1. You should see at least one app that has the name lab admin and your number or the **Test App** name. Select the card to review the details of the app.
 
-     ![](images/M03/M3-EX3-T1-S22.png)
+     ![](images/M03/pv117.png)
 
 1. Review the App Compliance section which gives clear guidance on what needs to be updated. Select the icon next to **Missing support details** to open the **Support Details** panel.
 
-     ![](images/M03/M3-EX3-T1-S23.png)
+     ![](images/M03/pv118.png)
 
-1. In the **Support Details** section fill in all the fields with information about your application, you can make it as detailed as you want but submit information for each field in this section.
+1. In the **Support Details** section fill in all the fields with information about your application, you can make it as detailed as you want but submit information for each field in this section **(1)**.
 
 1. Normally we would also adjust the description by editing the app, but for this lab will skip that.
 
-1. Select **Save** to save the information about the application and close the Support Details panel.
+1. Select **Save (2)** to save the information about the application and close the Support Details panel.
 
-     ![](images/M03/M3-EX3-T1-S26.png)
+     ![](images/M03/pv119.png)
 
 
 ### Task 2: Admin Review
 
 In this task, you will be performing the administrative review of the application details that were submitted by the developer.
 
-1. In the maker portal, with the **Power Platform CoE** environment selected, select Apps.
+1. In the maker portal, with the **Power Platform CoE** environment selected.
 
-2. Launch the **Power Platform Admin View** app.
+1. Select **Apps (1)**. Click on three dots next to **Power Platform Admin View (1)** app and then select **Play (3)**.
 
-   a. Select PowerApps Apps in the left navigation and change the view to **Compliance-Submitted**.
+     ![](images/M03/pv120.png)
 
-   ![](images/M03/M3-EX3-T2-S2.png)
+1. Select **PowerApps Apps (1)** in the left navigation, select the drop down  **(2)** and then change the view to **Compliance-Submitted (3)**.
 
-3. Locate your application. It will be Lab Admin and your # or Test App and your initials and select it to open it.
+   ![](images/M03/pv121.png)
 
-   ![](images/M03/M3-EX3-T2-S3.png)
+1. Locate your application. It will be Lab Admin and your # or **Test App** and your initials and select it to open it.
 
-4. Select **Validate Maker Business Requirements** in the process guide. This shows you the current stage of the review process and highlights the progress. Notice it says the maker 
-   provided the business requirements. Set **Confirm Business Impact** to **Low Risk** and close by selecting the X at the top right of the card.
+   ![](images/M03/pv122.png)
 
-   ![](images/M03/M3-EX3-T2-S4.png)
+1. Select **Validate Maker Business Requirements (1)** in the process guide. This shows you the current stage of the review process and highlights the progress. Notice it says the maker provided the business requirements. Set **Confirm Business Impact** to **Low Risk (2)** and close by selecting the **X (3)** at the top right of the card.
 
-5. Review the information provided by the maker by selecting the **Governance** tab.
+   ![](images/M03/pv124.png)
 
-   ![](images/M03/M3-EX3-T2-S5.png)
+1. Review the information provided by the maker by selecting the **Governance** tab.
 
-6. In the Admin section change the Risk Assessment to Minor.
+   ![](images/M03/pv125.png)
 
-   ![](images/M03/M3-EX3-T2-S6.png)
+1. In the **Admin** section change the Risk Assessment to **Minor**.
 
-7. After reviewing you can advance the process to the next stage by selecting the Next Stage.
+   ![](images/M03/pv126.png)
 
-   ![](images/M03/M3-EX3-T2-S7.png)
+1. After reviewing, select **Validate Maker Business Requirements (1)** you can advance the process to the next stage by selecting the **Next Stage (2)**.
 
-8. The process guide will now have either a Mitigation plan as the active stage or an Access risk depending
-    on if the maker indicated the app is critical or not, select Next Stage again to advance.
+   ![](images/M03/pv127.png)
 
-9. In the final stage you can choose a category for the app in the catalog and indicate if it was featured.
-    Make your selections and then select Finish.
+1. The process guide will now have either a Mitigation plan as the active stage or an Access risk depending on if the maker indicated the app is critical or not, select **Next Stage** again to advance.
 
-10. You have now completed the full review process. This is an example that is provided with the starter kit you can tailor the process to your own organization's needs including adding 
-    stages and steps to the process and requiring additional data from the maker.
+   ![](images/M03/pv128.png)
+
+1. In the final stage you can choose a category for the app in the catalog **(1)** and indicate if it was featured. Make your selections and then select **Finish (2)**.
+
+   ![](images/M03/pv129.png)    
+
+1. You have now completed the full review process. This is an example that is provided with the starter kit you can tailor the process to your own organization's needs including adding 
+stages and steps to the process and requiring additional data from the maker.
 
 
 ### Review

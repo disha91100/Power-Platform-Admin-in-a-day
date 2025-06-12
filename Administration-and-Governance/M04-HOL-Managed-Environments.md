@@ -153,7 +153,7 @@ checker enforcer, follow this link (https://learn.microsoft.com/en-us/power-apps
 
 1. Select **Browse**.
 
-   ![](images/M04/M4-EX1-T2-S5.png)
+   ![](images/M04/pv75.png)
 
 1. Navigate to `C:\LabFiles\PPAdminAttendee%20(1)\PPAdminAttendee\M04 - HOL - Managed Environments\Resources` **(1)**, select the **CriticalErrorSolution_1_0_0_0_managed.zip (2)** file from your file explorer and the click on **Open (3)**
 
@@ -161,7 +161,7 @@ checker enforcer, follow this link (https://learn.microsoft.com/en-us/power-apps
 
 1. Select **Next**.
 
-   ![](images/M04/M4-EX1-T2-S7.png)
+   ![](images/M04/pv76.png)
 
 1. Review the details and select **Import**.
 
@@ -189,19 +189,17 @@ checker enforcer, follow this link (https://learn.microsoft.com/en-us/power-apps
 
     ![](images/M04/p4p15.png)
 
-1. Navigate back to the Power Apps **Solutions** page.
+1. Navigate back to the Power Apps **Solutions (1)** page. Click on **Managed (2)**. Then select the **three dots (3)** next to our imported solution, **Critical Error Solution** and select **Delete (4)**.
 
-    a. You will need to delete the imported solution from the environment to ensure the solution checker is working correctly.
+    ![](images/M04/pv77.png)
 
-1. Select the **three dots** next to our imported solution, **Critical Error Solution** and select **Delete**.
- 
-    ![](images/M04/M4-EX1-T2-S17.png)
+     >**Note**: You will need to delete the imported solution from the environment to ensure the solution checker is working correctly.
 
 1. Select **Delete** again. Since this is a managed app, you will not need to delete the app, deleting the solution will do that for you.
 
-    ![](images/M04/M4-EX1-T2-S18.png)
+    ![](images/M04/pv78.png)
 
-1. Wait for the process to complete, then re-import the solution file with steps 4 - 8.
+1. Wait for the process to complete, then re-import the solution file with **steps 4 - 8**.
 
 1. You should receive an error notification at the top of the page.
 
@@ -222,9 +220,11 @@ A managed environment allows administrators to add additional data policies in p
 
    ![](images/M04/ppm14.png)
 
-1. Scroll down and check for **data policies**. Under **Data policies**, select the **link** to navigate to the current data policies applied to the managed environment. Here is where you will see any data policies applied to the environment, including any tenant-wide policies.
+1. Scroll down and check for **data policies**. Under **Data policies**, select the **link** to navigate to the current data policies applied to the managed environment.
 
-   ![](images/M04/M4-EX1-T2-F2-S4.png)
+   ![](images/M04/pv79.png)
+
+1. Here is where you will see any data policies applied to the environment, including any tenant-wide policies.   
 
    ![](images/M04/p4p18.png)
 
@@ -298,19 +298,21 @@ in a team that is not bound to the environment.
 
     ![](images/M04/p4p22.png)
 
-1. Enter the App name as **Play with Sharing**.
+1. Enter the App name as **Play with Sharing** and then close.
 
     ![](images/M04/p4p23.png)
 
 1. Select **Publish** right next to it.
 
-   ![](images/M04/M4-EX1-T2-F5-S6-1.png)
+   ![](images/M04/pv80.png)
 
-1. Then select **Publish this version**.   
+1. Then select **Publish this version**. 
+
+   ![](images/M04/pv81.png)
 
 1. Select **Share**. This will open a new tab where you can share this app with other users.
 
-   ![](images/M04/M4-EX1-T2-F5-S7.png)
+   ![](images/M04/pv82.png)
 
 1. Search **Lab User01** and choose a user.
 
@@ -339,9 +341,9 @@ in a team that is not bound to the environment.
 
 1. Then select **Share**.    
 
-    ![](images/M04/M4-EX1-T2-F5-S11-1.png)
+    ![](images/M04/pv83.png)
 
-12. Once complete, a banner should appear notifying you of the success.
+1. Once complete, a banner should appear notifying you of the success.
 
     ![](images/M04/p4p29.png)
 
@@ -429,9 +431,9 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 1. Repeat this process with **Thrive Hr – Test** and **Thrive Hr – Prod**, copying the IDs to the same notepad.
 
-1. Navigate to **Power Apps** and set the environment to the **Thrive Hr– Host** environment.
+1. Navigate to **Power Apps** and set the environment to the **Thrive Hr (Initials) - Host** environment.
 
-   ![](images/M04/p4p57.png)
+   ![](images/M04/pv84.png)
 
 1. Navigate to **Apps (1)** and select **Deployment Pipeline Configuration (2)**, then select **Play (3)** from the ribbon at the top.
 
@@ -471,7 +473,7 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
 1. Select **Pipelines (1)** on the left navigation pane, and then select **+ New (2)** to create a new deployment pipeline.
 
-   ![](images/M04/M4-EX2-T1B-S1.png)
+   ![](images/M04/pv85.png)
 
 1. Set the **Name** to be **Thrive Hr Standard Deployment Pipeline (1)** and select **Save (2)** to show the rest of the content available..
 
@@ -588,19 +590,21 @@ Power BI reports. Pipelines can deploy solutions, connections, connection refere
 
     ![](images/M04/p4p67.png)
 
-1. If needed, administrators can change the time of or cancel a deployment from this screen by selecting the **Cancel Deployment** button, or by selecting the **Run History** tab and selecting the **three dots** next to the Start time. From here, you can also view the run information, such as any notes or comments.
+1. If needed, administrators can change the time of or cancel a deployment from this screen by selecting the **Cancel Deployment** button.
 
     ![](images/M04/M4-EX2-T2-S16.png)
 
-    ![](images/M04/p4p68.png)
+1. By selecting the **Run History (1)** tab and selecting the **three dots (2)** next to the Start time. From here, you can also view the run information, such as any notes or comments **(3)**.    
 
-1. Select the **Thrive Hr– Host** environment.
+    ![](images/M04/pv90.png)
 
-   ![](images/M04/p4p57.png)
+1. Select the **Thrive Hr (Initials) - Host** environment.
 
-1. Select **Solutions (1)** and then select **Deployment Pipeline Configuration App (2)**.   
+   ![](images/M04/pv84.png)
 
-   ![](images/M04/p4p69.png)
+1. Select **Apps (1)** and then select **Deployment Pipeline Configuration App (2)**.   
+
+   ![](images/M04/pv91.png)
 
 1. Administrations can also make changes to the run record from the Deployment Pipeline Configuration app, such as altering the starting time and deployment notes.
 
