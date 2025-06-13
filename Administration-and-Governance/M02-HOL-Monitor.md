@@ -520,7 +520,10 @@ for persona.
 1. **Share apps**: Click **Next**.
 
 1. Publish PowerBI dashboard: Click **Next** and then **Done**
+
+1. Close **CoE Setup and Upgrade Wizard** application.
  
+<!--
 1. Navigate to the **More features** page and select **Configure the feature** in **Compliance process**.
 
     ![](images/M02/M2-EX3N-T1-S15.png)
@@ -539,8 +542,7 @@ for persona.
 1. On the **Turn on flows** screen, toggle **On** for all listed flows, then click **Next**.
 
 1. On the **Share Apps** screen, click **Done**.
-
-
+-->
 
 ### Review
 

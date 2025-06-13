@@ -349,7 +349,7 @@ In this exercise, you will be using the log search and alert tools to work with 
 
 >**Note:** Any information from before auditing was enabled, cannot be retrieved. This can be seen by selecting a date range from before the auditing was enabled.
 
-## Exercise 4: Application Compliance Process
+## Exercise 4: Application Compliance Process (Read Only)
 
 In this exercise, you will be walking through the application compliance process that has been put in place using the CoE Starter Kit. As part of this, you will be playing both the role of 
 the application developer and the administrator see both sides of the process.
@@ -368,7 +368,37 @@ description and republish if needed.
 This app auditing sample process showcases how your CoE department or IT administrators can automate an auditing process on an app-level basis to gather additional information about an 
 app, like business justification and the impact of an outage, from the maker.
 
-### Task 1: Complete Developer Compliance
+### Task 1: Setup compliance process
+In this task, you will be setting up the compliance process for the Governance Components application that you installed in the previous lab.
+
+1. Now return to the tab where your **“Center of Excellence - Core Components”** solution is open.
+
+1. Open the CoE Setup and Upgrade Wizard app. Click **Apps** **(1)**, Click the three ellipses (⋯) next to the **CoE Setup and Upgrade Wizard** **(2)**. Select **Play** **(3)** to launch the app.
+
+    ![](images/M02/pv22.png)
+
+1. Navigate to the **More features** page and select **Configure the feature** in **Compliance process**.
+
+    ![](images/M02/M2-EX3N-T1-S15.png)
+
+    > **Note:** The app will guide you through the setup process. If it indicates that some processes are running in the background, it means backend flows are still in progress. You will see the 'Get Started' screen only after all flows have successfully completed.
+
+1. Click **Refresh**. If a pop-up appears regarding flow configuration, proceed as prompted.
+
+1. On the **Get Started** screen, click **Next**.
+
+1. On the **Exempt environments from this process** screen, click **Next**.  
+    ![](images/M02/M2-EX3N-T1-S16.png)
+
+1. On the **Configure settings** screen, click **Next**.
+
+1. On the **Turn on flows** screen, toggle **On** for all listed flows, then click **Next**.
+
+1. On the **Share Apps** screen, click **Done**. 
+1. Close the **CoE Setup and Upgrade Wizard** application.
+
+
+### Task 2: Complete Developer Compliance
 
 In this task, you will be performing the role of the developer and completing the application information that will be requested by the automated process.
 
@@ -485,7 +515,7 @@ In this task, you will be performing the role of the developer and completing th
      ![](images/M03/pv119.png)
 
 
-### Task 2: Admin Review
+### Task 3: Admin Review
 
 In this task, you will be performing the administrative review of the application details that were submitted by the developer.
 
